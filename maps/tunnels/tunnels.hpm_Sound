@@ -1,0 +1,60 @@
+<HPLMapTrack_Sound ID="BC551426DCAF2900F30FD549C5667C32EE6E0178" MajorVersion="1" MinorVersion="1">
+    <Section Name="4074963946714538518">
+        <Objects />
+    </Section>
+    <Section Name="10300334514331934914">
+        <Objects />
+    </Section>
+    <Section Name="11867433910407490944">
+        <Objects />
+    </Section>
+    <Section Name="7387221967616566086">
+        <Objects>
+            <Sound ID="318767112" Name="Sound_Liquid_4" CreStamp="1681212911" ModStamp="1682034978" WorldPos="-71.8485 -0.25 127.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/level/cave_water_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="19 9755 318767112" />
+            <Sound ID="318767116" Name="Sound_WAR_1" CreStamp="1681213499" ModStamp="1681213882" WorldPos="-115 8.5 150.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/distant" MinDistance="20" MaxDistance="60" Volume="1" Active="false" UseCustomProperties="false" UID="19 9779 318767116" />
+            <Sound ID="318767123" Name="Sound_7" CreStamp="1684231559" ModStamp="1684231585" WorldPos="-113.059 -3.19554 147.786" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9807 318767123" />
+            <Sound ID="318767124" Name="Sound_8" CreStamp="1684231591" ModStamp="1684231603" WorldPos="-113.494 -3.5916 154.038" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9666 318767124" />
+            <Sound ID="318767125" Name="Sound_9" CreStamp="1684231647" ModStamp="1684231657" WorldPos="-118.251 -3.19554 149.386" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9806 318767125" />
+        </Objects>
+    </Section>
+    <Section Name="12579031528112273739">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="9065270106052613291">
+        <Objects />
+    </Section>
+    <Section Name="2808432602814229433">
+        <Objects />
+    </Section>
+    <Section Name="10344130536270466734">
+        <Objects />
+    </Section>
+    <Section Name="16252604345296683573">
+        <Objects />
+    </Section>
+    <Section Name="9172161606391457054">
+        <Objects>
+            <Sound ID="436208207" Name="Sound_1" CreStamp="1680792614" ModStamp="1680793113" WorldPos="-97.4918 1.87971 145.01" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9666 436208207" />
+            <Sound ID="436208208" Name="Sound_2" CreStamp="1680792844" ModStamp="1680793117" WorldPos="-97.4931 2.72476 138.213" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9664 436208208" />
+            <Sound ID="436208209" Name="Sound_3" CreStamp="1680792851" ModStamp="1680793126" WorldPos="-99.7134 0.637824 155.802" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.2" Active="true" UseCustomProperties="true" UID="26 9665 436208209" />
+            <Sound ID="436208210" Name="Sound_4" CreStamp="1680792864" ModStamp="1680793532" WorldPos="-98.7221 0.201133 158.563" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.2" Active="true" UseCustomProperties="true" UID="26 9662 436208210" />
+            <Sound ID="436208211" Name="Sound_5" CreStamp="1680793426" ModStamp="1680793526" WorldPos="-106.071 0.277659 163.935" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="2" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9630 436208211" />
+            <Sound ID="436208243" Name="Sound_6" CreStamp="1681206102" ModStamp="1681206148" WorldPos="-98.3208 0.64073 175.063" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9667 436208243" />
+        </Objects>
+    </Section>
+    <Section Name="9195155804934729962">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="5716514586046010106">
+        <Objects />
+    </Section>
+    <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+</HPLMapTrack_Sound>

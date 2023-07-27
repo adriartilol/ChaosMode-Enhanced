@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<VoiceData>
+ <Characters>
+  <Character ID="0" Name="Sgt. Joubert" DisplayName="Joubert" Actor="" AutoGenVoice="False" AutoGenVoiceFile="" AutoGenVoiceSoundFreq="1" WorldSpace="True" AffectedByReverb="False" TextToSpeechVoice="Default" DefaultCriteria="" EntryType="World" Volume="1" ReverbVolume="1" SpeakerSpread="40" EntitySource="RadioButton" MinDist="3" MaxDist="10" MinFreq="22000" MaxFreq="22000" MaxListeningDist="-1" FrequencyFilter="None" />
+ </Characters>
+ <Effects />
+ <Scenes>
+  <Scene ID="0" Name="Radio" FocusPrio="0" ForceMaxVolume="False" DefaultCriteria="" Volume="1" ReverbVolume="1" />
+ </Scenes>
+ <Sections>
+  <Section Name="Radio" />
+ </Sections>
+ <Subjects>
+  <Subject Desc="“KIND” Officer Joubert sends a message back to the trapped soldiers." Name="Message_Start" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="To anyone left, the code is [[Random code]]" FileName="radio_message_start_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="To anyone left, the code is [[Random code]]" FileName="radio_message_start_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="To anyone left, the code is [[Random code]]" FileName="radio_message_start_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="To anyone left, the code is [[Random code]]" FileName="radio_message_start_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="“KIND” Officer Joubert sends a message back to the trapped soldiers." Name="Message_Mid" UseSingleRandomLine="False" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Please, I hope that you can hear me. I hope that you can forgive me." FileName="radio_message_mid_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+    <Sound Text="The arsenal code is [[Random code]]" FileName="radio_message_mid_001_sgtjoubert_002" Timestamp="2022-11-23 09:32" />
+   </Line>
+  </Subject>
+  <Subject Desc="“KIND” Officer Joubert sends a message back to the trapped soldiers." Name="Message_End" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="The arsenal is locked, you need this code: [[Random code]]" FileName="radio_message_end_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="The arsenal is locked, you need this code: [[Random code]]" FileName="radio_message_end_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="The arsenal is locked, you need this code: [[Random code]]" FileName="radio_message_end_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_0" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="0" FileName="radio_message_num_0_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_1" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="1" FileName="radio_message_num_1_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_2" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="2" FileName="radio_message_num_2_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="2" FileName="radio_message_num_2_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="2" FileName="radio_message_num_2_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="2" FileName="radio_message_num_2_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="2" FileName="radio_message_num_2_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_3" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="3" FileName="radio_message_num_3_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_4" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="4" FileName="radio_message_num_4_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_5" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="5" FileName="radio_message_num_5_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_6" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="6" FileName="radio_message_num_6_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_7" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="7" FileName="radio_message_num_7_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_8" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="8" FileName="radio_message_num_8_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+  <Subject Desc="Numbers used for reading out the code" Name="Message_Num_9" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Radio">
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_001_sgtjoubert_001" Timestamp="2022-11-23 09:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_002_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_003_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_004_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_005_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="False">
+    <Sound Text="9" FileName="radio_message_num_9_006_sgtjoubert_001" Timestamp="2022-12-20 09:26" />
+   </Line>
+  </Subject>
+ </Subjects>
+</VoiceData>

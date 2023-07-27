@@ -1,0 +1,33 @@
+<HPLMap ID="94485332215B88C32A6196F28AAB491019828D54" MajorVersion="1" MinorVersion="1">
+    <GlobalSettings>
+        <Fog Active="true" Culling="true" Color="0.142578 0.0884238 0.0334167 0.784314" Brightness="1" FadeStart="0" FadeEnd="40" FalloffExp="0.5" Underwater="false" Lighten="false" UseSkybox="false" NoiseStrength="0" NoiseSize="0.03" NoiseTurbulence="0.01 0.02 0.01" ApplyAfterFogAreas="true" HeightBased="false" Exponential="true" Density="2" HeightDensity="1" HeightHorizon="5" SecondaryActive="false" SecondaryColor="1 1 1 1" SecondaryFadeStart="0" SecondaryFadeEnd="20" SecondaryFalloffExp="1" SecondaryDensity="1" SecondaryHeightDensity="1" SecondaryHeightHorizon="1" />
+        <SkyBox Active="true" Color="1 1 1 1" Texture="D:/bunker/redist/textures/environment/bunker_sky.dds" Brightness="1" />
+        <DirLight Active="false" ShadowCasterDist="35" ShadowDistance="-1" DiffuseColor="1 1 1 1" Brightness="0.0999999 0.0999999 0.0999999 1" Gobo="" GoboAnimMode="None" GoboAnimStartTime="0" GoboAnimFrameTime="0" GoboScale="1 1" Direction="-0.371 -0.768 0.522" CastShadows="true" SkyCol="1 1 1 1" GroundCol="1 1 1 1" ShadowMapBiasMul="3" ShadowMapSlopeScaleBiasMul="2.5" AutoShadowSliceSettings="true" AutoShadowSliceLogTerm="0.9" />
+        <SSAO NormalMap="false" NumOfDirections="0" NumOfSteps="0" AngleBias="0" Power="4.4" Radius="2" BufferSizeDiv="2" />
+        <EnvParticles Active="false">
+            <EnvParticle Name="" Color="1 1 1 1" Brightness="1" BoxDistance="30" GravityVelocity="0 0 0" GravitySpeedRandomAmount="0" WindVelocity="0 0 0" WindSpeedRandomAmount="0" WindDirRandomAmount="0" RotateVelocity="0 0 0" RotateSpeedRandomAmount="0" RotateBothDirs="false" NumIterations="1" FadeInStart="0.2" FadeInEnd="1" FadeOutStart="10" FadeOutEnd="20" BoxSize="30" NumParticles="100" ParticleSize="1 1" SubDivUV="1 1" AffectedByLight="false" Texture="" Visible="false" />
+        </EnvParticles>
+        <PostEffects ToneMappingKey="0.5" ToneMappingExposure="0" ToneMappingWhiteCut="3.5" ColorGradingTexture="textures/colorgrading/bunker_prototype_01.dds" />
+        <DistanceCulling Active="false" MinRange="0" ScreenSize="0.05" RandomSize="0.25" />
+    </GlobalSettings>
+    <RegisteredUsers>
+        <User ID="12579031528112273739" RegistrationTimestamp="0" />
+        <User ID="6937444921226728725" RegistrationTimestamp="1638978258" />
+        <User ID="7387221967616566086" RegistrationTimestamp="1643279900" />
+        <User ID="5716514586046010106" RegistrationTimestamp="1643973990" />
+        <User ID="17564562340471339389" RegistrationTimestamp="1644241852" />
+        <User ID="12266341581627464289" RegistrationTimestamp="1644420192" />
+        <User ID="6316717594221808991" RegistrationTimestamp="1646296675" />
+        <User ID="2808432602814229433" RegistrationTimestamp="1647334402" />
+        <User ID="13338907128802076914" RegistrationTimestamp="1648649114" />
+        <User ID="10300334514331934914" RegistrationTimestamp="1650872950" />
+        <User ID="11867433910407490944" RegistrationTimestamp="1652088815" />
+        <User ID="9195155804934729962" RegistrationTimestamp="1655138164" />
+        <User ID="16252604345296683573" RegistrationTimestamp="1663668497" />
+        <User ID="5280002927329458804" RegistrationTimestamp="1670426968" />
+        <User ID="9065270106052613291" RegistrationTimestamp="1671007245" />
+        <User ID="4074963946714538518" RegistrationTimestamp="1671605569" />
+        <User ID="9172161606391457054" RegistrationTimestamp="1681829310" />
+        <User ID="10625375571293597888" RegistrationTimestamp="1690477867" />
+    </RegisteredUsers>
+</HPLMap>

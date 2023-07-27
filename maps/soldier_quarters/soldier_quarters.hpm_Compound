@@ -1,0 +1,192 @@
+<HPLMapTrack_Compound ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
+    <Section Name="Max@MAX-DESKTOP">
+        <Objects>
+            <Compound ID="268437510" Name="Compound_2" CreStamp="0" ModStamp="1679925234" WorldPos="-48.0686 -6.5066 -2.55884" Rotation="0 -1.57045 0" Scale="1 1 1" UID="16 9067 268437510">
+                <Component ID="268437508" />
+                <Component ID="268437509" />
+            </Compound>
+            <Compound ID="268441114" Name="Compound_14" CreStamp="0" ModStamp="1680519312" WorldPos="-51.2582 -2.83159 21.361" Rotation="0 -1.57031 0" Scale="1 1 1" UID="16 9789 268441114">
+                <Component ID="268437476" />
+                <Component ID="452984894" />
+                <Component ID="268437477" />
+                <Component ID="503316722" />
+                <Component ID="452984920" />
+            </Compound>
+            <Compound ID="268441116" Name="Compound_4" CreStamp="0" ModStamp="1680519429" WorldPos="-48.6702 -2.84176 25.6312" Rotation="0 5.38479e-07 0" Scale="1 1 1" UID="16 9788 268441116">
+                <Component ID="268437511" />
+                <Component ID="268437512" />
+                <Component ID="268437249" />
+                <Component ID="268436318" />
+                <Component ID="268435926" />
+                <Component ID="268435528" />
+            </Compound>
+            <Compound ID="268441158" Name="Compound_5" CreStamp="0" ModStamp="1681822584" WorldPos="-66.8062 -4.37605 8.46091" Rotation="-0 3.14159 -0" Scale="1 1 1" UID="16 9786 268441158">
+                <Component ID="268441157" />
+            </Compound>
+            <Compound ID="268441212" Name="Compound_6" CreStamp="0" ModStamp="1681826936" WorldPos="-90.1755 -4.963 23.6975" Rotation="0 0 0" Scale="1 1 1" UID="16 9685 268441212">
+                <Component ID="268441210" />
+                <Component ID="268441211" />
+                <Component ID="268441208" />
+                <Component ID="268441209" />
+                <Component ID="268441206" />
+                <Component ID="268441207" />
+                <Component ID="268441204" />
+                <Component ID="268441205" />
+                <Component ID="268441203" />
+                <Component ID="268441202" />
+            </Compound>
+            <Compound ID="268441255" Name="Compound_7" CreStamp="0" ModStamp="1682000255" WorldPos="-57.8758 -4.68332 31.9265" Rotation="0 0 0" Scale="1 1 1" UID="16 9654 268441255">
+                <Component ID="268441250" />
+                <Component ID="268441249" />
+                <Component ID="268441252" />
+                <Component ID="536870954" />
+                <Component ID="536870955" />
+                <Component ID="536870956" />
+                <Component ID="268441251" />
+                <Component ID="536870957" />
+                <Component ID="536870951" />
+                <Component ID="536870950" />
+                <Component ID="536870937" />
+                <Component ID="536870941" />
+                <Component ID="536870952" />
+                <Component ID="536870936" />
+                <Component ID="536870953" />
+                <Component ID="536870934" />
+            </Compound>
+            <Compound ID="268441259" Name="Compound_10" CreStamp="1681999709" ModStamp="1681999809" WorldPos="-57.8712 -4.2546 32.0032" Rotation="0 1.5708 0" Scale="1.125 1.125 1.125" UID="16 9656 268441259">
+                <Component ID="268441257" />
+            </Compound>
+            <Compound ID="268441263" Name="Compound_9" CreStamp="0" ModStamp="1682000212" WorldPos="-58.0267 -4.87256 31.7843" Rotation="-0.0590846 -0 0" Scale="1 1 1" UID="16 9657 268441263">
+                <Component ID="452985170" />
+                <Component ID="452985174" />
+                <Component ID="452985172" />
+                <Component ID="452985171" />
+                <Component ID="452985146" />
+                <Component ID="452985173" />
+            </Compound>
+        </Objects>
+    </Section>
+    <Section Name="aaron@DESKTOP-U5KQSOE">
+        <Objects>
+            <Compound ID="285212722" Name="Compound_1_New_1" CreStamp="0" ModStamp="1659519454" WorldPos="-56.813 -14.653 8.407" Rotation="0 0 0" Scale="1 1 1" UID="17 8997 285212722">
+                <Component ID="268436004" />
+                <Component ID="268436003" />
+            </Compound>
+        </Objects>
+    </Section>
+    <Section Name="rasmu@WINDMILL">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-QQIR8DS">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-WORK-LA">
+        <Objects />
+    </Section>
+    <Section Name="Max@DESKTOP-MAXL">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+        <Objects />
+    </Section>
+    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+        <Objects />
+    </Section>
+    <Section Name="Ted@TELLUS">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-Q12T94U">
+        <Objects>
+            <Compound ID="436208191" Name="Compound_1" CreStamp="0" ModStamp="1660232191" WorldPos="-62.1942 -5.03657 11.1971" Rotation="0 0 0" Scale="1 1 1" UID="26 8949 436208191">
+                <Component ID="436208141" />
+                <Component ID="436208140" />
+                <Component ID="436208142" />
+                <Component ID="436208139" />
+                <Component ID="436208133" />
+                <Component ID="436208129" />
+                <Component ID="436208148" />
+                <Component ID="436208128" />
+                <Component ID="436208134" />
+                <Component ID="436208137" />
+                <Component ID="436208131" />
+                <Component ID="436208135" />
+                <Component ID="436208144" />
+                <Component ID="436208145" />
+                <Component ID="436208130" />
+                <Component ID="436208138" />
+                <Component ID="285212709" />
+            </Compound>
+            <Compound ID="436208209" Name="Compound_3" CreStamp="1660232203" ModStamp="1660232213" WorldPos="-60.5073 -9.06201 11.1878" Rotation="-0 3.14159 -0" Scale="1 1 1" UID="26 8948 436208209">
+                <Component ID="436208192" />
+                <Component ID="436208193" />
+                <Component ID="436208194" />
+                <Component ID="436208195" />
+                <Component ID="436208196" />
+                <Component ID="436208197" />
+                <Component ID="436208198" />
+                <Component ID="436208199" />
+                <Component ID="436208200" />
+                <Component ID="436208201" />
+                <Component ID="436208202" />
+                <Component ID="436208203" />
+                <Component ID="436208204" />
+                <Component ID="436208205" />
+                <Component ID="436208206" />
+                <Component ID="436208207" />
+                <Component ID="285212722" />
+            </Compound>
+        </Objects>
+    </Section>
+    <Section Name="Patrik@POMPERIPOSSA">
+        <Objects />
+    </Section>
+    <Section Name="Marc@MARC-PC">
+        <Objects />
+    </Section>
+    <Section Name="johne@DETIS-DESKTOP">
+        <Objects>
+            <Compound ID="486539389" Name="Compound_12" CreStamp="0" ModStamp="1683040672" WorldPos="-78.1401 -6.2843 15.7434" Rotation="0 0 0" Scale="1.93684 1.93684 1.93684" UID="29 9289 486539389">
+                <Component ID="452985226" />
+                <Component ID="452985227" />
+                <Component ID="486539380" />
+            </Compound>
+            <Compound ID="486539391" Name="Compound_15" CreStamp="0" ModStamp="1684961173" WorldPos="-51.0797 -2.83504 24.9886" Rotation="0 0 0" Scale="1 1 1" UID="29 10017 486539391">
+                <Component ID="486539293" />
+                <Component ID="486539316" />
+                <Component ID="486539291" />
+                <Component ID="486539294" />
+                <Component ID="486539315" />
+                <Component ID="486539314" />
+            </Compound>
+        </Objects>
+    </Section>
+    <Section Name="marc@DESKTOP-MARCN">
+        <Objects />
+    </Section>
+    <Section Name="cesar@DESKTOP-0FIFFLJ">
+        <Objects />
+    </Section>
+    <Section Name="Marcus@DESKTOP-VV6VPG8">
+        <Objects>
+            <Compound ID="536871342" Name="Compound_8" CreStamp="0" ModStamp="1679493550" WorldPos="-53.7914 -8.08526 -15.5" Rotation="0.0523599 3.14159 -3.2614e-15" Scale="1 1 1" UID="32 9593 536871342">
+                <Component ID="285212684" />
+                <Component ID="285212683" />
+                <Component ID="285212688" />
+                <Component ID="285212689" />
+            </Compound>
+            <Compound ID="536871705" Name="Compound_11" CreStamp="0" ModStamp="1680181556" WorldPos="-92.8316 -7.07024 8.80282" Rotation="-0 3.40339 -0" Scale="1 1 1" UID="32 9801 536871705">
+                <Component ID="452984916" />
+                <Component ID="268437434" />
+                <Component ID="268437433" />
+                <Component ID="452984922" />
+                <Component ID="452985036" />
+                <Component ID="268437431" />
+                <Component ID="268437435" />
+                <Component ID="268437432" />
+            </Compound>
+        </Objects>
+    </Section>
+</HPLMapTrack_Compound>

@@ -1,0 +1,55 @@
+<HPLMapTrack_Billboard ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
+    <Section Name="Max@MAX-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-U5KQSOE">
+        <Objects />
+    </Section>
+    <Section Name="rasmu@WINDMILL">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-QQIR8DS">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-WORK-LA">
+        <Objects />
+    </Section>
+    <Section Name="Max@DESKTOP-MAXL">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+        <Objects />
+    </Section>
+    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+        <Objects />
+    </Section>
+    <Section Name="Ted@TELLUS">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-Q12T94U">
+        <Objects>
+            <Billboard ID="436208117" Name="Billboard_3" CreStamp="1652343239" ModStamp="1677255205" WorldPos="-46.1214 -1.44284 19.7224" Rotation="0 0 0" Scale="1 1 1" BillboardType="Point" MaterialFile="D:/SVN Repositories/Bunker/redist/billboards/halo/lampglow_curie.mat" IsHalo="false" BillboardSize="0.54 0.54" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0.5" BillboardColor="1 1 1 1" Brightness="0.1" CulledByDistance="false" CulledByFog="true" ConnectLight="Lamp_GeneratorBackup_3_light_1" Static="false" RangeMinStart="-1" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+        </Objects>
+    </Section>
+    <Section Name="Patrik@POMPERIPOSSA">
+        <Objects />
+    </Section>
+    <Section Name="Marc@MARC-PC">
+        <Objects />
+    </Section>
+    <Section Name="johne@DETIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="marc@DESKTOP-MARCN">
+        <Objects />
+    </Section>
+    <Section Name="cesar@DESKTOP-0FIFFLJ">
+        <Objects />
+    </Section>
+    <Section Name="Marcus@DESKTOP-VV6VPG8">
+        <Objects />
+    </Section>
+</HPLMapTrack_Billboard>

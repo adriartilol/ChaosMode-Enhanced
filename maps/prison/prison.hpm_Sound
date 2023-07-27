@@ -1,0 +1,56 @@
+<HPLMapTrack_Sound ID="59A41F76CE167A702D63062CE5D68853603F60" MajorVersion="1" MinorVersion="1">
+    <Section Name="aaron@AARONS-DELL">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-U5KQSOE">
+        <Objects />
+    </Section>
+    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+        <Objects>
+            <Sound ID="301989907" Name="Sound_WoodRoomCreak" CreStamp="1643306911" ModStamp="1644927284" WorldPos="-117.075 4.12003 -12.487" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="prison/amb/sweet/wood_distant" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="18 45 301989907" />
+            <Sound ID="301989914" Name="Sound_PrisonGunFire_2" CreStamp="1644845554" ModStamp="1653953085" WorldPos="-97.6769 11.4611 -16.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="18 72 301989914" />
+            <Sound ID="301989915" Name="Sound_PrisonGunFire_1" CreStamp="1644845582" ModStamp="1653953094" WorldPos="-131.25 7.75 -21.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="18 71 301989915" />
+            <Sound ID="301989921" Name="Sound_DebrisSweet" CreStamp="1653398956" ModStamp="1653399003" WorldPos="-112.098 0.422396 -14.3539" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="prison/amb/sweet/debris_sweet" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 87 301989921" />
+            <Sound ID="301989927" Name="Sound_GeneratorOff" CreStamp="1653953939" ModStamp="1653957712" WorldPos="-58.75 0.990617 4" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="40" MaxDistance="175" Volume="1" Active="false" UseCustomProperties="false" UID="18 102 301989927" />
+            <Sound ID="301989928" Name="Sound_Flies_1" CreStamp="1682070619" ModStamp="1682070633" WorldPos="-120.65 0.740693 -36.49" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 97 301989928" />
+        </Objects>
+    </Section>
+    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-WORK-LA">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-Q12T94U">
+        <Objects>
+            <Sound ID="352321839" Name="Sound_PrisonGunFire_3" CreStamp="1632231396" ModStamp="1649321853" WorldPos="-93.75 16.75 14.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="21 6812 352321839" />
+        </Objects>
+    </Section>
+    <Section Name="johne@IOANNIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="rasmu@WINDMILL">
+        <Objects />
+    </Section>
+    <Section Name="Max@MAX-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="Patrik@POMPERIPOSSA">
+        <Objects />
+    </Section>
+    <Section Name="johne@DETIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="Max@DESKTOP-MAXL">
+        <Objects />
+    </Section>
+    <Section Name="marc@DESKTOP-MARCN">
+        <Objects />
+    </Section>
+    <Section Name="cesar@DESKTOP-0FIFFLJ">
+        <Objects />
+    </Section>
+    <Section Name="Marc@MARC-PC">
+        <Objects />
+    </Section>
+</HPLMapTrack_Sound>

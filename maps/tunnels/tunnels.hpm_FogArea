@@ -1,0 +1,64 @@
+<HPLMapTrack_FogArea ID="BC551426DCAF2900F30FD549C5667C32EE6E0178" MajorVersion="1" MinorVersion="1">
+    <Section Name="4074963946714538518">
+        <Objects />
+    </Section>
+    <Section Name="10300334514331934914">
+        <Objects>
+            <FogArea ID="285216311" Name="FogArea_HandleRoom" CreStamp="1680514227" ModStamp="1680514423" WorldPos="-85.8277 -0.332494 152.576" Rotation="0 0 0" Scale="14.6879 5 9.99568" Color="0.0666667 0.145098 0.113725 0.490196" Brightness="0.75" Start="0.5" End="6" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="false" ShownBacksideWhenInside="false" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="17 9909 285216311" />
+        </Objects>
+    </Section>
+    <Section Name="11867433910407490944">
+        <Objects>
+            <FogArea ID="301991490" Name="FogArea_2" CreStamp="1664888372" ModStamp="1671716374" WorldPos="-87.25 5.5 151.75" Rotation="0 0 0" Scale="3.42255 3.82739 2.5" Color="0.537255 0.464446 0.345098 1" Brightness="15" Start="0" End="6" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="false" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="18 8926 301991490" />
+            <FogArea ID="301991498" Name="FogArea_3" CreStamp="1664890171" ModStamp="1671716432" WorldPos="-77.5553 4.214 152.808" Rotation="0 -0 0.309535" Scale="3.22376 2.41316 2.5" Color="0.537255 0.459942 0.345098 1" Brightness="15" Start="0" End="3" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="false" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.05" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="18 8915 301991498" />
+            <FogArea ID="301991507" Name="FogArea_4" CreStamp="1664890470" ModStamp="1671716445" WorldPos="-72.3505 5.01128 150.933" Rotation="0 -0 0.309535" Scale="3.8415 3.57486 2.97905" Color="0.537255 0.468949 0.345098 1" Brightness="15" Start="0" End="3" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="false" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="18 8900 301991507" />
+            <FogArea ID="301991519" Name="FogArea_5" CreStamp="1664890752" ModStamp="1671716778" WorldPos="-73.3765 5.28146 172.569" Rotation="0 -0 0.309535" Scale="3.22376 4.17268 2.5" Color="0.537255 0.48246 0.345098 1" Brightness="15" Start="0" End="5" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="18 8914 301991519" />
+            <FogArea ID="301991529" Name="FogArea_6" CreStamp="1664974805" ModStamp="1680777521" WorldPos="-99.4329 6.82156 155.592" Rotation="-0.513109 -0.162236 0.265845" Scale="1.87721 3.10432 1.21059" Color="0.537255 0.464446 0.345098 1" Brightness="15" Start="0" End="6" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="false" Underwater="false" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="18 9890 301991529" />
+        </Objects>
+    </Section>
+    <Section Name="7387221967616566086">
+        <Objects />
+    </Section>
+    <Section Name="12579031528112273739">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="9065270106052613291">
+        <Objects />
+    </Section>
+    <Section Name="2808432602814229433">
+        <Objects />
+    </Section>
+    <Section Name="10344130536270466734">
+        <Objects />
+    </Section>
+    <Section Name="16252604345296683573">
+        <Objects />
+    </Section>
+    <Section Name="9172161606391457054">
+        <Objects />
+    </Section>
+    <Section Name="9195155804934729962">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects>
+            <FogArea ID="469762048" Name="FogArea_7" CreStamp="1681978140" ModStamp="1681978205" WorldPos="-70.5 -1.25 178.783" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8929 469762048" />
+            <FogArea ID="469762049" Name="FogArea_8" CreStamp="1681978217" ModStamp="1681978245" WorldPos="-75.5978 -1.25 157.161" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8914 469762049" />
+            <FogArea ID="469762050" Name="FogArea_9" CreStamp="1681978251" ModStamp="1681978260" WorldPos="-72.9965 -1.25 148.392" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8928 469762050" />
+            <FogArea ID="469762051" Name="FogArea_10" CreStamp="1681978277" ModStamp="1681978291" WorldPos="-78.8706 -2.34636 158.979" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8924 469762051" />
+            <FogArea ID="469762052" Name="FogArea_11" CreStamp="1681978294" ModStamp="1681978301" WorldPos="-95.8247 -2.34636 161.923" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8925 469762052" />
+            <FogArea ID="469762053" Name="FogArea_12" CreStamp="1681978321" ModStamp="1682325158" WorldPos="-87.25 -2.34636 146.747" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8923 469762053" />
+            <FogArea ID="469762054" Name="FogArea_13" CreStamp="1681978347" ModStamp="1681978358" WorldPos="-64.4646 -1.40468 149.302" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8927 469762054" />
+            <FogArea ID="469762055" Name="FogArea_14" CreStamp="1681978394" ModStamp="1681978408" WorldPos="-57.0937 -1.40468 168.308" Rotation="0 0 0" Scale="1.25 1.25 1.75" Color="0 0 0 1" Brightness="15" Start="0" End="1" FalloffExp="1" Prio="0" ShownBacksideWhenOutside="true" ShownBacksideWhenInside="true" Underwater="true" Lighten="false" HeightBased="false" Exponential="false" Density="0.25" HeightDensity="0.25" HeightHorizon="1" NoiseStrength="0.1" NoiseSize="8" NoiseTurbulence="1 0.5 1" Skybox="false" Static="false" CulledByDistance="false" CulledByFog="true" UID="28 8926 469762055" />
+        </Objects>
+    </Section>
+    <Section Name="5716514586046010106">
+        <Objects />
+    </Section>
+    <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+</HPLMapTrack_FogArea>

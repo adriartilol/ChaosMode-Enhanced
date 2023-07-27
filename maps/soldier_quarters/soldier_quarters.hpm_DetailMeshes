@@ -1,0 +1,40 @@
+<HPLMapTrack_DetailMeshes ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
+    <DetailMeshes MaxRange="4000">
+        <Sections>
+            <Section Name="Max@MAX-DESKTOP" />
+            <Section Name="aaron@DESKTOP-U5KQSOE" />
+            <Section Name="rasmu@WINDMILL" />
+            <Section Name="aaron@DESKTOP-QQIR8DS" />
+            <Section Name="johne@IOANNIS-WORK-LA" />
+            <Section Name="Max@DESKTOP-MAXL" />
+            <Section Name="johne@IOANNIS-DESKTOP" />
+            <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM" />
+            <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B" />
+            <Section Name="Ted@TELLUS" />
+            <Section Name="aaron@DESKTOP-Q12T94U">
+                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_03.dae" NumOfInstances="2">
+                    <DetailMeshEntityIDs>436208363 436208365</DetailMeshEntityIDs>
+                    <DetailMeshEntityPositions>-81.0321 -6.50192 12.046 -80.6912 -6.50896 12.3769</DetailMeshEntityPositions>
+                    <DetailMeshEntityRotations>1 0 0 0 0.837772 0 -0.546021 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRadii>0.532333 0.532333</DetailMeshEntityRadii>
+                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
+                    <DetailMeshEntityModStamps>1667463632 1667463646</DetailMeshEntityModStamps>
+                </DetailMesh>
+                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="3">
+                    <DetailMeshEntityIDs>436208364 436208366 436208367</DetailMeshEntityIDs>
+                    <DetailMeshEntityPositions>-80.6148 -6.48027 11.711 -80.2739 -6.48027 12.042 -81.0125 -6.48027 11.7157</DetailMeshEntityPositions>
+                    <DetailMeshEntityRotations>1 0 0 0 0.837772 0 -0.546021 0 0.837772 0 -0.546021 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRadii>0.379472 0.379472 0.379472</DetailMeshEntityRadii>
+                    <DetailMeshEntityColors>1 1 1 1 1 1 1 1 1</DetailMeshEntityColors>
+                    <DetailMeshEntityModStamps>1667463630 1667463635 1667463639</DetailMeshEntityModStamps>
+                </DetailMesh>
+            </Section>
+            <Section Name="Patrik@POMPERIPOSSA" />
+            <Section Name="Marc@MARC-PC" />
+            <Section Name="johne@DETIS-DESKTOP" />
+            <Section Name="marc@DESKTOP-MARCN" />
+            <Section Name="cesar@DESKTOP-0FIFFLJ" />
+            <Section Name="Marcus@DESKTOP-VV6VPG8" />
+        </Sections>
+    </DetailMeshes>
+</HPLMapTrack_DetailMeshes>

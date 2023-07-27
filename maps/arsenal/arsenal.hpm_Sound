@@ -1,0 +1,83 @@
+<HPLMapTrack_Sound ID="46083AAF4407A750172DC72F7997DB997BE03DE3" MajorVersion="1" MinorVersion="1">
+    <Section Name="6316717594221808991">
+        <Objects />
+    </Section>
+    <Section Name="5716514586046010106">
+        <Objects />
+    </Section>
+    <Section Name="5925658318598714042">
+        <Objects />
+    </Section>
+    <Section Name="9195155804934729962">
+        <Objects />
+    </Section>
+    <Section Name="7387221967616566086">
+        <Objects>
+            <Sound ID="335544335" Name="Sound_TriggerSweet_1" CreStamp="1646750408" ModStamp="1646916049" WorldPos="-51.1407 5.75116 75.6478" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/sweet_01" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="20 8540 335544335" />
+            <Sound ID="335544337" Name="Sound_TriggerSweet_2" CreStamp="1646751477" ModStamp="1646751778" WorldPos="-32.3719 3.24722 74.8525" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/sweet_02" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="20 8555 335544337" />
+            <Sound ID="335544339" Name="Sound_TriggerSweet_3" CreStamp="1646751747" ModStamp="1646751773" WorldPos="-54.9122 4.15048 97.2454" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/sweet_03" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="20 8554 335544339" />
+            <Sound ID="335544340" Name="Sound_ShelfSweet_1" CreStamp="1646751804" ModStamp="1646752319" WorldPos="-50.9144 2.7126 88.1168" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8553 335544340" />
+            <Sound ID="335544341" Name="Sound_ShelfSweet_2" CreStamp="1646752321" ModStamp="1646752339" WorldPos="-53.6034 2.7126 94.9734" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8552 335544341" />
+            <Sound ID="335544342" Name="Sound_ShelfSweet_3" CreStamp="1646752341" ModStamp="1646752356" WorldPos="-54.271 3.61335 108.811" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8549 335544342" />
+            <Sound ID="335544343" Name="Sound_ShelfSweet_4" CreStamp="1646752357" ModStamp="1646752363" WorldPos="-44.9 3.61335 108.47" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8550 335544343" />
+            <Sound ID="335544344" Name="Sound_ShelfSweet_5" CreStamp="1646752371" ModStamp="1646752386" WorldPos="-31.6942 4.31248 92.2385" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8548 335544344" />
+            <Sound ID="335544345" Name="Sound_ShelfSweet_6" CreStamp="1646752388" ModStamp="1646752399" WorldPos="-32.1781 4.31248 83.0228" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/shelf" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="20 8547 335544345" />
+            <Sound ID="335544348" Name="Sound_WarSounds_1" CreStamp="1646910639" ModStamp="1646910665" WorldPos="-59.25 14.25 63.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="20 8545 335544348" />
+            <Sound ID="335544350" Name="Sound_WarSounds_2" CreStamp="1646910676" ModStamp="1646910727" WorldPos="-39 16.25 105" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="20 8546 335544350" />
+            <Sound ID="335544351" Name="Sound_RoofCreak_1" CreStamp="1646915832" ModStamp="1646915898" WorldPos="-40 12 104.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_creak" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="20 8544 335544351" />
+            <Sound ID="335544352" Name="Sound_RoofCreak_2" CreStamp="1646915899" ModStamp="1646915904" WorldPos="-40 12 78.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_creak" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="20 8543 335544352" />
+            <Sound ID="335544353" Name="Sound_GeneratorOff" CreStamp="1648465929" ModStamp="1649341684" WorldPos="-61 3 17.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="20 8542 335544353" />
+            <Sound ID="335544354" Name="Sound_TransferRoof_1" CreStamp="1651062097" ModStamp="1651062152" WorldPos="-52.5281 6.8652 39.321" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="20 8571 335544354" />
+            <Sound ID="335544356" Name="Sound_TransferRoof_2" CreStamp="1651062153" ModStamp="1651062197" WorldPos="-62.216 6.57113 47.1704" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="20 8570 335544356" />
+            <Sound ID="335544357" Name="Sound_TransferRoof_3" CreStamp="1651062162" ModStamp="1651062176" WorldPos="-61.9132 5.91988 59.6619" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="20 8569 335544357" />
+            <Sound ID="335544360" Name="Sound_RoofBar_1" CreStamp="1655472748" ModStamp="1655472869" WorldPos="-60.25 5.16237 74.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8598 335544360" />
+            <Sound ID="335544361" Name="Sound_RoofBar_2" CreStamp="1655472819" ModStamp="1655472867" WorldPos="-64.7113 5.39756 72.1706" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8612 335544361" />
+            <Sound ID="335544362" Name="Sound_RoofBar_3" CreStamp="1655904385" ModStamp="1655904397" WorldPos="-51.75 5.39756 85.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8611 335544362" />
+            <Sound ID="335544363" Name="Sound_RoofBar_4" CreStamp="1655904404" ModStamp="1655904434" WorldPos="-34.25 5.39756 90" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8610 335544363" />
+            <Sound ID="335544364" Name="Sound_RoofBar_5" CreStamp="1655904412" ModStamp="1655904427" WorldPos="-30.75 5.39756 106.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8597 335544364" />
+            <Sound ID="335544365" Name="Sound_RoofBar_6" CreStamp="1655904443" ModStamp="1655904452" WorldPos="-53.25 5.39756 114.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/amb/sweet/roof_bar" MinDistance="2" MaxDistance="8" Volume="1" Active="true" UseCustomProperties="false" UID="20 8609 335544365" />
+            <Sound ID="335544373" Name="Sound_WaterDrain" CreStamp="1682002863" ModStamp="1682002905" WorldPos="-63.4682 0.38112 92.1678" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/level/water_drain" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="20 8638 335544373" />
+            <Sound ID="335544374" Name="Sound_WaterLoop_1" CreStamp="1682034251" ModStamp="1682035105" WorldPos="-64 -0.446113 99.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/level/water_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="20 8641 335544374" />
+            <Sound ID="335544375" Name="Sound_Flies_1" CreStamp="1682070228" ModStamp="1682070253" WorldPos="-47.2138 2.78339 107.59" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="20 8656 335544375" />
+        </Objects>
+    </Section>
+    <Section Name="2808432602814229433">
+        <Objects />
+    </Section>
+    <Section Name="12266341581627464289">
+        <Objects />
+    </Section>
+    <Section Name="17564562340471339389">
+        <Objects />
+    </Section>
+    <Section Name="12579031528112273739">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="10300334514331934914">
+        <Objects />
+    </Section>
+    <Section Name="4074963946714538518">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="11867433910407490944">
+        <Objects />
+    </Section>
+    <Section Name="16252604345296683573">
+        <Objects />
+    </Section>
+    <Section Name="9065270106052613291">
+        <Objects />
+    </Section>
+    <Section Name="9172161606391457054">
+        <Objects />
+    </Section>
+    <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+</HPLMapTrack_Sound>

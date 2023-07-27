@@ -1,0 +1,50 @@
+<HPLMapTrack_DetailMeshes ID="46083AAF4407A750172DC72F7997DB997BE03DE3" MajorVersion="1" MinorVersion="1">
+    <DetailMeshes MaxRange="4000">
+        <Sections>
+            <Section Name="6316717594221808991" />
+            <Section Name="5716514586046010106" />
+            <Section Name="5925658318598714042" />
+            <Section Name="9195155804934729962" />
+            <Section Name="7387221967616566086" />
+            <Section Name="2808432602814229433" />
+            <Section Name="12266341581627464289" />
+            <Section Name="17564562340471339389" />
+            <Section Name="12579031528112273739" />
+            <Section Name="13338907128802076914" />
+            <Section Name="10300334514331934914" />
+            <Section Name="4074963946714538518">
+                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="2">
+                    <DetailMeshEntityIDs>452985323 452985329</DetailMeshEntityIDs>
+                    <DetailMeshEntityPositions>-60.125 2.25 77.7712 -61.5975 2.21141 77.7925</DetailMeshEntityPositions>
+                    <DetailMeshEntityRotations>0.209217 -0.037384 0.976746 -0.028259 0.797304 -0.014832 -0.602142 -0.038879</DetailMeshEntityRotations>
+                    <DetailMeshEntityRadii>0.419833 0.419833</DetailMeshEntityRadii>
+                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
+                    <DetailMeshEntityModStamps>1667206623 1667206892</DetailMeshEntityModStamps>
+                </DetailMesh>
+            </Section>
+            <Section Name="6937444921226728725" />
+            <Section Name="11867433910407490944">
+                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="2">
+                    <DetailMeshEntityIDs>486539677 486539684</DetailMeshEntityIDs>
+                    <DetailMeshEntityPositions>-61.6336 2.25 79.292 -59.9423 2.25 79.2507</DetailMeshEntityPositions>
+                    <DetailMeshEntityRotations>0.999135 0.011475 0.000458 -0.039978 0.05848 0.028625 -0.997192 0.036987</DetailMeshEntityRotations>
+                    <DetailMeshEntityRadii>0.419833 0.419833</DetailMeshEntityRadii>
+                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
+                    <DetailMeshEntityModStamps>1666969890 1666969940</DetailMeshEntityModStamps>
+                </DetailMesh>
+                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="2">
+                    <DetailMeshEntityIDs>486539681 486539682</DetailMeshEntityIDs>
+                    <DetailMeshEntityPositions>-61.5555 2.25 79.9306 -60.1082 2.25 79.929</DetailMeshEntityPositions>
+                    <DetailMeshEntityRotations>0.731335 -0.028687 -0.680542 -0.034485 0.731335 -0.028687 -0.680542 -0.034485</DetailMeshEntityRotations>
+                    <DetailMeshEntityRadii>0.74584 0.74584</DetailMeshEntityRadii>
+                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
+                    <DetailMeshEntityModStamps>1666969916 1666969923</DetailMeshEntityModStamps>
+                </DetailMesh>
+            </Section>
+            <Section Name="16252604345296683573" />
+            <Section Name="9065270106052613291" />
+            <Section Name="9172161606391457054" />
+            <Section Name="10625375571293597888" />
+        </Sections>
+    </DetailMeshes>
+</HPLMapTrack_DetailMeshes>

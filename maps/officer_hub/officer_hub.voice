@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<VoiceData>
+ <Characters>
+  <Character ID="0" Name="Boisrond" DisplayName="Soldier" Actor="" AutoGenVoice="False" AutoGenVoiceFile="" AutoGenVoiceSoundFreq="1" WorldSpace="True" AffectedByReverb="True" TextToSpeechVoice="Default" DefaultCriteria="" EntryType="World" Volume="0.7" ReverbVolume="1.01" SpeakerSpread="40" EntitySource="SmokingSoldier" MinDist="4" MaxDist="12" MinFreq="22000" MaxFreq="22000" MaxListeningDist="-1" FrequencyFilter="None" />
+ </Characters>
+ <Effects />
+ <Scenes>
+  <Scene ID="0" Name="Dialog_WoundedSoldier" FocusPrio="0" ForceMaxVolume="False" DefaultCriteria="" Volume="1" ReverbVolume="1" />
+ </Scenes>
+ <Sections>
+  <Section Name="Wounded Soldier Dialog" />
+ </Sections>
+ <Subjects>
+  <Subject Desc="The wounded soldier responds to the opening of the kitchen door." Name="Dialog_WoundedSoldier_Intro" UseSingleRandomLine="False" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Hello?" FileName="dialog_woundedsoldier_dialog_woundedsoldier_intro_001_boisrond_001" Timestamp="2022-10-05 03:27" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Is someone there?" FileName="dialog_woundedsoldier_dialog_woundedsoldier_intro_002_boisrond_001" Timestamp="2022-10-05 03:27" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="I'm over here.  " FileName="dialog_woundedsoldier_dialog_woundedsoldier_intro_003_boisrond_001" Timestamp="2022-10-05 03:27" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialog_WoundedSoldier_Alt" UseSingleRandomLine="False" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Henri, heh, thought I was the last one." FileName="dialog_woundedsoldier_dialog_woundedsoldier_alt_001_boisrond_001" Timestamp="2022-11-23 10:37" />
+    <Sound Text="Listen, we're trapped down here. Those rat-fucking, bastard officers. They ran. Blew the exit closed behind them. Those pig-fucks, those syphilitic dickheads, those sons of - of -  " Timestamp="2022-11-23 10:37" />
+    <Sound Text="&gt;&gt;Coughing&lt;&lt;" Timestamp="2022-11-23 10:37" />
+    <Sound Text="You have a chance though. Set new charges to clear the exit. You understand?" Timestamp="2022-11-23 10:37" />
+    <Sound Text="There's dynamite locked in the arsenal.. And the handle for explosives is lost... I think there might be another one somewhere down in the excavation site... you hear me? " Timestamp="2022-11-29 09:06" />
+    <Sound Text="Dynamite and handle to trigger it. You can still make it out of this." Timestamp="2022-11-29 09:49" />
+    <Sound Text="And If you do, do me a favor - you shoot an officer for me. Any officer you see... " Timestamp="2022-11-23 10:37" />
+   </Line>
+  </Subject>
+  <Subject Desc="Officers ran away" Name="Dialog_WoundedSoldier_Officers" UseSingleRandomLine="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Henri, heh, thought I was the last one." FileName="dialog_woundedsoldier_dialog_woundedsoldier_officers_001_boisrond_001" Timestamp="2022-10-05 03:27" />
+   </Line>
+   <Line CharacterId="0" Prio="0" Callback="OnVoiceLine_PrepareSoldierDialogEscapeSubject" PlayOnce="True">
+    <Sound Text="We're trapped down here, the rat-fucking officers ran and blew the exit behind them. " FileName="dialog_woundedsoldier_dialog_woundedsoldier_officers_002_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+  </Subject>
+  <Subject Desc="Info about escaping the bunker." Name="Dialog_WoundedSoldier_Escape" UseSingleRandomLine="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text=" You want to escape, you need to blow it back open." EndPadding="-0.5" FileName="dialog_woundedsoldier_dialog_woundedsoldier_escape_001_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+   <Line CharacterId="0" Prio="0" Callback="OnVoiceLine_DynamiteLocation" PlayOnce="True">
+    <Sound Text=" There's dynamite in the arsenal and a handle to trigger it somewhere in the excavation site. " EndPadding="-0.75" FileName="dialog_woundedsoldier_dialog_woundedsoldier_escape_002_boisrond_001" Timestamp="2023-03-16 09:58" />
+   </Line>
+   <Line CharacterId="0" Prio="0" Callback="OnVoiceLine_PrepareSoldierDialogCreatureSubject" PlayOnce="True">
+    <Sound Text="Get them and you can make it out - " FileName="dialog_woundedsoldier_dialog_woundedsoldier_escape_003_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+  </Subject>
+  <Subject Desc="Creature getting closer warning" Name="Dialog_WoundedSoldier_Creature" UseSingleRandomLine="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Shit! That thing it's coming for me. " FileName="dialog_woundedsoldier_dialog_woundedsoldier_creature_001_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+   <Line CharacterId="0" Prio="0" Callback="OnVoiceLine_OfferPlayerTheGun" PlayOnce="True">
+    <Sound Text="Here. Take this. " FileName="dialog_woundedsoldier_dialog_woundedsoldier_creature_002_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="Finish me off, please. I want to die at the hands of a brother soldier, not that monster... " FileName="dialog_woundedsoldier_dialog_woundedsoldier_creature_003_boisrond_001" Timestamp="2022-10-12 03:37" />
+   </Line>
+  </Subject>
+  <Subject Desc="If the player doesn’t go immediately to get the ammo, Boisrond urges him on." Name="Dialog_WoundedSoldier_Urge_Bullets" UseSingleRandomLine="True" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="Go now! Get the ammo! End my life." FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_001_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="Hurry! It's getting closer!" FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_002_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="God will forgive you, Henri. He knows what we face down here!" FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_003_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="The ammo's in the pantry. You'll need it." FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_004_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+  </Subject>
+  <Subject Desc="Soldier's death" Name="Dialog_WoundedSoldier_Death" UseSingleRandomLine="False" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="NO! NOOOOO! DEAR GOD HELP ME! YOU BASTARD! YOU" FileName="dialog_woundedsoldier_dialog_woundedsoldier_death_001_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="SHIT - YOU - " FileName="dialog_woundedsoldier_dialog_woundedsoldier_death_002_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="PLEASE NO - NO!" FileName="dialog_woundedsoldier_dialog_woundedsoldier_death_003_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+  </Subject>
+  <Subject Desc="If the player doesn’t go immediately to get the gun, Boisrond urges him on." Name="Dialog_WoundedSoldier_Urge_Gun" UseSingleRandomLine="True" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="Take it." FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_001_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="Take it! Now! " FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_002_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="It's coming! Quickly now!" FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_003_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="I beg of you." FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_004_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+   <Line CharacterId="0" Prio="0">
+    <Sound Text="Better you do it than that, that... that thing." FileName="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_005_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+  </Subject>
+  <Subject Desc="Info about the bullets" Name="Dialog_WoundedSoldier_BulletsInfo" UseSingleRandomLine="True" SceneId="0" EffectId="-1" Section="Wounded Soldier Dialog">
+   <Line CharacterId="0" Prio="0" PlayOnce="True">
+    <Sound Text="There's ammo in the pantry. Get it. Do the job, please. " FileName="dialog_woundedsoldier_dialog_woundedsoldier_bulletsinfo_001_boisrond_001" Timestamp="2022-10-14 04:23" />
+   </Line>
+  </Subject>
+ </Subjects>
+</VoiceData>

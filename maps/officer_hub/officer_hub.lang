@@ -1,0 +1,35 @@
+<LANGUAGE>
+    <CATEGORY Name="Voices_officer_hub">
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_intro_001_boisrond_001">Hello?</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_intro_002_boisrond_001">Is someone there?</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_intro_003_boisrond_001">I&apos;m over here.  </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_alt_001_boisrond_001">Henri, heh, thought I was the last one.</Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_002">Listen, we&apos;re trapped down here. Those rat-fucking, bastard officers. They ran. Blew the exit closed behind them. Those pig-fucks, those syphilitic dickheads, those sons of - of -  </Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_003">&gt;&gt;Coughing&lt;&lt;</Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_004">You have a chance though. Set new charges to clear the exit. You understand?</Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_005">There&apos;s dynamite locked in the arsenal.. And the handle for explosives is lost... I think there might be another one somewhere down in the excavation site... you hear me? </Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_006">Dynamite and handle to trigger it. You can still make it out of this.</Entry>
+        <Entry Name="Dialog_WoundedSoldier_Dialog_WoundedSoldier_Alt_001_Boisrond_007">And If you do, do me a favor - you shoot an officer for me. Any officer you see... </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_officers_001_boisrond_001">Henri, heh, thought I was the last one.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_officers_002_boisrond_001">We&apos;re trapped down here, the rat-fucking officers ran and blew the exit behind them. </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_escape_001_boisrond_001"> You want to escape, you need to blow it back open.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_escape_002_boisrond_001"> There&apos;s dynamite in the arsenal and a handle to trigger it somewhere in the excavation site. </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_escape_003_boisrond_001">Get them and you can make it out - </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_creature_001_boisrond_001">Shit! That thing it&apos;s coming for me. </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_creature_002_boisrond_001">Here. Take this. </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_creature_003_boisrond_001">Finish me off, please. I want to die at the hands of a brother soldier, not that monster... </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_001_boisrond_001">Go now! Get the ammo! End my life.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_002_boisrond_001">Hurry! It&apos;s getting closer!</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_003_boisrond_001">God will forgive you, Henri. He knows what we face down here!</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_bullets_004_boisrond_001">The ammo&apos;s in the pantry. You&apos;ll need it.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_death_001_boisrond_001">NO! NOOOOO! DEAR GOD HELP ME! YOU BASTARD! YOU</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_death_002_boisrond_001">SHIT - YOU - </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_death_003_boisrond_001">PLEASE NO - NO!</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_001_boisrond_001">Take it.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_002_boisrond_001">Take it! Now! </Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_003_boisrond_001">It&apos;s coming! Quickly now!</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_004_boisrond_001">I beg of you.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_urge_gun_005_boisrond_001">Better you do it than that, that... that thing.</Entry>
+        <Entry Name="dialog_woundedsoldier_dialog_woundedsoldier_bulletsinfo_001_boisrond_001">There&apos;s ammo in the pantry. Get it. Do the job, please. </Entry>
+    </CATEGORY>
+</LANGUAGE>

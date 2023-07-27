@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<VoiceData>
+ <Characters>
+  <Character ID="0" Name="KarlSpringer" DisplayName="Prisoner" Actor="" AutoGenVoice="False" AutoGenVoiceFile="" AutoGenVoiceSoundFreq="1" WorldSpace="True" AffectedByReverb="True" TextToSpeechVoice="Default" DefaultCriteria="" EntryType="World" Volume="0.7" ReverbVolume="1" SpeakerSpread="40" EntitySource="" MinDist="0" MaxDist="0" MinFreq="22000" MaxFreq="22000" MaxListeningDist="-1" FrequencyFilter="None" />
+ </Characters>
+ <Effects />
+ <Scenes>
+  <Scene ID="0" Name="Prisoner" FocusPrio="0" ForceMaxVolume="False" DefaultCriteria="" Volume="1" ReverbVolume="1" />
+ </Scenes>
+ <Sections>
+  <Section Name="Prisoner" />
+ </Sections>
+ <Subjects>
+  <Subject Desc="For when he is quietly delirial" Name="Barks_Quiet" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text=" ... Ein Teufel... Ein Teufel für die französischen Teufel..." FileName="prisoner_barks_quiet_001_karlspringer_001" Timestamp="2022-11-29 09:52" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="... in der Hölle... der Hölle..." FileName="prisoner_barks_quiet_002_karlspringer_001" Timestamp="2022-11-22 03:12" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text=".. Ich weiß nichts... nichts..." FileName="prisoner_barks_quiet_003_karlspringer_001" Timestamp="2022-11-22 03:12" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="... eines Tages... Heimat... Frühling..." FileName="prisoner_barks_quiet_004_karlspringer_001" Timestamp="2023-01-27 04:56" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich bin nur ein Soldat... das ist alles..." FileName="prisoner_barks_quiet_005_karlspringer_001" Timestamp="2022-11-22 03:12" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text=" ... Ein Teufel... Ein Teufel für die französischen Teufel..." FileName="prisoner_barks_quiet_006_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="... in der Hölle... der Hölle..." FileName="prisoner_barks_quiet_007_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text=".. Ich weiß nichts... nichts..." FileName="prisoner_barks_quiet_008_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="... eines Tages... Heimat... Frühling..." FileName="prisoner_barks_quiet_009_karlspringer_001" Timestamp="2023-01-27 04:56" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich bin nur ein Soldat... das ist alles..." FileName="prisoner_barks_quiet_010_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+  </Subject>
+  <Subject Desc="A bunch of lines where he's moaning, after he hears you coming." Name="Barks_Moans" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Hallo? Ist jemand da?" FileName="prisoner_barks_moans_001_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Sicher hier... in meinem Käfig..." FileName="prisoner_barks_moans_002_karlspringer_001" Timestamp="2023-01-27 04:56" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Lass mich in Ruhe..." FileName="prisoner_barks_moans_003_karlspringer_001" Timestamp="2022-11-29 09:52" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Hallo?" FileName="prisoner_barks_moans_004_karlspringer_001" Timestamp="2023-01-30 10:34" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Sicher hier... in meinem Käfig..." FileName="prisoner_barks_moans_005_karlspringer_001" Timestamp="2023-01-27 04:56" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Lass mich in Ruhe..." FileName="prisoner_barks_moans_006_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+  </Subject>
+  <Subject Desc="A bunch of lines where he's increasingly scared leading up to full panic." Name="Barks_Scared" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Nein! Nein! Lass es zu!" FileName="prisoner_barks_scared_001_karlspringer_001" Timestamp="2022-11-29 09:52" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Schließ es wieder!" FileName="prisoner_barks_scared_002_karlspringer_001" Timestamp="2022-11-29 09:52" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich kann es hören!" FileName="prisoner_barks_scared_003_karlspringer_001" Timestamp="2022-11-22 03:12" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Bitte! Bitte!" FileName="prisoner_barks_scared_004_karlspringer_001" Timestamp="2023-01-30 10:34" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich will nicht so sterben!" FileName="prisoner_barks_scared_005_karlspringer_001" Timestamp="2023-01-30 10:34" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Schließ es wieder!" FileName="prisoner_barks_scared_006_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich kann es hören!" FileName="prisoner_barks_scared_007_karlspringer_001" Timestamp="2022-12-16 10:32" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Es kommt!" FileName="prisoner_barks_scared_008_karlspringer_001" Timestamp="2023-01-30 10:34" />
+   </Line>
+  </Subject>
+  <Subject Desc="Panicked screaming." Name="Barks_Panicked" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="NEIN! NEIN! GOTT IM HIMMEL!" FileName="prisoner_barks_panicked_001_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="BITTE! BITTE! HILF MIR!" FileName="prisoner_barks_panicked_002_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="NEIN! NEIN!" FileName="prisoner_barks_panicked_003_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="ES KOMMT!" FileName="prisoner_barks_panicked_004_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="ES KOMMT!" FileName="prisoner_barks_panicked_005_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="ICH WILL NICHT SO STERBEN! BITTE! BITTE!" FileName="prisoner_barks_panicked_006_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="NEIN! NEIN! LASS ESS ZU!" FileName="prisoner_barks_panicked_007_karlspringer_001" Timestamp="2023-01-30 10:39" />
+   </Line>
+  </Subject>
+  <Subject Desc="Panicked coughing until dying (in case the player throws a gas grenade)" Name="Barks_Gas" UseSingleRandomLine="False" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing&lt;&lt;" FileName="prisoner_barks_gas_001_karlspringer_001" Timestamp="2023-01-30 02:30" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing choking&lt;&lt;" FileName="prisoner_barks_gas_002_karlspringer_001" Timestamp="2023-01-30 03:33" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Ich kann nicht atmen! " FileName="prisoner_barks_gas_003_karlspringer_001" Timestamp="2023-01-30 03:33" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing&lt;&lt;" FileName="prisoner_barks_gas_004_karlspringer_001" Timestamp="2023-01-30 02:30" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Mein Gott... bitte..." FileName="prisoner_barks_gas_005_karlspringer_001" Timestamp="2023-01-30 02:30" />
+   </Line>
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing... dies&lt;&lt;" FileName="prisoner_barks_gas_006_karlspringer_001" Timestamp="2023-01-30 02:30" />
+   </Line>
+  </Subject>
+  <Subject Desc="What he screams as the monster attacks him" Name="Barks_MonsterAttack" UseSingleRandomLine="False" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1" Section="Prisoner">
+   <Line CharacterId="0" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="AHHHH! Du Teufel! Du Unhold! NEIN - BITTE - NEIN!" FileName="prisoner_barks_monsterattack_001_karlspringer_001" Timestamp="2022-11-22 03:12" />
+   </Line>
+  </Subject>
+ </Subjects>
+</VoiceData>

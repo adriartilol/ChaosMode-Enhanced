@@ -1,0 +1,1703 @@
+#include "interfaces/UserModule_Interface.hps"
+#include "custom/modules/ModuleInterfaces_Custom.hps"
+#include "helpers/helper_game.hps"
+#include "custom/helpers/helper_props_custom.hps"
+#include "helpers/helper_menu.hps"
+
+//------------------------------------------------------------
+
+enum eItemRandomizerType
+{
+	eItemRandomizerType_Bandage,
+	eItemRandomizerType_Medkit,
+	eItemRandomizerType_Ammunition,
+	eItemRandomizerType_ShotgunAmmunition,
+	eItemRandomizerType_Bottle,
+	eItemRandomizerType_Flare,
+	eItemRandomizerType_Grenade,
+	eItemRandomizerType_GasGrenade,
+	eItemRandomizerType_Fuel,
+	eItemRandomizerType_Cloth,
+	eItemRandomizerType_Stick,
+	eItemRandomizerType_PocketBag,
+	eItemRandomizerType_CommunicationsKey,
+	
+	eItemRandomizerType_LastEnum
+}
+
+//------------------------------------------------------------
+
+enum ePropRandomizerType
+{
+	ePropRandomizerType_ExplosiveBarrel,
+	ePropRandomizerType_Brick,
+	ePropRandomizerType_GasCanister,
+	
+	ePropRandomizerType_LastEnum
+}
+
+//------------------------------------------------------------
+
+class cMapItemData
+{
+	cMapItemData()
+	{
+		mvTotalItemSlotCount.resize(eItemRandomizerType_LastEnum);
+		mvMinItemCount.resize(eItemRandomizerType_LastEnum);
+		mvMaxItemCount.resize(eItemRandomizerType_LastEnum);
+		mvItemCount.resize(eItemRandomizerType_LastEnum);
+	}
+	
+	tString msMapName;
+	
+	int mlRandomSeed;
+	array<int> mvTotalItemSlotCount;
+	array<int> mvMinItemCount;
+	array<int> mvMaxItemCount;
+	array<int> mvItemCount;
+}
+
+//------------------------------------------------------------
+
+class cMapPropData
+{	
+	tString msMapName;
+	
+	int mlRandomSeed;
+	array<int> mvCount;
+}
+
+//------------------------------------------------------------
+
+class cMapTrapData
+{
+	tString msMapFile;
+	int mlRandomSeed;
+	
+	int mlTrapCount = 0;
+	
+	array<float> mvWeights;
+}
+
+//------------------------------------------------------------
+
+class cCodeData
+{
+	tString msName;
+	tString msLockName;
+	tString msDogtagEntFile;
+	
+	int mlCode;
+}
+
+//------------------------------------------------------------
+
+class cDogtagData
+{
+	tString msBaseFile;
+	tString msReplaceFile;
+	bool mbAllowDud;
+	
+	int opCmp(const cDogtagData &in pOther)
+	{
+		if (!mbAllowDud && pOther.mbAllowDud) return 1;
+		if (mbAllowDud && !pOther.mbAllowDud) return -1;
+		return 0;
+	}
+}
+
+//------------------------------------------------------------
+// MOD
+class cQuestItemData {
+	tString msName;
+	tString msEntityFile;
+	bool mbIsFinalQuestItem=false;
+	bool mbIsCode=false;
+	bool mbIsUsedForNextQuestItem=false;
+}
+
+class cQuestItemLocationData {
+	tString msName;
+	tString msMap;
+	tString msPassageMap;
+	
+	tString msQuestItemName;
+	tString msNeededQuestItemName;
+	
+	array<tString> mvBlackList;
+	array<tString> mvWhiteList;
+}
+
+
+//------------------------------------------------------------
+
+class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRandomizerHandler_Interface
+{
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// INIT
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void Init()
+	{
+		Init_Traps();
+	}
+		
+	//------------------------------------------------------------
+	
+	void LoadUserConfig() {}
+	void SaveUserConfig() {}
+	
+	//------------------------------------------------------------
+
+	/////////////////////////////////////////
+	// MAP LOADING
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter(cLuxMap@ apMap)
+	{
+		if (mvVisitedMaps.length()==0)
+			SetupRandomization();
+		
+		//////////////////////////
+		// Prevent re-randomizing already visited maps
+		if (mvVisitedMaps.find(apMap.GetName()) < 0)
+		{
+			mvVisitedMaps.push_back(apMap.GetName());
+			
+			OnMapEnter_Items(apMap);
+			OnMapEnter_Traps(apMap);
+			OnMapEnter_Codes(apMap);
+			OnMapEnter_Dogtags(apMap);
+			OnMapEnter_Props(apMap);
+			OnMapEnter_QuestItems(apMap);
+		}
+			
+		FixItemMultiplication(apMap);
+	}
+	
+	//------------------------------------------------------------
+
+	void OnMapLeave(cLuxMap@ apMap) 
+	{
+	}
+	
+	//------------------------------------------------------------
+	
+	void CreateWorldEntities(cLuxMap@ apMap) {}	
+	void DestroyWorldEntities(cLuxMap@ apMap) {}
+	
+	void PreloadData(cLuxMap@ apMap) 
+	{
+		Entity_Preload("dogtag_auclair_3397_withstring.ent");
+		Entity_Preload("dogtag_bardin_1889_withstring.ent");
+		Entity_Preload("dogtag_boucher_1923_withstring.ent");
+		Entity_Preload("dogtag_fortin_7750_withstring.ent");
+		Entity_Preload("dogtag_travers_8583_withstring.ent");
+		Entity_Preload("dogtag_laval_0269_withstring.ent");
+		Entity_Preload("dogtag_giraud_1734_withstring.ent"); 
+		Entity_Preload("dogtag_alphonse_withstring.ent");
+		Entity_Preload("dogtag_brillant_withstring.ent");
+		Entity_Preload("dogtag_choppin_withstring.ent");
+		Entity_Preload("dogtag_courcy_withstring.ent");
+		Entity_Preload("dogtag_dehay_withstring.ent");
+		Entity_Preload("dogtag_dosier_withstring.ent");
+		Entity_Preload("dogtag_granat_withstring.ent");
+		Entity_Preload("dogtag_lebert_withstring.ent");
+	}
+	
+	void OnEnterContainer(const tString&in asOldContainer) {}
+	void OnLeaveContainer(const tString&in asNewContainer) {}
+	
+	//------------------------------------------------------------
+	
+	void Reset()
+	{
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// GENERAL
+	/////////////////////////////////////////	
+	
+	//------------------------------------------------------------
+	void VariableUpdate(float afDeltaTime) {}
+	
+	//------------------------------------------------------------
+	
+	void Update(float afTimeStep) {}
+	
+	void PostUpdate(float afTimeStep)
+	{
+		if (mbApplyRandomizePropsFix) SetupRandomization_Props();
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// ACTIONS
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void OnAction(int alAction, bool abPressed) {}
+	void OnAnalogInput(int alAnalogId, const cVector3f &in avAmount) {}	
+	void OnExitPressed() {}
+	
+	//------------------------------------------------------------
+	
+	void AppGotInputFocus() {}
+	void AppLostInputFocus() {}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// HELPERS
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization()
+	{
+		SetupRandomization_Items();
+		SetupRandomization_Traps();
+		SetupRandomization_Codes();
+		SetupRandomization_Dogtags();
+		SetupRandomization_Props();
+		SetupRandomization_QuestItems();
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// INTERFACE
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	bool GetGasMaskRandomizationActive()
+	{
+		return mbGasMaskRandomization;
+	}
+	
+	void SetGasMaskRandomizationActive(bool abX)
+	{
+		mbGasMaskRandomization = abX;
+	}
+	
+	bool GetLighterRandomizationActive()
+	{
+		return mbLighterRandomization;
+	}
+	
+	void SetLighterRandomizationActive(bool abX)
+	{
+		mbLighterRandomization = abX;
+	}
+	
+	//------------------------------------------------------------
+
+	/////////////////////////////////////////
+	// GUI
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+
+	void OnGui(float afTimeStep) {}	
+	void OnDraw(float afFrameTime) {}
+	void OnPostRender(float afFrameTime) {}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// DEBUG
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	float DrawDebugOutput(cGuiSet@ apSet, iFontData@ apFont, float afStartY)
+	{		
+		if (cLux_GetCurrentMap() is null) return afStartY;
+		
+		afStartY = cLux_DrawDebugText("--------- Quest Item Locations ---------", afStartY);
+		for (int i = 0; i < mvLocations.length(); i++)
+		{
+			tString sItemString = "There is no item";
+			if(mvLocations[i].msQuestItemName != "") {
+				sItemString = "There is "+mvLocations[i].msQuestItemName;
+			}
+			tString sNeededString = "";
+			if(mvLocations[i].msNeededQuestItemName != "" ){
+				sNeededString = " but I need " + mvLocations[i].msNeededQuestItemName;
+			}
+			afStartY = cLux_DrawDebugText(mvLocations[i].msName + " in " + mvLocations[i].msMap + " -> " + sItemString + sNeededString, afStartY);
+		}
+		
+		afStartY = cLux_DrawDebugText("--------- Dogtags ---------", afStartY);
+		for (int i = 0; i < mvDogtags.length(); i++)
+		{
+			afStartY = cLux_DrawDebugText(mvDogtags[i].msBaseFile + "  ->  " + mvDogtags[i].msReplaceFile, afStartY);
+		}
+		
+		afStartY = cLux_DrawDebugText("--------- Resource Randomization ---------", afStartY);
+		for (int i = 0; i < mvMapItemData.length(); i++)
+		{
+			cMapItemData@ pMapData = mvMapItemData[i];
+			if (pMapData.msMapName != cLux_GetCurrentMap().GetName()) continue;
+			for (eItemRandomizerType type = eItemRandomizerType(0); type < eItemRandomizerType_LastEnum; type++)
+				afStartY = cLux_DrawDebugText(ItemTypeToString(type)+": "+pMapData.mvItemCount[type],afStartY);
+		}
+		return afStartY;
+	}
+	
+	//------------------------------------------------------------
+	
+	void OnRenderSolid(cRendererCallbackFunctions@ apFunctions)
+	{
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// ITEMS
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter_Items(cLuxMap@ apMap)
+	{
+		////////////////////
+		// Find the map data for this map, if any
+		cMapItemData@ pMapData = null;
+		for (uint i = 0; i < mvMapItemData.length(); i++)
+		{
+			if (mvMapItemData[i].msMapName != apMap.GetName()) continue;
+			
+			@pMapData = mvMapItemData[i];
+			break;
+		}
+		
+		// Use default data
+		if (pMapData is null)
+		{
+			cLux_AddDebugMessage("[Randomizer - Items] No randomization data found for map '"+apMap.GetName()+"'.");
+			return;
+		}
+		
+		//////////////////////////
+		// Get the items
+		array<iLuxEntity@> vItems;
+		apMap.GetEntityArray("*", eLuxEntityType_Prop, "cScrPropPickup", vItems);
+		
+		array<array<iLuxEntity@>> vSortedItems;
+		vSortedItems.resize(eItemRandomizerType_LastEnum);
+		for (uint i = 0; i < vItems.length(); i++)
+		{
+			iLuxEntity@ pItem = vItems[i];
+			tString sTypeString = Item_GetEntityItemType(pItem.GetName());
+			eItemRandomizerType type = StringToItemType(sTypeString);
+			
+			if (type == eItemRandomizerType_LastEnum) continue;
+			if (Pickup_GetExcludeFromRandomization(pItem.GetName())) continue;
+			
+			vSortedItems[type].push_back(pItem);
+		}
+		
+		cMath_Randomize(pMapData.mlRandomSeed);
+		
+		bool bErrors = false;
+		for (eItemRandomizerType type = eItemRandomizerType(0); type < eItemRandomizerType_LastEnum; type++)
+		{
+			int lTargetCount = pMapData.mvItemCount[type];
+			int lCurrentCount = vSortedItems[type].length();
+			
+			if (lCurrentCount != pMapData.mvTotalItemSlotCount[type])
+			{
+				Error("[Randomizer - Items] The specified TotalSlots of item type '"+ItemTypeToString(type)+"' ("+pMapData.mvTotalItemSlotCount[type]+") for level '"+pMapData.msMapName+"' does not match the actual number in the level ("+lCurrentCount+")! This could result in incorrect randomization of resources.");
+/*				for (int i = 0; i < vSortedItems[type].length(); i++)
+					Error("[Randomizer - Items] -- "+vSortedItems[type][i].GetName());*/
+				bErrors = true;
+			}
+			
+			while (lCurrentCount > lTargetCount)
+			{
+				int lIndex = cMath_RandRectl(0, lCurrentCount-1);
+				iLuxEntity@ pItem = vSortedItems[type][lIndex];
+				pItem.SetActive(false);
+				
+				//////////////////
+				// Activate replacement items if any exist
+				array<iLuxEntity@> vReplacements;
+				apMap.GetEntityArray(pItem.GetName()+"_Replacement_*", eLuxEntityType_Prop, "", vReplacements);
+				for (uint i = 0; i < vReplacements.length(); i++)
+					vReplacements[i].SetActive(true);
+				
+				vSortedItems[type].removeAt(lIndex);
+				lCurrentCount--;
+			}
+		}
+		
+		if (bErrors == false)
+			cLux_AddDebugMessage("[Randomizer - Items] Randomization successful with no errors!");
+			
+		cMath_Randomize(cSystem_GetApplicationTime());
+	}
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_Items()
+	{
+		///////////////////////////
+		// Load data from cfg file
+		iXmlDocument@ pRandomizationXML = cResources_LoadXmlDocument("item_randomization.cfg");
+		
+		if (pRandomizationXML is null)
+		{
+			Error("[Randomizer - Items] Couldn't load item_randomization.cfg!");
+			return;
+		}
+		
+		mvMapItemData.resize(0);
+		
+		cXmlElement@ pMapsList = pRandomizationXML.GetFirstElement("Maps");
+		cXmlNodeListIterator@ pMapsIter = pMapsList.GetChildIterator();
+		if (pMapsIter is null)
+		{
+			Error("[Randomizer - Items] item_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		/////////////////////////////////
+		// Add randomization data for each map
+		float fMultiplier = 1.0f;		
+		eGameMode gameMode = Game_GetDifficultyMode();
+		
+		switch (gameMode)
+		{
+			case eGameMode_Easy: fMultiplier = 1.5f; break;
+			case eGameMode_Hard: fMultiplier = 0.65f; break;
+		}
+		
+		while(pMapsIter.HasNext())
+		{
+			cXmlElement@ pMapEntry = pMapsIter.Next().ToElement();
+			
+			tString sMapName = pMapEntry.GetAttributeString("Name","");
+			if (sMapName=="")
+			{
+				Error("[Randomizer - Items] Map entry is missing a name attribute!");
+				return;
+			}
+						
+			cXmlNodeListIterator@ pItemTypeIter = pMapEntry.GetChildIterator();
+			if (pItemTypeIter is null)
+			{
+				Error("[Randomizer - Items] item_randomization.cfg isn't setup correctly.");
+				return;
+			}
+			
+			mvMapItemData.push_back(cMapItemData());
+			cMapItemData@ pMapData = mvMapItemData[mvMapItemData.length()-1];
+			
+			pMapData.msMapName = sMapName;
+			pMapData.mlRandomSeed = cMath_RandRectl(0, 2000000000);
+			
+			while(pItemTypeIter.HasNext())
+			{
+				cXmlElement@ pItemTypeEntry = pItemTypeIter.Next().ToElement();
+				tString sTypeName = pItemTypeEntry.GetAttributeString("Name", "");
+				
+				eItemRandomizerType type = StringToItemType(sTypeName);
+				
+				if (type == eItemRandomizerType_LastEnum)
+				{
+					Error("[Randomizer - Items] Item type '"+sTypeName+"' in map '"+sMapName+"' is not a proper item type!");
+					continue;
+				}
+				
+				pMapData.mvTotalItemSlotCount[type] = pItemTypeEntry.GetAttributeInt("TotalSlots", 0);
+				
+				if (gameMode == eGameMode_Hard)
+				{
+					pMapData.mvMinItemCount[type] = pItemTypeEntry.GetAttributeInt("Min_Hard", pItemTypeEntry.GetAttributeInt("Min", 0));
+					pMapData.mvMaxItemCount[type] = pItemTypeEntry.GetAttributeInt("Max_Hard", pItemTypeEntry.GetAttributeInt("Max", 0));
+				}
+				else
+				{
+					pMapData.mvMinItemCount[type] = pItemTypeEntry.GetAttributeInt("Min", 0);
+					pMapData.mvMaxItemCount[type] = pItemTypeEntry.GetAttributeInt("Max", 0);
+				}
+				
+				/////////////////
+				// Increase max number if there's a multiplier, no need to decrease it
+				bool bMultiply = pItemTypeEntry.GetAttributeBool("AllowMultiply", true);
+				if (bMultiply && fMultiplier > 1.0f)
+				{
+					pMapData.mvMaxItemCount[type] = cMath_RoundToInt(float(pMapData.mvMaxItemCount[type]) * fMultiplier);
+					pMapData.mvMaxItemCount[type] = cMath_Min(pMapData.mvMaxItemCount[type], pMapData.mvTotalItemSlotCount[type]);
+				}
+			}
+			
+			pMapData.mvItemCount = pMapData.mvMaxItemCount;
+		}
+		
+		/////////////////////////////////////////
+		// Get the target count for each item type
+		cXmlElement@ pDefaultCountList = pRandomizationXML.GetFirstElement("DefaultItemCount");
+		cXmlNodeListIterator@ pDefaultCountIter = pDefaultCountList.GetChildIterator();
+		if (pDefaultCountIter is null)
+		{
+			Error("[Randomizer - Items] item_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		array<int> vTargetItemCount;
+		vTargetItemCount.resize(eItemRandomizerType_LastEnum);
+		
+		while(pDefaultCountIter.HasNext())
+		{
+			cXmlElement@ pItemTypeEntry = pDefaultCountIter.Next().ToElement();
+			tString sTypeName = pItemTypeEntry.GetAttributeString("Name", "");
+			
+			eItemRandomizerType type = StringToItemType(sTypeName);
+			
+			if (type == eItemRandomizerType_LastEnum)
+			{
+				Error("[Randomizer - Items] Item type '"+sTypeName+"' in DefaultItemCount is not a proper item type!");
+				continue;
+			}
+			
+			int lBaseCount = pItemTypeEntry.GetAttributeInt("Target", 0);
+			bool bMultiply = pItemTypeEntry.GetAttributeBool("AllowMultiply", true);
+			vTargetItemCount[type] = cMath_RoundToInt(float(lBaseCount) * (bMultiply ? fMultiplier : 1.0f));
+			
+			// Ensure there aren't more bags than there are available slots
+			if (type == eItemRandomizerType_PocketBag)
+			{
+				const int lNonRandomizedPocketBags = 2;
+				int lRemainingSlots =  Item_GetMaxSlotsCount() - Item_GetPlayerInventoryDefaultSlotsCount() - lNonRandomizedPocketBags;
+				vTargetItemCount[type] = cMath_Min(vTargetItemCount[type], lRemainingSlots);
+			}
+		}
+		
+		/////////////////////////////////////////
+		// Randomly distribute items across maps
+		for (eItemRandomizerType type = eItemRandomizerType(0); type < eItemRandomizerType_LastEnum; type++)
+		{
+			/////////////////////////////
+			// Add one "map token" for each instance of this resource, indicating the map in which the resource exists.
+			// This allows us to give each instance an equal chance of being removed.
+			int lTotalMin = 0;
+			array<int> vMapItemTokens;
+			for (uint lMap = 0; lMap < mvMapItemData.length(); lMap++)
+			{
+				for (int i = 0; i < mvMapItemData[lMap].mvMaxItemCount[type]; i++)
+					vMapItemTokens.push_back(lMap);
+					
+				lTotalMin += mvMapItemData[lMap].mvMinItemCount[type];
+			}
+			
+			if (vTargetItemCount[type] < lTotalMin)
+			{
+				cLux_AddDebugMessage("[Randomizer - Items] The total Minimum amount of item type "+ItemTypeToString(type)+" ("+ lTotalMin +") exceeds the target amount ("+vTargetItemCount[type]+"). Setting the target amount to "+lTotalMin+".");
+				vTargetItemCount[type] = lTotalMin;
+			}
+			
+			//cLux_AddDebugMessage("[Randomizer - Items] "+ItemTypeToString(type)+" max: "+vMapItemTokens.length());
+			
+			////////////////////////////
+			// Randomly remove resources until target count is reached
+			int lLoopCount = 0;
+			int lMaxLoopCount = 500;
+			while (vMapItemTokens.length() > vTargetItemCount[type])
+			{
+				int lIndex = cMath_RandRectl(0, vMapItemTokens.length()-1);
+				int lMap = vMapItemTokens[lIndex];
+				lLoopCount++;
+				
+				if (mvMapItemData[lMap].mvItemCount[type] == mvMapItemData[lMap].mvMinItemCount[type])
+					continue;
+				
+				vMapItemTokens.removeAt(lIndex);
+				mvMapItemData[lMap].mvItemCount[type]--;
+			}
+		}
+		
+		cLux_AddDebugMessage("[Randomizer - Items] Item amount multiplier: " + fMultiplier);
+		
+		for (int i = 0; i < mvMapItemData.length(); i++)
+		{
+			cMapItemData@ pMapData = mvMapItemData[i];
+			cLux_AddDebugMessage("[Randomizer - Items] ----MAP "+pMapData.msMapName+"----");
+			for (eItemRandomizerType type = eItemRandomizerType(0); type < eItemRandomizerType_LastEnum; type++)
+				cLux_AddDebugMessage("[Randomizer - Items] "+ItemTypeToString(type)+": "+pMapData.mvItemCount[type]);
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	eItemRandomizerType StringToItemType(const tString &in asType)
+	{
+		if (asType == "Bandage") 				return eItemRandomizerType_Bandage;
+		if (asType == "Medkit") 				return eItemRandomizerType_Medkit;
+		if (asType == "Ammunition") 			return eItemRandomizerType_Ammunition;
+		if (asType == "ShotgunAmmunition") 		return eItemRandomizerType_ShotgunAmmunition;
+		if (asType == "EmptyBottle")			return eItemRandomizerType_Bottle;
+		if (asType == "Flare")					return eItemRandomizerType_Flare;
+		if (asType == "Grenade")				return eItemRandomizerType_Grenade;
+		if (asType == "GasGrenade")				return eItemRandomizerType_GasGrenade;
+		if (asType == "Fuel") 					return eItemRandomizerType_Fuel;
+		if (asType == "ClothPiece") 			return eItemRandomizerType_Cloth;
+		if (asType == "Stick") 					return eItemRandomizerType_Stick;
+		if (asType == "PocketBag") 				return eItemRandomizerType_PocketBag;
+		if (asType == "CommunicationsKey") 		return eItemRandomizerType_CommunicationsKey;
+		
+		return eItemRandomizerType_LastEnum;
+	}
+	
+	//------------------------------------------------------------
+	
+	tString ItemTypeToString(eItemRandomizerType aType)
+	{
+		switch (aType)
+		{
+			case eItemRandomizerType_Bandage: return "Bandage";
+			case eItemRandomizerType_Medkit: return "Medkit";
+			case eItemRandomizerType_Ammunition: return "Ammunition";
+			case eItemRandomizerType_ShotgunAmmunition: return "ShotgunAmmunition";
+			case eItemRandomizerType_Bottle: return "EmptyBottle";
+			case eItemRandomizerType_Flare: return "Flare";
+			case eItemRandomizerType_Grenade: return "Grenade";
+			case eItemRandomizerType_GasGrenade: return "GasGrenade";
+			case eItemRandomizerType_Fuel: return "Fuel";
+			case eItemRandomizerType_Cloth: return "ClothPiece";
+			case eItemRandomizerType_Stick: return "Stick";
+			case eItemRandomizerType_PocketBag: return "PocketBag";
+			case eItemRandomizerType_CommunicationsKey: return "CommunicationsKey";
+		}
+		
+		return "";
+	}
+	
+	//------------------------------------------------------------
+	
+	int GetTotalItemCount(const tString &in asItemType)
+	{
+		eItemRandomizerType type = StringToItemType(asItemType);
+		if (type == eItemRandomizerType_LastEnum)
+		{
+			Error("[Randomizer - Items] Item type '"+asItemType+"' isn't randomized or is invalid! Cannot get total amount of it.");
+			return -1;
+		}
+		
+		int lTotalCount = 0;
+		for (int i = 0; i < mvMapItemData.length(); i++)
+		{
+			cMapItemData@ pMapData = mvMapItemData[i];
+			lTotalCount += pMapData.mvItemCount[type];
+		}
+		
+		return lTotalCount;
+	}
+	
+	//------------------------------------------------------------
+	
+	void FixItemMultiplication(cLuxMap@ apMap)
+	{
+		iXmlDocument@ pRandomizationXML = cResources_LoadXmlDocument("item_randomization.cfg");
+		
+		if (pRandomizationXML is null)
+		{
+			Error("[Randomizer - Items] Couldn't load item_randomization.cfg!");
+			return;
+		}
+		
+		cXmlElement@ pMapsList = pRandomizationXML.GetFirstElement("Maps");
+		cXmlNodeListIterator@ pMapsIter = pMapsList.GetChildIterator();
+		if (pMapsIter is null)
+		{
+			Error("[Randomizer - Items] item_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		while(pMapsIter.HasNext())
+		{
+			cXmlElement@ pMapEntry = pMapsIter.Next().ToElement();
+			
+			tString sMapName = pMapEntry.GetAttributeString("Name","");
+			if (sMapName!=apMap.GetName()) continue;
+			
+			//////////////////////////
+			// Get the items
+			array<iLuxEntity@> vItems;
+			apMap.GetEntityArray("*", eLuxEntityType_Prop, "cScrPropPickup", vItems);
+			
+			array<array<iLuxEntity@>> vSortedItems;
+			vSortedItems.resize(eItemRandomizerType_LastEnum);
+			for (uint i = 0; i < vItems.length(); i++)
+			{
+				iLuxEntity@ pItem = vItems[i];
+				if (pItem.IsActive()==false) continue;
+				
+				tString sTypeString = Item_GetEntityItemType(pItem.GetName());
+				eItemRandomizerType type = StringToItemType(sTypeString);
+				
+				if (type == eItemRandomizerType_LastEnum) continue;
+				if (Pickup_GetExcludeFromRandomization(pItem.GetName())) continue;
+				
+				vSortedItems[type].push_back(pItem);
+			}
+						
+			cXmlNodeListIterator@ pItemTypeIter = pMapEntry.GetChildIterator();
+			if (pItemTypeIter is null)
+			{
+				Error("[Randomizer - Items] item_randomization.cfg isn't setup correctly.");
+				return;
+			}
+			
+			while(pItemTypeIter.HasNext())
+			{
+				cXmlElement@ pItemTypeEntry = pItemTypeIter.Next().ToElement();
+			
+				if (pItemTypeEntry.GetAttributeBool("AllowMultiply", true))
+					continue;
+					
+				/////////////////////////
+				// Item shouldn't be multiplied, make sure it hasn't been
+				tString sTypeName = pItemTypeEntry.GetAttributeString("Name", "");
+				eItemRandomizerType type = StringToItemType(sTypeName);
+				
+				if (type == eItemRandomizerType_LastEnum)
+				{
+					Error("[Randomizer - Items] Item type '"+sTypeName+"' in map '"+sMapName+"' is not a proper item type!");
+					continue;
+				}
+				
+				int lMaxCount = pItemTypeEntry.GetAttributeInt("Max", 0);
+				int lRandomizedCount = vSortedItems[type].length();
+				
+				if (lRandomizedCount > lMaxCount)
+				{
+					Error("[Randomizer - Items] Detected "+lRandomizedCount+" items of type '"+sTypeName+"', but its max is set to '"+lMaxCount+"'. Disabling excess items.");
+					
+					for (int i = 0; i < (lRandomizedCount-lMaxCount); i++)
+					{
+						vSortedItems[type][i].SetActive(false);
+					}
+					
+					///////////////////////////
+					// Special fix for communications key
+					if (type == eItemRandomizerType_CommunicationsKey && sMapName == "soldier_quarters")
+					{
+						cScript_SetGlobalVarBool("CommunicationsKeyFixApplied", true);
+					}
+				}
+			}
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// TRAPS
+	/////////////////////////////////////////	
+	
+	//------------------------------------------------------------
+	
+	void Init_Traps()
+	{
+		mvMapTrapData.push_back(cMapTrapData());
+		cMapTrapData@ pData = mvMapTrapData[mvMapTrapData.length()-1];
+		
+		pData.msMapFile = "default";
+	
+		pData.mlTrapCount = -1;
+		
+		pData.mlRandomSeed = cMath_RandRectl(0, 2000000000);
+		
+		pData.mvWeights.resize(eTrapType_LastEnum);
+		for (int i = 0; i < eTrapType_LastEnum; i++)
+			pData.mvWeights[i] = 1.0f;
+	}
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter_Traps(cLuxMap@ apMap)
+	{
+		////////////////////
+		// Find the map data for this map, if any
+		cMapTrapData@ pMapData = null;
+		for (int i = 1; i < mvMapTrapData.length(); i++)
+		{
+			if (mvMapTrapData[i].msMapFile != apMap.GetName()) continue;
+			
+			cLux_AddDebugMessage("[Randomizer - Traps] Found trap data for map '"+apMap.GetName()+"'.");
+			@pMapData = mvMapTrapData[i];
+			break;
+		}
+		
+		// Use default data
+		if (pMapData is null)
+		{
+			cLux_AddDebugMessage("[Randomizer - Traps] No trap data found for map '"+apMap.GetName()+"', using default values.");
+			@pMapData = mvMapTrapData[0];
+		}
+		
+		//////////////////////////
+		// Get the traps
+		array<iLuxEntity@> vTraps;
+		apMap.GetEntityArray("*", eLuxEntityType_Prop, "cScrPropTrap", vTraps);
+		
+		cMath_Randomize(pMapData.mlRandomSeed);
+		
+		//////////////////////////
+		// Disable random traps until a specified trap count is reached
+		while (pMapData.mlTrapCount >= 0 && vTraps.length() > pMapData.mlTrapCount)
+		{
+			int lIx = cMath_RandRectl(0, vTraps.length()-1);
+			iLuxEntity@ pTrap = vTraps[lIx];
+			
+			if (Trap_GetExcludeFromRandomization(pTrap.GetName()))
+			{
+				RandomizeTrapType(pTrap, pMapData);
+				vTraps.removeAt(lIx);
+				continue;
+			}
+			
+			pTrap.SetActive(false);
+			if (Map_GetEntityCount(pTrap.GetName()+"_Extra_*") > 0)
+				Entity_SetActive(pTrap.GetName()+"_Extra_*", false);
+			if (Map_GetEntityCount(pTrap.GetName()+"_Type_*") > 0)
+				Entity_SetActive(pTrap.GetName()+"_Type_*", false);
+			vTraps.removeAt(lIx);
+		}
+		
+		for (int i = 0; i < vTraps.length(); i++)
+		{
+			RandomizeTrapType(vTraps[i], pMapData);
+		}
+			
+		cMath_Randomize(cSystem_GetApplicationTime());
+	}
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_Traps()
+	{
+		iXmlDocument@ pTrapsXML = cResources_LoadXmlDocument("traps.cfg");
+		
+		if (pTrapsXML==null)
+		{
+			Error("[Randomizer - Traps] Couldn't load traps.cfg!");
+			return;
+		}
+		
+		mvMapTrapData.resize(1); // Leave the default value intact
+		cMapTrapData@ pDefaultTrapData = mvMapTrapData[0];
+		
+		cXmlElement@ pMapsList = pTrapsXML.GetFirstElement("Maps");
+		cXmlNodeListIterator@ pMapsIter = pMapsList.GetChildIterator();
+		if (pMapsIter is null)
+		{
+			Error("[Randomizer - Traps] traps.cfg isn't setup correctly.");
+			return;
+		}
+		
+		/////////////////////////////////
+		// Add trap data for each map
+		while(pMapsIter.HasNext())
+		{
+			cXmlElement@ pMapEntry = pMapsIter.Next().ToElement();
+			
+			tString sMapName = pMapEntry.GetAttributeString("Name","");
+			if (sMapName=="")
+			{
+				Error("[Randomizer - Traps] Map entry is missing a name attribute!");
+				return;
+			}
+						
+			cXmlNodeListIterator@ pDifficultyIter = pMapEntry.GetChildIterator();
+			if (pDifficultyIter is null)
+			{
+				Error("[Randomizer - Traps] traps.cfg isn't setup correctly.");
+				return;
+			}
+			
+			mvMapTrapData.push_back(cMapTrapData());
+			cMapTrapData@ pData = mvMapTrapData[mvMapTrapData.length()-1];
+			
+			pData.msMapFile = sMapName;
+			pData.mlRandomSeed = cMath_RandRectl(0, 2000000000);
+			
+			// TEMP: Just get the first difficulty element for now
+			cXmlElement@ pDifficultyEntry = pDifficultyIter.Next().ToElement();
+			pData.mlTrapCount = pDifficultyEntry.GetAttributeInt("Traps", pDefaultTrapData.mlTrapCount);
+			
+			pData.mvWeights.resize(eTrapType_LastEnum);
+			pData.mvWeights[eTrapType_Grenade] = pMapEntry.GetAttributeFloat("GrenadeWeight", pDefaultTrapData.mvWeights[eTrapType_Grenade]);
+			pData.mvWeights[eTrapType_Gas] = pMapEntry.GetAttributeFloat("GasWeight", pDefaultTrapData.mvWeights[eTrapType_Gas]);
+			pData.mvWeights[eTrapType_Fire] = pMapEntry.GetAttributeFloat("FireWeight", pDefaultTrapData.mvWeights[eTrapType_Fire]);
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	void RandomizeTrapType(iLuxEntity@ apTrap, cMapTrapData@ apMapData)
+	{
+		//////////////////
+		// Randomize type based on types available for this trap
+		array<bool> vAvailableTypes;
+		Trap_GetAvailableTypes(apTrap.GetName(), vAvailableTypes);
+		
+		float fTotalWeight = 0;
+		for (int j = 0; j < eTrapType_LastEnum; j++)
+		{
+			if (!vAvailableTypes[j]) continue;
+			
+			fTotalWeight += apMapData.mvWeights[j];
+		}
+		
+		float fRandType = cMath_RandRectf(0.0f, fTotalWeight);
+		float fCumulativeWeight = 0;
+		for (int j = 0; j < eTrapType_LastEnum; j++)
+		{
+			if (!vAvailableTypes[j]) continue;
+			
+			float fTypeWeight = apMapData.mvWeights[j];
+			if (fRandType > (fTypeWeight+fCumulativeWeight))
+			{
+				fCumulativeWeight += fTypeWeight;
+				continue;
+			}
+			
+			eTrapType type = eTrapType(j);
+			
+			Trap_SetType(apTrap.GetName(), type);
+			break;
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// DOGTAGS
+	/////////////////////////////////////////	
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_Dogtags()
+	{
+		// CODE TAGS
+		AddRandomizedDogtag("dogtag_auclair_3397_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_bardin_1889_withstring.ent", false);
+		AddRandomizedDogtag("dogtag_boucher_1923_withstring.ent", false);
+		AddRandomizedDogtag("dogtag_fortin_7750_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_travers_8583_withstring.ent", false);
+		
+		// TODO: Nuke this and use the commented out code below when the custom game mode menu will be available. They're already linked to the settings there.
+		if (MainMenu_GetGameCompletedOnce())
+		{
+			AddRandomizedDogtag("dogtag_laval_0269_withstring.ent", false); // Gas mask
+			AddRandomizedDogtag("dogtag_giraud_1734_withstring.ent", false); // Lighter
+			cLux_AddDebugMessage("[Randomizer - Dogtags] Gas Mask and Lighter added.");
+		}
+		
+		/*if (mbGasMaskRandomization)
+			AddRandomizedDogtag("dogtag_laval_0269_withstring.ent", false); // Gas mask
+		if (mbLighterRandomization)
+			AddRandomizedDogtag("dogtag_giraud_1734_withstring.ent", false); // Lighter*/
+		
+		// Sort so the tags that don't allow duds are guaranteed to be first
+		mvDogtags.sortDesc();
+		
+		// DUD TAGS
+		mlDogtag_FirstDudIndex = mvDogtags.length();
+		AddRandomizedDogtag("dogtag_alphonse_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_brillant_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_choppin_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_courcy_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_dehay_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_dosier_withstring.ent", true);
+		AddRandomizedDogtag("dogtag_lebert_withstring.ent", true);
+		
+		array<int> vRemainingIndices;
+		vRemainingIndices.resize(mvDogtags.length());
+		for (int i = 0; i < mvDogtags.length(); i++)
+			vRemainingIndices[i] = i;
+			
+		for (int i = 0; i < mvDogtags.length(); i++)
+		{
+			cDogtagData@ pDogtag = mvDogtags[i];
+	
+			int lFirstDud = -1;
+			for (int j = 0; j < vRemainingIndices.length(); j++)
+			{
+				if (vRemainingIndices[j] < mlDogtag_FirstDudIndex) continue;
+				
+				lFirstDud = j;
+				break;
+			}
+			
+			int lMin = 0;
+			int lMax = vRemainingIndices.length() - 1;
+			if (lFirstDud > -1 && pDogtag.mbAllowDud == false)
+			{
+				lMin = 0;
+				lMax = cMath_Max(lFirstDud - 1, 0);
+			}
+			
+			int lIndex = cMath_RandRectl(lMin, lMax);
+			pDogtag.msReplaceFile = mvDogtags[vRemainingIndices[lIndex]].msBaseFile;
+			
+			cLux_AddDebugMessage("[Randomizer - Dogtags] Replacing "+pDogtag.msBaseFile+" with "+pDogtag.msReplaceFile);
+			
+			vRemainingIndices.removeAt(lIndex);
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter_Dogtags(cLuxMap@ apMap)
+	{
+		///////////////////////////
+		// Don't randomize dogtags in script debug
+		//if (cLux_ScriptDebugOn()) return;
+		
+		array<iLuxEntity@> vDogtags;
+		Map_GetEntityArray("*", vDogtags, eLuxEntityType_Prop, "cScrPropReadableDogTag");
+		
+		for (int i = 0; i < vDogtags.length(); i++)
+		{
+			iLuxEntity@ pEnt = vDogtags[i];
+			cDogtagData@ pDogtagEntry = null;
+			tString sFileName = "";
+			for (int j = 0; j < mvDogtags.length(); j++)
+			{
+				sFileName = pEnt.GetFileName();
+				int lIndex = cMath_Clamp(cString_GetLastCharPos(sFileName, '/')+1, 0, sFileName.length());
+				sFileName = cString_Sub(sFileName, lIndex);
+				
+				if (mvDogtags[j].msBaseFile != sFileName) continue;
+				
+				@pDogtagEntry = mvDogtags[j];
+				break;
+			}
+			
+			tString sEntName = pEnt.GetName();
+			if (pDogtagEntry !is null && pDogtagEntry.msBaseFile != pDogtagEntry.msReplaceFile)
+			{
+				apMap.CreateEntity(pEnt.GetName()+"_Randomized", pDogtagEntry.msReplaceFile, cMatrixf_Identity, pEnt.GetOnLoadScale());
+				iLuxEntity@ pNewEnt = apMap.GetLatestEntity();
+				if (pNewEnt !is null)
+				{
+					pNewEnt.SetMatrix(pEnt.GetMatrix());
+					apMap.DestroyEntity(pEnt);
+					sEntName = pNewEnt.GetName();
+					sFileName = pDogtagEntry.msReplaceFile;
+				}
+				else
+				{
+					Error("[Randomizer - Dogtags] Unable to replace dogtag '"+pDogtagEntry.msBaseFile+"' with '"+pDogtagEntry.msReplaceFile+"'!");
+				}
+			}
+			
+			for (uint j = 0; j < mvCodes.length(); j++)
+			{
+				cCodeData@ pCode = mvCodes[j];
+				if (pCode.msDogtagEntFile != sFileName) continue;
+				
+				//cLux_AddDebugMessage("[Randomizer - Dogtags] Setting the code of '"+sEntName+"' (file '"+sFileName+"') to '"+pCode.mlCode+"'.");
+				Dogtag_SetCombination(sEntName, pCode.mlCode);
+				break;
+			}
+		}
+	}
+		
+	//------------------------------------------------------------
+	
+	void AddRandomizedDogtag(const tString &in asBaseFile, bool abAllowDud)
+	{
+		mvDogtags.push_back(cDogtagData());
+		cDogtagData@ pDogtag = mvDogtags[mvDogtags.length()-1];
+		
+		pDogtag.msBaseFile = asBaseFile;
+		pDogtag.mbAllowDud = abAllowDud;
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// CODES
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_Codes()
+	{
+		iXmlDocument@ pCodesXML = cResources_LoadXmlDocument("code_randomization.cfg");
+		
+		if (pCodesXML==null)
+		{
+			Error("[Randomizer - Codes] Couldn't load code_randomization.cfg!");
+			return;
+		}
+		
+		mvCodes.resize(0); // Leave the default value intact
+		
+		cXmlNodeListIterator@ pCodeIter = pCodesXML.GetChildIterator();
+		if (pCodeIter is null)
+		{
+			Error("[Randomizer - Codes] code_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		/////////////////////////////////
+		// Add trap data for each map
+		while(pCodeIter.HasNext())
+		{
+			cXmlElement@ pCodeEntry = pCodeIter.Next().ToElement();
+			
+			tString sCodeName = pCodeEntry.GetAttributeString("Name","");
+			if (sCodeName=="") { Error("[Randomizer - Codes] Code entry is missing a name attribute!"); return; }
+			
+			tString sCodeLock = pCodeEntry.GetAttributeString("Lock","");
+			if (sCodeLock=="") { Error("[Randomizer - Codes] Code entry is missing a lock attribute!"); return; }
+			
+			tString sCodeDogtag = pCodeEntry.GetAttributeString("Dogtag","");
+			
+			mvCodes.push_back(cCodeData());
+			cCodeData@ pData = mvCodes[mvCodes.length()-1];
+			
+			pData.msName = sCodeName;
+			pData.msLockName = sCodeLock;
+			pData.msDogtagEntFile = sCodeDogtag;
+			
+			pData.mlCode = cMath_RandRectl(0, 9999);
+			cLux_AddDebugMessage("[Randomizer - Codes] Code "+pData.msName+": "+cString_ToString(pData.mlCode, 4));
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter_Codes(cLuxMap@ apMap)
+	{
+		///////////////////////////
+		// Don't randomize codes in script debug
+		//if (cLux_ScriptDebugOn()) return;
+		
+		for (uint i = 0; i < mvCodes.length(); i++) 
+		{
+			cCodeData@ pCode = mvCodes[i];
+			
+			if (apMap.GetEntityByName(pCode.msLockName) !is null)
+			{
+				CombinationLock_SetCombination(pCode.msLockName, pCode.mlCode);
+			}
+		}
+	}
+	
+	//------------------------------------------------------------
+	
+	int GetCode(const tString &in asName)
+	{
+		for (uint i = 0; i < mvCodes.length(); i++) 
+		{
+			cCodeData@ pCode = mvCodes[i];
+			if (pCode.msName != asName) continue;
+			
+			return pCode.mlCode;
+		}
+		
+		Error("[Randomizer - Codes] GetCode couldn't find a code for the name '"+asName+"'!");
+		return 0;
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// PROPS
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void OnMapEnter_Props(cLuxMap@ apMap)
+	{
+		////////////////////
+		// Find the map data for this map, if any
+		cMapPropData@ pMapData = null;
+		for (uint i = 0; i < mvMapPropData.length(); i++)
+		{
+			if (mvMapPropData[i].msMapName != apMap.GetName()) continue;
+			
+			@pMapData = mvMapPropData[i];
+			break;
+		}
+		
+		// Skip if no data found
+		if (pMapData is null)
+		{
+			cLux_AddDebugMessage("[Randomizer - Props] No randomization data found for map '"+apMap.GetName()+"'.");
+			return;
+		}
+		
+		//////////////////////////
+		// Get the props
+		array<iLuxEntity@> vProps;
+		array<iLuxEntity@> vTemp;
+		for (ePropRandomizerType type = ePropRandomizerType(0); type < ePropRandomizerType_LastEnum; type++)
+		{
+			apMap.GetEntityArray("*", eLuxEntityType_Prop, PropTypeToClass(type), vTemp);
+			for (uint i = 0; i < vTemp.length(); i++) vProps.push_back(vTemp[i]);
+		}
+		
+		array<array<iLuxEntity@>> vSortedProps;
+		vSortedProps.resize(ePropRandomizerType_LastEnum);
+		for (uint i = 0; i < vProps.length(); i++)
+		{
+			iLuxEntity@ pProp = vProps[i];
+			ePropRandomizerType type = ClassToPropType(pProp.GetClassName());
+			
+			if (type == ePropRandomizerType_LastEnum) continue;
+			if (pProp.GetVarString("") == "DoNotRandomize") continue;
+			
+			vSortedProps[type].push_back(pProp);
+		}
+		
+		cMath_Randomize(pMapData.mlRandomSeed);
+		
+		for (ePropRandomizerType type = ePropRandomizerType(0); type < ePropRandomizerType_LastEnum; type++)
+		{
+			int lTargetCount = pMapData.mvCount[type];
+			int lCurrentCount = 0;
+			
+			while (lCurrentCount < lTargetCount)
+			{
+				int lIndex = cMath_RandRectl(0, vSortedProps[type].length()-1);
+				iLuxEntity@ pProp = vSortedProps[type][lIndex];
+				pProp.SetActive(true);
+				
+				vSortedProps[type].removeAt(lIndex);
+				lCurrentCount++;
+			}
+		}
+			
+		cMath_Randomize(cSystem_GetApplicationTime());
+	}
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_Props()
+	{
+		mbApplyRandomizePropsFix = false;
+		
+		///////////////////////////
+		// Load data from cfg file
+		iXmlDocument@ pRandomizationXML = cResources_LoadXmlDocument("prop_randomization.cfg");
+		
+		if (pRandomizationXML is null)
+		{
+			Error("[Randomizer - Props] Couldn't load prop_randomization.cfg!");
+			return;
+		}
+		
+		mvMapPropData.resize(0);
+		
+		cXmlElement@ pMapsList = pRandomizationXML.GetFirstElement("Maps");
+		cXmlNodeListIterator@ pMapsIter = pMapsList.GetChildIterator();
+		if (pMapsIter is null)
+		{
+			Error("[Randomizer - Props] prop_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		/////////////////////////////////
+		// Add randomization data for each map
+		while(pMapsIter.HasNext())
+		{
+			cXmlElement@ pMapEntry = pMapsIter.Next().ToElement();
+			
+			tString sMapName = pMapEntry.GetAttributeString("Name","");
+			if (sMapName=="")
+			{
+				Error("[Randomizer - Props] Map entry is missing a name attribute!");
+				return;
+			}
+						
+			cXmlNodeListIterator@ pPropTypeIter = pMapEntry.GetChildIterator();
+			if (pPropTypeIter is null)
+			{
+				Error("[Randomizer - Props] prop_randomization.cfg isn't setup correctly.");
+				return;
+			}
+			
+			mvMapPropData.push_back(cMapPropData());
+			cMapPropData@ pMapData = mvMapPropData[mvMapPropData.length()-1];
+			
+			pMapData.msMapName = sMapName;
+			pMapData.mlRandomSeed = cMath_RandRectl(0, 2000000000);
+			pMapData.mvCount.resize(ePropRandomizerType_LastEnum);
+			
+			while(pPropTypeIter.HasNext())
+			{
+				cXmlElement@ pPropTypeEntry = pPropTypeIter.Next().ToElement();
+				tString sTypeName = pPropTypeEntry.GetAttributeString("Name", "");
+				
+				ePropRandomizerType type = StringToPropType(sTypeName);
+				
+				if (type == ePropRandomizerType_LastEnum)
+				{
+					Error("[Randomizer - Props] Prop type '"+sTypeName+"' in map '"+sMapName+"' is not a proper type!");
+					continue;
+				}
+				
+				pMapData.mvCount[type] = pPropTypeEntry.GetAttributeInt("Count", 0);
+			}
+		}
+		
+/*		for (int i = 0; i < mvMapPropData.length(); i++)
+		{
+			cMapPropData@ pMapData = mvMapPropData[i];
+			cLux_AddDebugMessage("[Randomizer - Props] ----MAP "+pMapData.msMapName+"----");
+			for (ePropRandomizerType type = ePropRandomizerType(0); type < ePropRandomizerType_LastEnum; type++)
+				cLux_AddDebugMessage("[Randomizer - Props] "+PropTypeToClass(type)+": "+pMapData.mvCount[type]);
+		}*/
+	}
+	
+	//------------------------------------------------------------
+	
+	ePropRandomizerType ClassToPropType(const tString &in asClass)
+	{
+		if (asClass == "cScrPropHeavyThrowable") 		return ePropRandomizerType_Brick;
+		if (asClass == "cScrPropExplosiveBarrel") 		return ePropRandomizerType_ExplosiveBarrel;
+		if (asClass == "cScrPropGasCanister") 			return ePropRandomizerType_GasCanister;
+		
+		return ePropRandomizerType_LastEnum;
+	}
+	
+	//------------------------------------------------------------
+	
+	ePropRandomizerType StringToPropType(const tString &in asType)
+	{
+		if (asType == "Brick") 				return ePropRandomizerType_Brick;
+		if (asType == "ExplosiveBarrel") 	return ePropRandomizerType_ExplosiveBarrel;
+		if (asType == "GasCanister") 		return ePropRandomizerType_GasCanister;
+		
+		return ePropRandomizerType_LastEnum;
+	}
+	
+	//------------------------------------------------------------
+	
+	tString PropTypeToClass(ePropRandomizerType type)
+	{
+		switch (type)
+		{
+			case ePropRandomizerType_Brick: 			return "cScrPropHeavyThrowable";
+			case ePropRandomizerType_ExplosiveBarrel: 	return "cScrPropExplosiveBarrel";
+			case ePropRandomizerType_GasCanister: 		return "cScrPropGasCanister";
+		}
+		return "";
+	}
+	
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// VARIABLES
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	array<tString> mvVisitedMaps;
+	array<cMapItemData> mvMapItemData;
+	array<cMapTrapData> mvMapTrapData;
+	array<cMapPropData> mvMapPropData;
+	
+	array<cDogtagData> mvDogtags;
+	int mlDogtag_FirstDudIndex;
+	bool mbGasMaskRandomization = false;
+	bool mbLighterRandomization = false;
+	
+	array<cCodeData> mvCodes;
+	
+	bool mbApplyRandomizePropsFix = true;
+		
+	//------------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// MOD VARIABLES
+	/////////////////////////////////////////
+	array<cQuestItemData> mvQuestItems;
+	array<cQuestItemLocationData> mvLocations;
+	
+	/////////////////////////////////////////
+	// QUEST ITEMS
+	/////////////////////////////////////////
+	
+	//------------------------------------------------------------
+	
+	void SetupRandomization_QuestItems() {
+		iXmlDocument@ pQuestItemsXML = cResources_LoadXmlDocument("quest_items_randomization.cfg");
+		
+		if (pQuestItemsXML==null)
+		{
+			Error("[Randomizer - QuestItems] Couldn't load quest_items_randomization.cfg!");
+			return;
+		}
+		
+		mvQuestItems.resize(0);		
+		mvLocations.resize(0);
+		
+		array<cQuestItemData@> vFinalQuestItems;
+		array<cQuestItemData@> vNormalQuestItems;
+		
+		cXmlElement@ pQuestItemsList = pQuestItemsXML.GetFirstElement("QuestItems");
+		cXmlNodeListIterator@ pQuestItemsIter = pQuestItemsList.GetChildIterator();
+		if (pQuestItemsIter is null)
+		{
+			Error("[Randomizer - QuestItems] quest_items_randomization.cfg isn't setup correctly.");
+			return;
+		}		
+		
+		while(pQuestItemsIter.HasNext())
+		{
+			cXmlElement@ pQuestItemEntry = pQuestItemsIter.Next().ToElement();		
+			
+			cQuestItemData@ pQuestItemData = null;
+			
+			mvQuestItems.push_back(cQuestItemData());
+			@pQuestItemData = mvQuestItems[mvQuestItems.length()-1];
+			
+			pQuestItemData.msName = pQuestItemEntry.GetAttributeString("Name","");
+			pQuestItemData.msEntityFile = pQuestItemEntry.GetAttributeString("EntityFile","");
+			pQuestItemData.mbIsFinalQuestItem = pQuestItemEntry.GetAttributeBool("IsFinalQuestItem", false);
+			pQuestItemData.mbIsCode = pQuestItemEntry.GetAttributeBool("IsCode", false);
+			pQuestItemData.mbIsUsedForNextQuestItem = pQuestItemEntry.GetAttributeBool("IsUsedForNextQuestItem", true);
+			
+			if(pQuestItemData.mbIsFinalQuestItem) {
+				vFinalQuestItems.push_back(pQuestItemData);
+			} else {
+				vNormalQuestItems.push_back(pQuestItemData);
+			}
+					
+		}
+		
+		cXmlElement@ pLocationsList = pQuestItemsXML.GetFirstElement("Locations");
+		cXmlNodeListIterator@ pLocationsIter = pLocationsList.GetChildIterator();
+		if (pLocationsIter is null)
+		{
+			Error("[Randomizer - QuestItems] quest_items_randomization.cfg isn't setup correctly.");
+			return;
+		}		
+		
+		while(pLocationsIter.HasNext())
+		{
+			cXmlElement@ pLocationEntry = pLocationsIter.Next().ToElement();	
+
+			mvLocations.push_back(cQuestItemLocationData());			
+			
+			cQuestItemLocationData@ pLocationData = mvLocations[mvLocations.length()-1];
+			
+			pLocationData.msName = pLocationEntry.GetAttributeString("Name","");
+			pLocationData.msMap = pLocationEntry.GetAttributeString("Map","");
+			pLocationData.msPassageMap = pLocationEntry.GetAttributeString("PassageMap","");
+
+			cXmlNodeListIterator@ pIter = pLocationEntry.GetChildIterator();
+			
+			while(pIter != null && pIter.HasNext()) {
+				cXmlElement@ pNodeEntry = pIter.Next().ToElement();
+				//if(pNodeEntry.msName == "BlackList") {
+					pLocationData.mvBlackList.push_back(pNodeEntry.GetAttributeString("Name",""));
+				//} else if(pNodeEntry.msName == "WhiteList") {
+				//	pLocationData.mvWhiteList.push_back(pNodeEntry.GetAttributeString("Name",""));
+				//}
+			}
+		}
+		
+		if (mvQuestItems.length() != mvLocations.length()) {
+			Error("[Randomizer - QuestItems] Quest items must be equals to the locations!!!!");
+			return;
+		}
+		
+		
+		int lQuestItemsCount = mvQuestItems.length();
+		int lFinalQuestItemsCount = vFinalQuestItems.length();
+		
+		int lQuestItemsCountPerSeq = (lQuestItemsCount / lFinalQuestItemsCount)+1;
+		
+		
+		bool bRandomizerStuck = true;
+		while(bRandomizerStuck) {
+			cLux_AddDebugMessage("[Randomizer - QuestItems ] Running randomizer");
+			bRandomizerStuck = false;			
+		
+			array<int> vNormalQuestItemsIndexes;
+			vNormalQuestItemsIndexes.resize(0);
+			for(int i=0; i<vNormalQuestItems.length(); i++) {
+				vNormalQuestItemsIndexes.push_back(i);
+			}
+			array<int> vLocationsIndexes;
+			vLocationsIndexes.resize(0);
+			for(int i=0; i<mvLocations.length(); i++) {
+				mvLocations[i].msQuestItemName="";
+				mvLocations[i].msNeededQuestItemName="";
+				vLocationsIndexes.push_back(i);
+			}
+			
+			cQuestItemData@ pPrevQuestItem = null;
+			
+			int lFinalQuestItemsIndex = 0;
+			int lSequenceIndex = 0;
+			
+			for(int i=0; i<vNormalQuestItems.length(); i++) {
+			
+			
+				// get random location
+				int lLocationIndex = cMath_RandRectl(0,vLocationsIndexes.length()-1);
+				cQuestItemLocationData@ pLocation = mvLocations[vLocationsIndexes[lLocationIndex]];
+				vLocationsIndexes.removeAt(lLocationIndex);
+				
+				cLux_AddDebugMessage("[Randomizer - QuestItems ] Picked location"+pLocation.msName);
+			
+				// get random non important quest item			
+				cQuestItemData@ pQuestItem = null;
+				
+				while(pQuestItem == null) {
+				
+					int lQuestIndex = cMath_RandRectl(0,vNormalQuestItemsIndexes.length()-1);
+					@pQuestItem = vNormalQuestItems[vNormalQuestItemsIndexes[lQuestIndex]];
+					
+					cLux_AddDebugMessage("[Randomizer - QuestItems ] Picked item "+pQuestItem.msName);
+					
+					if(pQuestItem.mbIsUsedForNextQuestItem == false && lSequenceIndex == 0 ) {
+						cLux_AddDebugMessage("[Randomizer - QuestItems ] NOPE! Try again!");
+						@pQuestItem = null;
+					} else {					
+						vNormalQuestItemsIndexes.removeAt(lQuestIndex);
+					}
+				}
+				
+				pLocation.msQuestItemName = pQuestItem.msName;
+				if(pPrevQuestItem != null) {
+				
+					if(!isInBlackList(pLocation, pPrevQuestItem.msName) && isInWhiteList(pLocation, pPrevQuestItem.msName) ) {
+						pLocation.msNeededQuestItemName = pPrevQuestItem.msName;
+					} else {
+						cLux_AddDebugMessage("[Randomizer - QuestItems ] NOPE! We are stuck!");
+						bRandomizerStuck=true;
+						break;
+					}
+				}
+				
+				if (pQuestItem.mbIsUsedForNextQuestItem) {
+					@pPrevQuestItem=@pQuestItem;
+				}
+				
+				lSequenceIndex++;
+
+				// next sequence
+				if(lSequenceIndex%(lQuestItemsCountPerSeq-1)==0 ||  i==vNormalQuestItems.length()-1) {
+					cLux_AddDebugMessage("[Randomizer - QuestItems ] Next sequence!");
+					// get random location
+					int lLocationIndex = cMath_RandRectl(0,vLocationsIndexes.length()-1);
+					cQuestItemLocationData@ pLocation = mvLocations[vLocationsIndexes[lLocationIndex]];
+					vLocationsIndexes.removeAt(lLocationIndex);
+					
+					cLux_AddDebugMessage("[Randomizer - QuestItems ] For final item picked location "+pLocation.msName);
+					
+					if(!isInBlackList(pLocation, pPrevQuestItem.msName) && isInWhiteList(pLocation, pPrevQuestItem.msName) ) {
+						pLocation.msQuestItemName = vFinalQuestItems[lFinalQuestItemsIndex].msName;
+						lFinalQuestItemsIndex++;
+						pLocation.msNeededQuestItemName = pPrevQuestItem.msName;
+						
+						@pPrevQuestItem = null;
+						lSequenceIndex=0;
+					} else {
+						cLux_AddDebugMessage("[Randomizer - QuestItems ] NOPE! We are stuck!");
+						bRandomizerStuck=true;
+						break;
+					}
+				}	
+						
+			}
+		}
+	}
+	
+	bool isInBlackList(cQuestItemLocationData@ &in apLocation, tString &in asName) {
+		for(int i=0; i<apLocation.mvBlackList.length(); i++) {
+			if(apLocation.mvBlackList[i] == asName) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	bool isInWhiteList(cQuestItemLocationData@ &in apLocation, tString &in asName) {
+	
+		if(apLocation.mvWhiteList.length() == 0) {
+			return true;
+		}
+		for(int i=0; i<apLocation.mvWhiteList.length(); i++) {
+			if(apLocation.mvWhiteList[i] == asName) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	cQuestItemData@ getQuestItemByName(tString &in asName) {
+		for(int i=0; i<mvQuestItems.length(); i++) {
+			if(mvQuestItems[i].msName == asName) {
+				return mvQuestItems[i];
+			}
+		}
+		Error("[Randomizer - QuestItems] can't find "+asName+" quest item");
+		return null;
+	}
+	
+	void OnMapEnter_QuestItems(cLuxMap@ apMap) {
+	
+		for(int i=0; i<mvLocations.length(); i++) {
+		
+			cQuestItemLocationData@ pLocation = mvLocations[i];
+			
+			if(pLocation.msMap != apMap.GetName() && pLocation.msPassageMap != apMap.GetName() ) {
+				continue;
+			}
+			
+			// deactivate all entities			
+			Entity_SetActive("QI_"+pLocation.msName+"_*", false);
+			
+			// activate all entities "off" different from the needed quest item
+			for(int i=0; i<mvQuestItems.length(); i++) {
+				if(mvQuestItems[i].msName != pLocation.msNeededQuestItemName) {
+					Entity_SetActive("QI_"+pLocation.msName+"_"+mvQuestItems[i].msName+"_off_*", true);
+				}
+			}
+			
+			if(pLocation.msNeededQuestItemName != "") {
+				// activate door and related entities to it
+				Entity_SetActive("QI_"+pLocation.msName+"_door_*", true);
+				// activate all entities "on" of the needed questitem
+				Entity_SetActive("QI_"+pLocation.msName+"_"+pLocation.msNeededQuestItemName+"_on_*", true);
+				// SPECIFIC CODE FOR COMBINATION LOCK
+				if(getQuestItemByName(pLocation.msNeededQuestItemName).mbIsCode) {
+					tString sEntityName = "QI_"+pLocation.msName+"_"+pLocation.msNeededQuestItemName+"_on_combination";
+					if(Entity_Exists(sEntityName)) {
+						CombinationLock_SetCombination(sEntityName, GetCode(pLocation.msNeededQuestItemName));
+					}
+				}
+				
+			} else { // activate null entities if there is no needed quest item
+				Entity_SetActive("QI_"+pLocation.msName+"_null_*", true);
+			}
+			
+			// TODO spawn quest item		
+		}
+	}
+
+}

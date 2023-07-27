@@ -1,0 +1,33 @@
+<HPLMap ID="46083AAF4407A750172DC72F7997DB997BE03DE3" MajorVersion="1" MinorVersion="1">
+    <GlobalSettings>
+        <Fog Active="false" Culling="true" Color="0.0527344 0.0414941 0.00556185 1" Brightness="1" FadeStart="0" FadeEnd="20" FalloffExp="1" Underwater="false" Lighten="false" UseSkybox="false" NoiseStrength="0" NoiseSize="8" NoiseTurbulence="0.5 0.5 0.5" ApplyAfterFogAreas="true" HeightBased="false" Exponential="false" Density="0.01" HeightDensity="0.01" HeightHorizon="5" SecondaryActive="false" SecondaryColor="1 1 1 1" SecondaryFadeStart="0" SecondaryFadeEnd="20" SecondaryFalloffExp="1" SecondaryDensity="0.01" SecondaryHeightDensity="0.25" SecondaryHeightHorizon="5" />
+        <SkyBox Active="false" Color="1 1 1 1" Texture="" Brightness="1" />
+        <DirLight Active="false" ShadowCasterDist="35" ShadowDistance="-1" DiffuseColor="1 1 1 1" Brightness="0.02 0.02 0.02 1" Gobo="" GoboAnimMode="None" GoboAnimStartTime="0" GoboAnimFrameTime="0" GoboScale="1 1" Direction="0.57735 -0.57735 0.57735" CastShadows="false" SkyCol="1 1 1 1" GroundCol="1 1 1 1" ShadowMapBiasMul="3" ShadowMapSlopeScaleBiasMul="2.5" AutoShadowSliceSettings="true" AutoShadowSliceLogTerm="0.9" />
+        <SSAO NormalMap="false" NumOfDirections="0" NumOfSteps="0" AngleBias="0" Power="4.4" Radius="2" BufferSizeDiv="2" />
+        <EnvParticles Active="false">
+            <EnvParticle Name="" Color="1 1 1 1" Brightness="1" BoxDistance="30" GravityVelocity="0 0 0" GravitySpeedRandomAmount="0" WindVelocity="0 0 0" WindSpeedRandomAmount="0" WindDirRandomAmount="0" RotateVelocity="0 0 0" RotateSpeedRandomAmount="0" RotateBothDirs="false" NumIterations="1" FadeInStart="0.2" FadeInEnd="1" FadeOutStart="10" FadeOutEnd="20" BoxSize="30" NumParticles="100" ParticleSize="1 1" SubDivUV="1 1" AffectedByLight="false" Texture="" Visible="false" />
+        </EnvParticles>
+        <PostEffects ToneMappingKey="0.5" ToneMappingExposure="0" ToneMappingWhiteCut="3.5" ColorGradingTexture="textures/colorgrading/bunker_prototype_01.dds" />
+        <DistanceCulling Active="false" MinRange="0" ScreenSize="0.05" RandomSize="0.25" />
+    </GlobalSettings>
+    <RegisteredUsers>
+        <User ID="6316717594221808991" RegistrationTimestamp="0" />
+        <User ID="5716514586046010106" RegistrationTimestamp="1635849583" />
+        <User ID="5925658318598714042" RegistrationTimestamp="1637587654" />
+        <User ID="9195155804934729962" RegistrationTimestamp="1642518448" />
+        <User ID="7387221967616566086" RegistrationTimestamp="1643721308" />
+        <User ID="2808432602814229433" RegistrationTimestamp="1644328483" />
+        <User ID="12266341581627464289" RegistrationTimestamp="1644420101" />
+        <User ID="17564562340471339389" RegistrationTimestamp="1644481676" />
+        <User ID="12579031528112273739" RegistrationTimestamp="1647010059" />
+        <User ID="13338907128802076914" RegistrationTimestamp="1648636139" />
+        <User ID="10300334514331934914" RegistrationTimestamp="1650872804" />
+        <User ID="4074963946714538518" RegistrationTimestamp="1652363749" />
+        <User ID="6937444921226728725" RegistrationTimestamp="1654774102" />
+        <User ID="11867433910407490944" RegistrationTimestamp="1654846292" />
+        <User ID="16252604345296683573" RegistrationTimestamp="1668521704" />
+        <User ID="9065270106052613291" RegistrationTimestamp="1674476002" />
+        <User ID="9172161606391457054" RegistrationTimestamp="1684143693" />
+        <User ID="10625375571293597888" RegistrationTimestamp="1690266165" />
+    </RegisteredUsers>
+</HPLMap>

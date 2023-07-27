@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<VoiceData>
+ <Characters>
+  <Character ID="1" Name="ToussaintBeaufoy" DisplayName="Unknown" Actor="" AutoGenVoice="False" AutoGenVoiceFile="" AutoGenVoiceSoundFreq="1" WorldSpace="True" AffectedByReverb="True" TextToSpeechVoice="Default" DefaultCriteria="" EntryType="World" Volume="0.6" ReverbVolume="1" SpeakerSpread="40" EntitySource="" MinDist="0" MaxDist="20" MinFreq="22000" MaxFreq="22000" MaxListeningDist="-1" FrequencyFilter="Both" />
+ </Characters>
+ <Effects />
+ <Scenes>
+  <Scene ID="0" Name="Comments" FocusPrio="0" ForceMaxVolume="False" DefaultCriteria="" Volume="1" ReverbVolume="1" />
+ </Scenes>
+ <Sections>
+  <Section Name="Default" />
+ </Sections>
+ <Subjects>
+  <Subject Name="Dialogue_Poem" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_001_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost in a terrible twirl..." FileName="comments_dialogue_poem_002_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the sun for all the black smoke..." FileName="comments_dialogue_poem_003_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the dirt for all the dead folk..." FileName="comments_dialogue_poem_004_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-4" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the ocean, can't see the trees..." FileName="comments_dialogue_poem_005_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-5" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="So here I stay, down on my knees..." FileName="comments_dialogue_poem_006_toussaintbeaufoy_001" Timestamp="2023-02-03 11:52" />
+   </Line>
+   <Line CharacterId="1" Prio="-6" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_007_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-7" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_008_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-8" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a blinding twirl..." FileName="comments_dialogue_poem_009_toussaintbeaufoy_001" Timestamp="2022-11-29 09:47" />
+   </Line>
+   <Line CharacterId="1" Prio="-9" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A snarl in the dark..." FileName="comments_dialogue_poem_010_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-10" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A sad day in the park..." FileName="comments_dialogue_poem_011_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-11" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A stone reminder..." FileName="comments_dialogue_poem_012_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-12" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A horse's dirty blinder..." FileName="comments_dialogue_poem_013_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-13" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A child's empty hand..." FileName="comments_dialogue_poem_014_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-14" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A friend's stained armband..." FileName="comments_dialogue_poem_015_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-15" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The news of the day still on the stand..." FileName="comments_dialogue_poem_016_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-16" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_017_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-17" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_018_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-18" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a bloody twirl..." FileName="comments_dialogue_poem_019_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-19" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What'll come next around the bend?" FileName="comments_dialogue_poem_020_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-20" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Maybe some kind end..." FileName="comments_dialogue_poem_021_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-21" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="More likely another whistle..." FileName="comments_dialogue_poem_022_toussaintbeaufoy_001" Timestamp="2023-02-03 11:52" />
+   </Line>
+   <Line CharacterId="1" Prio="-22" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Magic! That turns men into gristle." FileName="comments_dialogue_poem_023_toussaintbeaufoy_001" Timestamp="2023-02-03 11:52" />
+   </Line>
+   <Line CharacterId="1" Prio="-23" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What can we do but sing and sing..." FileName="comments_dialogue_poem_024_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-24" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_025_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-25" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost and still we twirl." FileName="comments_dialogue_poem_026_toussaintbeaufoy_001" Timestamp="2022-12-09 08:43" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_Poem_Angry" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_angry_001_toussaintbeaufoy_001" Timestamp="2023-02-02 04:56" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a terrible twirl..." FileName="comments_dialogue_poem_angry_002_toussaintbeaufoy_001" Timestamp="2023-02-02 04:56" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the sun for all the black smoke..." FileName="comments_dialogue_poem_angry_003_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the dirt for all the dead folk..." FileName="comments_dialogue_poem_angry_004_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-4" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the ocean, can't see the trees..." FileName="comments_dialogue_poem_angry_005_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-5" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="So here I stay, down on my knees..." FileName="comments_dialogue_poem_angry_006_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-6" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_angry_007_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-7" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_angry_008_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-8" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a blinding twirl..." FileName="comments_dialogue_poem_angry_009_toussaintbeaufoy_001" Timestamp="2022-11-29 09:47" />
+   </Line>
+   <Line CharacterId="1" Prio="-9" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A snarl in the dark..." FileName="comments_dialogue_poem_angry_010_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-10" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A sad day in the park..." FileName="comments_dialogue_poem_angry_011_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-11" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A stone reminder..." FileName="comments_dialogue_poem_angry_012_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-12" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A horse's dirty blinder..." FileName="comments_dialogue_poem_angry_013_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-13" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A child's empty hand..." FileName="comments_dialogue_poem_angry_014_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-14" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A friend's stained armband..." FileName="comments_dialogue_poem_angry_015_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-15" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The news of the day still on the stand..." FileName="comments_dialogue_poem_angry_016_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-16" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_angry_017_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-17" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_angry_018_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-18" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a bloody twirl..." FileName="comments_dialogue_poem_angry_019_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-19" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What'll come next around the bend?" FileName="comments_dialogue_poem_angry_020_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-20" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Maybe some kind end..." FileName="comments_dialogue_poem_angry_021_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-21" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="More likely another whistle..." FileName="comments_dialogue_poem_angry_022_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-22" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Magic! That turns men into gristle." FileName="comments_dialogue_poem_angry_023_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-23" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What can we do but sing and sing..." FileName="comments_dialogue_poem_angry_024_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-24" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The world we whirl..." FileName="comments_dialogue_poem_angry_025_toussaintbeaufoy_001" Timestamp="2023-02-03 01:48" />
+   </Line>
+   <Line CharacterId="1" Prio="-25" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost and still we twirl." FileName="comments_dialogue_poem_angry_026_toussaintbeaufoy_001" Timestamp="2022-12-09 08:43" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_Poem_Crazy" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazy_001_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost in a terrible twirl..." FileName="comments_dialogue_poem_crazy_002_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the sun for all the black smoke..." FileName="comments_dialogue_poem_crazy_003_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the dirt for all the dead folk..." FileName="comments_dialogue_poem_crazy_004_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-4" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the ocean, can't see the trees..." FileName="comments_dialogue_poem_crazy_005_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-5" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="So here I stay, down on my knees..." FileName="comments_dialogue_poem_crazy_006_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-6" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_crazy_007_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-7" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazy_008_toussaintbeaufoy_001" Timestamp="2022-11-16 10:24" />
+   </Line>
+   <Line CharacterId="1" Prio="-8" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a blinding twirl..." FileName="comments_dialogue_poem_crazy_009_toussaintbeaufoy_001" Timestamp="2022-11-29 09:47" />
+   </Line>
+   <Line CharacterId="1" Prio="-9" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A snarl in the dark..." FileName="comments_dialogue_poem_crazy_010_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-10" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A sad day in the park..." FileName="comments_dialogue_poem_crazy_011_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-11" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A stone reminder..." FileName="comments_dialogue_poem_crazy_012_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-12" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A horse's dirty blinder..." FileName="comments_dialogue_poem_crazy_013_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-13" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A child's empty hand..." FileName="comments_dialogue_poem_crazy_014_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-14" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A friend's stained armband..." FileName="comments_dialogue_poem_crazy_015_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-15" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The news of the day still on the stand..." FileName="comments_dialogue_poem_crazy_016_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-16" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_crazy_017_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-17" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazy_018_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-18" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a bloody twirl..." FileName="comments_dialogue_poem_crazy_019_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-19" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What'll come next around the bend?" FileName="comments_dialogue_poem_crazy_020_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-20" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Maybe some kind end..." FileName="comments_dialogue_poem_crazy_021_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-21" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="More likely another whistle..." FileName="comments_dialogue_poem_crazy_022_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-22" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Magic! That turns men into gristle." FileName="comments_dialogue_poem_crazy_023_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-23" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What can we do but sing and sing..." FileName="comments_dialogue_poem_crazy_024_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-24" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazy_025_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-25" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost and still we twirl." FileName="comments_dialogue_poem_crazy_026_toussaintbeaufoy_001" Timestamp="2022-12-09 08:43" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_Poem_Distraught" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_distraught_001_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a terrible twirl..." FileName="comments_dialogue_poem_distraught_002_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the sun for all the black smoke..." FileName="comments_dialogue_poem_distraught_003_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the dirt for all the dead folk..." FileName="comments_dialogue_poem_distraught_004_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-4" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the ocean, can't see the trees..." FileName="comments_dialogue_poem_distraught_005_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-5" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="So here I stay, down on my knees..." FileName="comments_dialogue_poem_distraught_006_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-6" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_distraught_007_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-7" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_distraught_008_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-8" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a blinding twirl..." FileName="comments_dialogue_poem_distraught_009_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-9" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A snarl in the dark..." FileName="comments_dialogue_poem_distraught_010_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-10" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A sad day in the park..." FileName="comments_dialogue_poem_distraught_011_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-11" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A stone reminder..." FileName="comments_dialogue_poem_distraught_012_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-12" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A horse's dirty blinder..." FileName="comments_dialogue_poem_distraught_013_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-13" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A child's empty hand..." FileName="comments_dialogue_poem_distraught_014_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-14" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A friend's stained armband..." FileName="comments_dialogue_poem_distraught_015_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-15" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The news of the day still on the stand..." FileName="comments_dialogue_poem_distraught_016_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-16" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_distraught_017_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-17" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_distraught_018_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-18" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a bloody twirl..." FileName="comments_dialogue_poem_distraught_019_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-19" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What'll come next around the bend?" FileName="comments_dialogue_poem_distraught_020_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-20" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Maybe some kind end..." FileName="comments_dialogue_poem_distraught_021_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-21" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="More likely another whistle..." FileName="comments_dialogue_poem_distraught_022_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-22" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Magic! That turns men into gristle." FileName="comments_dialogue_poem_distraught_023_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-23" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What can we do but sing and sing..." FileName="comments_dialogue_poem_distraught_024_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-24" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_distraught_025_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-25" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost and still we twirl." FileName="comments_dialogue_poem_distraught_026_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_Poem_CrazySad" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazysad_001_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a terrible twirl..." FileName="comments_dialogue_poem_crazysad_002_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the sun for all the black smoke..." FileName="comments_dialogue_poem_crazysad_003_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the dirt for all the dead folk..." FileName="comments_dialogue_poem_crazysad_004_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-4" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Can't see the ocean, can't see the trees..." FileName="comments_dialogue_poem_crazysad_005_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-5" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="So here I stay, down on my knees..." FileName="comments_dialogue_poem_crazysad_006_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-6" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_crazysad_007_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-7" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazysad_008_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-8" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a blinding twirl..." FileName="comments_dialogue_poem_crazysad_009_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-9" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A snarl in the dark..." FileName="comments_dialogue_poem_crazysad_010_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-10" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A sad day in the park..." FileName="comments_dialogue_poem_crazysad_011_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-11" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A stone reminder..." FileName="comments_dialogue_poem_crazysad_012_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-12" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A horse's dirty blinder..." FileName="comments_dialogue_poem_crazysad_013_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-13" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A child's empty hand..." FileName="comments_dialogue_poem_crazysad_014_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-14" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="A friend's stained armband..." FileName="comments_dialogue_poem_crazysad_015_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-15" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="The news of the day still on the stand..." FileName="comments_dialogue_poem_crazysad_016_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-16" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Singing and singing..." FileName="comments_dialogue_poem_crazysad_017_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-17" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazysad_018_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-18" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost, lost in a bloody twirl..." FileName="comments_dialogue_poem_crazysad_019_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-19" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What'll come next around the bend?" FileName="comments_dialogue_poem_crazysad_020_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-20" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Maybe some kind end..." FileName="comments_dialogue_poem_crazysad_021_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-21" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="More likely another whistle..." FileName="comments_dialogue_poem_crazysad_022_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-22" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Magic! That turns men into gristle." FileName="comments_dialogue_poem_crazysad_023_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-23" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What can we do but sing and sing..." FileName="comments_dialogue_poem_crazysad_024_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-24" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="We whirl the world, the world we whirl..." FileName="comments_dialogue_poem_crazysad_025_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+   <Line CharacterId="1" Prio="-25" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It all gets lost and still we twirl." FileName="comments_dialogue_poem_crazysad_026_toussaintbeaufoy_001" Timestamp="2023-02-03 11:27" />
+   </Line>
+  </Subject>
+  <Subject Desc="Touissant reacts to a sound" Name="Dialogue_SoundHeard" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Huh?!" FileName="comments_dialogue_soundheard_001_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="What's that?" FileName="comments_dialogue_soundheard_002_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Who's there?" FileName="comments_dialogue_soundheard_003_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="I hear you!" FileName="comments_dialogue_soundheard_004_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="My vision's gone but my ears are true... And I hear you..." FileName="comments_dialogue_soundheard_005_toussaintbeaufoy_001" Timestamp="2023-02-02 01:46" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="I heeeeear you!" FileName="comments_dialogue_soundheard_006_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_LookingForPlayer" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Hide and seek is over..." FileName="comments_dialogue_lookingforplayer_001_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Come out, come out wherever you are!" FileName="comments_dialogue_lookingforplayer_002_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="You can't escape, no no no no no, it's all around us... " FileName="comments_dialogue_lookingforplayer_003_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Come here, let me show you what I have seen. " FileName="comments_dialogue_lookingforplayer_004_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="These are their tunnels. How dare you trespass here. " FileName="comments_dialogue_lookingforplayer_005_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Vision's gone and gone's the vision. Vision's gone and gone's the vision..." FileName="comments_dialogue_lookingforplayer_006_toussaintbeaufoy_001" Timestamp="2023-02-02 01:46" />
+   </Line>
+  </Subject>
+  <Subject Desc="When the players leaves the area, if they don't have the detonator handle." Name="Dialogue_PlayerLeaving" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Come back! Come back! Please, come back!" FileName="comments_dialogue_playerleaving_001_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Don't leave me!" FileName="comments_dialogue_playerleaving_002_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Please! Please! Help me! Help me, please!" FileName="comments_dialogue_playerleaving_003_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+   <Line CharacterId="1" Prio="-3" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Don't leave me! Please don't leave me!" FileName="comments_dialogue_playerleaving_004_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+  </Subject>
+  <Subject Desc="When the players leaves the area, if they have the detonator handle." Name="Dialogue_PlayerLeavingWithDetonatorHandle" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="I'm not finished with you! Come back here!" FileName="comments_dialogue_playerleavingwithdetonatorhandle_001_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+   <Line CharacterId="1" Prio="-1" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="I'll find you! I promise! I'll find you!" FileName="comments_dialogue_playerleavingwithdetonatorhandle_002_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+   <Line CharacterId="1" Prio="-2" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Come back here, you coward!" FileName="comments_dialogue_playerleavingwithdetonatorhandle_003_toussaintbeaufoy_001" Timestamp="2023-02-03 01:59" />
+   </Line>
+  </Subject>
+  <Subject Desc="General barks when taking damage" Name="Dialogue_Damage_General" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Curse you!" FileName="comments_dialogue_damage_general_001_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="You think pain will stay my hand? No no no." FileName="comments_dialogue_damage_general_002_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="Blood and blood and blood. I've given my share... Now your turn..." FileName="comments_dialogue_damage_general_003_toussaintbeaufoy_001" Timestamp="2023-02-02 01:46" />
+   </Line>
+  </Subject>
+  <Subject Name="Dialogue_Damage_General_Emote" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Grunting&lt;&lt;" FileName="comments_dialogue_damage_general_emote_001_toussaintbeaufoy_001" Timestamp="2023-02-02 04:22" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Grunting&lt;&lt;" FileName="comments_dialogue_damage_general_emote_002_toussaintbeaufoy_001" Timestamp="2023-02-02 04:22" />
+   </Line>
+  </Subject>
+  <Subject Desc="Barks when taking gas damage" Name="Dialogue_Damage_Gas" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing&lt;&lt; You can't hide in the gas! &gt;&gt;Wheezing&lt;&lt;" FileName="comments_dialogue_damage_gas_001_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing&lt;&lt; I hear you...  &gt;&gt;Wheezing&lt;&lt; I hear you still!" FileName="comments_dialogue_damage_gas_002_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+  </Subject>
+  <Subject Desc="Barks when taking burn damage" Name="Dialogue_Damage_Burn" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="It burns! AHHH! " FileName="comments_dialogue_damage_burn_001_toussaintbeaufoy_001" Timestamp="2022-11-23 01:27" />
+   </Line>
+  </Subject>
+  <Subject Desc="Death bark when killed by fire" Name="Dialogue_Death_Burn" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Screaming&lt;&lt;" FileName="comments_dialogue_death_burn_001_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+  </Subject>
+  <Subject Desc="Death bark when killed by gas" Name="Dialogue_Death_Gas" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Coughing and gasping&lt;&lt;" FileName="comments_dialogue_death_gas_001_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+  </Subject>
+  <Subject Desc="Death bark when killed" Name="Dialogue_Death_General" UseSingleRandomLine="True" ShowSubtitlesIfMissing="False" SceneId="0" EffectId="-1">
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Screaming&lt;&lt;" FileName="comments_dialogue_death_general_001_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+   <Line CharacterId="1" Prio="0" TextStatus="Shippable" AudioStatus="Final" PlayOnce="True">
+    <Sound Text="&gt;&gt;Screaming&lt;&lt;" FileName="comments_dialogue_death_general_002_toussaintbeaufoy_001" Timestamp="2023-02-02 03:19" />
+   </Line>
+  </Subject>
+ </Subjects>
+</VoiceData>

@@ -1,0 +1,37 @@
+// *********************************
+// GLOBAL CALLBACK
+// *********************************
+void CM_GlobalCallback_PressedButtonLockDoorBase(const tString &in asEntity, int alState) {
+		cLux_AddDebugMessage("Lock/Unlock!");
+		SwingDoor_SetBlocked(Entity_GetVarString(asEntity, ""), alState == 1, true);
+}
+
+bool CM_GlobalCallback_OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
+	PlayerBody_SetArmAnimationPitch(false, true, true);
+	PlayerBody_SetArmAnimationYaw(false, true, true);		
+	
+	PlayerBody_SetUnequipItemsOnCutscene(true, false);
+	PlayerBody_PlayCutsceneAtEntity("tool_key_use", asTargetEntity+"_animpos", false, 0.3);
+	
+	cScript_SetGlobalVarString("QI_door",Entity_GetVarString(asTargetEntity, ""));
+	cScript_SetGlobalVarString("QI_usedkey",asTargetEntity+"_usedkey");
+	Map_AddTimer("Timer_PillboxKeyUnlock", 1.75, "CM_Callback_OnTimer_OfficerKeyUnlock");
+	Map_AddTimer("Timer_PillboxKeyRelease", 2.65, "CM_Callback_OnTimer_OfficerKeyRelease");
+	
+	Entity_SetActive(asTargetEntity+"_animpos", false);			
+	return false;
+}
+
+void CM_GlobalCallback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
+		
+	SwingDoor_SetBlocked(cScript_GetGlobalVarString("QI_door"), false, true);
+}
+		
+void CM_GlobalCallback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
+{
+	tString sHeld = Item_GetHeldEntity(eItemHandlerHand_Right);
+	Entity_SetActive(cScript_GetGlobalVarString("QI_usedkey"), true);
+	Entity_PlaceAtEntity(cScript_GetGlobalVarString("QI_usedkey"), sHeld, 0.f, true);
+	
+	Item_RemoveFromInventory(ItemType_GetFirstInInventory("OfficerKey"), eInventoryInstance_Player, false, true);
+}

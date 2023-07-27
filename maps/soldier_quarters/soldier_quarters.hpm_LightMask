@@ -1,0 +1,57 @@
+<HPLMapTrack_LightMask ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
+    <Section Name="Max@MAX-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-U5KQSOE">
+        <Objects />
+    </Section>
+    <Section Name="rasmu@WINDMILL">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-QQIR8DS">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-WORK-LA">
+        <Objects />
+    </Section>
+    <Section Name="Max@DESKTOP-MAXL">
+        <Objects />
+    </Section>
+    <Section Name="johne@IOANNIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+        <Objects />
+    </Section>
+    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+        <Objects />
+    </Section>
+    <Section Name="Ted@TELLUS">
+        <Objects />
+    </Section>
+    <Section Name="aaron@DESKTOP-Q12T94U">
+        <Objects />
+    </Section>
+    <Section Name="Patrik@POMPERIPOSSA">
+        <Objects />
+    </Section>
+    <Section Name="Marc@MARC-PC">
+        <Objects>
+            <LightMaskBox ID="469762051" Name="LightMaskBox_2" CreStamp="1685610959" ModStamp="1685611138" WorldPos="-78.25 -6.5 22.25" Rotation="0 0 0" Scale="1 1 1" Size="16 8 8" ExcludeLight="true" UID="28 30 469762051" />
+        </Objects>
+    </Section>
+    <Section Name="johne@DETIS-DESKTOP">
+        <Objects />
+    </Section>
+    <Section Name="marc@DESKTOP-MARCN">
+        <Objects>
+            <LightMaskBox ID="503316604" Name="LightMaskBox_1" CreStamp="1667487909" ModStamp="1680108132" WorldPos="-53.7677 -4.69796 25.028" Rotation="0 1.5708 0" Scale="1 1 1" Size="6 6 6" ExcludeLight="false" UID="30 8923 503316604" />
+        </Objects>
+    </Section>
+    <Section Name="cesar@DESKTOP-0FIFFLJ">
+        <Objects />
+    </Section>
+    <Section Name="Marcus@DESKTOP-VV6VPG8">
+        <Objects />
+    </Section>
+</HPLMapTrack_LightMask>
