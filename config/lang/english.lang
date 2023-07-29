@@ -3,4 +3,190 @@
 	<Entry Name="SampleMessage">This is a language entry added by the sample mod!</Entry>
 	<Entry Name="SampleMessage2">This is another language entry added by the sample mod!</Entry>
   </CATEGORY>  
+  
+  
+  
+  <!-- Notes UI -->
+	<CATEGORY Name="NotesUI">
+
+		<!-- UI labels -->
+		<Entry Name="LabelNotesToggleListTypeToDate">Group by Date</Entry>
+		<Entry Name="LabelNotesToggleListTypeToAuthor">Group by Author</Entry>
+		<Entry Name="LabelNotesToggleListType">Group by:</Entry>
+		<Entry Name="LabelNotesListAuthor">Author</Entry>
+		<Entry Name="LabelNotesListDate">Date</Entry>
+
+		<!-- Hints -->
+		<Entry Name="HintNotesToggleListTypeGamepad">$Input{ToggleNotesListType}</Entry>
+		<Entry Name="HintNotesToggleListTypeToDateGamepad">Press $Input{ToggleNotesListType} to group notes by date</Entry>
+		<Entry Name="HintNotesToggleListTypeToAuthorGamepad">Press $Input{ToggleNotesListType} to group notes by author</Entry>
+		<Entry Name="HintNotesVoiceSubjectPlaybackGamepad">Play Audio $Input{PlayNoteVoiceSubject}</Entry>
+		<Entry Name="HintNotesVoiceSubjectStopGamepad">Stop Audio $Input{StopNoteVoiceSubject}</Entry>
+		<Entry Name="HintNotesVoiceSubjectNext">Next $Input{NextNoteVoiceSubject}</Entry>
+		<Entry Name="HintNotesVoiceSubjectPrevious">Previous $Input{NextNoteVoiceSubject}</Entry>
+
+		<!-- Authors -->
+		<Entry Name="UnknownAuthor">Unknown Author</Entry>
+		<Entry Name="Josinski">Dr. Josinski</Entry>
+		<Entry Name="Clement">Henri Clément (Me)</Entry>
+		<Entry Name="Reynard">Sgt. Reynard</Entry>
+		<Entry Name="Fournier">M. Fournier</Entry>
+		<Entry Name="Lambert">Augustin Lambert</Entry>
+		<Entry Name="Stafford">Foreman Stafford</Entry>
+		<Entry Name="Farber">Farber</Entry>
+		<Entry Name="Ozanne">Ozanne</Entry>
+		<Entry Name="Tremblay">Tremblay</Entry>
+		<Entry Name="Chanard">Sdt. Chanard</Entry>
+		<Entry Name="Noyer">Alex Noyer</Entry>
+		<Entry Name="Nicolay">Johannes Nicolay</Entry>
+		<Entry Name="Toussaint">Toussaint Beaufoy</Entry>
+		<Entry Name="Marceau">Sdt. Marceau</Entry>
+		<Entry Name="Joubert">Sgt. Stéphane Joubert</Entry>
+		<Entry Name="Delpy">Major Sergeant Delpy</Entry>
+		<Entry Name="Blanchet">Major Blanchet</Entry>
+		<Entry Name="Renoir">J. Renoir</Entry>
+		<Entry Name="Houellebecq">Houellebecq</Entry>
+		<Entry Name="LaRue">Sdt. LaRue</Entry>
+		<Entry Name="Boisrond">Sdt. Boisrond</Entry>
+		<Entry Name="Friloux">Q. Friloux</Entry>
+		<Entry Name="Quint">Sdt. Quint</Entry>
+		<Entry Name="Autie">Sdt. Autie</Entry>
+		<Entry Name="Picart">Sdt. Picart</Entry>
+		<Entry Name="Goff">Sdt. Goff</Entry>
+		<Entry Name="Tirel">Sdt. Tirel</Entry>
+		<Entry Name="Cazal">Sdt. Cazal</Entry>
+
+		<!-- Dates -->
+		<Entry Name="UnknownDate">Unknown Date</Entry>
+		<Entry Name="2/4/1916">2 April 1916</Entry>
+		<Entry Name="10/4/1916">10 April 1916</Entry>
+		<Entry Name="30/4/1916">30 April 1916</Entry>
+		<Entry Name="2/5/1916">2 May 1916</Entry>
+		<Entry Name="5/5/1916">5 May 1916</Entry>
+		<Entry Name="9/5/1916">9 May 1916</Entry>
+		<Entry Name="14/5/1916">14 May 1916</Entry>
+		<Entry Name="15/5/1916">15 May 1916</Entry>
+		<Entry Name="16/5/1916">16 May 1916</Entry>
+		<Entry Name="18/5/1916">18 May 1916</Entry>
+		<Entry Name="20/5/1916">20 May 1916</Entry>
+		<Entry Name="23/5/1916">23 May 1916</Entry>
+		<Entry Name="25/5/1916">25 May 1916</Entry>
+		<Entry Name="28/5/1916">28 May 1916</Entry>
+		<Entry Name="29/5/1916">29 May 1916</Entry>
+		<Entry Name="2/6/1916">2 June 1916</Entry>
+		<Entry Name="3/6/1916">3 June 1916</Entry>
+		<Entry Name="4/6/1916">4 June 1916</Entry>
+		<Entry Name="6/6/1916">6 June 1916</Entry>
+		<Entry Name="9/6/1916">9 June 1916</Entry>
+		<Entry Name="10/6/1916">10 June 1916</Entry>
+		<Entry Name="11/6/1916">11 June 1916</Entry>
+		<Entry Name="14/6/1916">14 June 1916</Entry>
+		<Entry Name="15/6/1916">15 June 1916</Entry>
+		<Entry Name="18/6/1916">18 June 1916</Entry>
+		<Entry Name="30/6/1916">30 June 1916</Entry>
+		<Entry Name="4/7/1916">4 July 1916</Entry>
+		<Entry Name="8/7/1916">8 July 1916</Entry>
+		<Entry Name="9/7/1916">9 July 1916</Entry>
+		<Entry Name="10/7/1916">10 July 1916</Entry>
+		<Entry Name="11/7/1916">11 July 1916</Entry>
+		<Entry Name="12/7/1916">12 July 1916</Entry>
+		<Entry Name="13/7/1916">13 July 1916</Entry>
+		<Entry Name="14/7/1916">14 July 1916</Entry>
+		<Entry Name="15/7/1916">15 July 1916</Entry>
+		<Entry Name="16/7/1916">16 July 1916</Entry>
+		<Entry Name="18/7/1916">18 July 1916</Entry>
+		<Entry Name="19/7/1916">19 July 1916</Entry>
+		<Entry Name="20/7/1916">20 July 1916</Entry>
+		<Entry Name="21/7/1916">21 July 1916</Entry>
+
+		<!--////////////////////////////-->
+		<!--////// START OF NOTES //////-->
+
+		<Entry Name="StartInstructions_Name">How to play this mod</Entry>
+		<Entry Name="StartInstructions_Content">
+			TODO
+		</Entry>
+		
+		<Entry Name="OfficerHubDoors_Name">CLOSE THE DOORS ALL TIME!</Entry>
+		<Entry Name="OfficerHubDoors_Content">
+			TODO
+		</Entry>
+		
+		<Entry Name="GeneratorInstructions_Name">Generator</Entry>
+		<Entry Name="GeneratorInstructions_Content">
+			TODO
+		</Entry>
+		
+		<Entry Name="WaterPumpInstructions_Name">Too much noisy!</Entry>
+		<Entry Name="WaterPumpInstructions_Content">
+			TODO
+		</Entry>
+		
+		<Entry Name="TunnelsReport_Name">IT'S HERE!</Entry>
+		<Entry Name="TunnelsReport_Content">
+			TODO
+		</Entry>
+		
+		
+		<!-- QI -->
+		<Entry Name="QI_OfficerCode_Name">Your new code for the week</Entry>
+		<Entry Name="QI_OfficerCode_Content">
+			Your new code for the week is {}
+		</Entry>
+		
+		<Entry Name="QI_Wrench_Location_Name">Wrench location</Entry>
+		<Entry Name="QI_Wrench_Location_Content">
+			The wrench is in {}
+		</Entry>
+		
+		<Entry Name="QI_OfficerCode_Location_Name">Officer code location</Entry>
+		<Entry Name="QI_OfficerCode_Location_Content">
+			The officer code is in {}
+		</Entry>
+		
+		<Entry Name="QI_Cutter_Location_Name">Chain cutter location</Entry>
+		<Entry Name="QI_Cutter_Location_Content">
+			The chain cutter is in {}
+		</Entry>
+		
+		<Entry Name="QI_OfficerKey_Location_Name">Officer key location</Entry>
+		<Entry Name="QI_OfficerKey_Location_Content">
+			The officer key is in {}
+		</Entry>
+		
+		<Entry Name="QI_GeneratorWheel_Location_Name">Generator wheel replacement location</Entry>
+		<Entry Name="QI_GeneratorWheel_Location_Content">
+			You can find a generator wheel replacement in {}
+		</Entry>
+		
+		<Entry Name="QI_LockdownWheel_Location_Name">Generator wheel replacement location</Entry>
+		<Entry Name="QI_LockdownWheel_Location_Content">
+			You can find a generator wheel replacement in {}
+		</Entry>
+		
+		<Entry Name="QI_DynamiteBundle_Location_Name">Dynamite location</Entry>
+		<Entry Name="QI_DynamiteBundle_Location_Content">
+			The dynamite is in {}
+		</Entry>
+		
+		<Entry Name="QI_DetonatorHandle_Location_Name">Detonator location</Entry>
+		<Entry Name="QI_DetonatorHandle_Location_Content">
+			The detonator is in {}
+		</Entry>
+
+
+		<!--/////// END OF NOTES ///////-->
+		<!--////////////////////////////-->
+	</CATEGORY>
+	
+	<CATEGORY Name="Inventory">
+
+		
+		<Entry Name="GeneratorWheel">Generator wheel replacement</Entry>
+		<Entry Name="GeneratorWheel_Desc">To replace the broken generator wheel</Entry>
+		
+		<Entry Name="OfficerKey">Officer level Key</Entry>
+		<Entry Name="OfficerKey_Desc">For use in the door with Officer level</Entry>
+
+	</CATEGORY>
 </LANGUAGE>

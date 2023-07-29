@@ -78,10 +78,10 @@ void Sketchbook_Close()
 
 //----------------MOD----------------------------------
 
-void Sketchbook_LoadGeneratedNote(const tString &in asNoteID, const tString &in asAuthor, const tString &in asDate, const tString &in asName, const tString &in asContent)
+void Sketchbook_SetContentForNote(const tString &in asNoteID, const tWString &in asContent)
 {
 	iScrSketchbookUIHandler_Interface @pHandler = cast<iScrSketchbookUIHandler_Interface>( cLux_GetUserModuleFromID(eModuleType_Custom_SketchbookUIHandler) );
-	pHandler.LoadGeneratedNote(asNoteID, asAuthor, asDate, asName, asContent);
+	pHandler.SetContentForNote(asNoteID, asContent);
 }
 
 //-------------------------------------------------
@@ -1957,3 +1957,9 @@ void Randomizer_SetLighterRandomizationActive(bool abX)
 }
 
 //-------------------------------------------------
+
+void Randomizer_ReRunQuestItemRandomization()
+{
+	iScrRandomizerHandler_Interface @pHandler = cast<iScrRandomizerHandler_Interface>( cLux_GetUserModuleFromID(eModuleType_Custom_RandomizerHandler) );
+	pHandler.ReRunQuestItemRandomization();
+}

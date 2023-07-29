@@ -116,8 +116,7 @@ class cNoteEntry
 	array<tString> mvAddsObjectiveIDs;
 	
 	// MOD
-	tString msContent="";
-	tString msName="";
+	tWString msContent="";
 
 	cNoteEntry(){}
 	
@@ -1385,7 +1384,7 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 	{
 		if (asNoteID=="")
 		{
-			cLux_AddDebugMessage("Can't add this note! Undefined Note ID!");
+			cLux_AddDebugMessage("Can't add this note! Undefined Note ID: "+asNoteID);
 			return;
 		}
 		
@@ -2078,11 +2077,14 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 	
 	//-------------------MOD-----------------	
 	
-	void LoadGeneratedNote(const tString &in asNoteID, const tString &in asAuthor, const tString &in asDate, const tString &in asName, const tString &in asContent) {
-		cNoteEntry note = cNoteEntry(asNoteID, asAuthor, "", asDate, -1.0f, "", true);
-		note.msName = asName;
-		note.msContent = asContent;
-		mvFullListOfNotes.push_back(note);
+	void SetContentForNote(const tString &in asNoteID, const tWString &in asContent) {
+		for(int i=0; i<mvFullListOfNotes.length(); i++) {
+			if(mvFullListOfNotes[i].msID == asNoteID) {
+				mvFullListOfNotes[i].msContent = asContent;
+				return;
+			}
+		}
+		cLux_AddDebugMessage("[ Sketchbook ] ERROR: can't find node "+asNoteID+" for putting content");
 	}
 	
 	//------------------------------------------------------------
@@ -2360,7 +2362,7 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 		
 		///////////////
 		// text entry
-		if (apNote.msContent == "") {
+		if (cString_To8Char(apNote.msContent) == "") {
 			msSelectedNoteText = cLux_Translate("NotesUI", msSelectedNoteID + "_Content");
 		} else {
 			msSelectedNoteText = apNote.msContent;
@@ -2798,9 +2800,6 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 								
 								
 								tString sNoteName = pCurrentNoteEntry.msID + "_Name";
-								if (pCurrentNoteEntry.msName != "") {
-									sNoteName = pCurrentNoteEntry.msName;
-								}
 								
 								if (DoNotes_FileSystemBtn("NoteEntry_"+pCurrentNoteEntry.msID, sNoteName, cVector3f(0, pCurrentNoteEntry.mfYPosition, gfSketchbookTextDepth), false, false, bNoteIsSelected, bIsInFocus, fBtnTransparency, pCurrentNoteEntry.GetContainsActiveObjectiveInfo()))
 									OpenNoteEntry(pCurrentNoteEntry);

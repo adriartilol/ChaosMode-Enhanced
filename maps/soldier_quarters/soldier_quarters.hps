@@ -19,6 +19,8 @@
 #include "custom/helpers/helper_gun.hps"
 #include "custom/helpers/helper_props_custom.hps"
 
+#include "custom/helpers/helper_mod.hps"
+
 //--------------------------------------------------
  
 /*Place any global values here. These must be const variables as they will not be saved*/
@@ -69,30 +71,7 @@ class cScrMap : iScrMap
 		// Debug
 		if(cLux_ScriptDebugOn())
 		{
-			if (ItemType_GetCountInInventory("Gun") == 0)
-			{
-				Item_SetCurrentSlotsCount(15);
-				Item_AddToInventory("CommunicationsKey");
-				Item_AddToInventory("Gun");
-				Item_AddToInventory("Ammunition");
-				Item_AddToInventory("DynamoLantern");
-				Item_AddToInventory("Wrench");
-				Item_AddToInventory("Grenade");
-				//Item_AddToInventory("Wrench");
-				Item_AddToInventory("Shotgun");
-				//Item_AddToInventory("Fuel");
-				//Item_AddToInventory("GasGrenade");
-				//Item_AddToInventory("Grenade");
-				//Item_AddToInventory("EmptyBottle");				
-				//Item_AddToInventory("GasMask");
-				//Item_AddToInventory("Flare");
-				//Item_AddToInventory("Flare");
-				Item_AddToInventory("Lighter");
-				Item_AddToInventory("Bandage");
-				//Item_AddToInventory("Cutters");
-				//Item_AddToInventory("MolotovCocktail");
-				Item_AddToInventory("RabbitDoll");
-			}
+			CM_GlobalCallback_ScriptDebugOn();
 		}
 		
 		Slide_SetLocked("filing_cabinet_box03_3", true, true);
@@ -295,158 +274,8 @@ class cScrMap : iScrMap
 	{
 		if (abPressed==false) return;
 		
-		if(alAction == eAction_Test1)
-		{
-			if (Generator_GetState() == eGeneratorState_On)
-			{
-				Generator_SetRunForever(false);
-				Generator_ChangeState(eGeneratorState_Off);
-			}
-			else
-			{
-				Generator_AddFuel(2);
-				Generator_ChangeState(eGeneratorState_On);
-				Generator_SetRunForever(true);
-			}
-		}
-		
-		if (alAction == eAction_Test2)
-		{
-			////////////////
-			// Broadcast shot message
-			array<iLuxEntity@> vAgents;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Agent, "", vAgents);
-			
-			for (int i = 0; i < vAgents.size(); ++i)
-			{
-				vAgents[i].BroadcastMessage(40, null, Player_GetPosition(), -1);
-			}
-		}
-		
-		if (alAction ==eAction_Test3)
-		{
-			////////////////
-			// Disable all agents
-			//RatHandler_SetActive(false);
-			
-			array<iLuxEntity@> vAgents;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Agent, "", vAgents);
-			
-			for (int i = 0; i < vAgents.size(); ++i)
-			{
-				if (vAgents[i].GetName() != "Stalker_1")
-					continue;
-					
-				vAgents[i].SetActive(false);
-			}
-		}
-		
-		if (alAction == eAction_Test4)
-		{
-			////////////////
-			// Disable all traps
-			array<iLuxEntity@> vTraps;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Prop, "cScrPropTrap", vTraps);
-			
-			for (int i = 0; i < vTraps.size(); ++i)
-			{
-				tString sName = vTraps[i].GetName();
-				Entity_SetActive(sName, false);
-				Entity_SetActive(sName+"_*", false);
-			}
-		}
-		
-		if (alAction == eAction_Test5)
-		{
-			//Generator_SetPowerSwitchOn("PowerSwitch_3", true);
-			Lever_SetStuckState("PowerSwitch_3", 1, true);
-			Lever_SetAutoMoveTarget("PowerSwitch_3", -1);
-			Lever_SetAutoMoveEnabled("PowerSwitch_3", true);
-		}
-		
-		if (alAction == eAction_Test6)
-		{
-			//Player_SetEquipGasMask(true);
-			
-			Generator_AddFuel(2);
-			Generator_ChangeState(eGeneratorState_On);
-			Lever_SetStuckState("PowerSwitch_1", 1, true);
-			
-			Entity_SetActive("Note_DaisyChainedSwitchesHint", false);
-			Entity_SetActive("sign_02_1", false);
-			Entity_SetActive("Trap_16_Extra_4", false);
-			Entity_SetActive("Trap_17_Extra_6", false);
-			Entity_SetActive("barricade_4_breakable_4", false);
-			Entity_SetActive("barricade_4_breakable_1", false);
-			Entity_SetActive("corpse_french_03_rig_2", false);
-			Entity_SetActive("RatFeed_2", false);
-			Entity_SetActive("Rat_*", false);
-			Entity_SetActive("dogtag_*", false);
-			RatHandler_SetActive(false);
-			Entity_SetActive("PowerSwitch_7", false);
-			Entity_SetActive("PowerSwitchLamp_Out_7", false);
-			Entity_SetActive("PowerSwitchLamp_In_7", false);
-			
-			array<cMeshEntity@> vMeshes;
-			Map_GetDecalArray("sign_daisy-chain_1", vMeshes);
-			
-			for (int i = 0; i < vMeshes.size(); ++i)
-			{
-				cMeshEntity@ pMeshEnt = vMeshes[i];
-				pMeshEnt.SetVisible(false);
-				pMeshEnt.SetActive(false);
-			}
-		}
-		
-		if (alAction == eAction_Test7)
-		{
-			//Generator_AddFuel(2);
-			//Generator_ChangeState(eGeneratorState_On);
-			//Entity_SetActive("Stalker_1", true);
-			//cScript_RunGlobalFunc("Stalker_1", "", "_Global_Debug");
-			
-			Entity_SetActive("Stalker_1", true);
-			Stalker_GoToHole("Stalker_1", "GhoulHole_13", true, true);
-			Sound_CreateAIEventAtEntity("player", 100, 4);
-			Stalker_SetEmergeAllowed("Stalker_1", false);
-		}
-		
-		if (alAction == eAction_Test8)
-		{
-			//cLux_GetPlayer().GiveDamage(0.1f, 1, eDamageType_RatBite, 0.f, tID_Invalid, mBaseObj.GetNewAttackInstanceID());
-			SetRadioPowerOn(true);
-			//Item_AddToInventory("Wrench");
-		}
-		
-		if (alAction == eAction_Test9)
-		{
-			//Generator_AddFuel(10);
-			//Generator_ChangeState(eGeneratorState_On);
-			
-			Entity_SetActive("Stalker_1", true);
-			Stalker_SetMode("Stalker_1", eStalkerMode_Active);
-			Stalker_GoToHole("Stalker_1", "GhoulHole_1", true, true);
-			
-			cScript_SetGlobalVarBool("PlayerHasBeenAttackedOnEmerge", true);
-		}
-		
-		if (alAction == eAction_Test0)
-		{
-		}
-		
-		if (alAction == eAction_TestPlus)
-		{
-			Entity_SetActive("Stalker_1", true);
-			cScript_RunGlobalFunc("Stalker_1", "", "_Global_Debug");
-		}
-		
-		if (alAction == eAction_TestMinus)
-		{
-			array<iLuxEntity@> vKeys;
-			Map_GetEntityArray("CommunicationsKey_*", vKeys, eLuxEntityType_Prop, "cScrPropPickup");
-			for (uint i = 0; i < vKeys.length(); i++)
-				cLux_AddDebugMessage(vKeys[i].GetName()+": "+vKeys[i].IsActive());
-		}
+		CM_GlobalCallback_OnAction(alAction, abPressed);
+
 	}
 	
 	//-------------------------------------------------------
@@ -1218,4 +1047,40 @@ class cScrMap : iScrMap
 	//MUSIC_END----------------------------------------------
  
 	//} END EVENTS
+	
+	// MOD script
+	
+	void CM_OnStart() {
+	
+	}
+	
+	void CM_OnEnter() {
+		
+	}
+	
+	// IN EACH MAP!	
+	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
+		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+	}		
+		 
+	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
+		return CM_GlobalCallback_OnUse_OfficerKey(asItemType, asItemID, asTargetEntity, asItemEntity, afTimeElapsed, afTimeStep);
+	}
+	
+	void CM_Callback_PressedButtonLockDoorBase(const tString &in asEntity, int alState) {
+		CM_GlobalCallback_PressedButtonLockDoorBase(asEntity, alState);
+	}
+	
+	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
+		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
+	}
+		
+	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
+	{
+		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
+	}
+	
+	void CM_Callback_PickupQuestItem(const tString &in asEntity) {
+		CM_Global_Callback_PickupQuestItem(asEntity);
+	}
 }

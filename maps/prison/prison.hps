@@ -18,6 +18,8 @@
 #include "custom/helpers/helper_gun.hps"
 #include "custom/helpers/helper_props_custom.hps"
 
+#include "custom/helpers/helper_mod.hps"
+
 //--------------------------------------------------
  
 /*Place any global values here. These must be const variables as they will not be saved*/
@@ -86,10 +88,7 @@ class cScrMap : iScrMap
 		// Debug
 		if(cLux_ScriptDebugOn())
 		{
-			if (ItemType_GetCountInInventory("Gun") == 0)
-			{
-				GiveTestItems();
-			}
+			CM_GlobalCallback_ScriptDebugOn();
 		}
 		
 		/////////////
@@ -214,84 +213,9 @@ class cScrMap : iScrMap
 	{
 		if(abPressed==false) return;
 		
-		if(alAction == eAction_Test1)
-		{
-			if (Generator_GetState() == eGeneratorState_On)
-			{
-				Generator_SetRunForever(false);
-				Generator_ChangeState(eGeneratorState_Off);
-			}
-			else
-			{
-				Generator_AddFuel(2);
-				Generator_ChangeState(eGeneratorState_On);
-				Generator_SetRunForever(true);
-			}
-		}
+		CM_GlobalCallback_OnAction(alAction, abPressed);
 		
-		if (alAction == eAction_Test2)
-		{
-			////////////////
-			// Broadcast shot message
-			array<iLuxEntity@> vAgents;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Agent, "", vAgents);
-			
-			for (int i = 0; i < vAgents.size(); ++i)
-			{
-				vAgents[i].BroadcastMessage(40, null, Player_GetPosition(), -1);
-			}
-		}
 		
-		if (alAction ==eAction_Test3)
-		{
-			////////////////
-			// Disable all agents
-			RatHandler_SetActive(false);
-			
-			array<iLuxEntity@> vAgents;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Agent, "", vAgents);
-			
-			for (int i = 0; i < vAgents.size(); ++i)
-			{
-				vAgents[i].SetActive(false);
-			}
-		}
-		
-		if (alAction == eAction_Test4)
-		{
-			////////////////
-			// Disable all traps
-			array<iLuxEntity@> vTraps;
-			cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Prop, "cScrPropTrap", vTraps);
-			
-			for (int i = 0; i < vTraps.size(); ++i)
-			{
-				tString sName = vTraps[i].GetName();
-				Entity_SetActive(sName, false);
-				Entity_SetActive(sName+"_*", false);
-			}
-		}
-		
-		if (alAction == eAction_Test5)
-		{
-			Player_Teleport("Startpos_ControlRoom", true);
-			SwingDoor_SetLocked("wooden_door_window_1", false, false);
-			SwingDoor_SetOpenAmount("wooden_door_window_1", 0.5f);
-			Grating_Open("Grating_1");
-		}
-		
-		if (alAction == eAction_Test7)
-		{
-			Entity_SetActive("Stalker_1", true);
-			cScript_RunGlobalFunc("Stalker_1", "", "_Global_Debug");
-		}
-				
-		if (alAction == eAction_TestMinus)
-		{
-			//Entity_SetActive("Stalker_1", true);
-			//Stalker_GoToHole("Stalker_1", "GhoulHole_2", true, true);		
-			GiveTestItems();
-		}
 	}
 
 	//-------------------------------------------------------
@@ -1157,4 +1081,40 @@ class cScrMap : iScrMap
 		//MUSIC_END----------------------------------------------
 			 
 	//} END EVENTS
+	
+	// MOD script
+	
+	void CM_OnStart() {
+	
+	}
+	
+	void CM_OnEnter() {
+		
+	}
+	
+	// IN EACH MAP!	
+	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
+		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+	}		
+		 
+	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
+		return CM_GlobalCallback_OnUse_OfficerKey(asItemType, asItemID, asTargetEntity, asItemEntity, afTimeElapsed, afTimeStep);
+	}
+	
+	void CM_Callback_PressedButtonLockDoorBase(const tString &in asEntity, int alState) {
+		CM_GlobalCallback_PressedButtonLockDoorBase(asEntity, alState);
+	}
+	
+	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
+		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
+	}
+		
+	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
+	{
+		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
+	}
+	
+	void CM_Callback_PickupQuestItem(const tString &in asEntity) {
+		CM_Global_Callback_PickupQuestItem(asEntity);
+	}
 }

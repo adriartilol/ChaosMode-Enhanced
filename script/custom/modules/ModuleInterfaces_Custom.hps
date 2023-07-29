@@ -706,7 +706,7 @@ shared interface iScrSketchbookUIHandler_Interface
 	bool GetNoDropOrStoreAchivementActive();
 	
 	//MOD
-	void LoadGeneratedNote(const tString &in asNoteID, const tString &in asAuthor, const tString &in asDate, const tString &in asName, const tString &in asContent);
+	void SetContentForNote(const tString &in asNoteID, const tWString &in asContent);
 }
 	
 //---------------------------------------------------
@@ -933,6 +933,7 @@ shared interface iScrRandomizerHandler_Interface
 	void SetGasMaskRandomizationActive(bool abX);
 	bool GetLighterRandomizationActive();
 	void SetLighterRandomizationActive(bool abX);
+	void ReRunQuestItemRandomization();
 }
 
 //---------------------------------------------------

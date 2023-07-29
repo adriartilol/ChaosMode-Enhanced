@@ -1,4 +1,123 @@
 // *********************************
+// GLOBAL CALLBACK WHEN SCRIPT DEBUG IS ON
+// *********************************
+
+void CM_GlobalCallback_ScriptDebugOn() {
+
+	if(ItemType_GetCountInInventory("DynamoLantern") == 0) {
+		Item_ClearInventory();
+		Item_SetCurrentSlotsCount(15);	
+		Item_AddToInventory("Gun");
+		Item_AddManyToInventory("Ammunition", 2);
+		Item_AddToInventory("DynamoLantern");
+		Item_AddToInventory("Lighter");						
+		Item_AddToInventory("Cutters");
+		Item_AddToInventory("Wrench");
+		Item_AddToInventory("GasMask");
+		Item_AddToInventory("DynamiteBundle");
+		Item_AddToInventory("DetonatorHandle");
+		Item_AddToInventory("Shotgun");
+		Item_AddManyToInventory("ShotgunAmmunition", 2);
+		Item_AddToInventory("RabbitDoll");
+		Item_AddToInventory("OfficerKey");
+	}
+	
+	if (Generator_GetState() == eGeneratorState_Off) {
+		Generator_SetFuelAmount(2);
+		Generator_ChangeState(eGeneratorState_On);
+		Generator_SetRunForever(true);
+	}
+	
+	if(Entity_IsActive("Stalker_1") == false ) {
+		Entity_SetActive("Stalker_1", true);
+		Stalker_SetEmergeAllowed("Stalker_1", true);
+		Stalker_SetMode("Stalker_1", eStalkerMode_Active, true);
+	}		
+}
+
+void CM_GlobalCallback_OnAction(int alAction, bool abPressed) {
+
+	if (abPressed == false) return;
+	
+	if (alAction == eAction_Test0)
+		{
+			Entity_SetActive("Stalker_1", !Entity_IsActive("Stalker_1"));			
+		}
+		
+	if (alAction == eAction_Test1)
+	{
+		if (Generator_GetState() == eGeneratorState_On)
+		{
+			Generator_ChangeState(eGeneratorState_Off);
+		}
+		else
+		{
+			Generator_AddFuel(2);
+			Generator_ChangeState(eGeneratorState_On);
+		}
+	}
+		
+	if (alAction == eAction_Test2)
+	{
+		////////////////
+		// Broadcast shot message
+		array<iLuxEntity@> vAgents;
+		cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Agent, "", vAgents);
+		
+		for (int i = 0; i < vAgents.size(); ++i)
+		{
+			vAgents[i].BroadcastMessage(40, null, Player_GetPosition(), -1);
+		}
+	}
+		
+	if (alAction ==eAction_Test3)
+	{
+		Randomizer_ReRunQuestItemRandomization();
+	}
+		
+	if (alAction == eAction_Test4)
+	{
+		////////////////
+		// Disable all traps
+		array<iLuxEntity@> vTraps;
+		cLux_GetCurrentMap().GetEntityArray("*", eLuxEntityType_Prop, "cScrPropTrap", vTraps);
+		
+		for (int i = 0; i < vTraps.size(); ++i)
+		{
+			tString sName = vTraps[i].GetName();
+			Entity_SetActive(sName, false);
+			Entity_SetActive(sName+"_*", false);
+		}
+	}
+		
+	if (alAction == eAction_Test5)
+	{			
+		Item_AddToInventory("GeneratorWheel");
+		CM_GlobalCallback_break_generator_wheel();
+	}
+		
+	if (alAction == eAction_Test6)
+	{
+		////////////////////
+		// Spawn stalker closest hole				
+			
+		Entity_SetActive("Stalker_1", true);
+		Stalker_SetEmergeAllowed("Stalker_1", true);
+		Stalker_SetMode("Stalker_1", eStalkerMode_Active, true);
+		Stalker_SetTenacity("Stalker_1", 0.5f);
+		
+		tID idHole = Blackboard_GetClosestGhoulHole(Stalker_GetGhoulHoleNetworkId("Stalker_1"), cLux_GetPlayer().GetCharacterBody().GetPosition());
+		cLuxArea@ pHole = cLux_ID_Area(idHole);
+		if (pHole !is null)
+		{
+			cLux_AddTodoMessage(""+pHole.GetName());
+			Stalker_GoToHole("Stalker_1", pHole.GetName(), true, true);
+		}
+	}		
+}
+
+
+// *********************************
 // GLOBAL CALLBACK
 // *********************************
 void CM_GlobalCallback_PressedButtonLockDoorBase(const tString &in asEntity, int alState) {
@@ -34,4 +153,21 @@ void CM_GlobalCallback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
 	Entity_PlaceAtEntity(cScript_GetGlobalVarString("QI_usedkey"), sHeld, 0.f, true);
 	
 	Item_RemoveFromInventory(ItemType_GetFirstInInventory("OfficerKey"), eInventoryInstance_Player, false, true);
+}
+
+void CM_GlobalCallback_break_generator_wheel() {
+
+	if(cLux_GetCurrentMap().GetName() == "officer_hub") {
+		Wheel_SetAngle("Generator_Wheel",  0.0f,  false);
+		Entity_SetActive("Generator_Wheel", false);
+		Lamp_SetLit("Generator_WheelLamp",  false,  true);
+		Entity_SetActive("Generator_Wheel_Broken", true);
+		Entity_SetActive("Generator_Wheel_Proxy", true);
+		
+	}
+	Generator_ChangeState(eGeneratorState_Off);	
+}
+
+void CM_Global_Callback_PickupQuestItem(const tString &in asEntity) {
+	cLux_AddDebugMessage("PICKED QUEST ITEM");
 }

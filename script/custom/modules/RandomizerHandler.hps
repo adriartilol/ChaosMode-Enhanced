@@ -126,6 +126,8 @@ class cQuestItemLocationData {
 	
 	array<tString> mvBlackList;
 	array<tString> mvWhiteList;
+	
+	tString msMapCallback;
 }
 
 
@@ -325,6 +327,12 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 	{		
 		if (cLux_GetCurrentMap() is null) return afStartY;
 		
+		afStartY = cLux_DrawDebugText("--------- Codes ---------", afStartY);
+		for (int i = 0; i < mvCodes.length(); i++)
+		{			
+			afStartY = cLux_DrawDebugText(mvCodes[i].msName + " -> " + mvCodes[i].mlCode, afStartY);
+		}
+		
 		afStartY = cLux_DrawDebugText("--------- Quest Item Locations ---------", afStartY);
 		for (int i = 0; i < mvLocations.length(); i++)
 		{
@@ -339,7 +347,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 			afStartY = cLux_DrawDebugText(mvLocations[i].msName + " in " + mvLocations[i].msMap + " -> " + sItemString + sNeededString, afStartY);
 		}
 		
-		afStartY = cLux_DrawDebugText("--------- Dogtags ---------", afStartY);
+		/*afStartY = cLux_DrawDebugText("--------- Dogtags ---------", afStartY);
 		for (int i = 0; i < mvDogtags.length(); i++)
 		{
 			afStartY = cLux_DrawDebugText(mvDogtags[i].msBaseFile + "  ->  " + mvDogtags[i].msReplaceFile, afStartY);
@@ -352,7 +360,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 			if (pMapData.msMapName != cLux_GetCurrentMap().GetName()) continue;
 			for (eItemRandomizerType type = eItemRandomizerType(0); type < eItemRandomizerType_LastEnum; type++)
 				afStartY = cLux_DrawDebugText(ItemTypeToString(type)+": "+pMapData.mvItemCount[type],afStartY);
-		}
+		}*/
 		return afStartY;
 	}
 	
@@ -1441,6 +1449,11 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 	//------------------------------------------------------------
 	
 	void SetupRandomization_QuestItems() {
+		Load_And_Randomize_QuestItems();
+		Setup_Notes();	
+	}
+	
+	void Load_And_Randomize_QuestItems() {
 		iXmlDocument@ pQuestItemsXML = cResources_LoadXmlDocument("quest_items_randomization.cfg");
 		
 		if (pQuestItemsXML==null)
@@ -1505,6 +1518,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 			pLocationData.msName = pLocationEntry.GetAttributeString("Name","");
 			pLocationData.msMap = pLocationEntry.GetAttributeString("Map","");
 			pLocationData.msPassageMap = pLocationEntry.GetAttributeString("PassageMap","");
+			pLocationData.msMapCallback = pLocationEntry.GetAttributeString("MapCallback","");
 
 			cXmlNodeListIterator@ pIter = pLocationEntry.GetChildIterator();
 			
@@ -1623,8 +1637,21 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 					}
 				}	
 						
+			}			
+		}		
+	}
+	
+	void Setup_Notes() {	
+		for(int i=0; i<mvQuestItems.length(); i++) {		
+			if(mvQuestItems[i].mbIsCode) {			
+				tWString sContent = cLux_Translate("NotesUI", "QI_"+mvQuestItems[i].msName+"_Content");
+				sContent = cString_ReplaceStringToW(sContent, cString_To16Char("{}"),cString_ToStringW(GetCode(mvQuestItems[i].msName),4));				
+				Sketchbook_SetContentForNote("QI_"+mvQuestItems[i].msName, sContent);
 			}
+			
+			// TODO 
 		}
+		
 	}
 	
 	bool isInBlackList(cQuestItemLocationData@ &in apLocation, tString &in asName) {
@@ -1696,8 +1723,28 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 				Entity_SetActive("QI_"+pLocation.msName+"_null_*", true);
 			}
 			
-			// TODO spawn quest item		
+
+			Entity_Destroy("QI_"+pLocation.msName+"_item_pickup");
+			iLuxEntity@ pQuestItemEntity = Entity_CreateAtEntity("QI_"+pLocation.msName+"_item_pickup", getQuestItemByName(pLocation.msQuestItemName).msEntityFile, "QI_"+pLocation.msName+"_item", true);
+			if(pLocation.msMapCallback == "") {
+				pQuestItemEntity.SetPlayerInteractCallback("CM_Callback_PickupQuestItem", true);
+			} else {
+				pQuestItemEntity.SetPlayerInteractCallback(pLocation.msMapCallback, true);
+			}
+			
+			if(getQuestItemByName(pLocation.msQuestItemName).mbIsCode == false) {
+				pQuestItemEntity.SetVarString("Item_Type", pLocation.msQuestItemName);
+			} else {
+				Readable_SetId(pQuestItemEntity.GetName(), "QI_"+pLocation.msQuestItemName);				
+			}
+			Entity_AddImpulse(pQuestItemEntity.GetName(), cVector3f(0.1f,1.0f,0.0f), true, true);
+
 		}
+	}
+	
+	void ReRunQuestItemRandomization() {
+		SetupRandomization_QuestItems();
+		OnMapEnter_QuestItems(cLux_GetCurrentMap());
 	}
 
 }
