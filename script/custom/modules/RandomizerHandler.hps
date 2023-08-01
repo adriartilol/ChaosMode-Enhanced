@@ -130,6 +130,17 @@ class cQuestItemLocationData {
 	tString msMapCallback;
 }
 
+class cMapNoteData
+{
+	
+	tString msName;
+	
+	int mlMin;
+	int mlMax;
+	
+	array<tString> mvNoteIds;
+}
+
 
 //------------------------------------------------------------
 
@@ -177,6 +188,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 			OnMapEnter_Codes(apMap);
 			OnMapEnter_Dogtags(apMap);
 			OnMapEnter_Props(apMap);
+			OnMapEnter_Notes(apMap);
 			OnMapEnter_QuestItems(apMap);
 		}
 			
@@ -272,6 +284,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 		SetupRandomization_Codes();
 		SetupRandomization_Dogtags();
 		SetupRandomization_Props();
+		SetupRandomization_Notes();
 		SetupRandomization_QuestItems();
 	}
 	
@@ -327,11 +340,15 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 	{		
 		if (cLux_GetCurrentMap() is null) return afStartY;
 		
-		afStartY = cLux_DrawDebugText("--------- Codes ---------", afStartY);
-		for (int i = 0; i < mvCodes.length(); i++)
-		{			
-			afStartY = cLux_DrawDebugText(mvCodes[i].msName + " -> " + mvCodes[i].mlCode, afStartY);
-		}
+		/*afStartY = cLux_DrawDebugText("--------- Notes ---------", afStartY);
+		for (int i = 0; i < mvMapNotes.length(); i++)
+		{
+			tString sNoteIds = "";
+			for(int j=0; j< mvMapNotes[i].mvNoteIds.length(); j++) {
+				sNoteIds = sNoteIds+mvMapNotes[i].mvNoteIds[j]+", ";
+			}
+			afStartY = cLux_DrawDebugText(mvMapNotes[i].msName + " -> " + sNoteIds, afStartY);
+		}*/
 		
 		afStartY = cLux_DrawDebugText("--------- Quest Item Locations ---------", afStartY);
 		for (int i = 0; i < mvLocations.length(); i++)
@@ -345,6 +362,12 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 				sNeededString = " but I need " + mvLocations[i].msNeededQuestItemName;
 			}
 			afStartY = cLux_DrawDebugText(mvLocations[i].msName + " in " + mvLocations[i].msMap + " -> " + sItemString + sNeededString, afStartY);
+		}
+		
+		afStartY = cLux_DrawDebugText("--------- Codes ---------", afStartY);
+		for (int i = 0; i < mvCodes.length(); i++)
+		{			
+			afStartY = cLux_DrawDebugText(mvCodes[i].msName + " -> " + mvCodes[i].mlCode, afStartY);
 		}
 		
 		/*afStartY = cLux_DrawDebugText("--------- Dogtags ---------", afStartY);
@@ -1441,6 +1464,7 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 	/////////////////////////////////////////
 	array<cQuestItemData> mvQuestItems;
 	array<cQuestItemLocationData> mvLocations;
+	array<cMapNoteData> mvMapNotes;
 	
 	/////////////////////////////////////////
 	// QUEST ITEMS
@@ -1599,12 +1623,22 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 				if(pPrevQuestItem != null) {
 				
 					if(!isInBlackList(pLocation, pPrevQuestItem.msName) && isInWhiteList(pLocation, pPrevQuestItem.msName) ) {
-						pLocation.msNeededQuestItemName = pPrevQuestItem.msName;
+						pLocation.msNeededQuestItemName = pPrevQuestItem.msName;					
+						
 					} else {
 						cLux_AddDebugMessage("[Randomizer - QuestItems ] NOPE! We are stuck!");
 						bRandomizerStuck=true;
 						break;
 					}
+				}
+				
+				// code specific for generator wheel
+				if(pLocation.msQuestItemName == "GeneratorWheel") {
+					if(pPrevQuestItem != null && lSequenceIndex >= 2) {
+						cScript_SetGlobalVarString("QI_PrevItemThanGeneratorWheel",pPrevQuestItem.msName);
+					} else {
+						cScript_SetGlobalVarString("QI_PrevItemThanGeneratorWheel","");
+					} 
 				}
 				
 				if (pQuestItem.mbIsUsedForNextQuestItem) {
@@ -1642,14 +1676,23 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 	}
 	
 	void Setup_Notes() {	
+	
+		// Setup codes in notes
 		for(int i=0; i<mvQuestItems.length(); i++) {		
 			if(mvQuestItems[i].mbIsCode) {			
 				tWString sContent = cLux_Translate("NotesUI", "QI_"+mvQuestItems[i].msName+"_Content");
 				sContent = cString_ReplaceStringToW(sContent, cString_To16Char("{}"),cString_ToStringW(GetCode(mvQuestItems[i].msName),4));				
 				Sketchbook_SetContentForNote("QI_"+mvQuestItems[i].msName, sContent);
-			}
-			
-			// TODO 
+			}			
+		}
+		
+		// Setup locations in notes
+		for(int i=0; i<mvLocations.length(); i++) {
+			tString sQuestItemName = mvLocations[i].msQuestItemName;
+			tWString sLocationTranslated = cLux_Translate("QuestItemLocation", mvLocations[i].msName);
+			tWString sContent = cLux_Translate("NotesUI", "QI_"+sQuestItemName+"_Location_Content");
+			sContent = cString_ReplaceStringToW(sContent, cString_To16Char("{}"),sLocationTranslated);		
+			Sketchbook_SetContentForNote("QI_"+sQuestItemName+"_Location", sContent);
 		}
 		
 	}
@@ -1746,5 +1789,187 @@ class cScrRandomizerHandler : iScrUserModule, iScrUserModule_Interface, iScrRand
 		SetupRandomization_QuestItems();
 		OnMapEnter_QuestItems(cLux_GetCurrentMap());
 	}
+	
+	/////////////////////////////////////////
+	// NOTES
+	/////////////////////////////////////////
 
+	void SetupRandomization_Notes() {
+		///////////////////////////
+		// Load data from cfg file
+		iXmlDocument@ pRandomizationXML = cResources_LoadXmlDocument("notes_randomization.cfg");
+		
+		if (pRandomizationXML is null)
+		{
+			Error("[Randomizer - Notes] Couldn't load notes_randomization.cfg!");
+			return;
+		}
+		
+		mvMapNotes.resize(0);
+		
+		cXmlElement@ pMapsList = pRandomizationXML.GetFirstElement("Maps");
+		cXmlNodeListIterator@ pMapsIter = pMapsList.GetChildIterator();
+		if (pMapsIter is null)
+		{
+			Error("[Randomizer - Notes] notes_randomization.cfg isn't setup correctly.");
+			return;
+		}
+		
+		int lSumOfMins = 0;
+
+		
+		while(pMapsIter.HasNext())
+		{
+			cXmlElement@ pMapEntry = pMapsIter.Next().ToElement();
+			
+			tString sMapName = pMapEntry.GetAttributeString("Name","");			
+			if (sMapName=="")
+			{
+				Error("[Randomizer - Notes] Map entry is missing a name attribute!");
+				return;
+			}
+			
+			mvMapNotes.push_back(cMapNoteData());
+			cMapNoteData@ pMapData = mvMapNotes[mvMapNotes.length()-1];
+			pMapData.msName = sMapName;
+
+			pMapData.mlMin = pMapEntry.GetAttributeInt("Min", 0);
+			pMapData.mlMax = pMapEntry.GetAttributeInt("Max", 0);
+			
+			lSumOfMins += pMapData.mlMin;
+
+		}
+		
+		cLux_AddDebugMessage("[Randomizer - Notes] Start randomization of notes");
+		
+		array<tString> vNoteIds = Sketchbook_GetListOfRandomNoteIds();
+		int lRemainingNotesCount = vNoteIds.length();
+		
+		array<int> vNoteIdsIndexes;
+		vNoteIdsIndexes.resize(0);
+		for(int i=0; i<vNoteIds.length(); i++) {
+			vNoteIdsIndexes.push_back(i);
+		}
+		cLux_AddDebugMessage("[Randomizer - Notes] Needs to guarantee min num of notes in each map");
+		// First we guarantee the minimum number of notes
+		for(int i=0; i<mvMapNotes.length(); i++) {
+		
+			if(lRemainingNotesCount==0) {
+				break;
+			}
+		
+			cMapNoteData@ pMapData = mvMapNotes[i];
+			
+			cLux_AddDebugMessage("[Randomizer - Notes] Map is -> "+pMapData.msName);
+			
+			if(pMapData.mlMax == 0) {
+				continue;
+			}
+			lSumOfMins -= pMapData.mlMin;
+			
+			int lRealMax = cMath_Min(pMapData.mlMax, lRemainingNotesCount - lSumOfMins);
+			// real max can't be less then min
+			if(lRealMax < pMapData.mlMin) {
+				lRealMax = pMapData.mlMin;
+			}
+			
+			int lNumOfNotesToPut = cMath_RandRectl(pMapData.mlMin, lRealMax);
+			
+			if(lNumOfNotesToPut > lRemainingNotesCount ) {
+				lNumOfNotesToPut = lRemainingNotesCount;
+			}
+			
+			cLux_AddDebugMessage("[Randomizer - Notes] Putting "+lNumOfNotesToPut+" in "+pMapData.msName);
+			
+			for(int j=0; j<lNumOfNotesToPut; j++) {
+			
+				// get random note
+				int lNoteIdIndex = cMath_RandRectl(0,vNoteIdsIndexes.length()-1);
+				tString sNoteId = vNoteIds[vNoteIdsIndexes[lNoteIdIndex]];
+				vNoteIdsIndexes.removeAt(lNoteIdIndex);
+				
+				pMapData.mvNoteIds.push_back(sNoteId);
+				
+				lRemainingNotesCount--;
+			}
+		}
+		
+		cLux_AddDebugMessage("[Randomizer - Notes] Putting the last "+lRemainingNotesCount);
+		
+		// we distribute randomly the last reamining notes
+		while(lRemainingNotesCount > 0 ) {		
+			int lMapNoteIndex = cMath_RandRectl(0, mvMapNotes.length()-1);
+			cMapNoteData@ pMapData = mvMapNotes[lMapNoteIndex];
+			if(pMapData.mvNoteIds.length() < pMapData.mlMax) {
+				// get random note
+				int lNoteIdIndex = cMath_RandRectl(0,vNoteIdsIndexes.length()-1);
+				tString sNoteId = vNoteIds[vNoteIdsIndexes[lNoteIdIndex]];
+				vNoteIdsIndexes.removeAt(lNoteIdIndex);
+				
+				pMapData.mvNoteIds.push_back(sNoteId);
+				
+				lRemainingNotesCount--;
+				
+				cLux_AddDebugMessage("[Randomizer - Notes] Putting a note in "+pMapData.msName);
+			}
+		}
+		
+		
+	}
+	
+	void OnMapEnter_Notes(cLuxMap@ apMap) {
+	
+		////////////////////
+		// Find the map data for this map, if any
+		cMapNoteData@ pMapData = null;
+		for (uint i = 0; i < mvMapNotes.length(); i++)
+		{
+			if (mvMapNotes[i].msName != apMap.GetName()) continue;
+			
+			@pMapData = mvMapNotes[i];
+			break;
+		}
+		
+		// Use default data
+		if (pMapData is null)
+		{
+			cLux_AddDebugMessage("[Randomizer - Notes] No randomization data found for map '"+apMap.GetName()+"'.");
+			return;
+		}
+		
+		// deactivate all random notes entities
+		Entity_SetActive("note_random_*", false);
+		
+		//////////////////////////
+		// Get the notes
+		array<iLuxEntity@> vNoteEntities;
+		apMap.GetEntityArray("note_random_*", eLuxEntityType_Prop, "cScrPropReadable", vNoteEntities);
+		
+		if (pMapData.mvNoteIds.length() > vNoteEntities.length()) {
+			Error("[Randomizer - Notes] '"+apMap.GetName()+"' has not enough notes!");
+			return;
+		}
+		
+		cLux_AddDebugMessage("[Randomizer - Notes] got "+vNoteEntities.length()+" random notes in this map");
+		
+		array<int> vNoteEntitiesIndexes;
+		vNoteEntitiesIndexes.resize(0);
+		for(int i=0; i<vNoteEntities.length(); i++) {
+			vNoteEntitiesIndexes.push_back(i);
+		}
+		
+		for(int i=0; i<pMapData.mvNoteIds.length(); i++ ) {
+			
+			// get random note entities
+			int lIndex = cMath_RandRectl(0,vNoteEntitiesIndexes.length()-1);
+			iLuxEntity@ pNoteEntity = vNoteEntities[vNoteEntitiesIndexes[lIndex]];
+			vNoteEntitiesIndexes.removeAt(lIndex);
+			
+			cLux_AddDebugMessage("[Randomizer - Notes] Setting readable id "+pMapData.mvNoteIds[i]+" for note entity "+pNoteEntity.GetName());
+			
+			pNoteEntity.SetActive(true);
+			
+			Readable_SetId(pNoteEntity.GetName(), pMapData.mvNoteIds[i]);
+		}
+	}
 }

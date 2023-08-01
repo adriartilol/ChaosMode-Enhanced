@@ -707,6 +707,7 @@ shared interface iScrSketchbookUIHandler_Interface
 	
 	//MOD
 	void SetContentForNote(const tString &in asNoteID, const tWString &in asContent);
+	array<tString> GetListOfRandomNoteIds();
 }
 	
 //---------------------------------------------------

@@ -2320,9 +2320,9 @@
         <Edge ID="292" Distance="1.425219" />
         <Edge ID="287" Distance="1.590990" />
         <Edge ID="289" Distance="1.879162" />
+        <Edge ID="293" Distance="2.294695" />
         <Edge ID="281" Distance="2.400404" />
         <Edge ID="286" Distance="2.515576" />
-        <Edge ID="290" Distance="2.752839" />
     </Node>
     <Node Name="PathNode_491" ID="285" ListID="0" Position="-43.5 2.425 22.875" IsGenerated="false">
         <Edge ID="849" Distance="0.606400" />

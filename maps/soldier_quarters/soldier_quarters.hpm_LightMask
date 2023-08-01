@@ -1,57 +1,174 @@
 <HPLMapTrack_LightMask ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
-    <Section Name="Max@MAX-DESKTOP">
+    <Section Name="10300334514331934914">
         <Objects />
     </Section>
-    <Section Name="aaron@DESKTOP-U5KQSOE">
+    <Section Name="9195155804934729962">
         <Objects />
     </Section>
-    <Section Name="rasmu@WINDMILL">
+    <Section Name="12579031528112273739">
         <Objects />
     </Section>
-    <Section Name="aaron@DESKTOP-QQIR8DS">
+    <Section Name="4853308392052082427">
         <Objects />
     </Section>
-    <Section Name="johne@IOANNIS-WORK-LA">
+    <Section Name="5716514586046010106">
         <Objects />
     </Section>
-    <Section Name="Max@DESKTOP-MAXL">
+    <Section Name="4074963946714538518">
         <Objects />
     </Section>
-    <Section Name="johne@IOANNIS-DESKTOP">
+    <Section Name="6316717594221808991">
         <Objects />
     </Section>
-    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+    <Section Name="5913254565332661699">
         <Objects />
     </Section>
-    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+    <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="Ted@TELLUS">
+    <Section Name="938601479819809172">
         <Objects />
     </Section>
-    <Section Name="aaron@DESKTOP-Q12T94U">
+    <Section Name="2808432602814229433">
         <Objects />
     </Section>
-    <Section Name="Patrik@POMPERIPOSSA">
+    <Section Name="13338907128802076914">
         <Objects />
     </Section>
-    <Section Name="Marc@MARC-PC">
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="16252604345296683573">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <Objects />
+    </Section>
+    <Section Name="9172161606391457054">
+        <Objects />
+    </Section>
+    <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="2628536582313270325">
+        <Objects />
+    </Section>
+    <Section Name="6335398574811737625">
+        <Objects />
+    </Section>
+    <Section Name="6354346708331633253">
+        <Objects />
+    </Section>
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
+        <Objects />
+    </Section>
+    <Section Name="17083172668278975108">
+        <Objects />
+    </Section>
+    <Section Name="18195951057575834872">
         <Objects>
-            <LightMaskBox ID="469762051" Name="LightMaskBox_2" CreStamp="1685610959" ModStamp="1685611138" WorldPos="-78.25 -6.5 22.25" Rotation="0 0 0" Scale="1 1 1" Size="16 8 8" ExcludeLight="true" UID="28 30 469762051" />
+            <LightMaskBox ID="671088807" Name="LightMaskBox_1" CreStamp="1667487909" ModStamp="1680108132" WorldPos="-53.7677 -4.69796 25.028" Rotation="0 1.5708 0" Scale="1 1 1" Size="6 6 6" ExcludeLight="false" UID="40 8923 671088807" />
         </Objects>
     </Section>
-    <Section Name="johne@DETIS-DESKTOP">
+    <Section Name="18266932834280544730">
         <Objects />
     </Section>
-    <Section Name="marc@DESKTOP-MARCN">
+    <Section Name="17775428116309831020">
+        <Objects />
+    </Section>
+    <Section Name="14733719954067711498">
+        <Objects />
+    </Section>
+    <Section Name="16635787545958988187">
+        <Objects />
+    </Section>
+    <Section Name="16383422440105646029">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="2857880198863370365">
+        <Objects />
+    </Section>
+    <Section Name="14371376319993263926">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="18400966699494951686">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="9091537321687738822">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="16896531512754711917">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
+        <Objects />
+    </Section>
+    <Section Name="15379620218325487157">
+        <Objects />
+    </Section>
+    <Section Name="13833203488117669323">
+        <Objects />
+    </Section>
+    <Section Name="3613133122318339499">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="12555007986000039539">
+        <Objects />
+    </Section>
+    <Section Name="9710955726840204135">
+        <Objects />
+    </Section>
+    <Section Name="11774898963025775877">
+        <Objects />
+    </Section>
+    <Section Name="14677797404739872827">
+        <Objects />
+    </Section>
+    <Section Name="16150389251420749140">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
         <Objects>
-            <LightMaskBox ID="503316604" Name="LightMaskBox_1" CreStamp="1667487909" ModStamp="1680108132" WorldPos="-53.7677 -4.69796 25.028" Rotation="0 1.5708 0" Scale="1 1 1" Size="6 6 6" ExcludeLight="false" UID="30 8923 503316604" />
+            <LightMaskBox ID="1174405123" Name="LightMaskBox_2" CreStamp="1685610959" ModStamp="1685611138" WorldPos="-78.25 -6.5 22.25" Rotation="0 0 0" Scale="1 1 1" Size="16 8 8" ExcludeLight="true" UID="70 30 1174405123" />
         </Objects>
     </Section>
-    <Section Name="cesar@DESKTOP-0FIFFLJ">
-        <Objects />
-    </Section>
-    <Section Name="Marcus@DESKTOP-VV6VPG8">
+    <Section Name="4606790389871051747">
         <Objects />
     </Section>
 </HPLMapTrack_LightMask>

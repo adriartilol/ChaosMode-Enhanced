@@ -1,0 +1,109 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/french_colonization/barricades/improvised_barricade_4/barricade_4.dae">
+            <SubMesh ID="0" Name="Mesh" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="26.3763 3.98433 0.677336" TriCount="4168" Material="" Static="true" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="ShapeBox_1" CreStamp="1522851647" ModStamp="1522852186" WorldPos="-0.0430162 0.91241 -0.0751523" Rotation="-0.327121 -0 0" Scale="2.06142 1.92604 0.207921" RelativeTranslation="-0.0094147 -0.186632 0.597887" RelativeRotation="-0.327121 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="ShapeBox_2" CreStamp="1522851752" ModStamp="1522851786" WorldPos="-0.876181 1.98724 -0.447912" Rotation="-0.327121 -0 0" Scale="0.268101 0.411292 0.207921" RelativeTranslation="-0.84258 0.888198 0.225127" RelativeRotation="-0.327121 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="ShapeBox_3" CreStamp="1522851796" ModStamp="1522851811" WorldPos="0.808978 1.98724 -0.447912" Rotation="-0.327121 -0 0" Scale="0.194893 0.411292 0.207921" RelativeTranslation="0.84258 0.888198 0.225127" RelativeRotation="-0.327121 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="ShapeBox_4" CreStamp="1522851821" ModStamp="1522851879" WorldPos="0.611418 0.925146 -0.843245" Rotation="-2.38219 -0.0122668 0.0129206" Scale="0.104424 2.47514 0.122676" RelativeTranslation="0.64502 -0.173896 -0.170206" RelativeRotation="-2.38219 -0.0122668 0.0129206" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="5" Name="ShapeBox_5" CreStamp="1522851892" ModStamp="1522851902" WorldPos="-0.755008 0.925146 -0.843245" Rotation="-2.38222 0.0145153 -0.0152894" Scale="0.104424 2.47514 0.122676" RelativeTranslation="-0.721407 -0.173896 -0.170206" RelativeRotation="-2.38222 0.0145153 -0.0152894" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="6" Name="ShapeBox_6" CreStamp="1522851917" ModStamp="1522851990" WorldPos="-0.64685 1.08896 -0.0716151" Rotation="-2.13908 0.0569739 -0.042386" Scale="0.104424 0.664641 0.122676" RelativeTranslation="-0.613249 -0.0100819 0.601424" RelativeRotation="-2.13908 0.0569739 -0.042386" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="ShapeBox_7" CreStamp="1522851993" ModStamp="1522852021" WorldPos="-0.359036 1.06282 -0.114354" Rotation="-2.05772 -6.16474e-05 -0.00600179" Scale="0.0766433 0.458773 0.0900402" RelativeTranslation="-0.325435 -0.036222 0.558685" RelativeRotation="-2.05772 -6.16474e-05 -0.00600179" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="8" Name="ShapeBox_8" CreStamp="1522852026" ModStamp="1522852050" WorldPos="-0.444257 0.76022 -0.0877088" Rotation="-2.20378 -6.16476e-05 -0.00600179" Scale="0.0766433 0.458773 0.0900402" RelativeTranslation="-0.410656 -0.338822 0.58533" RelativeRotation="-2.20378 -6.16476e-05 -0.00600179" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="9" Name="ShapeBox_9" CreStamp="1522852064" ModStamp="1522852117" WorldPos="0.624278 0.420289 0.0962419" Rotation="-2.07558 0.0488858 -0.0208408" Scale="0.104424 0.720124 0.122676" RelativeTranslation="0.65788 -0.678753 0.769281" RelativeRotation="-2.07558 0.0488858 -0.0208408" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="10" Name="ShapeBox_10" CreStamp="1522852118" ModStamp="1522852138" WorldPos="0.34141 0.406712 0.0747854" Rotation="-2.07498 0.0139751 -0.00155734" Scale="0.104424 0.447798 0.122676" RelativeTranslation="0.375012 -0.69233 0.747824" RelativeRotation="-2.07498 0.0139751 -0.00155734" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="11" Name="ShapeBox_11" CreStamp="1522852145" ModStamp="1522852171" WorldPos="0.485563 1.89913 -0.363389" Rotation="-0.327121 -0 0" Scale="0.12532 0.125711 0.0834346" RelativeTranslation="0.519165 0.800088 0.30965" RelativeRotation="-0.327121 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="12" Name="ShapeBox_12" CreStamp="1522852173" ModStamp="1522852179" WorldPos="-0.564575 1.90102 -0.357819" Rotation="-0.327121 -0 0" Scale="0.12532 0.125711 0.0834346" RelativeTranslation="-0.530974 0.801978 0.31522" RelativeRotation="-0.327121 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="13" Name="ShapeBox_13" CreStamp="1522852197" ModStamp="1522852238" WorldPos="-0.768565 0.210844 -1.44232" Rotation="0 0 0" Scale="0.0831795 0.489256 0.0831795" RelativeTranslation="-0.734964 -0.888198 -0.769281" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="14" Name="ShapeBox_14" CreStamp="1522852243" ModStamp="1522852245" WorldPos="0.64383 0.210844 -1.44232" Rotation="0 0 0" Scale="0.0831795 0.489256 0.0831795" RelativeTranslation="0.677432 -0.888198 -0.769281" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="15" Name="Body_1" CreStamp="0" ModStamp="1641550184" WorldPos="-0.0336015 1.09904 -0.673039" Rotation="0 0 0" Scale="1.7 1.7 1.7" Material="" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="2" />
+                <Shape ID="12" />
+                <Shape ID="11" />
+                <Shape ID="3" />
+                <Shape ID="9" />
+                <Shape ID="1" />
+                <Shape ID="6" />
+                <Shape ID="5" />
+                <Shape ID="7" />
+                <Shape ID="10" />
+                <Shape ID="8" />
+                <Shape ID="13" />
+                <Shape ID="4" />
+                <Shape ID="14" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Rigid">
+        <Var ObjectId="4294967295" Name="Health" Value="1.0" />
+        <Var ObjectId="4294967295" Name="Toughness" Value="0" />
+        <Var ObjectId="4294967295" Name="MaxInteractDistance" Value="0" />
+        <Var ObjectId="4294967295" Name="EventTag" Value="" />
+        <Var ObjectId="4294967295" Name="ShowHints" Value="true" />
+        <Var ObjectId="4294967295" Name="LifeLength" Value="0" />
+        <Var ObjectId="4294967295" Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var ObjectId="4294967295" Name="QuickSave" Value="false" />
+        <Var ObjectId="4294967295" Name="FullGameSave" Value="false" />
+        <Var ObjectId="4294967295" Name="AllowMapTransfer" Value="false" />
+        <Var ObjectId="4294967295" Name="VoiceSourceBone" Value="" />
+        <Var ObjectId="4294967295" Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var ObjectId="4294967295" Name="MainPhysicsBody" Value="" />
+        <Var ObjectId="4294967295" Name="NoGravityWhenUnderwater" Value="false" />
+        <Var ObjectId="4294967295" Name="DisableFreezeAtStart" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomScriptFile" Value="" />
+        <Var ObjectId="4294967295" Name="CustomScriptClass" Value="" />
+        <Var ObjectId="4294967295" Name="ShowMesh" Value="true" />
+        <Var ObjectId="4294967295" Name="DissolveOnDestruction" Value="false" />
+        <Var ObjectId="4294967295" Name="DissolveTime" Value="1.0" />
+        <Var ObjectId="4294967295" Name="RandomizeAnimationStart" Value="true" />
+        <Var ObjectId="4294967295" Name="RootMotionBone" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOffSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnTime" Value="0.2" />
+        <Var ObjectId="4294967295" Name="EffectsOffTime" Value="0.2" />
+        <Var ObjectId="4294967295" Name="StaticMoveCheckCollision" Value="false" />
+        <Var ObjectId="4294967295" Name="StaticMoveStartSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveStopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var ObjectId="4294967295" Name="BreakActive" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomBreakBehaviour" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakOnlyOnMainBody" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakDestroyJoints" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakMinEnergy" Value="100" />
+        <Var ObjectId="4294967295" Name="BreakEntity" Value="" />
+        <Var ObjectId="4294967295" Name="BreakEntityAlignBody" Value="" />
+        <Var ObjectId="4294967295" Name="BreakSound" Value="" />
+        <Var ObjectId="4294967295" Name="BreakAIEventSoundRadius" Value="18" />
+        <Var ObjectId="4294967295" Name="BreakAIEventSoundPrio" Value="4" />
+        <Var ObjectId="4294967295" Name="BreakParticleSystem" Value="" />
+        <Var ObjectId="4294967295" Name="BreakImpulse" Value="4" />
+        <Var ObjectId="4294967295" Name="InteractOnlyWithMainBody" Value="false" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_Active" Value="false" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_HitMinEnergy" Value="100" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_MaxHits" Value="2" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_MinHitMass" Value="10" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_DamageMesh" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_DamageSound" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_DamagePS" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_BrokenEntity" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_BreakImpulse" Value="3" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_BreakSound" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_BreakPS" Value="" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_BreakAIEventPrio" Value="High" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_CanDestroyThrownEntity" Value="false" />
+        <Var ObjectId="4294967295" Name="WoodenBreakable_PathBlocker" Value="false" />
+    </UserDefinedVariables>
+</Entity>

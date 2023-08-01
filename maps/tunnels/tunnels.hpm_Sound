@@ -9,13 +9,7 @@
         <Objects />
     </Section>
     <Section Name="5913254565332661699">
-        <Objects>
-            <Sound ID="318767112" Name="Sound_Liquid_4" CreStamp="1681212911" ModStamp="1682034978" WorldPos="-71.8485 -0.25 127.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/level/cave_water_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="19 9755 318767112" />
-            <Sound ID="318767116" Name="Sound_WAR_1" CreStamp="1681213499" ModStamp="1681213882" WorldPos="-115 8.5 150.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/distant" MinDistance="20" MaxDistance="60" Volume="1" Active="false" UseCustomProperties="false" UID="19 9779 318767116" />
-            <Sound ID="318767123" Name="Sound_7" CreStamp="1684231559" ModStamp="1684231585" WorldPos="-113.059 -3.19554 147.786" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9807 318767123" />
-            <Sound ID="318767124" Name="Sound_8" CreStamp="1684231591" ModStamp="1684231603" WorldPos="-113.494 -3.5916 154.038" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9666 318767124" />
-            <Sound ID="318767125" Name="Sound_9" CreStamp="1684231647" ModStamp="1684231657" WorldPos="-118.251 -3.19554 149.386" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="19 9806 318767125" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="12579031528112273739">
         <Objects />
@@ -68,14 +62,290 @@
     <Section Name="14733719954067711498">
         <Objects />
     </Section>
-    <Section Name="7976748518510038394">
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
+        <Objects />
+    </Section>
+    <Section Name="18195951057575834872">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
+        <Objects />
+    </Section>
+    <Section Name="11774898963025775877">
+        <Objects />
+    </Section>
+    <Section Name="15379620218325487157">
+        <Objects />
+    </Section>
+    <Section Name="16635787545958988187">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="18266932834280544730">
+        <Objects />
+    </Section>
+    <Section Name="7342633215874772849">
+        <Objects />
+    </Section>
+    <Section Name="849900405859842564">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="2306221706992326022">
+        <Objects />
+    </Section>
+    <Section Name="14211520518091114105">
+        <Objects />
+    </Section>
+    <Section Name="13833203488117669323">
+        <Objects />
+    </Section>
+    <Section Name="9710955726840204135">
+        <Objects />
+    </Section>
+    <Section Name="14677797404739872827">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="4606790389871051747">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="13442671646252012013">
+        <Objects />
+    </Section>
+    <Section Name="8591075623932918075">
+        <Objects />
+    </Section>
+    <Section Name="1836132285479503855">
+        <Objects />
+    </Section>
+    <Section Name="5704074243704033166">
+        <Objects />
+    </Section>
+    <Section Name="10484839416284010017">
+        <Objects />
+    </Section>
+    <Section Name="15156238969079983863">
+        <Objects />
+    </Section>
+    <Section Name="3087097117560917566">
+        <Objects />
+    </Section>
+    <Section Name="7463359838307214659">
+        <Objects />
+    </Section>
+    <Section Name="10605551493652229194">
+        <Objects />
+    </Section>
+    <Section Name="7019001322016872295">
+        <Objects />
+    </Section>
+    <Section Name="12209433145012264341">
+        <Objects />
+    </Section>
+    <Section Name="17627635563255057907">
+        <Objects />
+    </Section>
+    <Section Name="10360015916833613026">
+        <Objects />
+    </Section>
+    <Section Name="15186640056456893155">
+        <Objects />
+    </Section>
+    <Section Name="3656665068320089617">
+        <Objects />
+    </Section>
+    <Section Name="1786164696888450778">
+        <Objects />
+    </Section>
+    <Section Name="7554460963288251697">
+        <Objects />
+    </Section>
+    <Section Name="12194447845322582928">
+        <Objects />
+    </Section>
+    <Section Name="6059686369859529995">
+        <Objects />
+    </Section>
+    <Section Name="2024479316154322063">
+        <Objects />
+    </Section>
+    <Section Name="6772919421994155814">
+        <Objects />
+    </Section>
+    <Section Name="2545873219264039096">
+        <Objects />
+    </Section>
+    <Section Name="2553992064290450272">
+        <Objects />
+    </Section>
+    <Section Name="18109300603040156768">
+        <Objects />
+    </Section>
+    <Section Name="18043411359941499278">
+        <Objects />
+    </Section>
+    <Section Name="8109272469004301749">
+        <Objects />
+    </Section>
+    <Section Name="18360552603431277685">
+        <Objects />
+    </Section>
+    <Section Name="6190308911983090940">
+        <Objects />
+    </Section>
+    <Section Name="17225789967703375918">
+        <Objects />
+    </Section>
+    <Section Name="17148889862062347008">
+        <Objects />
+    </Section>
+    <Section Name="5709918667761977789">
+        <Objects />
+    </Section>
+    <Section Name="15964648976235542272">
+        <Objects />
+    </Section>
+    <Section Name="4183233511814710847">
+        <Objects />
+    </Section>
+    <Section Name="13561363828997277169">
+        <Objects />
+    </Section>
+    <Section Name="12564525660048056548">
+        <Objects />
+    </Section>
+    <Section Name="7804963992017285815">
+        <Objects />
+    </Section>
+    <Section Name="16731238584900433395">
+        <Objects />
+    </Section>
+    <Section Name="2574685420887233851">
+        <Objects />
+    </Section>
+    <Section Name="18305255571629046635">
+        <Objects />
+    </Section>
+    <Section Name="5221395675889232783">
+        <Objects />
+    </Section>
+    <Section Name="18404501707536223889">
+        <Objects />
+    </Section>
+    <Section Name="11430045020620300771">
+        <Objects />
+    </Section>
+    <Section Name="1773613984971493865">
         <Objects>
-            <Sound ID="436208207" Name="Sound_1" CreStamp="1680792614" ModStamp="1680793113" WorldPos="-97.4918 1.87971 145.01" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9666 436208207" />
-            <Sound ID="436208208" Name="Sound_2" CreStamp="1680792844" ModStamp="1680793117" WorldPos="-97.4931 2.72476 138.213" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9664 436208208" />
-            <Sound ID="436208209" Name="Sound_3" CreStamp="1680792851" ModStamp="1680793126" WorldPos="-99.7134 0.637824 155.802" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.2" Active="true" UseCustomProperties="true" UID="26 9665 436208209" />
-            <Sound ID="436208210" Name="Sound_4" CreStamp="1680792864" ModStamp="1680793532" WorldPos="-98.7221 0.201133 158.563" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.2" Active="true" UseCustomProperties="true" UID="26 9662 436208210" />
-            <Sound ID="436208211" Name="Sound_5" CreStamp="1680793426" ModStamp="1680793526" WorldPos="-106.071 0.277659 163.935" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="2" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9630 436208211" />
-            <Sound ID="436208243" Name="Sound_6" CreStamp="1681206102" ModStamp="1681206148" WorldPos="-98.3208 0.64073 175.063" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.3" Active="true" UseCustomProperties="true" UID="26 9667 436208243" />
+            <Sound ID="1778384896" Name="Sound_Liquid_4" CreStamp="1681212911" ModStamp="1682034978" WorldPos="-71.8485 -0.25 127.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="arsenal/level/cave_water_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="true" UseCustomProperties="false" UID="106 9755 1778384896" />
+            <Sound ID="1778384897" Name="Sound_WAR_1" CreStamp="1681213499" ModStamp="1681213882" WorldPos="-115 8.5 150.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/distant" MinDistance="20" MaxDistance="60" Volume="1" Active="false" UseCustomProperties="false" UID="106 9779 1778384897" />
+            <Sound ID="1778384898" Name="Sound_7" CreStamp="1684231559" ModStamp="1684231585" WorldPos="-113.059 -3.19554 147.786" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="106 9807 1778384898" />
+            <Sound ID="1778384899" Name="Sound_8" CreStamp="1684231591" ModStamp="1684231603" WorldPos="-113.494 -3.5916 154.038" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="106 9666 1778384899" />
+            <Sound ID="1778384900" Name="Sound_9" CreStamp="1684231647" ModStamp="1684231657" WorldPos="-118.251 -3.19554 149.386" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="106 9806 1778384900" />
         </Objects>
+    </Section>
+    <Section Name="13439491925281734398">
+        <Objects />
+    </Section>
+    <Section Name="12372345395204616092">
+        <Objects />
+    </Section>
+    <Section Name="11255853892863068920">
+        <Objects />
+    </Section>
+    <Section Name="8426902128076004922">
+        <Objects />
+    </Section>
+    <Section Name="16972802540415459683">
+        <Objects />
+    </Section>
+    <Section Name="9929884855472090891">
+        <Objects />
+    </Section>
+    <Section Name="1467851273069754843">
+        <Objects />
+    </Section>
+    <Section Name="7647898079783214371">
+        <Objects />
+    </Section>
+    <Section Name="5567005983264112896">
+        <Objects />
+    </Section>
+    <Section Name="1144194915073257416">
+        <Objects />
+    </Section>
+    <Section Name="16948395815399037378">
+        <Objects />
+    </Section>
+    <Section Name="10043280279841522737">
+        <Objects />
+    </Section>
+    <Section Name="5154609606323973616">
+        <Objects />
+    </Section>
+    <Section Name="3814753305996277122">
+        <Objects />
+    </Section>
+    <Section Name="9484528426919051767">
+        <Objects />
+    </Section>
+    <Section Name="9860523329577058962">
+        <Objects />
+    </Section>
+    <Section Name="10928444819778005239">
+        <Objects />
+    </Section>
+    <Section Name="1497143035550117820">
+        <Objects>
+            <Sound ID="2080375228" Name="Sound_1" CreStamp="1680792614" ModStamp="1680793113" WorldPos="-97.4918 1.87971 145.01" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="124 9666 2080375228" />
+            <Sound ID="2080375229" Name="Sound_2" CreStamp="1680792844" ModStamp="1680793117" WorldPos="-97.4931 2.72476 138.213" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="124 9664 2080375229" />
+            <Sound ID="2080375230" Name="Sound_3" CreStamp="1680792851" ModStamp="1680793126" WorldPos="-99.7134 0.637824 155.802" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3.5" Volume="0.2" Active="true" UseCustomProperties="true" UID="124 9665 2080375230" />
+            <Sound ID="2080375231" Name="Sound_4" CreStamp="1680792864" ModStamp="1680793532" WorldPos="-98.7221 0.201133 158.563" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.2" Active="true" UseCustomProperties="true" UID="124 9662 2080375231" />
+            <Sound ID="2080375232" Name="Sound_5" CreStamp="1680793426" ModStamp="1680793526" WorldPos="-106.071 0.277659 163.935" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="2" MaxDistance="3.5" Volume="0.3" Active="true" UseCustomProperties="true" UID="124 9630 2080375232" />
+            <Sound ID="2080375233" Name="Sound_6" CreStamp="1681206102" ModStamp="1681206148" WorldPos="-98.3208 0.64073 175.063" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="dw_tunnel/portal/darkworld_object" MinDistance="1.5" MaxDistance="3" Volume="0.3" Active="true" UseCustomProperties="true" UID="124 9667 2080375233" />
+        </Objects>
+    </Section>
+    <Section Name="8233818254624998378">
+        <Objects />
+    </Section>
+    <Section Name="15801649295802075107">
+        <Objects />
+    </Section>
+    <Section Name="608848854758122182">
+        <Objects />
     </Section>
 </HPLMapTrack_Sound>

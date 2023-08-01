@@ -95,6 +95,10 @@ const int glMaxNoteTextRowsCount = 16;
 
 //------------------------------------------------------------
 
+// MOD I can't allow to reload XML each time there is a preload!
+bool glLoadedData = false;
+//-----
+
 class cNoteEntry
 {
 	tString msID="";
@@ -116,7 +120,8 @@ class cNoteEntry
 	array<tString> mvAddsObjectiveIDs;
 	
 	// MOD
-	tWString msContent="";
+	bool mbRandom;
+	tWString msContent="";	
 
 	cNoteEntry(){}
 	
@@ -456,8 +461,11 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 		////////////////////////////////
 		// Preload the inventory graphics
 		//ImGui_PreloadImage("inventory_photos_selector.dds");
-		
-		LoadXMLNoteData();
+		cLux_AddDebugMessage("[ Sketchbook ] Preload data");
+		if(!glLoadedData) {
+			LoadXMLNoteData();
+			glLoadedData=true;
+		}
 	}
 	
 	//------------------------------------------------------------
@@ -504,6 +512,8 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 	
 	void Reset() 
 	{
+		cLux_AddDebugMessage("[ Sketchbook ] Reset");
+		glLoadedData=false;
 		ClearNotes();
 		ClearPhotos();
 	}
@@ -2014,6 +2024,8 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 			tString sObjectiveToAddID = pNoteElement.GetAttributeString("AddsObjectiveIDs","");
 			cString_GetStringVec(sObjectiveToAddID, note.mvAddsObjectiveIDs, " ,");
 			
+			note.mbRandom = pNoteElement.GetAttributeBool("Random", false);			
+			
 			mvFullListOfNotes.push_back(note);
 		}
 		
@@ -2085,6 +2097,16 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 			}
 		}
 		cLux_AddDebugMessage("[ Sketchbook ] ERROR: can't find node "+asNoteID+" for putting content");
+	}
+	
+	array<tString> GetListOfRandomNoteIds() {
+		array<tString> vIds;
+		for(int i=0; i<mvFullListOfNotes.length(); i++) {
+			if(mvFullListOfNotes[i].mbRandom) {
+				vIds.push_back(mvFullListOfNotes[i].msID);
+			}
+		}
+		return vIds;
 	}
 	
 	//------------------------------------------------------------

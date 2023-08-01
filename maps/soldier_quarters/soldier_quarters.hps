@@ -78,7 +78,7 @@ class cScrMap : iScrMap
 		
 		///////////////////////
 		// Handle randomized note and key location
-		array<iLuxEntity@> vKeys;
+		/*array<iLuxEntity@> vKeys;
 		Map_GetEntityArray("CommunicationsKey_*", vKeys, eLuxEntityType_Prop, "cScrPropPickup");
 		bool bFound = false;
 		for (uint i = 0; i < vKeys.length(); i++)
@@ -102,7 +102,9 @@ class cScrMap : iScrMap
 			Error("Unable to find randomized Communications Key location! Using Tirel as default!");
 			Entity_SetActive("Note_KeyLocation_Tirel", true);
 			Entity_SetActive("CommunicationsKey_Tirel_1", true);
-		}
+		*/
+		
+		CM_OnStart();
 	}
 
 	//-------------------------------------------------------
@@ -177,7 +179,7 @@ class cScrMap : iScrMap
 		
 		/////////////////////////
 		// Communications Key count fix
-		if (cScript_GetGlobalVarBool("CommunicationsKeyFixApplied"))
+		/*if (cScript_GetGlobalVarBool("CommunicationsKeyFixApplied"))
 		{
 			cLux_AddDebugMessage("CommunicationsKeyFixApplied was true");
 			if (InGameMap_IsObjectiveCompleted("Obj_GetRadioCode_Barracks")==false)
@@ -245,11 +247,13 @@ class cScrMap : iScrMap
 		{
 			Entity_SetActive("CommunicationsKey_Picart_3", false);
 			Entity_SetActive("CommunicationsKey_Picart_"+cMath_RandRectl(1, 2), true);
-		}
+		}*/
 		
 		////////////
 		// Map change
 		Game_SetupAfterMapChange();
+		
+		CM_OnEnter();
 	}
 
 	//-------------------------------------------------------
@@ -486,7 +490,7 @@ class cScrMap : iScrMap
 		
 		////////////////////
 		// Utility room objective
-		if (asEntity == "PowerSwitch_3")
+		/*if (asEntity == "PowerSwitch_3")
 		{
 			if (alState == 1)
 			{
@@ -501,7 +505,7 @@ class cScrMap : iScrMap
 					InGameMap_AddObjective("Obj_GetRadioCode_PowerSwitch");
 				}
 			}
-		}	
+		}*/
 		
 		/////////////////////////////////
 		// Check if the radio is powered when each of the chain-linked switches is on
@@ -658,8 +662,8 @@ class cScrMap : iScrMap
 	{
 		/////////////////
 		// Padlock		
-		iLuxEntity@ pDoor = mBaseObj.GetEntityByName("MaintenanceDoor", eLuxEntityType_Prop);
-		iLuxEntity@ pLock = mBaseObj.GetEntityByName("Padlock", eLuxEntityType_Prop);
+		iLuxEntity@ pDoor = mBaseObj.GetEntityByName("QI_utility_room_null_1", eLuxEntityType_Prop);
+		iLuxEntity@ pLock = mBaseObj.GetEntityByName("QI_utility_room_null_3", eLuxEntityType_Prop);
 		
 		if (pDoor is null || pLock is null) return;
 		if (pDoor.IsActive() == false || pLock.IsActive() == false) return;
@@ -765,12 +769,12 @@ class cScrMap : iScrMap
 	{
 		mbKnowsCommRoomDoorLocked = true;
 		
-		InGameMap_AddObjective("Obj_GetRadioCode_Communications");
+		/*InGameMap_AddObjective("Obj_GetRadioCode_Communications");
 		
 		if (mbKnowsKeybox)
 		{
 			InGameMap_AddObjective("Obj_GetRadioCode_Security");
-		}
+		}*/
 	}
 	
 	//-------------------------------------------------------
@@ -778,11 +782,11 @@ class cScrMap : iScrMap
 	void OnPLayerLookAt_KeyBox(const tString &in asEntity, int alState)
 	{
 		mbKnowsKeybox = true;
-		if (mbKnowsCommRoomDoorLocked)
+		/*if (mbKnowsCommRoomDoorLocked)
 		{
 			InGameMap_AddObjective("Obj_GetRadioCode_Communications");
 			InGameMap_AddObjective("Obj_GetRadioCode_Security");
-		}
+		}*/
 	}
 
 	//-------------------------------------------------------
@@ -799,8 +803,8 @@ class cScrMap : iScrMap
 	
 	void OnPLayerLookAt_UtilityRoomSwitch(const tString &in asEntity, int alState)
 	{
-		InGameMap_AddObjective("Obj_GetRadioCode_Communications");
-		InGameMap_AddObjective("Obj_GetRadioCode_PowerSwitch");
+		//InGameMap_AddObjective("Obj_GetRadioCode_Communications");
+		//InGameMap_AddObjective("Obj_GetRadioCode_PowerSwitch");
 	}
 	
 	//-------------------------------------------------------
@@ -852,8 +856,8 @@ class cScrMap : iScrMap
 		{
 			Sound_Play("Sound_Radio", 0.f);
 			
-			if (SequenceStates_IsActive("Seq_RadioCode")==false)
-				Seq_RadioCode("");
+			//if (SequenceStates_IsActive("Seq_RadioCode")==false)
+				//Seq_RadioCode("");
 				
 			return;
 		}
@@ -1051,7 +1055,7 @@ class cScrMap : iScrMap
 	// MOD script
 	
 	void CM_OnStart() {
-	
+		Entity_SetActive("CommunicationsKey_*", false);
 	}
 	
 	void CM_OnEnter() {
@@ -1060,7 +1064,7 @@ class cScrMap : iScrMap
 	
 	// IN EACH MAP!	
 	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
-		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+		return asPickedEntity == "QI_utility_room_OfficerKey_on_proxy";
 	}		
 		 
 	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
@@ -1073,11 +1077,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

@@ -168,10 +168,14 @@ class cScrGeneratorModule : iScrUserModule, iScrUserModule_Interface, iScrGenera
 			bool bTurnOn = lLeverState == 1;
 			if (lLeverState != mlPrevLeverState)
 			{
-				if(bTurnOn && (msWheel == "" || (msWheel != "" && Entity_IsActive(msWheel) && Wheel_GetState(msWheel) != -1) ) ) {
-					ChangeState(bTurnOn ? eGeneratorState_On : eGeneratorState_Off);
-					if (bTurnOn && GetFuelTimeLeft()>0.f)
-						Effect_Rumble_Start(0.3, 0.5);
+				if(bTurnOn) {
+					if(msWheel == "" || (msWheel != "" && Entity_IsActive(msWheel) && Wheel_GetState(msWheel) != -1) ) {
+						ChangeState(eGeneratorState_On);
+						if (GetFuelTimeLeft()>0.f)
+							Effect_Rumble_Start(0.3, 0.5);
+					}
+				} else {
+					ChangeState(eGeneratorState_Off);
 				}
 			}
 			

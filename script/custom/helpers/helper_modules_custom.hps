@@ -84,6 +84,12 @@ void Sketchbook_SetContentForNote(const tString &in asNoteID, const tWString &in
 	pHandler.SetContentForNote(asNoteID, asContent);
 }
 
+array<tString> Sketchbook_GetListOfRandomNoteIds()
+{
+	iScrSketchbookUIHandler_Interface @pHandler = cast<iScrSketchbookUIHandler_Interface>( cLux_GetUserModuleFromID(eModuleType_Custom_SketchbookUIHandler) );
+	return pHandler.GetListOfRandomNoteIds();
+}
+
 //-------------------------------------------------
 
 void Sketchbook_AddNoteByID(const tString &in asNoteID)

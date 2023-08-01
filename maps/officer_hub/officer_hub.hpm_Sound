@@ -795,73 +795,7 @@
         <Objects />
     </Section>
     <Section Name="1324700434795858324">
-        <Objects>
-            <Sound ID="419432868" Name="Sound_BedRoom_2_2" CreStamp="1628517745" ModStamp="1628517897" WorldPos="-42.7345 5.02883 19.0707" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4741 419432868" />
-            <Sound ID="419432869" Name="Sound_BedRoom_1_2" CreStamp="1628517899" ModStamp="1628517941" WorldPos="-46.6624 5.02883 18.0533" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5226 419432869" />
-            <Sound ID="419432870" Name="Sound_BedRoom_4_1" CreStamp="1628518108" ModStamp="1628518148" WorldPos="-30.9577 5.25795 34.2116" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4740 419432870" />
-            <Sound ID="419432871" Name="Sound_BedRoom_3_1" CreStamp="1628518150" ModStamp="1628518168" WorldPos="-32.1944 5.25795 28.3764" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6843 419432871" />
-            <Sound ID="419432872" Name="Sound_BedRoom_3_2" CreStamp="1628518168" ModStamp="1628518178" WorldPos="-30.032 5.25795 29.197" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 6350 419432872" />
-            <Sound ID="419432873" Name="Sound_CageRoom_1" CreStamp="1628518361" ModStamp="1628518445" WorldPos="-14.7674 1.23243 33.4133" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5227 419432873" />
-            <Sound ID="419432874" Name="Sound_UpperDiningRoom_1" CreStamp="1628518497" ModStamp="1628518559" WorldPos="-22.8564 9.73633 19.5433" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 6841 419432874" />
-            <Sound ID="419432875" Name="Sound_UpperDiningRoom_2" CreStamp="1628518543" ModStamp="1628518564" WorldPos="-30.2859 9.83973 12.5876" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 4739 419432875" />
-            <Sound ID="419432876" Name="Sound_Kitchen_2" CreStamp="1628518773" ModStamp="1629210002" WorldPos="-33.0215 8.98976 23.2278" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 10087 419432876" />
-            <Sound ID="419432877" Name="Sound_Kitchen_3" CreStamp="1628518799" ModStamp="1628518819" WorldPos="-34.552 8.77836 19.2202" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 5228 419432877" />
-            <Sound ID="419432878" Name="Sound_UpperDiningRoom_4" CreStamp="1628518826" ModStamp="1628518842" WorldPos="-27.0713 9.92806 16.1104" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5232 419432878" />
-            <Sound ID="419432879" Name="Sound_DiningRoom_3" CreStamp="1628518860" ModStamp="1628518882" WorldPos="-39.9206 5.19904 32.2628" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5230 419432879" />
-            <Sound ID="419432880" Name="Sound_GhoulFuel_1" CreStamp="1628519082" ModStamp="1628519144" WorldPos="-34.5671 5.2489 18.2837" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 7342 419432880" />
-            <Sound ID="419432881" Name="Sound_BedRoom_5_1" CreStamp="1628519166" ModStamp="1628519212" WorldPos="-26.0449 5.2489 18.2837" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 6838 419432881" />
-            <Sound ID="419432882" Name="Sound_DocOffice_1" CreStamp="1628524797" ModStamp="1628524953" WorldPos="-26.1591 9.15193 -2.09742" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5229 419432882" />
-            <Sound ID="419432883" Name="Sound_DocOffice_2" CreStamp="1628524836" ModStamp="1629207713" WorldPos="-24.125 10.1871 -0.819304" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 4731 419432883" />
-            <Sound ID="419432884" Name="Sound_SickRoom_1" CreStamp="1628525019" ModStamp="1630920805" WorldPos="-34.973 9.36093 -3.89875" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 9954 419432884" />
-            <Sound ID="419432885" Name="Sound_SickRoom_2" CreStamp="1628525052" ModStamp="1630920826" WorldPos="-36.8256 9.51802 5.06384" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 9955 419432885" />
-            <Sound ID="419432886" Name="Sound_LockedRoom_1" CreStamp="1628525141" ModStamp="1628525187" WorldPos="-46.424 7.5244 8.2194" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5034 419432886" />
-            <Sound ID="419432887" Name="Sound_LockedRoom_2" CreStamp="1628525200" ModStamp="1628525213" WorldPos="-47.096 7.5244 9.82237" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 4737 419432887" />
-            <Sound ID="419432888" Name="Sound_GeneratorRoom_1" CreStamp="1628525313" ModStamp="1646310612" WorldPos="-44.0114 6.00135 -9.85101" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 6541 419432888" />
-            <Sound ID="419432889" Name="Sound_GeneratorRoom_2" CreStamp="1628525355" ModStamp="1628525356" WorldPos="-39.6329 4.7595 -10.6641" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 7344 419432889" />
-            <Sound ID="419432890" Name="Sound_GeneratorRoom_3" CreStamp="1628525365" ModStamp="1628525373" WorldPos="-43.5384 6.68954 -4.775" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 6824 419432890" />
-            <Sound ID="419432891" Name="Sound_GeneratorRoom_4" CreStamp="1628525373" ModStamp="1646310640" WorldPos="-46.7588 4.7217 -8.8589" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 9976 419432891" />
-            <Sound ID="419432892" Name="Sound_GeneratorRoom_5" CreStamp="1628525409" ModStamp="1628525426" WorldPos="-40.6646 3.68428 -7.8941" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6540 419432892" />
-            <Sound ID="419432893" Name="Sound_GeneratorRoom_6" CreStamp="1628525450" ModStamp="1628525497" WorldPos="-43.6766 6.21424 -8.7366" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 5618 419432893" />
-            <Sound ID="419432894" Name="Sound_StorageRoom_1" CreStamp="1628525532" ModStamp="1628525588" WorldPos="-77.18 4.25042 -1.19298" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 5624 419432894" />
-            <Sound ID="419432895" Name="Sound_StorageRoom_2" CreStamp="1628525589" ModStamp="1628525597" WorldPos="-79.6197 5.18534 7.48521" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 4959 419432895" />
-            <Sound ID="419432896" Name="Sound_StorageRoom_3" CreStamp="1628525598" ModStamp="1628525600" WorldPos="-70.9203 5.18534 5.9867" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 5316 419432896" />
-            <Sound ID="419432897" Name="Sound_StorageRoom_4" CreStamp="1628525602" ModStamp="1628525635" WorldPos="-71.5829 3.87493 8.47785" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6808 419432897" />
-            <Sound ID="419432898" Name="Sound_StorageRoom_5" CreStamp="1628525825" ModStamp="1628525834" WorldPos="-76.9536 2.86232 3.84146" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6799 419432898" />
-            <Sound ID="419432899" Name="Sound_StorageRoom_6" CreStamp="1628525835" ModStamp="1628525839" WorldPos="-70.138 2.86232 -1.01052" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5021 419432899" />
-            <Sound ID="419432900" Name="Sound_HallSweet_1" CreStamp="1628525992" ModStamp="1628526046" WorldPos="-76.906 3.25682 12.7839" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4732 419432900" />
-            <Sound ID="419432901" Name="Sound_HallSweet_2" CreStamp="1628526051" ModStamp="1628526064" WorldPos="-67.1864 3.5333 14.7805" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4960 419432901" />
-            <Sound ID="419432902" Name="Sound_HallSweet_3" CreStamp="1628526054" ModStamp="1628526058" WorldPos="-53.4393 5.60236 12.7839" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4955 419432902" />
-            <Sound ID="419432903" Name="Sound_HallSweet_4" CreStamp="1628526068" ModStamp="1628526076" WorldPos="-52.8268 5.60236 -4.73127" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4957 419432903" />
-            <Sound ID="419432904" Name="Sound_HallSweet_5" CreStamp="1628526077" ModStamp="1628526086" WorldPos="-41.8782 5.60236 8.5234" Rotation="0 4.71239 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4954 419432904" />
-            <Sound ID="419432905" Name="Sound_HallSweet_6" CreStamp="1628526089" ModStamp="1628526094" WorldPos="-41.0817 6.62801 7.56631" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4958 419432905" />
-            <Sound ID="419432906" Name="Sound_HallSweet_7" CreStamp="1628526121" ModStamp="1634294951" WorldPos="-31.6962 7.81577 8.2056" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4734 419432906" />
-            <Sound ID="419432907" Name="Sound_HallSweet_8" CreStamp="1628526132" ModStamp="1628526133" WorldPos="-19.3005 7.81577 8.2056" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4735 419432907" />
-            <Sound ID="419432908" Name="Sound_HallSweet_9" CreStamp="1628526138" ModStamp="1628526143" WorldPos="-26.9092 7.81577 2.98998" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 5085 419432908" />
-            <Sound ID="419432909" Name="Sound_HallSweet_10" CreStamp="1628526144" ModStamp="1628526158" WorldPos="-15.8657 5.41838 20.5025" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4738 419432909" />
-            <Sound ID="419432910" Name="Sound_HallSweet_11" CreStamp="1628526161" ModStamp="1628526180" WorldPos="-32.4791 3.52136 22.8877" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6801 419432910" />
-            <Sound ID="419432911" Name="Sound_HallSweet_12" CreStamp="1628526181" ModStamp="1628526188" WorldPos="-45.9852 3.52136 22.8877" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4733 419432911" />
-            <Sound ID="419432912" Name="Sound_HallSweet_13" CreStamp="1628526189" ModStamp="1628526192" WorldPos="-35.7365 3.52136 30.6699" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 6800 419432912" />
-            <Sound ID="419432913" Name="Sound_HallSweet_14" CreStamp="1628526195" ModStamp="1628526200" WorldPos="-25.0231 1.59038 30.6699" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4736 419432913" />
-            <Sound ID="419432914" Name="Sound_HallSweet_15" CreStamp="1628526226" ModStamp="1628526242" WorldPos="-52.4519 3.52136 30.9947" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="25 4743 419432914" />
-            <Sound ID="419432915" Name="Sound_GunFire_1" CreStamp="1628527432" ModStamp="1653955873" WorldPos="-39.5 21 28.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="25 5625 419432915" />
-            <Sound ID="419432916" Name="Sound_GenOnSweet_1" CreStamp="1628861694" ModStamp="1628862426" WorldPos="-48.7844 4.38437 -12.1415" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/pipe_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="25 6352 419432916" />
-            <Sound ID="419432917" Name="Sound_GenOnSweet_2" CreStamp="1628862428" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_a" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="25 5623 419432917" />
-            <Sound ID="419432918" Name="Sound_GenOnSweet_3" CreStamp="1628862434" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_b" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="25 5622 419432918" />
-            <Sound ID="419432919" Name="Sound_GenOnSweet_4" CreStamp="1628862434" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_c" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="25 5621 419432919" />
-            <Sound ID="419432920" Name="Sound_GenOnSweet_5" CreStamp="1628862436" ModStamp="1628862500" WorldPos="-49.1995 2.54013 -10.8521" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_d" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="25 5620 419432920" />
-            <Sound ID="419432921" Name="Sound_ExitSweet_1" CreStamp="1631891203" ModStamp="1633104733" WorldPos="-52.4186 7 -15.3971" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/exit_sweet" MinDistance="0" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="25 6858 419432921" />
-            <Sound ID="419432922" Name="Sound_GunFire_2" CreStamp="1632231389" ModStamp="1653955876" WorldPos="-51.5 39.5 -19" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="25 5619 419432922" />
-            <Sound ID="419432923" Name="Sound_GunFire_3" CreStamp="1632231396" ModStamp="1653955878" WorldPos="-93.75 16.75 14.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="25 10084 419432923" />
-            <Sound ID="419432924" Name="Sound_GunFire_4" CreStamp="1632231420" ModStamp="1653955902" WorldPos="-3.75 16 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="25 4956 419432924" />
-            <Sound ID="419432925" Name="Sound_SoldierCreatureWarning_1" CreStamp="1632475181" ModStamp="1632484229" WorldPos="-37 8.52355 19.0385" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_wall_warning_1" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="25 5311 419432925" />
-            <Sound ID="419432926" Name="Sound_SoldierDeath" CreStamp="1632475258" ModStamp="1685471027" WorldPos="-25.056 7.14169 23.7847" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_death" MinDistance="1" MaxDistance="23" Volume="1" Active="false" UseCustomProperties="true" UID="25 5314 419432926" />
-            <Sound ID="419432927" Name="Sound_SoldierBreathe" CreStamp="1632475474" ModStamp="1632833040" WorldPos="-29.4439 7.68202 23.8069" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_breathe_loop" MinDistance="1" MaxDistance="8" Volume="0.7" Active="false" UseCustomProperties="true" UID="25 5310 419432927" />
-            <Sound ID="419432928" Name="Sound_SoldierCreatureWarning_2" CreStamp="1632476633" ModStamp="1664887676" WorldPos="-24.8052 8.42609 26.1044" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_wall_warning_2" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="25 5313 419432928" />
-            <Sound ID="419432929" Name="Sound_SoldierFear" CreStamp="1632478078" ModStamp="1634313964" WorldPos="-27.4947 7.1984 23.5433" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_fear" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 5312 419432929" />
-            <Sound ID="419432930" Name="Sound_ExitSweet_2" CreStamp="1633100719" ModStamp="1633104745" WorldPos="-52.4186 7.32682 -15.2261" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/exit_wind" MinDistance="1" MaxDistance="60" Volume="1" Active="false" UseCustomProperties="false" UID="25 5144 419432930" />
-            <Sound ID="419432931" Name="Sound_BedRoom_1_1" CreStamp="1628517612" ModStamp="1628517936" WorldPos="-48.6234 5.02883 16.848" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="25 6351 419432931" />
-            <Sound ID="419432932" Name="Sound_BedRoom_2_1" CreStamp="1628517650" ModStamp="1628517712" WorldPos="-39.9782 5.02883 16.933" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="25 7345 419432932" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="7593068674357215903">
         <Objects />
@@ -912,33 +846,7 @@
         <Objects />
     </Section>
     <Section Name="10707301904601281740">
-        <Objects>
-            <Sound ID="704643126" Name="Sound_GeneratorLoop" CreStamp="1639673923" ModStamp="1639674045" WorldPos="-49.2932 2.60292 -10.7989" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_loop" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="42 8880 704643126" />
-            <Sound ID="704643127" Name="Sound_GeneratorRattle" CreStamp="1639673926" ModStamp="1639674228" WorldPos="-49.2359 2.60292 -10.7989" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/rattle" MinDistance="1" MaxDistance="50" Volume="1" Active="false" UseCustomProperties="false" UID="42 8879 704643127" />
-            <Sound ID="704643128" Name="Sound_GeneratorStart" CreStamp="1639674122" ModStamp="1639674221" WorldPos="-49.4169 2.53712 -10.831" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_start" MinDistance="1" MaxDistance="150" Volume="1" Active="false" UseCustomProperties="false" UID="42 8878 704643128" />
-            <Sound ID="704643129" Name="Sound_GeneratorStop" CreStamp="1639674155" ModStamp="1639674223" WorldPos="-49.4169 2.53712 -10.9255" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_stop" MinDistance="1" MaxDistance="150" Volume="1" Active="false" UseCustomProperties="false" UID="42 8877 704643129" />
-            <Sound ID="704643130" Name="Sound_TriggerSweet_1" CreStamp="1640694114" ModStamp="1657020123" WorldPos="-27.0813 8.36457 7.23198" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/distant_3" MinDistance="1" MaxDistance="25" Volume="1" Active="false" UseCustomProperties="true" UID="42 8876 704643130" />
-            <Sound ID="704643131" Name="Sound_TriggerSweet_2" CreStamp="1640694615" ModStamp="1648565328" WorldPos="-53.75 6.25742 -2.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_1" MinDistance="1" MaxDistance="29" Volume="0.8" Active="false" UseCustomProperties="false" UID="42 8895 704643131" />
-            <Sound ID="704643132" Name="Sound_TriggerSweet_3" CreStamp="1640695327" ModStamp="1640696344" WorldPos="-27.125 3.70485 22.8833" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_4" MinDistance="1" MaxDistance="29" Volume="1" Active="false" UseCustomProperties="false" UID="42 8909 704643132" />
-            <Sound ID="704643133" Name="Sound_TriggerSweet_4" CreStamp="1640695697" ModStamp="1640696355" WorldPos="-31.403 3.58875 22.8066" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_2" MinDistance="1" MaxDistance="29" Volume="1" Active="false" UseCustomProperties="false" UID="42 8907 704643133" />
-            <Sound ID="704643134" Name="Sound_WakeBarricade" CreStamp="1641291896" ModStamp="1657020199" WorldPos="-39.8436 7.57651 -6.71585" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/wake_barricade" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8919 704643134" />
-            <Sound ID="704643135" Name="Sound_StairSweet" CreStamp="1641292458" ModStamp="1641292495" WorldPos="-82.9439 -1.39408 25.4346" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/ladder_stairs" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8916 704643135" />
-            <Sound ID="704643136" Name="Sound_CageSweet" CreStamp="1641292687" ModStamp="1641292728" WorldPos="-10.946 -0.480756 35.1987" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dynamite_cage" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8918 704643136" />
-            <Sound ID="704643137" Name="Sound_RoofSweet_3" CreStamp="1641292788" ModStamp="1641296602" WorldPos="-52.8388 6.85865 28.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8936 704643137" />
-            <Sound ID="704643138" Name="Sound_RoofSweet_1" CreStamp="1641292839" ModStamp="1641297546" WorldPos="-52.8388 8.64388 11.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8915 704643138" />
-            <Sound ID="704643139" Name="Sound_RoofSweet_2" CreStamp="1641292852" ModStamp="1641297548" WorldPos="-52.8388 8.05422 -3.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8914 704643139" />
-            <Sound ID="704643140" Name="Sound_RoofSmallSweet_1" CreStamp="1641292883" ModStamp="1641296527" WorldPos="-65 5.44925 12.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 8937 704643140" />
-            <Sound ID="704643141" Name="Sound_RoofSmallSweet_2" CreStamp="1641296530" ModStamp="1641296560" WorldPos="-79.1475 5.44925 12.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="true" UID="42 8912 704643141" />
-            <Sound ID="704643142" Name="Sound_GeneratorRoom_7" CreStamp="1646310613" ModStamp="1646310612" WorldPos="-44.0114 6.00135 -9.85101" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="42 6541 704643142" />
-            <Sound ID="704643143" Name="Sound_TunnelRoof_2" CreStamp="1651061464" ModStamp="1651061568" WorldPos="-52.6704 5.83776 38.3906" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="42 9009 704643143" />
-            <Sound ID="704643144" Name="Sound_TunnelRoof_1" CreStamp="1651061516" ModStamp="1651061552" WorldPos="-62.3633 5.83776 48.5847" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="42 9008 704643144" />
-            <Sound ID="704643145" Name="Sound_DoorThud" CreStamp="1652088601" ModStamp="1652088645" WorldPos="-50.2549 4.67293 7.22968" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/safedoor/thud" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="42 9005 704643145" />
-            <Sound ID="704643146" Name="Sound_DogTagSweet" CreStamp="1656947003" ModStamp="1674027438" WorldPos="-25.75 3.90594 16.5612" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/delise_tag" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="42 9044 704643146" />
-            <Sound ID="704643147" Name="Sound_Flies_1" CreStamp="1682066567" ModStamp="1682069690" WorldPos="-28.6023 2.7579 18.3171" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="42 9098 704643147" />
-            <Sound ID="704643148" Name="Sound_Flies_2" CreStamp="1682069951" ModStamp="1682069980" WorldPos="-77.3466 1.7413 -6.94637" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="42 9096 704643148" />
-            <Sound ID="704643149" Name="Sound_Flies_3" CreStamp="1682070039" ModStamp="1682070057" WorldPos="-24.9087 0.5633 35.6447" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="42 9095 704643149" />
-            <Sound ID="704643150" Name="Sound_Flies_4" CreStamp="1682070083" ModStamp="1682070694" WorldPos="-47.2169 2.1313 -13.5578" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="42 9097 704643150" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="16930721246733664795">
         <Objects />
@@ -992,6 +900,668 @@
         <Objects />
     </Section>
     <Section Name="12182147755768874604">
+        <Objects />
+    </Section>
+    <Section Name="13133016113365051216">
+        <Objects />
+    </Section>
+    <Section Name="7056757886268078536">
+        <Objects />
+    </Section>
+    <Section Name="7708308281828018885">
+        <Objects />
+    </Section>
+    <Section Name="736824926233426245">
+        <Objects />
+    </Section>
+    <Section Name="1707376356110952973">
+        <Objects />
+    </Section>
+    <Section Name="4018040593275124672">
+        <Objects />
+    </Section>
+    <Section Name="15869877144776503998">
+        <Objects />
+    </Section>
+    <Section Name="6908792345064238436">
+        <Objects />
+    </Section>
+    <Section Name="8122688492932060766">
+        <Objects />
+    </Section>
+    <Section Name="11326810860302946880">
+        <Objects />
+    </Section>
+    <Section Name="10373800632897619958">
+        <Objects />
+    </Section>
+    <Section Name="17473338394717872970">
+        <Objects />
+    </Section>
+    <Section Name="6151220106175798821">
+        <Objects />
+    </Section>
+    <Section Name="9512147402566241677">
+        <Objects />
+    </Section>
+    <Section Name="12482704285027854016">
+        <Objects />
+    </Section>
+    <Section Name="9958997007494294400">
+        <Objects />
+    </Section>
+    <Section Name="3677676115307344446">
+        <Objects />
+    </Section>
+    <Section Name="8105205662510546146">
+        <Objects />
+    </Section>
+    <Section Name="3929891184546526044">
+        <Objects />
+    </Section>
+    <Section Name="1140039015493428709">
+        <Objects />
+    </Section>
+    <Section Name="12331960530679645367">
+        <Objects />
+    </Section>
+    <Section Name="12182565751852492141">
+        <Objects />
+    </Section>
+    <Section Name="15570346050356271291">
+        <Objects />
+    </Section>
+    <Section Name="14052846700473512371">
+        <Objects />
+    </Section>
+    <Section Name="6330443905023767385">
+        <Objects />
+    </Section>
+    <Section Name="4251768714100831625">
+        <Objects />
+    </Section>
+    <Section Name="6755050289704626806">
+        <Objects />
+    </Section>
+    <Section Name="7623891618555795072">
+        <Objects />
+    </Section>
+    <Section Name="2978523887190290769">
+        <Objects />
+    </Section>
+    <Section Name="10802350229449812900">
+        <Objects />
+    </Section>
+    <Section Name="5009727397497134905">
+        <Objects />
+    </Section>
+    <Section Name="18033347796203434673">
+        <Objects />
+    </Section>
+    <Section Name="16111683425463862666">
+        <Objects />
+    </Section>
+    <Section Name="10752068287049763945">
+        <Objects />
+    </Section>
+    <Section Name="3544918930035632178">
+        <Objects />
+    </Section>
+    <Section Name="16002853513153701285">
+        <Objects />
+    </Section>
+    <Section Name="11140471426037242048">
+        <Objects />
+    </Section>
+    <Section Name="981700581654093985">
+        <Objects />
+    </Section>
+    <Section Name="2254654813980375287">
+        <Objects />
+    </Section>
+    <Section Name="17033654203558393285">
+        <Objects />
+    </Section>
+    <Section Name="3943779306264931944">
+        <Objects />
+    </Section>
+    <Section Name="16980343511510417839">
+        <Objects />
+    </Section>
+    <Section Name="11331253397289055455">
+        <Objects />
+    </Section>
+    <Section Name="14516205064298369539">
+        <Objects />
+    </Section>
+    <Section Name="14433712096544142838">
+        <Objects />
+    </Section>
+    <Section Name="2309019923688481203">
+        <Objects />
+    </Section>
+    <Section Name="12252272957032570871">
+        <Objects />
+    </Section>
+    <Section Name="13501331306064048759">
+        <Objects />
+    </Section>
+    <Section Name="12710584821357937306">
+        <Objects />
+    </Section>
+    <Section Name="1458716758632918070">
+        <Objects />
+    </Section>
+    <Section Name="10734894443031512904">
+        <Objects />
+    </Section>
+    <Section Name="2247521118245609390">
+        <Objects />
+    </Section>
+    <Section Name="10331888365884878476">
+        <Objects />
+    </Section>
+    <Section Name="13376631752790482854">
+        <Objects />
+    </Section>
+    <Section Name="8851885320867033809">
+        <Objects />
+    </Section>
+    <Section Name="2599853197629457398">
+        <Objects />
+    </Section>
+    <Section Name="8147075429772157801">
+        <Objects />
+    </Section>
+    <Section Name="7748339905698287208">
+        <Objects />
+    </Section>
+    <Section Name="18321994825219067845">
+        <Objects />
+    </Section>
+    <Section Name="1702238123269637982">
+        <Objects />
+    </Section>
+    <Section Name="16799777736779466358">
+        <Objects />
+    </Section>
+    <Section Name="5315113516163523394">
+        <Objects />
+    </Section>
+    <Section Name="18336124720204794665">
+        <Objects />
+    </Section>
+    <Section Name="11787561106047861182">
+        <Objects />
+    </Section>
+    <Section Name="14246521157448620129">
+        <Objects />
+    </Section>
+    <Section Name="5555383566756610050">
+        <Objects />
+    </Section>
+    <Section Name="18239768638150535210">
+        <Objects />
+    </Section>
+    <Section Name="2597355099341276413">
+        <Objects />
+    </Section>
+    <Section Name="8449416071094461353">
+        <Objects />
+    </Section>
+    <Section Name="7053715570868912925">
+        <Objects />
+    </Section>
+    <Section Name="10204821252519153158">
+        <Objects />
+    </Section>
+    <Section Name="5245872406945122621">
+        <Objects />
+    </Section>
+    <Section Name="4417248568210923452">
+        <Objects />
+    </Section>
+    <Section Name="11074684417823987931">
+        <Objects />
+    </Section>
+    <Section Name="11197955055898557930">
+        <Objects />
+    </Section>
+    <Section Name="13524722311751437098">
+        <Objects />
+    </Section>
+    <Section Name="16910186382701143056">
+        <Objects />
+    </Section>
+    <Section Name="2632417923336899851">
+        <Objects />
+    </Section>
+    <Section Name="16750396560042270800">
+        <Objects />
+    </Section>
+    <Section Name="14473161940756810109">
+        <Objects />
+    </Section>
+    <Section Name="10584813328491026196">
+        <Objects />
+    </Section>
+    <Section Name="15742048980875496687">
+        <Objects />
+    </Section>
+    <Section Name="15058202203343762745">
+        <Objects />
+    </Section>
+    <Section Name="1128949845454991373">
+        <Objects />
+    </Section>
+    <Section Name="4238783825085050766">
+        <Objects />
+    </Section>
+    <Section Name="10161732882690111704">
+        <Objects />
+    </Section>
+    <Section Name="17639538961600235096">
+        <Objects />
+    </Section>
+    <Section Name="5401824639604972962">
+        <Objects />
+    </Section>
+    <Section Name="16664713467744515009">
+        <Objects />
+    </Section>
+    <Section Name="4140973598832742474">
+        <Objects />
+    </Section>
+    <Section Name="1707501203879909788">
+        <Objects />
+    </Section>
+    <Section Name="12873048782245224470">
+        <Objects />
+    </Section>
+    <Section Name="3133308046560658762">
+        <Objects />
+    </Section>
+    <Section Name="11481280272158526417">
+        <Objects />
+    </Section>
+    <Section Name="16326549623443423554">
+        <Objects />
+    </Section>
+    <Section Name="11567580916388120721">
+        <Objects />
+    </Section>
+    <Section Name="18374343099931612604">
+        <Objects />
+    </Section>
+    <Section Name="12729041325469093752">
+        <Objects />
+    </Section>
+    <Section Name="9809199476901538614">
+        <Objects />
+    </Section>
+    <Section Name="15814333272025392652">
+        <Objects />
+    </Section>
+    <Section Name="4390559225801774051">
+        <Objects />
+    </Section>
+    <Section Name="10527034080438270296">
+        <Objects />
+    </Section>
+    <Section Name="13187953245712134743">
+        <Objects />
+    </Section>
+    <Section Name="9272327800861367296">
+        <Objects />
+    </Section>
+    <Section Name="6834347751770170997">
+        <Objects />
+    </Section>
+    <Section Name="13761730117656886370">
+        <Objects />
+    </Section>
+    <Section Name="8538754663806190528">
+        <Objects />
+    </Section>
+    <Section Name="10357928525945438415">
+        <Objects />
+    </Section>
+    <Section Name="15136754800083996026">
+        <Objects />
+    </Section>
+    <Section Name="9858091903776390564">
+        <Objects />
+    </Section>
+    <Section Name="14352591309164445233">
+        <Objects />
+    </Section>
+    <Section Name="5755619728528624507">
+        <Objects />
+    </Section>
+    <Section Name="15867272897297855210">
+        <Objects />
+    </Section>
+    <Section Name="12991767688195341556">
+        <Objects />
+    </Section>
+    <Section Name="3493779993350494166">
+        <Objects />
+    </Section>
+    <Section Name="2527087731013236456">
+        <Objects />
+    </Section>
+    <Section Name="2347004918736418314">
+        <Objects />
+    </Section>
+    <Section Name="586835783458798992">
+        <Objects />
+    </Section>
+    <Section Name="7063500885563168302">
+        <Objects />
+    </Section>
+    <Section Name="5904916628377541278">
+        <Objects />
+    </Section>
+    <Section Name="3419409878510535856">
+        <Objects />
+    </Section>
+    <Section Name="10565412254502213441">
+        <Objects />
+    </Section>
+    <Section Name="1176267133428544579">
+        <Objects />
+    </Section>
+    <Section Name="11146910977390807630">
+        <Objects />
+    </Section>
+    <Section Name="16485730883423267429">
+        <Objects />
+    </Section>
+    <Section Name="12801489074280363881">
+        <Objects />
+    </Section>
+    <Section Name="4794842109821120469">
+        <Objects />
+    </Section>
+    <Section Name="7960462547459846330">
+        <Objects />
+    </Section>
+    <Section Name="12618006484491437068">
+        <Objects />
+    </Section>
+    <Section Name="13568345365272813953">
+        <Objects />
+    </Section>
+    <Section Name="645994465114540511">
+        <Objects />
+    </Section>
+    <Section Name="8194494483206929358">
+        <Objects />
+    </Section>
+    <Section Name="17434229172272700778">
+        <Objects />
+    </Section>
+    <Section Name="13577549921665476632">
+        <Objects />
+    </Section>
+    <Section Name="10191944335875951193">
+        <Objects />
+    </Section>
+    <Section Name="776626076025418266">
+        <Objects />
+    </Section>
+    <Section Name="17720401454523553319">
+        <Objects />
+    </Section>
+    <Section Name="6028396696498207671">
+        <Objects />
+    </Section>
+    <Section Name="8000292937402819047">
+        <Objects />
+    </Section>
+    <Section Name="1969895801286256536">
+        <Objects />
+    </Section>
+    <Section Name="3585800947917255820">
+        <Objects />
+    </Section>
+    <Section Name="9674509049059000406">
+        <Objects />
+    </Section>
+    <Section Name="10882445871910371353">
+        <Objects />
+    </Section>
+    <Section Name="17133752801572359819">
+        <Objects />
+    </Section>
+    <Section Name="9346971588917820264">
+        <Objects />
+    </Section>
+    <Section Name="2859812978067854838">
+        <Objects />
+    </Section>
+    <Section Name="491410239846904247">
+        <Objects />
+    </Section>
+    <Section Name="3230773329420559131">
+        <Objects />
+    </Section>
+    <Section Name="9006026031145464616">
+        <Objects />
+    </Section>
+    <Section Name="9941791586547276015">
+        <Objects />
+    </Section>
+    <Section Name="2170399100256499049">
+        <Objects />
+    </Section>
+    <Section Name="8502829846056580859">
+        <Objects />
+    </Section>
+    <Section Name="5095683373521199113">
+        <Objects />
+    </Section>
+    <Section Name="10240058477553700979">
+        <Objects />
+    </Section>
+    <Section Name="8228457432140100004">
+        <Objects>
+            <Sound ID="3607103906" Name="Sound_BedRoom_2_2" CreStamp="1628517745" ModStamp="1628517897" WorldPos="-42.7345 5.02883 19.0707" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4741 3607103906" />
+            <Sound ID="3607103907" Name="Sound_BedRoom_1_2" CreStamp="1628517899" ModStamp="1628517941" WorldPos="-46.6624 5.02883 18.0533" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5226 3607103907" />
+            <Sound ID="3607103908" Name="Sound_BedRoom_4_1" CreStamp="1628518108" ModStamp="1628518148" WorldPos="-30.9577 5.25795 34.2116" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4740 3607103908" />
+            <Sound ID="3607103909" Name="Sound_BedRoom_3_1" CreStamp="1628518150" ModStamp="1628518168" WorldPos="-32.1944 5.25795 28.3764" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6843 3607103909" />
+            <Sound ID="3607103910" Name="Sound_BedRoom_3_2" CreStamp="1628518168" ModStamp="1628518178" WorldPos="-30.032 5.25795 29.197" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 6350 3607103910" />
+            <Sound ID="3607103911" Name="Sound_CageRoom_1" CreStamp="1628518361" ModStamp="1628518445" WorldPos="-14.7674 1.23243 33.4133" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5227 3607103911" />
+            <Sound ID="3607103912" Name="Sound_UpperDiningRoom_1" CreStamp="1628518497" ModStamp="1628518559" WorldPos="-22.8564 9.73633 19.5433" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 6841 3607103912" />
+            <Sound ID="3607103913" Name="Sound_UpperDiningRoom_2" CreStamp="1628518543" ModStamp="1628518564" WorldPos="-30.2859 9.83973 12.5876" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 4739 3607103913" />
+            <Sound ID="3607103914" Name="Sound_Kitchen_2" CreStamp="1628518773" ModStamp="1629210002" WorldPos="-33.0215 8.98976 23.2278" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 10087 3607103914" />
+            <Sound ID="3607103915" Name="Sound_Kitchen_3" CreStamp="1628518799" ModStamp="1628518819" WorldPos="-34.552 8.77836 19.2202" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 5228 3607103915" />
+            <Sound ID="3607103916" Name="Sound_UpperDiningRoom_4" CreStamp="1628518826" ModStamp="1628518842" WorldPos="-27.0713 9.92806 16.1104" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5232 3607103916" />
+            <Sound ID="3607103917" Name="Sound_DiningRoom_3" CreStamp="1628518860" ModStamp="1628518882" WorldPos="-39.9206 5.19904 32.2628" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5230 3607103917" />
+            <Sound ID="3607103918" Name="Sound_GhoulFuel_1" CreStamp="1628519082" ModStamp="1628519144" WorldPos="-34.5671 5.2489 18.2837" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 7342 3607103918" />
+            <Sound ID="3607103919" Name="Sound_BedRoom_5_1" CreStamp="1628519166" ModStamp="1628519212" WorldPos="-26.0449 5.2489 18.2837" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 6838 3607103919" />
+            <Sound ID="3607103920" Name="Sound_DocOffice_1" CreStamp="1628524797" ModStamp="1628524953" WorldPos="-26.1591 9.15193 -2.09742" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5229 3607103920" />
+            <Sound ID="3607103921" Name="Sound_DocOffice_2" CreStamp="1628524836" ModStamp="1629207713" WorldPos="-24.125 10.1871 -0.819304" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 4731 3607103921" />
+            <Sound ID="3607103922" Name="Sound_SickRoom_1" CreStamp="1628525019" ModStamp="1630920805" WorldPos="-34.973 9.36093 -3.89875" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 9954 3607103922" />
+            <Sound ID="3607103923" Name="Sound_SickRoom_2" CreStamp="1628525052" ModStamp="1630920826" WorldPos="-36.8256 9.51802 5.06384" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 9955 3607103923" />
+            <Sound ID="3607103924" Name="Sound_LockedRoom_1" CreStamp="1628525141" ModStamp="1628525187" WorldPos="-46.424 7.5244 8.2194" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5034 3607103924" />
+            <Sound ID="3607103925" Name="Sound_LockedRoom_2" CreStamp="1628525200" ModStamp="1628525213" WorldPos="-47.096 7.5244 9.82237" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 4737 3607103925" />
+            <Sound ID="3607103926" Name="Sound_GeneratorRoom_1" CreStamp="1628525313" ModStamp="1646310612" WorldPos="-44.0114 6.00135 -9.85101" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 6541 3607103926" />
+            <Sound ID="3607103927" Name="Sound_GeneratorRoom_2" CreStamp="1628525355" ModStamp="1628525356" WorldPos="-39.6329 4.7595 -10.6641" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 7344 3607103927" />
+            <Sound ID="3607103928" Name="Sound_GeneratorRoom_3" CreStamp="1628525365" ModStamp="1628525373" WorldPos="-43.5384 6.68954 -4.775" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 6824 3607103928" />
+            <Sound ID="3607103929" Name="Sound_GeneratorRoom_4" CreStamp="1628525373" ModStamp="1646310640" WorldPos="-46.7588 4.7217 -8.8589" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 9976 3607103929" />
+            <Sound ID="3607103930" Name="Sound_GeneratorRoom_5" CreStamp="1628525409" ModStamp="1628525426" WorldPos="-40.6646 3.68428 -7.8941" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6540 3607103930" />
+            <Sound ID="3607103931" Name="Sound_GeneratorRoom_6" CreStamp="1628525450" ModStamp="1628525497" WorldPos="-43.6766 6.21424 -8.7366" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 5618 3607103931" />
+            <Sound ID="3607103932" Name="Sound_StorageRoom_1" CreStamp="1628525532" ModStamp="1628525588" WorldPos="-77.18 4.25042 -1.19298" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 5624 3607103932" />
+            <Sound ID="3607103933" Name="Sound_StorageRoom_2" CreStamp="1628525589" ModStamp="1628525597" WorldPos="-79.6197 5.18534 7.48521" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 4959 3607103933" />
+            <Sound ID="3607103934" Name="Sound_StorageRoom_3" CreStamp="1628525598" ModStamp="1628525600" WorldPos="-70.9203 5.18534 5.9867" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 5316 3607103934" />
+            <Sound ID="3607103935" Name="Sound_StorageRoom_4" CreStamp="1628525602" ModStamp="1628525635" WorldPos="-71.5829 3.87493 8.47785" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6808 3607103935" />
+            <Sound ID="3607103936" Name="Sound_StorageRoom_5" CreStamp="1628525825" ModStamp="1628525834" WorldPos="-76.9536 2.86232 3.84146" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6799 3607103936" />
+            <Sound ID="3607103937" Name="Sound_StorageRoom_6" CreStamp="1628525835" ModStamp="1628525839" WorldPos="-70.138 2.86232 -1.01052" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5021 3607103937" />
+            <Sound ID="3607103938" Name="Sound_HallSweet_1" CreStamp="1628525992" ModStamp="1628526046" WorldPos="-76.906 3.25682 12.7839" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4732 3607103938" />
+            <Sound ID="3607103939" Name="Sound_HallSweet_2" CreStamp="1628526051" ModStamp="1628526064" WorldPos="-67.1864 3.5333 14.7805" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4960 3607103939" />
+            <Sound ID="3607103940" Name="Sound_HallSweet_3" CreStamp="1628526054" ModStamp="1628526058" WorldPos="-53.4393 5.60236 12.7839" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4955 3607103940" />
+            <Sound ID="3607103941" Name="Sound_HallSweet_4" CreStamp="1628526068" ModStamp="1628526076" WorldPos="-52.8268 5.60236 -4.73127" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4957 3607103941" />
+            <Sound ID="3607103942" Name="Sound_HallSweet_5" CreStamp="1628526077" ModStamp="1628526086" WorldPos="-41.8782 5.60236 8.5234" Rotation="0 4.71239 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4954 3607103942" />
+            <Sound ID="3607103943" Name="Sound_HallSweet_6" CreStamp="1628526089" ModStamp="1628526094" WorldPos="-41.0817 6.62801 7.56631" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4958 3607103943" />
+            <Sound ID="3607103944" Name="Sound_HallSweet_7" CreStamp="1628526121" ModStamp="1634294951" WorldPos="-31.6962 7.81577 8.2056" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4734 3607103944" />
+            <Sound ID="3607103945" Name="Sound_HallSweet_8" CreStamp="1628526132" ModStamp="1628526133" WorldPos="-19.3005 7.81577 8.2056" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4735 3607103945" />
+            <Sound ID="3607103946" Name="Sound_HallSweet_9" CreStamp="1628526138" ModStamp="1628526143" WorldPos="-26.9092 7.81577 2.98998" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 5085 3607103946" />
+            <Sound ID="3607103947" Name="Sound_HallSweet_10" CreStamp="1628526144" ModStamp="1628526158" WorldPos="-15.8657 5.41838 20.5025" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4738 3607103947" />
+            <Sound ID="3607103948" Name="Sound_HallSweet_11" CreStamp="1628526161" ModStamp="1628526180" WorldPos="-32.4791 3.52136 22.8877" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6801 3607103948" />
+            <Sound ID="3607103949" Name="Sound_HallSweet_12" CreStamp="1628526181" ModStamp="1628526188" WorldPos="-45.9852 3.52136 22.8877" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4733 3607103949" />
+            <Sound ID="3607103950" Name="Sound_HallSweet_13" CreStamp="1628526189" ModStamp="1628526192" WorldPos="-35.7365 3.52136 30.6699" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 6800 3607103950" />
+            <Sound ID="3607103951" Name="Sound_HallSweet_14" CreStamp="1628526195" ModStamp="1628526200" WorldPos="-25.0231 1.59038 30.6699" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4736 3607103951" />
+            <Sound ID="3607103952" Name="Sound_HallSweet_15" CreStamp="1628526226" ModStamp="1628526242" WorldPos="-52.4519 3.52136 30.9947" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dust_debris_loop" MinDistance="0" MaxDistance="3" Volume="1" Active="false" UseCustomProperties="false" UID="215 4743 3607103952" />
+            <Sound ID="3607103953" Name="Sound_GunFire_1" CreStamp="1628527432" ModStamp="1653955873" WorldPos="-39.5 21 28.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="215 5625 3607103953" />
+            <Sound ID="3607103954" Name="Sound_GenOnSweet_1" CreStamp="1628861694" ModStamp="1628862426" WorldPos="-48.7844 4.38437 -12.1415" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/pipe_loop" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="215 6352 3607103954" />
+            <Sound ID="3607103955" Name="Sound_GenOnSweet_2" CreStamp="1628862428" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_a" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="215 5623 3607103955" />
+            <Sound ID="3607103956" Name="Sound_GenOnSweet_3" CreStamp="1628862434" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_b" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="215 5622 3607103956" />
+            <Sound ID="3607103957" Name="Sound_GenOnSweet_4" CreStamp="1628862434" ModStamp="1628862500" WorldPos="-49.2531 2.54013 -11.0511" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_c" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="215 5621 3607103957" />
+            <Sound ID="3607103958" Name="Sound_GenOnSweet_5" CreStamp="1628862436" ModStamp="1628862500" WorldPos="-49.1995 2.54013 -10.8521" Rotation="0 3.57628e-06 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/sweet_d" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="215 5620 3607103958" />
+            <Sound ID="3607103959" Name="Sound_ExitSweet_1" CreStamp="1631891203" ModStamp="1633104733" WorldPos="-52.4186 7 -15.3971" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/exit_sweet" MinDistance="0" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="215 6858 3607103959" />
+            <Sound ID="3607103960" Name="Sound_GunFire_2" CreStamp="1632231389" ModStamp="1653955876" WorldPos="-51.5 39.5 -19" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="215 5619 3607103960" />
+            <Sound ID="3607103961" Name="Sound_GunFire_3" CreStamp="1632231396" ModStamp="1653955878" WorldPos="-93.75 16.75 14.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="215 10084 3607103961" />
+            <Sound ID="3607103962" Name="Sound_GunFire_4" CreStamp="1632231420" ModStamp="1653955902" WorldPos="-3.75 16 -0.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/war_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="215 4956 3607103962" />
+            <Sound ID="3607103963" Name="Sound_SoldierCreatureWarning_1" CreStamp="1632475181" ModStamp="1632484229" WorldPos="-37 8.52355 19.0385" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_wall_warning_1" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="215 5311 3607103963" />
+            <Sound ID="3607103964" Name="Sound_SoldierDeath" CreStamp="1632475258" ModStamp="1685471027" WorldPos="-25.056 7.14169 23.7847" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_death" MinDistance="1" MaxDistance="23" Volume="1" Active="false" UseCustomProperties="true" UID="215 5314 3607103964" />
+            <Sound ID="3607103965" Name="Sound_SoldierBreathe" CreStamp="1632475474" ModStamp="1632833040" WorldPos="-29.4439 7.68202 23.8069" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_breathe_loop" MinDistance="1" MaxDistance="8" Volume="0.7" Active="false" UseCustomProperties="true" UID="215 5310 3607103965" />
+            <Sound ID="3607103966" Name="Sound_SoldierCreatureWarning_2" CreStamp="1632476633" ModStamp="1664887676" WorldPos="-24.8052 8.42609 26.1044" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_wall_warning_2" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="215 5313 3607103966" />
+            <Sound ID="3607103967" Name="Sound_SoldierFear" CreStamp="1632478078" ModStamp="1634313964" WorldPos="-27.4947 7.1984 23.5433" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/soldier/soldier_fear" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 5312 3607103967" />
+            <Sound ID="3607103968" Name="Sound_ExitSweet_2" CreStamp="1633100719" ModStamp="1633104745" WorldPos="-52.4186 7.32682 -15.2261" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/exit_wind" MinDistance="1" MaxDistance="60" Volume="1" Active="false" UseCustomProperties="false" UID="215 5144 3607103968" />
+            <Sound ID="3607103969" Name="Sound_BedRoom_1_1" CreStamp="1628517612" ModStamp="1628517936" WorldPos="-48.6234 5.02883 16.848" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="215 6351 3607103969" />
+            <Sound ID="3607103970" Name="Sound_BedRoom_2_1" CreStamp="1628517650" ModStamp="1628517712" WorldPos="-39.9782 5.02883 16.933" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="215 7345 3607103970" />
+        </Objects>
+    </Section>
+    <Section Name="16409420980002435754">
+        <Objects />
+    </Section>
+    <Section Name="11081419070132806816">
+        <Objects />
+    </Section>
+    <Section Name="15391763574474184800">
+        <Objects />
+    </Section>
+    <Section Name="4010786354318907938">
+        <Objects />
+    </Section>
+    <Section Name="11856662062823093685">
+        <Objects />
+    </Section>
+    <Section Name="7775006697935426542">
+        <Objects />
+    </Section>
+    <Section Name="5623913154342631619">
+        <Objects />
+    </Section>
+    <Section Name="2988446400644223952">
+        <Objects />
+    </Section>
+    <Section Name="16504186452985672522">
+        <Objects />
+    </Section>
+    <Section Name="5611817423745916043">
+        <Objects />
+    </Section>
+    <Section Name="12213924699620245706">
+        <Objects />
+    </Section>
+    <Section Name="5215417874701537332">
+        <Objects />
+    </Section>
+    <Section Name="9188335485949301189">
+        <Objects />
+    </Section>
+    <Section Name="9977876995072517539">
+        <Objects />
+    </Section>
+    <Section Name="8842436234393624861">
+        <Objects />
+    </Section>
+    <Section Name="7687672022686087327">
+        <Objects />
+    </Section>
+    <Section Name="2650872853433035610">
+        <Objects>
+            <Sound ID="3892314166" Name="Sound_GeneratorLoop" CreStamp="1639673923" ModStamp="1639674045" WorldPos="-49.2932 2.60292 -10.7989" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_loop" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="232 8880 3892314166" />
+            <Sound ID="3892314167" Name="Sound_GeneratorRattle" CreStamp="1639673926" ModStamp="1639674228" WorldPos="-49.2359 2.60292 -10.7989" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/rattle_sweet/rattle" MinDistance="1" MaxDistance="50" Volume="1" Active="false" UseCustomProperties="false" UID="232 8879 3892314167" />
+            <Sound ID="3892314168" Name="Sound_GeneratorStart" CreStamp="1639674122" ModStamp="1639674221" WorldPos="-49.4169 2.53712 -10.831" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_start" MinDistance="1" MaxDistance="150" Volume="1" Active="false" UseCustomProperties="false" UID="232 8878 3892314168" />
+            <Sound ID="3892314169" Name="Sound_GeneratorStop" CreStamp="1639674155" ModStamp="1639674223" WorldPos="-49.4169 2.53712 -10.9255" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/generator/generator_stop" MinDistance="1" MaxDistance="150" Volume="1" Active="false" UseCustomProperties="false" UID="232 8877 3892314169" />
+            <Sound ID="3892314170" Name="Sound_TriggerSweet_1" CreStamp="1640694114" ModStamp="1657020123" WorldPos="-27.0813 8.36457 7.23198" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/distant_3" MinDistance="1" MaxDistance="25" Volume="1" Active="false" UseCustomProperties="true" UID="232 8876 3892314170" />
+            <Sound ID="3892314171" Name="Sound_TriggerSweet_2" CreStamp="1640694615" ModStamp="1648565328" WorldPos="-53.75 6.25742 -2.25" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_1" MinDistance="1" MaxDistance="29" Volume="0.8" Active="false" UseCustomProperties="false" UID="232 8895 3892314171" />
+            <Sound ID="3892314172" Name="Sound_TriggerSweet_3" CreStamp="1640695327" ModStamp="1640696344" WorldPos="-27.125 3.70485 22.8833" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_4" MinDistance="1" MaxDistance="29" Volume="1" Active="false" UseCustomProperties="false" UID="232 8909 3892314172" />
+            <Sound ID="3892314173" Name="Sound_TriggerSweet_4" CreStamp="1640695697" ModStamp="1640696355" WorldPos="-31.403 3.58875 22.8066" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/trigger/near_2" MinDistance="1" MaxDistance="29" Volume="1" Active="false" UseCustomProperties="false" UID="232 8907 3892314173" />
+            <Sound ID="3892314174" Name="Sound_WakeBarricade" CreStamp="1641291896" ModStamp="1657020199" WorldPos="-39.8436 7.57651 -6.71585" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/wake_barricade" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8919 3892314174" />
+            <Sound ID="3892314175" Name="Sound_StairSweet" CreStamp="1641292458" ModStamp="1641292495" WorldPos="-82.9439 -1.39408 25.4346" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/ladder_stairs" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8916 3892314175" />
+            <Sound ID="3892314176" Name="Sound_CageSweet" CreStamp="1641292687" ModStamp="1641292728" WorldPos="-10.946 -0.480756 35.1987" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/dynamite_cage" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8918 3892314176" />
+            <Sound ID="3892314177" Name="Sound_RoofSweet_3" CreStamp="1641292788" ModStamp="1641296602" WorldPos="-52.8388 6.85865 28.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8936 3892314177" />
+            <Sound ID="3892314178" Name="Sound_RoofSweet_1" CreStamp="1641292839" ModStamp="1641297546" WorldPos="-52.8388 8.64388 11.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8915 3892314178" />
+            <Sound ID="3892314179" Name="Sound_RoofSweet_2" CreStamp="1641292852" ModStamp="1641297548" WorldPos="-52.8388 8.05422 -3.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8914 3892314179" />
+            <Sound ID="3892314180" Name="Sound_RoofSmallSweet_1" CreStamp="1641292883" ModStamp="1641296527" WorldPos="-65 5.44925 12.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 8937 3892314180" />
+            <Sound ID="3892314181" Name="Sound_RoofSmallSweet_2" CreStamp="1641296530" ModStamp="1641296560" WorldPos="-79.1475 5.44925 12.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="true" UID="232 8912 3892314181" />
+            <Sound ID="3892314182" Name="Sound_GeneratorRoom_7" CreStamp="1646310613" ModStamp="1646310612" WorldPos="-44.0114 6.00135 -9.85101" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="232 6541 3892314182" />
+            <Sound ID="3892314183" Name="Sound_TunnelRoof_2" CreStamp="1651061464" ModStamp="1651061568" WorldPos="-52.6704 5.83776 38.3906" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="232 9009 3892314183" />
+            <Sound ID="3892314184" Name="Sound_TunnelRoof_1" CreStamp="1651061516" ModStamp="1651061552" WorldPos="-62.3633 5.83776 48.5847" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/tunnel_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="232 9008 3892314184" />
+            <Sound ID="3892314185" Name="Sound_DoorThud" CreStamp="1652088601" ModStamp="1652088645" WorldPos="-50.2549 4.67293 7.22968" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/safedoor/thud" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="232 9005 3892314185" />
+            <Sound ID="3892314186" Name="Sound_DogTagSweet" CreStamp="1656947003" ModStamp="1674027438" WorldPos="-25.75 3.90594 16.5612" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/delise_tag" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="232 9044 3892314186" />
+            <Sound ID="3892314187" Name="Sound_Flies_1" CreStamp="1682066567" ModStamp="1682069690" WorldPos="-28.6023 2.7579 18.3171" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="232 9098 3892314187" />
+            <Sound ID="3892314188" Name="Sound_Flies_2" CreStamp="1682069951" ModStamp="1682069980" WorldPos="-77.3466 1.7413 -6.94637" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="232 9096 3892314188" />
+            <Sound ID="3892314189" Name="Sound_Flies_3" CreStamp="1682070039" ModStamp="1682070057" WorldPos="-24.9087 0.5633 35.6447" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="232 9095 3892314189" />
+            <Sound ID="3892314190" Name="Sound_Flies_4" CreStamp="1682070083" ModStamp="1682070694" WorldPos="-47.2169 2.1313 -13.5578" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="232 9097 3892314190" />
+        </Objects>
+    </Section>
+    <Section Name="11577541314416549340">
+        <Objects />
+    </Section>
+    <Section Name="5800273805155201598">
+        <Objects />
+    </Section>
+    <Section Name="1434991485970613646">
+        <Objects />
+    </Section>
+    <Section Name="8706007010911882502">
+        <Objects />
+    </Section>
+    <Section Name="10670859965109845120">
+        <Objects />
+    </Section>
+    <Section Name="6910315000391287595">
+        <Objects />
+    </Section>
+    <Section Name="10407469046791678932">
+        <Objects />
+    </Section>
+    <Section Name="5853622159101928923">
+        <Objects />
+    </Section>
+    <Section Name="6675475582514903685">
+        <Objects />
+    </Section>
+    <Section Name="4023463404125205481">
+        <Objects />
+    </Section>
+    <Section Name="6077006649086468795">
+        <Objects />
+    </Section>
+    <Section Name="435112486145859178">
+        <Objects />
+    </Section>
+    <Section Name="2429914659364875719">
+        <Objects />
+    </Section>
+    <Section Name="16865571407389182122">
+        <Objects />
+    </Section>
+    <Section Name="135568638213057673">
+        <Objects />
+    </Section>
+    <Section Name="16483246978227221388">
+        <Objects />
+    </Section>
+    <Section Name="2461197706669841447">
+        <Objects />
+    </Section>
+    <Section Name="6261236442909221079">
         <Objects />
     </Section>
 </HPLMapTrack_Sound>

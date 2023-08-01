@@ -19,7 +19,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="17">
                     <DetailMeshEntityIDs>503317032 503317093 503317094 503317095 503317097 503317098 503317099 503317101 503317102 503317103 503317104 503317106 503317107 503317108 503317234 503317235 503317237</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-30.5895 6.38838 8.78926 -24.4579 6.38838 7.95934 -25.1631 6.38838 7.58246 -24.3854 6.38838 7.63192 -18.5832 6.38838 9.00891 -18.6142 6.38838 8.40998 -18.8218 6.38838 8.87461 -17.7765 6.38838 8.37656 -27.8977 6.38838 -5.20306 -28.6029 6.38838 -5.57994 -27.8252 6.38838 -5.53048 -26.4568 6.38838 -7.03286 -27.1619 6.38838 -7.40975 -26.3842 6.38838 -7.36028 -37.1759 2.26148 17.0985 -36.9534 2.26148 16.8664 -36.2612 2.26148 16.8235</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.555323 0 0.831635 0 0.652331 0 -0.757935 0 0.23276 0 -0.972534 0 0.23276 0 -0.972534 0 0.89843 0 0.439117 0 0.99976 0 -0.021912 0 0.99976 0 -0.021912 0 0.848322 0 0.52948 0 0.652331 0 -0.757935 0 0.23276 0 -0.972534 0 0.23276 0 -0.972534 0 0.652331 0 -0.757935 0 0.23276 0 -0.972534 0 0.23276 0 -0.972534 0 0.322069 0 0.946716 0 0.966114 0 0.258118 0 0.322069 0 0.946716 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.55578 0 0.831329 0 0.652685 0 -0.757629 0 0.234032 0 -0.972229 0 0.234032 0 -0.972229 0 0.898579 0 0.438812 0 0.999767 0 -0.021606 0 0.999767 0 -0.021606 0 0.848513 0 0.529175 0 0.652685 0 -0.757629 0 0.234032 0 -0.972229 0 0.234032 0 -0.972229 0 0.652685 0 -0.757629 0 0.234032 0 -0.972229 0 0.234032 0 -0.972229 0 0.322964 0 0.946411 0 0.966195 0 0.257812 0 0.322964 0 0.946411 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.252981 0.379472</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 1 1 1 0.921569 0.839216 0.686275</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1671118964 1673267755 1673267755 1673267755 1677666474 1677666485 1677666477 1677666524 1673267755 1673267755 1673267755 1673267755 1673267755 1673267755 1680620104 1680620104 1680620104</DetailMeshEntityModStamps>
@@ -27,7 +27,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_02.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>503317033 503317233</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-30.3615 6.37666 9.00973 -37.1895 2.24976 17.2313</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.777382 0 0.629028 0 0.966114 0 0.258118 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.777629 0 0.628723 0 0.966195 0 0.257812 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.506337 0.506337</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>0.921569 0.839216 0.686275 0.921569 0.839216 0.686275</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1671118979 1680620104</DetailMeshEntityModStamps>
@@ -35,7 +35,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="1">
                     <DetailMeshEntityIDs>503317236</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-36.7652 2.24629 16.8152</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.966114 0 0.258118 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.966195 0 0.257812 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.209916</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>0.839216 0.721569 0.513726</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1680620104</DetailMeshEntityModStamps>
@@ -327,6 +327,196 @@
             <Section Name="12015463055783158312" />
             <Section Name="13060067363069982983" />
             <Section Name="9396664228418550265" />
+            <Section Name="10707301904601281740" />
+            <Section Name="16930721246733664795" />
+            <Section Name="4343094339910184870" />
+            <Section Name="2996043202907049925" />
+            <Section Name="8156607048622755437" />
+            <Section Name="16690004221041802470" />
+            <Section Name="13056681927254166281" />
+            <Section Name="2214482248668768436" />
+            <Section Name="18264046793290662581" />
+            <Section Name="5814705196761261514" />
+            <Section Name="7950846523299436137" />
+            <Section Name="13966057551866458240" />
+            <Section Name="7175844239041887008" />
+            <Section Name="10493732993958631729" />
+            <Section Name="14882243152406129746" />
+            <Section Name="15934759074038055686" />
+            <Section Name="665233677045677005" />
+            <Section Name="2642312267662342540" />
+            <Section Name="12182147755768874604" />
+            <Section Name="13133016113365051216" />
+            <Section Name="7056757886268078536" />
+            <Section Name="7708308281828018885" />
+            <Section Name="736824926233426245" />
+            <Section Name="1707376356110952973" />
+            <Section Name="4018040593275124672" />
+            <Section Name="15869877144776503998" />
+            <Section Name="6908792345064238436" />
+            <Section Name="8122688492932060766" />
+            <Section Name="11326810860302946880" />
+            <Section Name="10373800632897619958" />
+            <Section Name="17473338394717872970" />
+            <Section Name="6151220106175798821" />
+            <Section Name="9512147402566241677" />
+            <Section Name="12482704285027854016" />
+            <Section Name="9958997007494294400" />
+            <Section Name="3677676115307344446" />
+            <Section Name="8105205662510546146" />
+            <Section Name="3929891184546526044" />
+            <Section Name="1140039015493428709" />
+            <Section Name="12331960530679645367" />
+            <Section Name="12182565751852492141" />
+            <Section Name="15570346050356271291" />
+            <Section Name="14052846700473512371" />
+            <Section Name="6330443905023767385" />
+            <Section Name="4251768714100831625" />
+            <Section Name="6755050289704626806" />
+            <Section Name="7623891618555795072" />
+            <Section Name="2978523887190290769" />
+            <Section Name="10802350229449812900" />
+            <Section Name="5009727397497134905" />
+            <Section Name="18033347796203434673" />
+            <Section Name="16111683425463862666" />
+            <Section Name="10752068287049763945" />
+            <Section Name="3544918930035632178" />
+            <Section Name="16002853513153701285" />
+            <Section Name="11140471426037242048" />
+            <Section Name="981700581654093985" />
+            <Section Name="2254654813980375287" />
+            <Section Name="17033654203558393285" />
+            <Section Name="3943779306264931944" />
+            <Section Name="16980343511510417839" />
+            <Section Name="11331253397289055455" />
+            <Section Name="14516205064298369539" />
+            <Section Name="14433712096544142838" />
+            <Section Name="2309019923688481203" />
+            <Section Name="12252272957032570871" />
+            <Section Name="13501331306064048759" />
+            <Section Name="12710584821357937306" />
+            <Section Name="1458716758632918070" />
+            <Section Name="10734894443031512904" />
+            <Section Name="2247521118245609390" />
+            <Section Name="10331888365884878476" />
+            <Section Name="13376631752790482854" />
+            <Section Name="8851885320867033809" />
+            <Section Name="2599853197629457398" />
+            <Section Name="8147075429772157801" />
+            <Section Name="7748339905698287208" />
+            <Section Name="18321994825219067845" />
+            <Section Name="1702238123269637982" />
+            <Section Name="16799777736779466358" />
+            <Section Name="5315113516163523394" />
+            <Section Name="18336124720204794665" />
+            <Section Name="11787561106047861182" />
+            <Section Name="14246521157448620129" />
+            <Section Name="5555383566756610050" />
+            <Section Name="18239768638150535210" />
+            <Section Name="2597355099341276413" />
+            <Section Name="8449416071094461353" />
+            <Section Name="7053715570868912925" />
+            <Section Name="10204821252519153158" />
+            <Section Name="5245872406945122621" />
+            <Section Name="4417248568210923452" />
+            <Section Name="11074684417823987931" />
+            <Section Name="11197955055898557930" />
+            <Section Name="13524722311751437098" />
+            <Section Name="16910186382701143056" />
+            <Section Name="2632417923336899851" />
+            <Section Name="16750396560042270800" />
+            <Section Name="14473161940756810109" />
+            <Section Name="10584813328491026196" />
+            <Section Name="15742048980875496687" />
+            <Section Name="15058202203343762745" />
+            <Section Name="1128949845454991373" />
+            <Section Name="4238783825085050766" />
+            <Section Name="10161732882690111704" />
+            <Section Name="17639538961600235096" />
+            <Section Name="5401824639604972962" />
+            <Section Name="16664713467744515009" />
+            <Section Name="4140973598832742474" />
+            <Section Name="1707501203879909788" />
+            <Section Name="12873048782245224470" />
+            <Section Name="3133308046560658762" />
+            <Section Name="11481280272158526417" />
+            <Section Name="16326549623443423554" />
+            <Section Name="11567580916388120721" />
+            <Section Name="18374343099931612604" />
+            <Section Name="12729041325469093752" />
+            <Section Name="9809199476901538614" />
+            <Section Name="15814333272025392652" />
+            <Section Name="4390559225801774051" />
+            <Section Name="10527034080438270296" />
+            <Section Name="13187953245712134743" />
+            <Section Name="9272327800861367296" />
+            <Section Name="6834347751770170997" />
+            <Section Name="13761730117656886370" />
+            <Section Name="8538754663806190528" />
+            <Section Name="10357928525945438415" />
+            <Section Name="15136754800083996026" />
+            <Section Name="9858091903776390564" />
+            <Section Name="14352591309164445233" />
+            <Section Name="5755619728528624507" />
+            <Section Name="15867272897297855210" />
+            <Section Name="12991767688195341556" />
+            <Section Name="3493779993350494166" />
+            <Section Name="2527087731013236456" />
+            <Section Name="2347004918736418314" />
+            <Section Name="586835783458798992" />
+            <Section Name="7063500885563168302" />
+            <Section Name="5904916628377541278" />
+            <Section Name="3419409878510535856" />
+            <Section Name="10565412254502213441" />
+            <Section Name="1176267133428544579" />
+            <Section Name="11146910977390807630" />
+            <Section Name="16485730883423267429" />
+            <Section Name="12801489074280363881" />
+            <Section Name="4794842109821120469" />
+            <Section Name="7960462547459846330" />
+            <Section Name="12618006484491437068" />
+            <Section Name="13568345365272813953" />
+            <Section Name="645994465114540511" />
+            <Section Name="8194494483206929358" />
+            <Section Name="17434229172272700778" />
+            <Section Name="13577549921665476632" />
+            <Section Name="10191944335875951193" />
+            <Section Name="776626076025418266" />
+            <Section Name="17720401454523553319" />
+            <Section Name="6028396696498207671" />
+            <Section Name="8000292937402819047" />
+            <Section Name="1969895801286256536" />
+            <Section Name="3585800947917255820" />
+            <Section Name="9674509049059000406" />
+            <Section Name="10882445871910371353" />
+            <Section Name="17133752801572359819" />
+            <Section Name="9346971588917820264" />
+            <Section Name="2859812978067854838" />
+            <Section Name="491410239846904247" />
+            <Section Name="3230773329420559131" />
+            <Section Name="9006026031145464616" />
+            <Section Name="9941791586547276015" />
+            <Section Name="2170399100256499049" />
+            <Section Name="8502829846056580859" />
+            <Section Name="5095683373521199113" />
+            <Section Name="10240058477553700979" />
+            <Section Name="8228457432140100004" />
+            <Section Name="16409420980002435754" />
+            <Section Name="11081419070132806816" />
+            <Section Name="15391763574474184800" />
+            <Section Name="4010786354318907938" />
+            <Section Name="11856662062823093685" />
+            <Section Name="7775006697935426542" />
+            <Section Name="5623913154342631619" />
+            <Section Name="2988446400644223952" />
+            <Section Name="16504186452985672522" />
+            <Section Name="5611817423745916043" />
+            <Section Name="12213924699620245706" />
+            <Section Name="5215417874701537332" />
+            <Section Name="9188335485949301189" />
+            <Section Name="9977876995072517539" />
+            <Section Name="8842436234393624861" />
+            <Section Name="7687672022686087327" />
         </Sections>
     </DetailMeshes>
 </HPLMapTrack_DetailMeshes>

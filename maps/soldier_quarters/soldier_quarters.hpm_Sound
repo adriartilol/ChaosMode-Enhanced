@@ -1,105 +1,222 @@
 <HPLMapTrack_Sound ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
-    <Section Name="Max@MAX-DESKTOP">
+    <Section Name="10300334514331934914">
+        <Objects />
+    </Section>
+    <Section Name="9195155804934729962">
+        <Objects />
+    </Section>
+    <Section Name="12579031528112273739">
+        <Objects />
+    </Section>
+    <Section Name="4853308392052082427">
+        <Objects />
+    </Section>
+    <Section Name="5716514586046010106">
+        <Objects />
+    </Section>
+    <Section Name="4074963946714538518">
+        <Objects />
+    </Section>
+    <Section Name="6316717594221808991">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="17564562340471339389">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="2808432602814229433">
+        <Objects />
+    </Section>
+    <Section Name="13338907128802076914">
+        <Objects />
+    </Section>
+    <Section Name="6937444921226728725">
+        <Objects />
+    </Section>
+    <Section Name="16252604345296683573">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <Objects />
+    </Section>
+    <Section Name="9172161606391457054">
+        <Objects />
+    </Section>
+    <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="2628536582313270325">
+        <Objects />
+    </Section>
+    <Section Name="6335398574811737625">
+        <Objects />
+    </Section>
+    <Section Name="6354346708331633253">
+        <Objects />
+    </Section>
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
         <Objects>
-            <Sound ID="268437233" Name="Sound_DistantBattle_2" CreStamp="1622022952" ModStamp="1650969651" WorldPos="-86.4096 4.24955 -23.46" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="16 7509 268437233" />
-            <Sound ID="268437235" Name="Sound_BedCreak_1" CreStamp="1627652485" ModStamp="1627652598" WorldPos="-66.5722 -5.69104 17.0571" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7524 268437235" />
-            <Sound ID="268437236" Name="Sound_BedCreak_2" CreStamp="1627652496" ModStamp="1627652600" WorldPos="-73.7026 -5.69104 17.025" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7530 268437236" />
-            <Sound ID="268437237" Name="Sound_BedCreak_3" CreStamp="1627652509" ModStamp="1627652602" WorldPos="-70.2979 -5.69104 22.0467" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7811 268437237" />
-            <Sound ID="268437238" Name="Sound_BedCreak_4" CreStamp="1627652521" ModStamp="1669040289" WorldPos="-80.7717 -5.69104 22.0467" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7518 268437238" />
-            <Sound ID="268437239" Name="Sound_RoofCreak_3" CreStamp="1627652634" ModStamp="1627652733" WorldPos="-62.4049 -3.24413 21.8912" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7521 268437239" />
-            <Sound ID="268437240" Name="Sound_RoofCreak_1" CreStamp="1627652685" ModStamp="1627652697" WorldPos="-79.587 -3.24413 16.4184" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7529 268437240" />
-            <Sound ID="268437241" Name="Sound_RoofCreak_2" CreStamp="1627652710" ModStamp="1627652717" WorldPos="-69.7889 -2.43895 20.1608" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7522 268437241" />
-            <Sound ID="268437242" Name="Sound_2_BedCreak_4" CreStamp="1627652841" ModStamp="1627652977" WorldPos="-66.7053 -5.69104 7.6619" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7528 268437242" />
-            <Sound ID="268437243" Name="Sound_2_BedCreak_1" CreStamp="1627652864" ModStamp="1627652871" WorldPos="-70.6239 -5.69104 2.1367" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7527 268437243" />
-            <Sound ID="268437244" Name="Sound_2_BedCreak_2" CreStamp="1627652872" ModStamp="1627652879" WorldPos="-78.2666 -5.69104 8.6126" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7520 268437244" />
-            <Sound ID="268437245" Name="Sound_2_BedCreak_3" CreStamp="1627652879" ModStamp="1627652889" WorldPos="-66.2238 -5.69104 3.0352" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7526 268437245" />
-            <Sound ID="268437246" Name="Sound_2_RoofCreak_3" CreStamp="1627652901" ModStamp="1627652982" WorldPos="-78.3244 -2.43895 4.3162" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7525 268437246" />
-            <Sound ID="268437247" Name="Sound_2_RoofCreak_1" CreStamp="1627652925" ModStamp="1627652953" WorldPos="-64.9913 -2.43895 3.9875" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7517 268437247" />
-            <Sound ID="268437248" Name="Sound_2_RoofCreak_2" CreStamp="1627652936" ModStamp="1627652943" WorldPos="-71.0107 -2.43895 7.6192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7459 268437248" />
-            <Sound ID="268437249" Name="Sound_WardrobeCreak_3" CreStamp="1627653247" ModStamp="1679602213" WorldPos="-48.5871 -2.99216 25.5519" Rotation="0 -3.0378e-06 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/wardrobe_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="16 7519 268437249" />
-            <Sound ID="268437250" Name="Sound_SmallRoomCreak_2" CreStamp="1627654295" ModStamp="1627654524" WorldPos="-53.6446 -2.30262 6.5239" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="16 7491 268437250" />
-            <Sound ID="268437251" Name="Sound_SmallRoomCreak_1" CreStamp="1627654353" ModStamp="1677255205" WorldPos="-48.6894 0.116572 22.63" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="16 7492 268437251" />
-            <Sound ID="268437252" Name="Sound_SmallRoomCreak_3" CreStamp="1627654501" ModStamp="1627654519" WorldPos="-51.7584 -2.00983 -0.698098" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="16 7505 268437252" />
-            <Sound ID="268437253" Name="Sound_3_RoofCreak_1" CreStamp="1627654574" ModStamp="1627654625" WorldPos="-61.7888 -3.68891 -19.3542" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7523 268437253" />
-            <Sound ID="268437254" Name="Sound_3_RoofCreak_2" CreStamp="1627654595" ModStamp="1627654613" WorldPos="-53.274 -3.99901 -17.1168" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="16 7504 268437254" />
-            <Sound ID="268437255" Name="sound_dust_1" CreStamp="1627655227" ModStamp="1640791128" WorldPos="-81.2516 -5.99022 12.5328" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7506 268437255" />
-            <Sound ID="268437256" Name="sound_dust_2" CreStamp="1627655298" ModStamp="1627655431" WorldPos="-67.4005 -4.78714 12.5328" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7455 268437256" />
-            <Sound ID="268437257" Name="sound_dust_3" CreStamp="1627655309" ModStamp="1627655407" WorldPos="-63.4446 -4.95027 19.4118" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 6789 268437257" />
-            <Sound ID="268437258" Name="sound_dust_4" CreStamp="1627655408" ModStamp="1627655410" WorldPos="-76.815 -4.95027 19.4118" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 8020 268437258" />
-            <Sound ID="268437259" Name="sound_dust_5" CreStamp="1627655411" ModStamp="1627655414" WorldPos="-78.1042 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7966 268437259" />
-            <Sound ID="268437260" Name="sound_dust_6" CreStamp="1627655415" ModStamp="1627655417" WorldPos="-71.3297 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7454 268437260" />
-            <Sound ID="268437261" Name="sound_dust_7" CreStamp="1627655418" ModStamp="1627655419" WorldPos="-63.2079 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7450 268437261" />
-            <Sound ID="268437262" Name="sound_dust_8" CreStamp="1627655435" ModStamp="1627655438" WorldPos="-67.4005 -4.78714 -10.7192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7456 268437262" />
-            <Sound ID="268437263" Name="sound_dust_9" CreStamp="1627655438" ModStamp="1627655440" WorldPos="-76.4947 -4.78714 -10.7192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7451 268437263" />
-            <Sound ID="268437264" Name="sound_dust_10" CreStamp="1627655446" ModStamp="1627655454" WorldPos="-60.7379 -4.78714 -5.5015" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7878 268437264" />
-            <Sound ID="268437265" Name="sound_dust_11" CreStamp="1627655455" ModStamp="1627655465" WorldPos="-57.4242 -3.31285 17.7341" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7516 268437265" />
-            <Sound ID="268437266" Name="sound_dust_12" CreStamp="1627655467" ModStamp="1627655484" WorldPos="-50.0982 -0.938799 12.3426" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7457 268437266" />
-            <Sound ID="268437267" Name="sound_dust_13" CreStamp="1627655491" ModStamp="1627655507" WorldPos="-58.4358 -6.02472 -18.536" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7458 268437267" />
-            <Sound ID="268437268" Name="sound_dust_14" CreStamp="1627655510" ModStamp="1627655548" WorldPos="-52.5037 -5.17479 -13.185" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="16 7515 268437268" />
+            <Sound ID="637534228" Name="Sound_DistantBattle_1" CreStamp="1634227574" ModStamp="1634227633" WorldPos="-117.5 1 35" Rotation="-0 3.1416 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="38 7509 637534228" />
+            <Sound ID="637534229" Name="Sound_DistantBattle_3" CreStamp="1634227599" ModStamp="1650969656" WorldPos="-26.0311 2.25 17.5001" Rotation="-0 3.1416 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="38 7524 637534229" />
+            <Sound ID="637534230" Name="Sound_GeneratorOff" CreStamp="1638284566" ModStamp="1648470810" WorldPos="-81.25 3 12" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="38 7994 637534230" />
+            <Sound ID="637534231" Name="Sound_TriggerSweet_1" CreStamp="1640790899" ModStamp="1641294916" WorldPos="-70.6266 -5.84083 12.2598" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/hallway_sweet" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="true" UID="38 7992 637534231" />
+            <Sound ID="637534232" Name="Sound_TriggerSweet_2" CreStamp="1640791303" ModStamp="1640791659" WorldPos="-74.4965 -5.05617 -11.1373" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/near_5" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="38 8008 637534232" />
+            <Sound ID="637534233" Name="Sound_TriggerSweet_3" CreStamp="1640791636" ModStamp="1640791862" WorldPos="-55.8588 -4.22944 -17.8361" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/distant_1" MinDistance="1" MaxDistance="25" Volume="1" Active="false" UseCustomProperties="true" UID="38 8006 637534233" />
+            <Sound ID="637534234" Name="Sound_SweetBarricade" CreStamp="1641295100" ModStamp="1641295146" WorldPos="-82.1898 -5.2681 -9.722" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/rat_barricade" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="38 8004 637534234" />
+            <Sound ID="637534235" Name="Sound_Drip" CreStamp="1664979354" ModStamp="1665047578" WorldPos="-80.8372 -6.45749 13.5338" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="38 8022 637534235" />
+            <Sound ID="637534236" Name="Sound_Flies_1" CreStamp="1682070770" ModStamp="1682070782" WorldPos="-79.773 -6.01715 19.3808" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="38 8040 637534236" />
+            <Sound ID="637534237" Name="Sound_Flies_2" CreStamp="1682070796" ModStamp="1682070818" WorldPos="-60.4311 -6.11465 -4.53278" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="38 8039 637534237" />
+            <Sound ID="637534238" Name="Sound_Radio" CreStamp="1683281898" ModStamp="1683286543" WorldPos="-46.1083 -2.3641 21.4622" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="extra/radio/radio_static" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="38 8046 637534238" />
         </Objects>
     </Section>
-    <Section Name="aaron@DESKTOP-U5KQSOE">
+    <Section Name="17083172668278975108">
         <Objects />
     </Section>
-    <Section Name="rasmu@WINDMILL">
+    <Section Name="18195951057575834872">
         <Objects />
     </Section>
-    <Section Name="aaron@DESKTOP-QQIR8DS">
+    <Section Name="18266932834280544730">
         <Objects />
     </Section>
-    <Section Name="johne@IOANNIS-WORK-LA">
+    <Section Name="17775428116309831020">
         <Objects />
     </Section>
-    <Section Name="Max@DESKTOP-MAXL">
+    <Section Name="14733719954067711498">
         <Objects />
     </Section>
-    <Section Name="johne@IOANNIS-DESKTOP">
+    <Section Name="16635787545958988187">
         <Objects />
     </Section>
-    <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM">
+    <Section Name="16383422440105646029">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="2857880198863370365">
+        <Objects />
+    </Section>
+    <Section Name="14371376319993263926">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="18400966699494951686">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="9091537321687738822">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="16896531512754711917">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
         <Objects>
-            <Sound ID="385875968" Name="Sound_DistantBattle_1" CreStamp="1634227574" ModStamp="1634227633" WorldPos="-117.5 1 35" Rotation="-0 3.1416 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="23 7509 385875968" />
-            <Sound ID="385875969" Name="Sound_DistantBattle_3" CreStamp="1634227599" ModStamp="1650969656" WorldPos="-26.0311 2.25 17.5001" Rotation="-0 3.1416 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="23 7524 385875969" />
-            <Sound ID="385875975" Name="Sound_GeneratorOff" CreStamp="1638284566" ModStamp="1648470810" WorldPos="-81.25 3 12" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="23 7994 385875975" />
-            <Sound ID="385875977" Name="Sound_TriggerSweet_1" CreStamp="1640790899" ModStamp="1641294916" WorldPos="-70.6266 -5.84083 12.2598" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/hallway_sweet" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="true" UID="23 7992 385875977" />
-            <Sound ID="385875979" Name="Sound_TriggerSweet_2" CreStamp="1640791303" ModStamp="1640791659" WorldPos="-74.4965 -5.05617 -11.1373" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/near_5" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="23 8008 385875979" />
-            <Sound ID="385875980" Name="Sound_TriggerSweet_3" CreStamp="1640791636" ModStamp="1640791862" WorldPos="-55.8588 -4.22944 -17.8361" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/distant_1" MinDistance="1" MaxDistance="25" Volume="1" Active="false" UseCustomProperties="true" UID="23 8006 385875980" />
-            <Sound ID="385875982" Name="Sound_SweetBarricade" CreStamp="1641295100" ModStamp="1641295146" WorldPos="-82.1898 -5.2681 -9.722" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/rat_barricade" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="23 8004 385875982" />
-            <Sound ID="385875985" Name="Sound_Drip" CreStamp="1664979354" ModStamp="1665047578" WorldPos="-80.8372 -6.45749 13.5338" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="23 8022 385875985" />
-            <Sound ID="385875999" Name="Sound_Flies_1" CreStamp="1682070770" ModStamp="1682070782" WorldPos="-79.773 -6.01715 19.3808" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="23 8040 385875999" />
-            <Sound ID="385876000" Name="Sound_Flies_2" CreStamp="1682070796" ModStamp="1682070818" WorldPos="-60.4311 -6.11465 -4.53278" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="23 8039 385876000" />
-            <Sound ID="385876001" Name="Sound_Radio" CreStamp="1683281898" ModStamp="1683286543" WorldPos="-46.1083 -2.3641 21.4622" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="extra/radio/radio_static" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="23 8046 385876001" />
+            <Sound ID="989857456" Name="Sound_DistantBattle_2" CreStamp="1622022952" ModStamp="1650969651" WorldPos="-86.4096 4.24955 -23.46" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="59 7509 989857456" />
+            <Sound ID="989857457" Name="Sound_BedCreak_1" CreStamp="1627652485" ModStamp="1627652598" WorldPos="-66.5722 -5.69104 17.0571" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7524 989857457" />
+            <Sound ID="989857458" Name="Sound_BedCreak_2" CreStamp="1627652496" ModStamp="1627652600" WorldPos="-73.7026 -5.69104 17.025" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7530 989857458" />
+            <Sound ID="989857459" Name="Sound_BedCreak_3" CreStamp="1627652509" ModStamp="1627652602" WorldPos="-70.2979 -5.69104 22.0467" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7811 989857459" />
+            <Sound ID="989857460" Name="Sound_BedCreak_4" CreStamp="1627652521" ModStamp="1669040289" WorldPos="-80.7717 -5.69104 22.0467" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7518 989857460" />
+            <Sound ID="989857461" Name="Sound_RoofCreak_3" CreStamp="1627652634" ModStamp="1627652733" WorldPos="-62.4049 -3.24413 21.8912" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7521 989857461" />
+            <Sound ID="989857462" Name="Sound_RoofCreak_1" CreStamp="1627652685" ModStamp="1627652697" WorldPos="-79.587 -3.24413 16.4184" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7529 989857462" />
+            <Sound ID="989857463" Name="Sound_RoofCreak_2" CreStamp="1627652710" ModStamp="1627652717" WorldPos="-69.7889 -2.43895 20.1608" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7522 989857463" />
+            <Sound ID="989857464" Name="Sound_2_BedCreak_4" CreStamp="1627652841" ModStamp="1627652977" WorldPos="-66.7053 -5.69104 7.6619" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7528 989857464" />
+            <Sound ID="989857465" Name="Sound_2_BedCreak_1" CreStamp="1627652864" ModStamp="1627652871" WorldPos="-70.6239 -5.69104 2.1367" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7527 989857465" />
+            <Sound ID="989857466" Name="Sound_2_BedCreak_2" CreStamp="1627652872" ModStamp="1627652879" WorldPos="-78.2666 -5.69104 8.6126" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7520 989857466" />
+            <Sound ID="989857467" Name="Sound_2_BedCreak_3" CreStamp="1627652879" ModStamp="1627652889" WorldPos="-66.2238 -5.69104 3.0352" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_bed_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7526 989857467" />
+            <Sound ID="989857468" Name="Sound_2_RoofCreak_3" CreStamp="1627652901" ModStamp="1627652982" WorldPos="-78.3244 -2.43895 4.3162" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7525 989857468" />
+            <Sound ID="989857469" Name="Sound_2_RoofCreak_1" CreStamp="1627652925" ModStamp="1627652953" WorldPos="-64.9913 -2.43895 3.9875" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7517 989857469" />
+            <Sound ID="989857470" Name="Sound_2_RoofCreak_2" CreStamp="1627652936" ModStamp="1627652943" WorldPos="-71.0107 -2.43895 7.6192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7459 989857470" />
+            <Sound ID="989857471" Name="Sound_WardrobeCreak_3" CreStamp="1627653247" ModStamp="1679602213" WorldPos="-48.5871 -2.99216 25.5519" Rotation="0 -3.0378e-06 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/wardrobe_creak" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="59 7519 989857471" />
+            <Sound ID="989857472" Name="Sound_SmallRoomCreak_2" CreStamp="1627654295" ModStamp="1627654524" WorldPos="-53.6446 -2.30262 6.5239" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="59 7491 989857472" />
+            <Sound ID="989857473" Name="Sound_SmallRoomCreak_1" CreStamp="1627654353" ModStamp="1677255205" WorldPos="-48.6894 0.116572 22.63" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="59 7492 989857473" />
+            <Sound ID="989857474" Name="Sound_SmallRoomCreak_3" CreStamp="1627654501" ModStamp="1627654519" WorldPos="-51.7584 -2.00983 -0.698098" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/small_room_roof" MinDistance="1" MaxDistance="8" Volume="1" Active="false" UseCustomProperties="false" UID="59 7505 989857474" />
+            <Sound ID="989857475" Name="Sound_3_RoofCreak_1" CreStamp="1627654574" ModStamp="1627654625" WorldPos="-61.7888 -3.68891 -19.3542" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7523 989857475" />
+            <Sound ID="989857476" Name="Sound_3_RoofCreak_2" CreStamp="1627654595" ModStamp="1627654613" WorldPos="-53.274 -3.99901 -17.1168" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/large_room_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="59 7504 989857476" />
+            <Sound ID="989857477" Name="sound_dust_1" CreStamp="1627655227" ModStamp="1640791128" WorldPos="-81.2516 -5.99022 12.5328" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7506 989857477" />
+            <Sound ID="989857478" Name="sound_dust_2" CreStamp="1627655298" ModStamp="1627655431" WorldPos="-67.4005 -4.78714 12.5328" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7455 989857478" />
+            <Sound ID="989857479" Name="sound_dust_3" CreStamp="1627655309" ModStamp="1627655407" WorldPos="-63.4446 -4.95027 19.4118" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 6789 989857479" />
+            <Sound ID="989857480" Name="sound_dust_4" CreStamp="1627655408" ModStamp="1627655410" WorldPos="-76.815 -4.95027 19.4118" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 8020 989857480" />
+            <Sound ID="989857481" Name="sound_dust_5" CreStamp="1627655411" ModStamp="1627655414" WorldPos="-78.1042 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7966 989857481" />
+            <Sound ID="989857482" Name="sound_dust_6" CreStamp="1627655415" ModStamp="1627655417" WorldPos="-71.3297 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7454 989857482" />
+            <Sound ID="989857483" Name="sound_dust_7" CreStamp="1627655418" ModStamp="1627655419" WorldPos="-63.2079 -4.95027 6.22781" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7450 989857483" />
+            <Sound ID="989857484" Name="sound_dust_8" CreStamp="1627655435" ModStamp="1627655438" WorldPos="-67.4005 -4.78714 -10.7192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7456 989857484" />
+            <Sound ID="989857485" Name="sound_dust_9" CreStamp="1627655438" ModStamp="1627655440" WorldPos="-76.4947 -4.78714 -10.7192" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7451 989857485" />
+            <Sound ID="989857486" Name="sound_dust_10" CreStamp="1627655446" ModStamp="1627655454" WorldPos="-60.7379 -4.78714 -5.5015" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7878 989857486" />
+            <Sound ID="989857487" Name="sound_dust_11" CreStamp="1627655455" ModStamp="1627655465" WorldPos="-57.4242 -3.31285 17.7341" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7516 989857487" />
+            <Sound ID="989857488" Name="sound_dust_12" CreStamp="1627655467" ModStamp="1627655484" WorldPos="-50.0982 -0.938799 12.3426" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7457 989857488" />
+            <Sound ID="989857489" Name="sound_dust_13" CreStamp="1627655491" ModStamp="1627655507" WorldPos="-58.4358 -6.02472 -18.536" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7458 989857489" />
+            <Sound ID="989857490" Name="sound_dust_14" CreStamp="1627655510" ModStamp="1627655548" WorldPos="-52.5037 -5.17479 -13.185" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7515 989857490" />
         </Objects>
     </Section>
-    <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B">
+    <Section Name="15379620218325487157">
         <Objects />
     </Section>
-    <Section Name="Ted@TELLUS">
+    <Section Name="13833203488117669323">
         <Objects />
     </Section>
-    <Section Name="aaron@DESKTOP-Q12T94U">
+    <Section Name="3613133122318339499">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="12555007986000039539">
         <Objects>
-            <Sound ID="436208097" Name="Sound_StairSweet" CreStamp="1641292458" ModStamp="1649258845" WorldPos="-82.9439 -1.39408 25.4346" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/ladder_stairs" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="26 8916 436208097" />
+            <Sound ID="1090519326" Name="Sound_StairSweet" CreStamp="1641292458" ModStamp="1649258845" WorldPos="-82.9439 -1.39408 25.4346" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/ladder_stairs" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="65 8916 1090519326" />
         </Objects>
     </Section>
-    <Section Name="Patrik@POMPERIPOSSA">
+    <Section Name="9710955726840204135">
         <Objects />
     </Section>
-    <Section Name="Marc@MARC-PC">
+    <Section Name="11774898963025775877">
         <Objects />
     </Section>
-    <Section Name="johne@DETIS-DESKTOP">
-        <Objects />
-    </Section>
-    <Section Name="marc@DESKTOP-MARCN">
-        <Objects />
-    </Section>
-    <Section Name="cesar@DESKTOP-0FIFFLJ">
-        <Objects />
-    </Section>
-    <Section Name="Marcus@DESKTOP-VV6VPG8">
+    <Section Name="14677797404739872827">
         <Objects>
-            <Sound ID="536871731" Name="Sound_Drip_1" CreStamp="1680191150" ModStamp="1680191167" WorldPos="-64.5684 -6.45749 -11.7601" Rotation="-0 3.14159 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="32 8022 536871731" />
+            <Sound ID="1140851203" Name="Sound_Drip_1" CreStamp="1680191150" ModStamp="1680191167" WorldPos="-64.5684 -6.45749 -11.7601" Rotation="-0 3.14159 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="68 8022 1140851203" />
         </Objects>
+    </Section>
+    <Section Name="16150389251420749140">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
+        <Objects />
+    </Section>
+    <Section Name="4606790389871051747">
+        <Objects />
     </Section>
 </HPLMapTrack_Sound>

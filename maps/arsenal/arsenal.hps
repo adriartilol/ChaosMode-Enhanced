@@ -1007,6 +1007,7 @@ class cScrMap : iScrMap
 		{			
 			Map_RemoveTimer(asEntity);
 			Map_AddTimer(asEntity, 0.1f, "OnTimer_DynamitePickedUp");
+			CM_Global_Callback_PickupQuestItem(asEntity);
 		}
 		
 		//-------------------------------------------------------
@@ -1016,10 +1017,10 @@ class cScrMap : iScrMap
 			if (Entity_Exists(asTimer)) return;
 			if (Entity_IsActive(asTimer)) return;
 
-			Achievement_Unlock(eAchievement_MunitionsExpert);
-			Map_AddTimer("Timer_CompleteDynamiteObjective", 1.f, "OnTimer_CompleteDynamiteObjective");
+			//Achievement_Unlock(eAchievement_MunitionsExpert);
+			//Map_AddTimer("Timer_CompleteDynamiteObjective", 1.f, "OnTimer_CompleteDynamiteObjective");
 			
-			Music_Play("Bunker_DynamitePickup.ogg", 0.1f, false, eMusicPrio_MinorEvent);
+			//Music_Play("Bunker_DynamitePickup.ogg", 0.1f, false, eMusicPrio_MinorEvent);
 			
 			Map_RemoveTimer("Timer_StalkerEmerge");
 			Entity_SetActive("Trigger_StalkerEmerge_A_*", false);
@@ -1031,9 +1032,9 @@ class cScrMap : iScrMap
 			
 			//////////////
 			// Increase stalker escalation
-			bool bFullStep = Game_GetDifficultyMode() == eGameMode_Hard;
-			Blackboard_IncreaseStalkerEscalation(bFullStep);
-			cScript_SetGlobalVarInt("LevelProgression", cScript_GetGlobalVarInt("LevelProgression") + 1);
+			//bool bFullStep = Game_GetDifficultyMode() == eGameMode_Hard;
+			//Blackboard_IncreaseStalkerEscalation(bFullStep);
+			//cScript_SetGlobalVarInt("LevelProgression", cScript_GetGlobalVarInt("LevelProgression") + 1);
 		}
 		
 		//-------------------------------------------------------
@@ -1256,7 +1257,10 @@ class cScrMap : iScrMap
 	
 	void CM_OnStart() {
 		
-		Entity_SetActive("WaterStream", false);
+		
+		Entity_SetActive("Trigger_GiveDynamiteObjective_1", false);
+		Entity_SetActive("Trigger_GiveDynamiteObjective_2", false);
+		Entity_SetActive("Trigger_GiveHandleObjective", false);
 	}
 	
 	void CM_OnEnter() {
@@ -1264,7 +1268,7 @@ class cScrMap : iScrMap
 	
 	// IN EACH MAP!	
 	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
-		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+		return asPickedEntity == "QI_explosive_storage_OfficerKey_on_proxy" || asPickedEntity == "QI_main_chamber_OfficerKey_on_proxy";
 	}		
 		 
 	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
@@ -1277,11 +1281,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

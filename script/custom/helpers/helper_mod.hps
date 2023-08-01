@@ -135,24 +135,15 @@ bool CM_GlobalCallback_OnUse_OfficerKey(const tString &in asItemType, const tStr
 	cScript_SetGlobalVarString("QI_door",Entity_GetVarString(asTargetEntity, ""));
 	cScript_SetGlobalVarString("QI_usedkey",asTargetEntity+"_usedkey");
 	Map_AddTimer("Timer_PillboxKeyUnlock", 1.75, "CM_Callback_OnTimer_OfficerKeyUnlock");
-	Map_AddTimer("Timer_PillboxKeyRelease", 2.65, "CM_Callback_OnTimer_OfficerKeyRelease");
 	
-	Entity_SetActive(asTargetEntity+"_animpos", false);			
+	Entity_SetActive(asTargetEntity+"_animpos", false);
+	Entity_SetActive(asTargetEntity,false);
 	return false;
 }
 
 void CM_GlobalCallback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		
 	SwingDoor_SetBlocked(cScript_GetGlobalVarString("QI_door"), false, true);
-}
-		
-void CM_GlobalCallback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-{
-	tString sHeld = Item_GetHeldEntity(eItemHandlerHand_Right);
-	Entity_SetActive(cScript_GetGlobalVarString("QI_usedkey"), true);
-	Entity_PlaceAtEntity(cScript_GetGlobalVarString("QI_usedkey"), sHeld, 0.f, true);
-	
-	Item_RemoveFromInventory(ItemType_GetFirstInInventory("OfficerKey"), eInventoryInstance_Player, false, true);
 }
 
 void CM_GlobalCallback_break_generator_wheel() {
@@ -164,10 +155,43 @@ void CM_GlobalCallback_break_generator_wheel() {
 		Entity_SetActive("Generator_Wheel_Broken", true);
 		Entity_SetActive("Generator_Wheel_Proxy", true);
 		
+	} else {
+		cScript_SetGlobalVarBool("CM_GeneratorWheelBroken", true);
 	}
 	Generator_ChangeState(eGeneratorState_Off);	
 }
 
 void CM_Global_Callback_PickupQuestItem(const tString &in asEntity) {
-	cLux_AddDebugMessage("PICKED QUEST ITEM");
+
+	tString sQuestItemName = Entity_GetVarString(asEntity, "Item_Type");
+	
+	cLux_AddDebugMessage("[ CHAOS MODE ] Got "+sQuestItemName);
+
+	tString[] vMusic = { "Bunker_RadioCode.ogg", "Bunker_DynamiteHandle.ogg", "Bunker_WheelPickup.ogg", "Bunker_WrenchPickup.ogg", "Bunker_DynamitePickup.ogg" ,"Bunker_CuttersPickup.ogg" };
+	
+	Music_Play(vMusic[cMath_RandRectl(0,vMusic.length()-1)], 0.1f, false, eMusicPrio_MinorEvent);
+			
+	//////////////
+	// Increase stalker escalation
+	bool bFullStep = Game_GetDifficultyMode() == eGameMode_Hard;
+	Blackboard_IncreaseStalkerEscalation(bFullStep);
+	cScript_SetGlobalVarInt("LevelProgression", cScript_GetGlobalVarInt("LevelProgression") + 1);
+	
+	// generator wheel code specific	
+	tString sPrevItemThanGeneratorWheel = cScript_GetGlobalVarString("QI_PrevItemThanGeneratorWheel");	
+	if(sPrevItemThanGeneratorWheel == "" ) {
+		if(cScript_GetGlobalVarInt("LevelProgression") == 3) {
+			CM_GlobalCallback_break_generator_wheel();
+		}
+	} else if(sPrevItemThanGeneratorWheel == sQuestItemName) {	
+		CM_GlobalCallback_break_generator_wheel();
+	}
+	
+	// Officer code
+	iLuxEntity@ pEntity = cLux_GetCurrentMap().GetEntityByName(asEntity);
+	if(pEntity.GetClassName() == "cScrPropReadable") {
+		cLux_AddDebugMessage("[ CHAOS MODE ] Adding officercode");
+		Sketchbook_AddCode("OfficerCode", cString_ToString(Randomizer_GetCode("OfficerCode"),4));
+	}
+	
 }

@@ -1,40 +1,62 @@
 <HPLMapTrack_DetailMeshes ID="311F95EBF9E911B6F90ABBBA6608F4141854A283" MajorVersion="1" MinorVersion="1">
     <DetailMeshes MaxRange="4000">
         <Sections>
-            <Section Name="Max@MAX-DESKTOP" />
-            <Section Name="aaron@DESKTOP-U5KQSOE" />
-            <Section Name="rasmu@WINDMILL" />
-            <Section Name="aaron@DESKTOP-QQIR8DS" />
-            <Section Name="johne@IOANNIS-WORK-LA" />
-            <Section Name="Max@DESKTOP-MAXL" />
-            <Section Name="johne@IOANNIS-DESKTOP" />
-            <Section Name="SWEEJUS_mike@DESKTOP-42KHMDM" />
-            <Section Name="Edvin Jacobsson@DESKTOP-TEJ6T6B" />
-            <Section Name="Ted@TELLUS" />
-            <Section Name="aaron@DESKTOP-Q12T94U">
-                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_03.dae" NumOfInstances="2">
-                    <DetailMeshEntityIDs>436208363 436208365</DetailMeshEntityIDs>
-                    <DetailMeshEntityPositions>-81.0321 -6.50192 12.046 -80.6912 -6.50896 12.3769</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>1 0 0 0 0.837772 0 -0.546021 0</DetailMeshEntityRotations>
-                    <DetailMeshEntityRadii>0.532333 0.532333</DetailMeshEntityRadii>
-                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
-                    <DetailMeshEntityModStamps>1667463632 1667463646</DetailMeshEntityModStamps>
-                </DetailMesh>
-                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="3">
-                    <DetailMeshEntityIDs>436208364 436208366 436208367</DetailMeshEntityIDs>
-                    <DetailMeshEntityPositions>-80.6148 -6.48027 11.711 -80.2739 -6.48027 12.042 -81.0125 -6.48027 11.7157</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>1 0 0 0 0.837772 0 -0.546021 0 0.837772 0 -0.546021 0</DetailMeshEntityRotations>
-                    <DetailMeshEntityRadii>0.379472 0.379472 0.379472</DetailMeshEntityRadii>
-                    <DetailMeshEntityColors>1 1 1 1 1 1 1 1 1</DetailMeshEntityColors>
-                    <DetailMeshEntityModStamps>1667463630 1667463635 1667463639</DetailMeshEntityModStamps>
-                </DetailMesh>
-            </Section>
-            <Section Name="Patrik@POMPERIPOSSA" />
-            <Section Name="Marc@MARC-PC" />
-            <Section Name="johne@DETIS-DESKTOP" />
-            <Section Name="marc@DESKTOP-MARCN" />
-            <Section Name="cesar@DESKTOP-0FIFFLJ" />
-            <Section Name="Marcus@DESKTOP-VV6VPG8" />
+            <Section Name="10300334514331934914" />
+            <Section Name="9195155804934729962" />
+            <Section Name="12579031528112273739" />
+            <Section Name="4853308392052082427" />
+            <Section Name="5716514586046010106" />
+            <Section Name="4074963946714538518" />
+            <Section Name="6316717594221808991" />
+            <Section Name="7387221967616566086" />
+            <Section Name="17564562340471339389" />
+            <Section Name="12266341581627464289" />
+            <Section Name="2808432602814229433" />
+            <Section Name="13338907128802076914" />
+            <Section Name="6937444921226728725" />
+            <Section Name="16252604345296683573" />
+            <Section Name="11867433910407490944" />
+            <Section Name="9065270106052613291" />
+            <Section Name="9172161606391457054" />
+            <Section Name="10625375571293597888" />
+            <Section Name="5913254565332661699" />
+            <Section Name="938601479819809172" />
+            <Section Name="11878278308235005273" />
+            <Section Name="3806214192523871112" />
+            <Section Name="2628536582313270325" />
+            <Section Name="6335398574811737625" />
+            <Section Name="6354346708331633253" />
+            <Section Name="8182122457138335059" />
+            <Section Name="12224921238944182748" />
+            <Section Name="7083316838573943517" />
+            <Section Name="8348924968422557895" />
+            <Section Name="617129561294536540" />
+            <Section Name="17896594477783397681" />
+            <Section Name="16987760226640583499" />
+            <Section Name="17365115340707769214" />
+            <Section Name="5778564540390565675" />
+            <Section Name="18031180677184110974" />
+            <Section Name="7976748518510038394" />
+            <Section Name="1629314236245760598" />
+            <Section Name="17236029076262404525" />
+            <Section Name="16459544813005349808" />
+            <Section Name="14120050758427098000" />
+            <Section Name="17083172668278975108" />
+            <Section Name="18195951057575834872" />
+            <Section Name="18266932834280544730" />
+            <Section Name="17775428116309831020" />
+            <Section Name="14733719954067711498" />
+            <Section Name="16635787545958988187" />
+            <Section Name="16383422440105646029" />
+            <Section Name="12263068252265600934" />
+            <Section Name="2857880198863370365" />
+            <Section Name="14371376319993263926" />
+            <Section Name="17708975632422570942" />
+            <Section Name="18400966699494951686" />
+            <Section Name="12027981687569953280" />
+            <Section Name="9091537321687738822" />
+            <Section Name="15440204398624650602" />
+            <Section Name="14042797320315484158" />
         </Sections>
     </DetailMeshes>
 </HPLMapTrack_DetailMeshes>

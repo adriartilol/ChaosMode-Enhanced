@@ -6,10 +6,7 @@
         <Objects />
     </Section>
     <Section Name="11878278308235005273">
-        <Objects>
-            <ParticleSystem ID="301991663" Name="PS_6" CreStamp="1665405383" ModStamp="1665405591" WorldPos="-71.25 5.5 128.25" Rotation="0 0 0" Scale="1 1 1" File="C:/frictional/bunker/redist/particles/water/drops_med_continuous.ps" Color="1 1 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="1" MaxFadeDistanceStart="100" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="18 9953 301991663" />
-            <ParticleSystem ID="301991664" Name="PS_7" CreStamp="1665405617" ModStamp="1680532246" WorldPos="-71.25 5.5 133.905" Rotation="0 0 0" Scale="1 1 1" File="C:/frictional/bunker/redist/particles/water/drops_med_continuous.ps" Color="1 1 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="1" MaxFadeDistanceStart="100" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="18 9569 301991664" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="5913254565332661699">
         <Objects />
@@ -65,70 +62,337 @@
     <Section Name="14733719954067711498">
         <Objects />
     </Section>
-    <Section Name="12224921238944182748">
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
+        <Objects />
+    </Section>
+    <Section Name="18195951057575834872">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
+        <Objects />
+    </Section>
+    <Section Name="11774898963025775877">
+        <Objects />
+    </Section>
+    <Section Name="15379620218325487157">
+        <Objects />
+    </Section>
+    <Section Name="16635787545958988187">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="18266932834280544730">
+        <Objects />
+    </Section>
+    <Section Name="7342633215874772849">
+        <Objects />
+    </Section>
+    <Section Name="849900405859842564">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="2306221706992326022">
+        <Objects />
+    </Section>
+    <Section Name="14211520518091114105">
+        <Objects />
+    </Section>
+    <Section Name="13833203488117669323">
+        <Objects />
+    </Section>
+    <Section Name="9710955726840204135">
+        <Objects />
+    </Section>
+    <Section Name="14677797404739872827">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="4606790389871051747">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="13442671646252012013">
+        <Objects />
+    </Section>
+    <Section Name="8591075623932918075">
+        <Objects />
+    </Section>
+    <Section Name="1836132285479503855">
+        <Objects />
+    </Section>
+    <Section Name="5704074243704033166">
+        <Objects />
+    </Section>
+    <Section Name="10484839416284010017">
+        <Objects />
+    </Section>
+    <Section Name="15156238969079983863">
+        <Objects />
+    </Section>
+    <Section Name="3087097117560917566">
+        <Objects />
+    </Section>
+    <Section Name="7463359838307214659">
+        <Objects />
+    </Section>
+    <Section Name="10605551493652229194">
+        <Objects />
+    </Section>
+    <Section Name="7019001322016872295">
+        <Objects />
+    </Section>
+    <Section Name="12209433145012264341">
+        <Objects />
+    </Section>
+    <Section Name="17627635563255057907">
+        <Objects />
+    </Section>
+    <Section Name="10360015916833613026">
+        <Objects />
+    </Section>
+    <Section Name="15186640056456893155">
+        <Objects />
+    </Section>
+    <Section Name="3656665068320089617">
+        <Objects />
+    </Section>
+    <Section Name="1786164696888450778">
+        <Objects />
+    </Section>
+    <Section Name="7554460963288251697">
+        <Objects />
+    </Section>
+    <Section Name="12194447845322582928">
+        <Objects />
+    </Section>
+    <Section Name="6059686369859529995">
+        <Objects />
+    </Section>
+    <Section Name="2024479316154322063">
+        <Objects />
+    </Section>
+    <Section Name="6772919421994155814">
+        <Objects />
+    </Section>
+    <Section Name="2545873219264039096">
+        <Objects />
+    </Section>
+    <Section Name="2553992064290450272">
+        <Objects />
+    </Section>
+    <Section Name="18109300603040156768">
+        <Objects />
+    </Section>
+    <Section Name="18043411359941499278">
+        <Objects />
+    </Section>
+    <Section Name="8109272469004301749">
+        <Objects />
+    </Section>
+    <Section Name="18360552603431277685">
+        <Objects />
+    </Section>
+    <Section Name="6190308911983090940">
+        <Objects />
+    </Section>
+    <Section Name="17225789967703375918">
+        <Objects />
+    </Section>
+    <Section Name="17148889862062347008">
+        <Objects />
+    </Section>
+    <Section Name="5709918667761977789">
+        <Objects />
+    </Section>
+    <Section Name="15964648976235542272">
+        <Objects />
+    </Section>
+    <Section Name="4183233511814710847">
+        <Objects />
+    </Section>
+    <Section Name="13561363828997277169">
+        <Objects />
+    </Section>
+    <Section Name="12564525660048056548">
+        <Objects />
+    </Section>
+    <Section Name="7804963992017285815">
+        <Objects />
+    </Section>
+    <Section Name="16731238584900433395">
+        <Objects />
+    </Section>
+    <Section Name="2574685420887233851">
+        <Objects />
+    </Section>
+    <Section Name="18305255571629046635">
+        <Objects />
+    </Section>
+    <Section Name="5221395675889232783">
+        <Objects />
+    </Section>
+    <Section Name="18404501707536223889">
         <Objects>
-            <ParticleSystem ID="285213793" Name="PS_38" CreStamp="1655195950" ModStamp="1666964185" WorldPos="-96.75 2 145" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 8646 285213793" />
-            <ParticleSystem ID="285213794" Name="PS_39" CreStamp="1655195952" ModStamp="1666964180" WorldPos="-90.75 1 145" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 8647 285213794" />
-            <ParticleSystem ID="285214715" Name="PS_5" CreStamp="1655918359" ModStamp="1660118876" WorldPos="-145.893 14.7291 170.867" Rotation="-0.922576 0.847188 -0.780104" Scale="1 1 1" File="D:/Work/bunker/redist/particles/smoke/smoke_light_signal_fire_plume_continous.ps" Color="1 1 1 0.294922" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 117 285214715" />
-            <ParticleSystem ID="285214726" Name="PS_40" CreStamp="1660138909" ModStamp="1666964190" WorldPos="-96.75 3 139" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9468 285214726" />
-            <ParticleSystem ID="285214727" Name="PS_41" CreStamp="1660138923" ModStamp="1666964194" WorldPos="-97 1 151" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9469 285214727" />
-            <ParticleSystem ID="285214728" Name="PS_42" CreStamp="1660138935" ModStamp="1669032980" WorldPos="-99.25 0.5 156.75" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9465 285214728" />
-            <ParticleSystem ID="285214729" Name="PS_43" CreStamp="1660138958" ModStamp="1669032977" WorldPos="-102.75 0.248125 161.75" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9466 285214729" />
-            <ParticleSystem ID="285214730" Name="PS_44" CreStamp="1660138970" ModStamp="1669032974" WorldPos="-103.25 0.248125 167.5" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9467 285214730" />
-            <ParticleSystem ID="285214731" Name="PS_45" CreStamp="1660138983" ModStamp="1669032971" WorldPos="-100.75 0.248125 172" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9463 285214731" />
-            <ParticleSystem ID="285215219" Name="PS_47" CreStamp="1660645247" ModStamp="1669032967" WorldPos="-98.6863 0.248125 176.604" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9037 285215219" />
-            <ParticleSystem ID="285215220" Name="PS_48" CreStamp="1660645252" ModStamp="1668526256" WorldPos="-98.4565 0.998375 181.635" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="5" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="17 9036 285215220" />
+            <ParticleSystem ID="1744831111" Name="PS_38" CreStamp="1655195950" ModStamp="1666964185" WorldPos="-96.75 2 145" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 8646 1744831111" />
+            <ParticleSystem ID="1744831112" Name="PS_39" CreStamp="1655195952" ModStamp="1666964180" WorldPos="-90.75 1 145" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 8647 1744831112" />
+            <ParticleSystem ID="1744831113" Name="PS_5" CreStamp="1655918359" ModStamp="1660118876" WorldPos="-145.893 14.7291 170.867" Rotation="-0.922576 0.847188 -0.780104" Scale="1 1 1" File="D:/Work/bunker/redist/particles/smoke/smoke_light_signal_fire_plume_continous.ps" Color="1 1 1 0.294922" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 117 1744831113" />
+            <ParticleSystem ID="1744831114" Name="PS_40" CreStamp="1660138909" ModStamp="1666964190" WorldPos="-96.75 3 139" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="1" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9468 1744831114" />
+            <ParticleSystem ID="1744831115" Name="PS_41" CreStamp="1660138923" ModStamp="1666964194" WorldPos="-97 1 151" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9469 1744831115" />
+            <ParticleSystem ID="1744831116" Name="PS_42" CreStamp="1660138935" ModStamp="1669032980" WorldPos="-99.25 0.5 156.75" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9465 1744831116" />
+            <ParticleSystem ID="1744831117" Name="PS_43" CreStamp="1660138958" ModStamp="1669032977" WorldPos="-102.75 0.248125 161.75" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9466 1744831117" />
+            <ParticleSystem ID="1744831118" Name="PS_44" CreStamp="1660138970" ModStamp="1669032974" WorldPos="-103.25 0.248125 167.5" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9467 1744831118" />
+            <ParticleSystem ID="1744831119" Name="PS_45" CreStamp="1660138983" ModStamp="1669032971" WorldPos="-100.75 0.248125 172" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9463 1744831119" />
+            <ParticleSystem ID="1744831120" Name="PS_47" CreStamp="1660645247" ModStamp="1669032967" WorldPos="-98.6863 0.248125 176.604" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9037 1744831120" />
+            <ParticleSystem ID="1744831121" Name="PS_48" CreStamp="1660645252" ModStamp="1668526256" WorldPos="-98.4565 0.998375 181.635" Rotation="0 0 0" Scale="1 1 1" File="C:/Frictional/Bunker/redist/particles/fog/fog_ambient_flowing02_roomfill.ps" Color="0.282353 0.478431 0.4 0.866667" Brightness="5" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="104 9036 1744831121" />
         </Objects>
     </Section>
-    <Section Name="7976748518510038394">
+    <Section Name="11430045020620300771">
         <Objects>
-            <ParticleSystem ID="436207626" Name="PS_8" CreStamp="1680271815" ModStamp="1680534077" WorldPos="-71.25 1.93426 136.369" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.12" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="26 9966 436207626" />
-            <ParticleSystem ID="436207628" Name="PS_10" CreStamp="1680271986" ModStamp="1680600816" WorldPos="-71.75 2.01942 134.204" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.08" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="26 9982 436207628" />
-            <ParticleSystem ID="436207629" Name="PS_26" CreStamp="1680272108" ModStamp="1680534088" WorldPos="-73.11 1.77372 131.21" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.06" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="26 9981 436207629" />
-            <ParticleSystem ID="436207630" Name="PS_33" CreStamp="1680272114" ModStamp="1680534092" WorldPos="-72.0036 1.00354 128.084" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.04" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="26 9967 436207630" />
-            <ParticleSystem ID="436207806" Name="PS_27" CreStamp="1680534057" ModStamp="1680534072" WorldPos="-66.8409 1.57519 137.003" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.06" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="26 9972 436207806" />
-            <ParticleSystem ID="436208090" Name="rift_1_1" CreStamp="1680783471" ModStamp="1680783861" WorldPos="-99.9165 1.28325 155.691" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9769 436208090" />
-            <ParticleSystem ID="436208091" Name="rift_1_2" CreStamp="1680783777" ModStamp="1680783866" WorldPos="-99.4911 0.0568276 155.726" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9765 436208091" />
-            <ParticleSystem ID="436208097" Name="rift_1_3" CreStamp="1680785242" ModStamp="1680785846" WorldPos="-98.0768 1.5616 145.656" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9732 436208097" />
-            <ParticleSystem ID="436208098" Name="rift_1_4" CreStamp="1680785257" ModStamp="1680785859" WorldPos="-98.4449 1.33655 143.669" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9764 436208098" />
-            <ParticleSystem ID="436208099" Name="rift_1_5" CreStamp="1680785261" ModStamp="1680785852" WorldPos="-98.1043 3.03195 145.004" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9766 436208099" />
-            <ParticleSystem ID="436208100" Name="rift_1_6" CreStamp="1680785265" ModStamp="1680792932" WorldPos="-97.2358 3.13389 137.404" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9750 436208100" />
-            <ParticleSystem ID="436208115" Name="rift_1_7" CreStamp="1680785877" ModStamp="1680792935" WorldPos="-97.9601 4.07727 137.606" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9763 436208115" />
-            <ParticleSystem ID="436208142" Name="rift_1_8" CreStamp="1680786695" ModStamp="1680786698" WorldPos="-96.8818 1.31495 145.656" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9768 436208142" />
-            <ParticleSystem ID="436208244" Name="rift_1_9" CreStamp="1681206161" ModStamp="1681206177" WorldPos="-106.25 1.09562 165.455" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9628 436208244" />
-            <ParticleSystem ID="436208245" Name="rift_1_10" CreStamp="1681206179" ModStamp="1681206183" WorldPos="-106.209 -0.28959 164.636" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9629 436208245" />
-            <ParticleSystem ID="436208246" Name="rift_1_11" CreStamp="1681206189" ModStamp="1681206204" WorldPos="-97.9658 0.17487 174.332" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9627 436208246" />
-            <ParticleSystem ID="436208247" Name="rift_1_12" CreStamp="1681206206" ModStamp="1681206212" WorldPos="-97.6831 1.16829 175.206" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9609 436208247" />
-            <ParticleSystem ID="436208269" Name="rift_1_13" CreStamp="1681209288" ModStamp="1681209304" WorldPos="-84.6481 -1.59527 184.019" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9626 436208269" />
-            <ParticleSystem ID="436208270" Name="rift_1_14" CreStamp="1681209305" ModStamp="1681209321" WorldPos="-84.6364 -0.577165 184.79" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9610 436208270" />
-            <ParticleSystem ID="436208404" Name="PS_20" CreStamp="1682669150" ModStamp="1682669300" WorldPos="-84.8161 1.56445 145.516" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_light_small.ps" Color="0.757812 0.929047 1 0.392157" Brightness="0.3" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="26 9586 436208404" />
+            <ParticleSystem ID="1761608620" Name="PS_6" CreStamp="1665405383" ModStamp="1665405591" WorldPos="-71.25 5.5 128.25" Rotation="0 0 0" Scale="1 1 1" File="C:/frictional/bunker/redist/particles/water/drops_med_continuous.ps" Color="1 1 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="1" MaxFadeDistanceStart="100" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="105 9953 1761608620" />
+            <ParticleSystem ID="1761608621" Name="PS_7" CreStamp="1665405617" ModStamp="1680532246" WorldPos="-71.25 5.5 133.905" Rotation="0 0 0" Scale="1 1 1" File="C:/frictional/bunker/redist/particles/water/drops_med_continuous.ps" Color="1 1 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="1" MaxFadeDistanceStart="100" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="105 9569 1761608621" />
         </Objects>
     </Section>
-    <Section Name="7083316838573943517">
+    <Section Name="1773613984971493865">
+        <Objects />
+    </Section>
+    <Section Name="13439491925281734398">
+        <Objects />
+    </Section>
+    <Section Name="12372345395204616092">
         <Objects>
-            <ParticleSystem ID="452985142" Name="PS_1_Imported" CreStamp="1655910038" ModStamp="1681217752" WorldPos="-114.118 -3.84758 153.538" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.4" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 82 452985142" />
-            <ParticleSystem ID="452985143" Name="PS_2" CreStamp="1655910064" ModStamp="1681217752" WorldPos="-117.649 -3.84758 150.928" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 79 452985143" />
-            <ParticleSystem ID="452985144" Name="PS_3" CreStamp="1655910065" ModStamp="1681217753" WorldPos="-115.772 -3.84758 146.629" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 81 452985144" />
-            <ParticleSystem ID="452985145" Name="PS_4" CreStamp="1655910067" ModStamp="1681217752" WorldPos="-110.821 -3.84758 147.976" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 80 452985145" />
-            <ParticleSystem ID="452985146" Name="PS_1" CreStamp="1681213246" ModStamp="1681217752" WorldPos="-114.929 -2.41484 144.599" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 170 452985146" />
-            <ParticleSystem ID="452985147" Name="PS_9" CreStamp="1681213278" ModStamp="1681217752" WorldPos="-117.554 -2.41484 144.704" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 172 452985147" />
-            <ParticleSystem ID="452985148" Name="PS_11" CreStamp="1681213279" ModStamp="1681217752" WorldPos="-116.685 -2.86612 142.461" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 174 452985148" />
-            <ParticleSystem ID="452985149" Name="PS_12" CreStamp="1681213284" ModStamp="1681217752" WorldPos="-117.044 -0.236893 145.208" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.654297" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 171 452985149" />
-            <ParticleSystem ID="452985150" Name="PS_13" CreStamp="1681213294" ModStamp="1681217752" WorldPos="-117.044 0.328076 147.743" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.458984" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 173 452985150" />
-            <ParticleSystem ID="452985151" Name="PS_14" CreStamp="1681213295" ModStamp="1681217752" WorldPos="-117.044 2.75991 148.699" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.443359" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 166 452985151" />
-            <ParticleSystem ID="452985152" Name="PS_15" CreStamp="1681213298" ModStamp="1681217752" WorldPos="-117.044 5.20033 149.26" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.443359" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 167 452985152" />
-            <ParticleSystem ID="452985153" Name="PS_16" CreStamp="1681213299" ModStamp="1681217752" WorldPos="-117.044 5.89087 151.921" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.298828" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 168 452985153" />
-            <ParticleSystem ID="452985154" Name="PS_17" CreStamp="1681213300" ModStamp="1681217751" WorldPos="-117.044 8.28167 152.216" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.166016" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 169 452985154" />
-            <ParticleSystem ID="452985155" Name="PS_18" CreStamp="1681213396" ModStamp="1681217752" WorldPos="-117.943 1.57085 146.566" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.458984" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="27 165 452985155" />
-            <ParticleSystem ID="452985191" Name="rift_1_15" CreStamp="1683192239" ModStamp="1684234356" WorldPos="-112.631 -3.71635 147.968" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9859 452985191" />
-            <ParticleSystem ID="452985192" Name="rift_1_16" CreStamp="1683192259" ModStamp="1684234358" WorldPos="-113.198 -2.71321 147.902" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9858 452985192" />
-            <ParticleSystem ID="452985193" Name="rift_1_17" CreStamp="1683192263" ModStamp="1683192268" WorldPos="-110.607 -3.62716 150.125" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9626 452985193" />
-            <ParticleSystem ID="452985194" Name="rift_1_18" CreStamp="1683192268" ModStamp="1684234345" WorldPos="-111.614 -3.41409 151.868" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9855 452985194" />
-            <ParticleSystem ID="452985195" Name="rift_1_19" CreStamp="1683192272" ModStamp="1684234348" WorldPos="-111.368 -3.052 151.41" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9861 452985195" />
-            <ParticleSystem ID="452985196" Name="rift_1_20" CreStamp="1683192275" ModStamp="1684234336" WorldPos="-113.16 -3.89092 153.86" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9856 452985196" />
-            <ParticleSystem ID="452985197" Name="rift_1_21" CreStamp="1683192284" ModStamp="1684234341" WorldPos="-113.778 -3.75077 154.205" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9860 452985197" />
-            <ParticleSystem ID="452985198" Name="rift_1_22" CreStamp="1683192287" ModStamp="1684234366" WorldPos="-117.651 -3.82453 149.312" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9854 452985198" />
-            <ParticleSystem ID="452985199" Name="rift_1_23" CreStamp="1683192293" ModStamp="1684234373" WorldPos="-118.456 -3.55746 149.258" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="27 9857 452985199" />
+            <ParticleSystem ID="1811939478" Name="PS_1_Imported" CreStamp="1655910038" ModStamp="1681217752" WorldPos="-114.118 -3.84758 153.538" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.4" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 82 1811939478" />
+            <ParticleSystem ID="1811939479" Name="PS_2" CreStamp="1655910064" ModStamp="1681217752" WorldPos="-117.649 -3.84758 150.928" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 79 1811939479" />
+            <ParticleSystem ID="1811939480" Name="PS_3" CreStamp="1655910065" ModStamp="1681217753" WorldPos="-115.772 -3.84758 146.629" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 81 1811939480" />
+            <ParticleSystem ID="1811939481" Name="PS_4" CreStamp="1655910067" ModStamp="1681217752" WorldPos="-110.821 -3.84758 147.976" Rotation="0 1.5708 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/fog/fog_ambient_flowing.ps" Color="0.613281 0.995468 1 0.0449219" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 80 1811939481" />
+            <ParticleSystem ID="1811939482" Name="PS_1" CreStamp="1681213246" ModStamp="1681217752" WorldPos="-114.929 -2.41484 144.599" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 170 1811939482" />
+            <ParticleSystem ID="1811939483" Name="PS_9" CreStamp="1681213278" ModStamp="1681217752" WorldPos="-117.554 -2.41484 144.704" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 172 1811939483" />
+            <ParticleSystem ID="1811939484" Name="PS_11" CreStamp="1681213279" ModStamp="1681217752" WorldPos="-116.685 -2.86612 142.461" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 174 1811939484" />
+            <ParticleSystem ID="1811939485" Name="PS_12" CreStamp="1681213284" ModStamp="1681217752" WorldPos="-117.044 -0.236893 145.208" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.654297" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 171 1811939485" />
+            <ParticleSystem ID="1811939486" Name="PS_13" CreStamp="1681213294" ModStamp="1681217752" WorldPos="-117.044 0.328076 147.743" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.458984" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 173 1811939486" />
+            <ParticleSystem ID="1811939487" Name="PS_14" CreStamp="1681213295" ModStamp="1681217752" WorldPos="-117.044 2.75991 148.699" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.443359" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 166 1811939487" />
+            <ParticleSystem ID="1811939488" Name="PS_15" CreStamp="1681213298" ModStamp="1681217752" WorldPos="-117.044 5.20033 149.26" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.443359" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 167 1811939488" />
+            <ParticleSystem ID="1811939489" Name="PS_16" CreStamp="1681213299" ModStamp="1681217752" WorldPos="-117.044 5.89087 151.921" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.298828" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 168 1811939489" />
+            <ParticleSystem ID="1811939490" Name="PS_17" CreStamp="1681213300" ModStamp="1681217751" WorldPos="-117.044 8.28167 152.216" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.166016" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 169 1811939490" />
+            <ParticleSystem ID="1811939491" Name="PS_18" CreStamp="1681213396" ModStamp="1681217752" WorldPos="-117.943 1.57085 146.566" Rotation="0 0 0" Scale="1 1 1" File="D:/Work/bunker/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 0.458984" Brightness="0.8" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_Spot_1_Imported_2" UID="108 165 1811939491" />
+            <ParticleSystem ID="1811939492" Name="rift_1_15" CreStamp="1683192239" ModStamp="1684234356" WorldPos="-112.631 -3.71635 147.968" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9859 1811939492" />
+            <ParticleSystem ID="1811939493" Name="rift_1_16" CreStamp="1683192259" ModStamp="1684234358" WorldPos="-113.198 -2.71321 147.902" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9858 1811939493" />
+            <ParticleSystem ID="1811939494" Name="rift_1_17" CreStamp="1683192263" ModStamp="1683192268" WorldPos="-110.607 -3.62716 150.125" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9626 1811939494" />
+            <ParticleSystem ID="1811939495" Name="rift_1_18" CreStamp="1683192268" ModStamp="1684234345" WorldPos="-111.614 -3.41409 151.868" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9855 1811939495" />
+            <ParticleSystem ID="1811939496" Name="rift_1_19" CreStamp="1683192272" ModStamp="1684234348" WorldPos="-111.368 -3.052 151.41" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9861 1811939496" />
+            <ParticleSystem ID="1811939497" Name="rift_1_20" CreStamp="1683192275" ModStamp="1684234336" WorldPos="-113.16 -3.89092 153.86" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9856 1811939497" />
+            <ParticleSystem ID="1811939498" Name="rift_1_21" CreStamp="1683192284" ModStamp="1684234341" WorldPos="-113.778 -3.75077 154.205" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9860 1811939498" />
+            <ParticleSystem ID="1811939499" Name="rift_1_22" CreStamp="1683192287" ModStamp="1684234366" WorldPos="-117.651 -3.82453 149.312" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9854 1811939499" />
+            <ParticleSystem ID="1811939500" Name="rift_1_23" CreStamp="1683192293" ModStamp="1684234373" WorldPos="-118.456 -3.55746 149.258" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="0.605469 0.995376 1 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="108 9857 1811939500" />
         </Objects>
+    </Section>
+    <Section Name="11255853892863068920">
+        <Objects />
+    </Section>
+    <Section Name="8426902128076004922">
+        <Objects />
+    </Section>
+    <Section Name="16972802540415459683">
+        <Objects />
+    </Section>
+    <Section Name="9929884855472090891">
+        <Objects />
+    </Section>
+    <Section Name="1467851273069754843">
+        <Objects />
+    </Section>
+    <Section Name="7647898079783214371">
+        <Objects />
+    </Section>
+    <Section Name="5567005983264112896">
+        <Objects />
+    </Section>
+    <Section Name="1144194915073257416">
+        <Objects />
+    </Section>
+    <Section Name="16948395815399037378">
+        <Objects />
+    </Section>
+    <Section Name="10043280279841522737">
+        <Objects />
+    </Section>
+    <Section Name="5154609606323973616">
+        <Objects />
+    </Section>
+    <Section Name="3814753305996277122">
+        <Objects />
+    </Section>
+    <Section Name="9484528426919051767">
+        <Objects />
+    </Section>
+    <Section Name="9860523329577058962">
+        <Objects />
+    </Section>
+    <Section Name="10928444819778005239">
+        <Objects />
+    </Section>
+    <Section Name="1497143035550117820">
+        <Objects>
+            <ParticleSystem ID="2080375234" Name="PS_8" CreStamp="1680271815" ModStamp="1680534077" WorldPos="-71.25 1.93426 136.369" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.12" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="124 9966 2080375234" />
+            <ParticleSystem ID="2080375235" Name="PS_10" CreStamp="1680271986" ModStamp="1680600816" WorldPos="-71.75 2.01942 134.204" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.08" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="124 9982 2080375235" />
+            <ParticleSystem ID="2080375236" Name="PS_26" CreStamp="1680272108" ModStamp="1680534088" WorldPos="-73.11 1.77372 131.21" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.06" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="124 9981 2080375236" />
+            <ParticleSystem ID="2080375237" Name="PS_33" CreStamp="1680272114" ModStamp="1680534092" WorldPos="-72.0036 1.00354 128.084" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.04" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="124 9967 2080375237" />
+            <ParticleSystem ID="2080375238" Name="PS_27" CreStamp="1680534057" ModStamp="1680534072" WorldPos="-66.8409 1.57519 137.003" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_ambient_medium.ps" Color="1 1 1 1" Brightness="0.06" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="18" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="25" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_SaveLamp_7" UID="124 9972 2080375238" />
+            <ParticleSystem ID="2080375239" Name="rift_1_1" CreStamp="1680783471" ModStamp="1680783861" WorldPos="-99.9165 1.28325 155.691" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9769 2080375239" />
+            <ParticleSystem ID="2080375240" Name="rift_1_2" CreStamp="1680783777" ModStamp="1680783866" WorldPos="-99.4911 0.0568276 155.726" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9765 2080375240" />
+            <ParticleSystem ID="2080375241" Name="rift_1_3" CreStamp="1680785242" ModStamp="1680785846" WorldPos="-98.0768 1.5616 145.656" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9732 2080375241" />
+            <ParticleSystem ID="2080375242" Name="rift_1_4" CreStamp="1680785257" ModStamp="1680785859" WorldPos="-98.4449 1.33655 143.669" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9764 2080375242" />
+            <ParticleSystem ID="2080375243" Name="rift_1_5" CreStamp="1680785261" ModStamp="1680785852" WorldPos="-98.1043 3.03195 145.004" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9766 2080375243" />
+            <ParticleSystem ID="2080375244" Name="rift_1_6" CreStamp="1680785265" ModStamp="1680792932" WorldPos="-97.2358 3.13389 137.404" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9750 2080375244" />
+            <ParticleSystem ID="2080375245" Name="rift_1_7" CreStamp="1680785877" ModStamp="1680792935" WorldPos="-97.9601 4.07727 137.606" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9763 2080375245" />
+            <ParticleSystem ID="2080375246" Name="rift_1_8" CreStamp="1680786695" ModStamp="1680786698" WorldPos="-96.8818 1.31495 145.656" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.2" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9768 2080375246" />
+            <ParticleSystem ID="2080375247" Name="rift_1_9" CreStamp="1681206161" ModStamp="1681206177" WorldPos="-106.25 1.09562 165.455" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9628 2080375247" />
+            <ParticleSystem ID="2080375248" Name="rift_1_10" CreStamp="1681206179" ModStamp="1681206183" WorldPos="-106.209 -0.28959 164.636" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9629 2080375248" />
+            <ParticleSystem ID="2080375249" Name="rift_1_11" CreStamp="1681206189" ModStamp="1681206204" WorldPos="-97.9658 0.17487 174.332" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9627 2080375249" />
+            <ParticleSystem ID="2080375250" Name="rift_1_12" CreStamp="1681206206" ModStamp="1681206212" WorldPos="-97.6831 1.16829 175.206" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9609 2080375250" />
+            <ParticleSystem ID="2080375251" Name="rift_1_13" CreStamp="1681209288" ModStamp="1681209304" WorldPos="-84.6481 -1.59527 184.019" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9626 2080375251" />
+            <ParticleSystem ID="2080375252" Name="rift_1_14" CreStamp="1681209305" ModStamp="1681209321" WorldPos="-84.6364 -0.577165 184.79" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/smoke/old_fire_smouldering.ps" Color="1 1 1 1" Brightness="0.6" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9610 2080375252" />
+            <ParticleSystem ID="2080375253" Name="PS_20" CreStamp="1682669150" ModStamp="1682669300" WorldPos="-84.8161 1.56445 145.516" Rotation="0 0 0" Scale="1 1 1" File="C:/work/svn_bunker/redist/particles/dust/dust_light_small.ps" Color="0.757812 0.929047 1 0.392157" Brightness="0.3" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="18" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="124 9586 2080375253" />
+        </Objects>
+    </Section>
+    <Section Name="8233818254624998378">
+        <Objects />
+    </Section>
+    <Section Name="15801649295802075107">
+        <Objects />
+    </Section>
+    <Section Name="608848854758122182">
+        <Objects />
     </Section>
 </HPLMapTrack_ParticleSystem>

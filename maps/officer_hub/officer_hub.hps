@@ -278,6 +278,8 @@ class cScrMap : iScrMap
 		Sound_Stop("Sound_GunFire_*", 5.0f);
 		
 		//Entity_SetActive("Lockdown_Wheel_broken*", false);
+		
+		CM_OnLeave();
 	}
 
 	////////////////////////////
@@ -319,10 +321,63 @@ class cScrMap : iScrMap
 	float mfIntroTextCount = 0.f;
 	float mfIntroTextAlpha = 0.f;
 	
+	bool mbExitTextStart = false;
+	float mfExitTextCount = 0.f;
+	float mfExitTextAlpha = 0.f;
+	
 	//-------------------------------------------------------
 	
 	void OnGui(float afTimeStep)
 	{
+	
+	
+		if (mbExitTextStart) {	
+		
+			//////////////////////
+			// Exit text
+			mfExitTextCount += afTimeStep;
+			if (mfExitTextCount > 3.5f)
+			{
+				bool bFadeOut = mfExitTextCount > 11.f;
+				float fAlphaGoal = bFadeOut ? 0.f : 1.f;
+				float fFadeSpeed = 5.f;
+					
+				mfExitTextAlpha = cMath_IncreaseTo(mfExitTextAlpha, (1.f / fFadeSpeed) * afTimeStep, fAlphaGoal);
+				
+				////////////////////////////
+				// Done? Credits
+				if (bFadeOut && mfExitTextAlpha <= 0.f)
+				{					
+					mbExitTextStart=false;
+					Credits_Start("Credits.cfg","OnEndOfCredits", "", cVector3f(-0.15,-0.15,1.75f), "Bunker_EndCredits.ogg");
+					return;
+				}
+				///////////////
+				// Draw text
+				ImGui_LayoutBegin(eImGuiLayout_XY, ImGui_NrmPos(0.f, 0.f, 1.f), ImGui_NrmSize(0.5f, 0.5f));
+					
+					cImGuiTextFrameData textData = ImGui_GetDefaultTextFrame();
+					textData.mFont.SetFile(FontHandler_GetFont(eFontType_MainMenu, 72));
+					textData.mFontAlign = eFontAlign_Center;
+					textData.mFont.mvSize = cVector2f(20.f);
+					textData.mbUseBackgroundGfx = false;
+					textData.mFont.mColor = cColor_White;
+
+					ImGui_SetAlignment(eImGuiAlign_CenterCenter);
+					ImGui_SetModColorMul(cColor(1.f, 1.f, 1.f, mfExitTextAlpha));
+					ImGui_SetTransCategory("ChaosMode");
+					ImGui_DoTextFrameExt("ExitMessageText", cVector2f_Zero, 0.f, 0.f, textData, ImGui_NrmPosGroup(0.f, 0.5f, 0.1f), ImGui_NrmSizeGroup(1.f));
+					ImGui_SetTransCategory("");
+						
+					ImGui_SetAlignment(eImGuiAlign_TopLeft);
+					ImGui_ResetModifiers();
+					
+				ImGui_LayoutEnd();
+				
+				return;
+			}
+		}
+	
 		if (mbIntroTextDone || cLux_ScriptDebugOn())
 			return;
 		
@@ -360,7 +415,7 @@ class cScrMap : iScrMap
 
 				ImGui_SetAlignment(eImGuiAlign_CenterCenter);
 				ImGui_SetModColorMul(cColor(1.f, 1.f, 1.f, mfIntroTextAlpha));
-				ImGui_SetTransCategory("GUIText");
+				ImGui_SetTransCategory("ChaosMode");
 				ImGui_DoTextFrameExt("IntroMessageText", cVector2f_Zero, 0.f, 0.f, textData, ImGui_NrmPosGroup(0.f, 0.5f, 0.1f), ImGui_NrmSizeGroup(1.f));
 				ImGui_SetTransCategory("");
 					
@@ -523,9 +578,15 @@ class cScrMap : iScrMap
 	//-------------------------------------------------------
 	
 	void OnBreak_DisableSlideLock(const tString &in asEntity)
-	{			
-		Entity_SetActive("QI_delisle_null_2", false);
-		Entity_SetActive("QI_delisle_null_3", false);
+	{	
+		
+		Map_AddTimer("NoiseHint", 2.5f, "OnTimer_NoiseHint");
+		
+		const tString sLockEnt = "Lock_"+asEntity;
+		if (Entity_Exists(sLockEnt))
+			Entity_SetActive(sLockEnt, false);
+			
+		Entity_SetActive(asEntity + "_nameplat*", false);
 	}
 	
 	//-------------------------------------------------------
@@ -3046,7 +3107,7 @@ class cScrMap : iScrMap
 		
 		void OnTimer_DetachWheel(const tString &in asTimer)
 		{
-			Item_RemoveFromInventory(ItemType_GetFirstInInventory("LockdownWheel"), eInventoryInstance_Player, false, true);
+			Item_RemoveFromInventory(ItemType_GetFirstInInventory("GeneratorWheel"), eInventoryInstance_Player, false, true);
 			Entity_SetActive("Generator_Wheel", true);
 		}
 		
@@ -3230,24 +3291,44 @@ class cScrMap : iScrMap
 				
 				///////////////////
 				// Exit collapse
-				Entity_SetActive("ExitFloor", false);
+				//Entity_SetActive("ExitFloor", false);
 				Entity_SetActive("DynamiteBox", false);
 				Entity_SetActive("DynamiteBoxBase", false);
 				Entity_SetActive("DynamiteFuse", false);
 				Entity_SetActive("Detonator_DynamiteBundle", false);
-				Entity_SetActive("ExitRubble_*", true);
-				Entity_SetActive("Exit_Vista", true);
-				Entity_SetActive("cavein_debris_*", true);
-				Entity_SetActive("exit_barricade_intact_*", false);
-				Entity_SetActive("exit_barricade_broken_*", true);
-				Entity_SetActive("DetonatorEndCable", false);
-				Entity_SetActive("HoleRock_*", true);
+				//Entity_SetActive("ExitRubble_*", true);
+				//Entity_SetActive("Exit_Vista", true);
+				//Entity_SetActive("cavein_debris_*", true);
+				//Entity_SetActive("exit_barricade_intact_*", false);
+				//Entity_SetActive("exit_barricade_broken_*", true);
+				//Entity_SetActive("DetonatorEndCable", false);
+				//Entity_SetActive("HoleRock_*", true);*/
+				
+				// MOD clear the debris to exit
+				Entity_SetActive("block_box_char_7", false);
+				Entity_SetActive("barricade_4_1", false);
+				Entity_SetActive("french_gate_barb_wire_12", false);
+				Entity_SetActive("french_gate_barb_wire_11", false);
+				Entity_SetActive("barricade_1_1", false);
+				Entity_SetActive("park_rubble_10", false);
+				Entity_SetActive("park_rubble_11", false);
+				Entity_SetActive("park_rubble_12", false);
+				Entity_SetActive("park_rubble_14", false);
+				Entity_SetActive("park_rubble_24", false);
+				Entity_SetActive("barricade_4_*", false);				
+				Entity_SetActive("park_rubble_10", false);
+				Entity_SetActive("french_gate_barb_wire_1_Imported", false);
+				Entity_SetActive("french_gate_barb_wire_1_Imported_*", false);
+				Entity_SetActive("barbed_wire_bundle_01_1", false);
+				Entity_SetActive("barbed_wire_bundle_01_2", false);
+				Entity_SetActive("barbed_wire_*", false);
+				
 				
 				Entity_AddImpulse("exit_barricade_broken_2", cVector3f(-2.f, -2.f, 0.f), false, false);				
 			}
 			else if (Sequence_DoStepAndWait(0.3f))
 			{
-				Light_FadeBrightnessTo("Light_Exit_*", 0.f, 0.3f);
+				//Light_FadeBrightnessTo("Light_Exit_*", 0.f, 0.3f);
 				LensFlare_SetVisible("LensFlare_Exit", false);
 				Billboard_SetVisible("Billboard_Exit_*", false);
 				
@@ -3297,7 +3378,7 @@ class cScrMap : iScrMap
 		void OnAnimEnd_DetonatorUsed(const tString &in asAnim)
 		{
 			Entity_SetActive("Detonator_InteractArea", false);
-			Map_AddTimer("Timer_PostDynamiteAutoSave", 0.1f, "OnTimer_PostDynamiteAutoSave");
+			//Map_AddTimer("Timer_PostDynamiteAutoSave", 0.1f, "OnTimer_PostDynamiteAutoSave");
 		}
 		
 		//-------------------------------------------------------
@@ -3455,7 +3536,8 @@ class cScrMap : iScrMap
 		Generator_ChangeState(eGeneratorState_Off);
 		Generator_SetRunForever(false);
 		
-		Player_SetActive(true);
+
+		Player_SetActive(true);		
 		Sketchbook_SetCanOpen(true);
 		
 		Effect_Fade_In(1.0f);
@@ -3468,6 +3550,7 @@ class cScrMap : iScrMap
 			Generator_SetRunForever(true);
 			
 			Wheel_SetAngle("Lockdown_Wheel",  180.0f,  false);
+			SlideDoor_SetClosed("LockdownGate_*", false, true);
 		}
 		
 		InGameMap_SetMapFound("arsenal");
@@ -3482,6 +3565,7 @@ class cScrMap : iScrMap
 		
 		// Deactivate all entities and trigger not necessary
 		Entity_SetActive("Area_PadlockBreakStalkerSound", false);
+		Entity_SetActive("Trigger_AutoSave", false);
 		Entity_SetActive("Trigger_ActivateStalkerEarly", false);
 		Entity_SetActive("Trigger_CreatureAttackTheSoldier", false);
 		Entity_SetActive("Trigger_CreatureGunWarning", false);
@@ -3499,11 +3583,24 @@ class cScrMap : iScrMap
 		Entity_SetActive("Lockdown_Wheel_damaged", false);
 		Entity_SetActive("Lockdown_Wheel", true);
 
+		// Two gratings active in officer hub? Crash!
+		Entity_SetActive("Grating_1_Grab", true);
+		Entity_SetActive("Grating_1", false);
+		Entity_SetActive("Bolt_Grating_*", false);
 		
+		mbHasLeftSafeRoom=true;
 	}
 	
 	void CM_OnEnter() {
-		
+	
+		if(cScript_GetGlobalVarBool("CM_GeneratorWheelBroken")) {
+			CM_GlobalCallback_break_generator_wheel();
+			cScript_SetGlobalVarBool("CM_GeneratorWheelBroken", false);
+		}
+	}
+	
+	void CM_OnLeave() {
+	
 	}
 	
 	void CM_Callback_generator_wheel(const tString &in asEntity, int alState) {
@@ -3513,6 +3610,27 @@ class cScrMap : iScrMap
 		} else {
 			Lamp_SetLit("Generator_WheelLamp",  true,  true);
 		}
+	}
+	
+	bool CM_Trigger_EndGame(const tString &in asParent, const tString &in asChild, int alState) {
+		Effect_Fade_Out(2.0f);
+		Sound_FadeGlobalVolume(0.f, 0.f, eSoundEntryType_WorldAll);
+		Sketchbook_SetCanOpen(false);
+		Player_SetActive(false);
+		mbExitTextStart=true;		
+		return true;
+    }
+	
+	void OnEndOfCredits(){
+		if(!cLux_ScriptDebugOn()) {
+			GameStats_Save();
+			GameStats_SetGuiActive(true);
+		}
+	}
+	
+	void CM_OnBreak_DisableSlideLock(const tString &in asEntity) {
+		Entity_SetActive("QI_delisle_null_2", false);
+		Entity_SetActive("QI_delisle_null_3", false);
 	}
 	
 	// IN EACH MAP!	
@@ -3530,11 +3648,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

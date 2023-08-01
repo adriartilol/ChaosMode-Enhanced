@@ -82,6 +82,8 @@ class cScrMap : iScrMap
 		/////////////
 		// Activate pillbox plank wall block box
 		Entity_SetActive("PlankWallBlockBox", true);
+		
+		CM_OnStart();
 	}
 
 	//-------------------------------------------------------
@@ -165,11 +167,11 @@ class cScrMap : iScrMap
 		
 		///////////////////////
 		// Setup Trap Rat
-		iLuxEntity@ pFeed = Map_GetEntity("FeedArea_07");
+		//iLuxEntity@ pFeed = Map_GetEntity("FeedArea_07");
 		//pRat.GetCharBody().SetYaw(fYaw);
-		Rat_Eat("Rat_Scripted", pFeed.GetID());
-		Rat_SetEatTimeoutActive("Rat_Scripted", false);
-		Entity_SetActive("Rat_Scripted", true);
+		//Rat_Eat("Rat_Scripted", pFeed.GetID());
+		//Rat_SetEatTimeoutActive("Rat_Scripted", false);
+		//Entity_SetActive("Rat_Scripted", true);
 		
 		BulletHandler_AddGlobalIgnoredEntity("PlankWallBlockBox");
 		
@@ -185,6 +187,8 @@ class cScrMap : iScrMap
 		////////////
 		// Map change
 		Game_SetupAfterMapChange();
+		
+		CM_OnEnter();
 	}
 
 	//-------------------------------------------------------
@@ -543,7 +547,7 @@ class cScrMap : iScrMap
 	
 	void dogtag_foreman_1_OnAddCode(const tString &in asEntity, const tString &in asNameID, const tString &in asCombination)
 	{
-		InGameMap_SetObjectiveCompleted("Obj_GetWrench_Foreman");
+		/*InGameMap_SetObjectiveCompleted("Obj_GetWrench_Foreman");
 		InGameMap_SetObjectiveCompleted("Obj_GetWrench_Chapel");
 		InGameMap_SetObjectiveCompleted("Obj_GetWrench_Pillbox_A");
 		InGameMap_SetObjectiveCompleted("Obj_GetWrench_Pillbox_B");		
@@ -555,7 +559,7 @@ class cScrMap : iScrMap
 		// Increase stalker escalation
 		bool bFullStep = Game_GetDifficultyMode() == eGameMode_Hard;
 		Blackboard_IncreaseStalkerEscalation(bFullStep);
-		cScript_SetGlobalVarInt("LevelProgression", cScript_GetGlobalVarInt("LevelProgression") + 1);
+		cScript_SetGlobalVarInt("LevelProgression", cScript_GetGlobalVarInt("LevelProgression") + 1);*/
 	}
 	
 	//-------------------------------------------------------
@@ -1509,6 +1513,22 @@ class cScrMap : iScrMap
 	
 	void CM_OnStart() {
 	
+		// no pillbox key
+		Entity_SetActive("key_pillbox_pickup_1", false);
+		
+		// no chapel encounter
+		mbChapelEncounterStarted=true;
+		
+		// no rat scripted
+		Entity_SetActive("Trigger_RatTrapCollision", false);
+		Entity_SetActive("Rat_Scripted", false);
+		Entity_SetActive("Corpse_06_Unburnt_body", false);
+		Entity_SetActive("Corpse_06_burnt_body", true);
+		Entity_SetActive("FeedArea_07", false);
+		Entity_SetActive("Trap_Scripted_Type_Fire_2", false);
+		Entity_SetActive("Trap_Scripted", false);
+		
+		cScript_SetGlobalVarBool("StalkerPickedUpRabbit", true);
 	}
 	
 	void CM_OnEnter() {
@@ -1517,7 +1537,7 @@ class cScrMap : iScrMap
 	
 	// IN EACH MAP!	
 	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
-		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+		return asPickedEntity == "QI_pillbox_OfficerKey_on_proxy";
 	}		
 		 
 	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
@@ -1530,11 +1550,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

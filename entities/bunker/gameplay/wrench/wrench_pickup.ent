@@ -9,7 +9,7 @@
             <Shape ID="2" Name="ShapeCylinder_1" CreStamp="1646906883" ModStamp="1646906895" WorldPos="0 -0.145424 0" Rotation="0 0 0" Scale="0.0433259 0.377427 0" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
         </Shapes>
         <Bodies>
-            <Body ID="3" Name="Body_1" CreStamp="0" ModStamp="1690568917" WorldPos="0 -0.145424 0" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="1" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+            <Body ID="3" Name="Body_1" CreStamp="0" ModStamp="1690651257" WorldPos="0 -0.145424 0" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="2" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
                 <Shape ID="2" />
             </Body>
         </Bodies>

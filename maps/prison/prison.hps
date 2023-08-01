@@ -116,6 +116,8 @@ class cScrMap : iScrMap
 			Sound_Play("Sound_PrisonGunFire_*", 1.0f);
 			Sound_Play("Sound_WoodRoomCreak", 1.0f);
 		}
+		
+		CM_OnStart();
 	}
 
 	//-------------------------------------------------------
@@ -175,6 +177,8 @@ class cScrMap : iScrMap
 		cScript_SetGlobalArgBool(0, true);
 		cScript_RunGlobalFunc("State_Thrown", "", "_Global_SetDoMapCallback");
 		
+		CM_OnEnter();
+		
 		////////////
 		// Map change
 		Game_SetupAfterMapChange();
@@ -185,7 +189,7 @@ class cScrMap : iScrMap
 			
 		/////////////////
 		// In game map
-		InGameMap_UpdateGlobalMapState();
+		InGameMap_UpdateGlobalMapState();	
 	}
 
 	//-------------------------------------------------------
@@ -645,7 +649,7 @@ class cScrMap : iScrMap
 			
 			///////////////
 			// Update Warden's Office objective
-			if (asEntity == "button_cell_6")
+			/*if (asEntity == "button_cell_6")
 			{
 				if (alState == 1)
 				{
@@ -659,7 +663,7 @@ class cScrMap : iScrMap
 						InGameMap_AddObjective("Obj_GetCutters_B");
 					}
 				}
-			}
+			}*/
 		}
 
 		//-------------------------------------------------------
@@ -1089,12 +1093,12 @@ class cScrMap : iScrMap
 	}
 	
 	void CM_OnEnter() {
-		
+		RatHandler_SetActive(true);
 	}
 	
 	// IN EACH MAP!	
 	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
-		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
+		return asPickedEntity == "QI_cell_OfficerKey_on_proxy";
 	}		
 		 
 	bool OnUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep) {
@@ -1107,11 +1111,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

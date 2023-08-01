@@ -1,8 +1,18 @@
 <LANGUAGE>
-  <CATEGORY Name="SampleMap">
-	<Entry Name="SampleMessage">This is a language entry added by the sample mod!</Entry>
-	<Entry Name="SampleMessage2">This is another language entry added by the sample mod!</Entry>
+  <CATEGORY Name="ChaosMode">
+	<Entry Name="IntroMessageText">"Chaos is rejecting all you have learned, chaos is being yourself."[br][br]- Emil Cioran</Entry>
+	<Entry Name="ExitMessageText">You finally escaped the bunker!</Entry>
   </CATEGORY>  
+  
+  <CATEGORY Name="QuestItemLocation">
+	<Entry Name="explosive_storage">in the ARSENAL, in the explosive storage</Entry>
+	<Entry Name="main_chamber">in the roman TUNNELS. It's in one of the main chambers</Entry>
+	<Entry Name="pillbox">in the PILLBOX, located in the MAINTENANCE section</Entry>
+	<Entry Name="delisle">in DELISLE room</Entry>
+	<Entry Name="medical_storage">in the MEDICAL STORAGE, in the INFIRMARY</Entry>
+	<Entry Name="cell">in one of the cells of the PRISON</Entry>
+	<Entry Name="utility_room">in the UTILITY ROOM inside the SOLDIER QUARTERS</Entry>
+  </CATEGORY> 
   
   
   
@@ -102,29 +112,80 @@
 		<!--////////////////////////////-->
 		<!--////// START OF NOTES //////-->
 
-		<Entry Name="StartInstructions_Name">How to play this mod</Entry>
+		<Entry Name="StartInstructions_Name">Joubert's final words</Entry>
 		<Entry Name="StartInstructions_Content">
-			TODO
+			To any who find this - 
+			[br][br]That stupid of Fournier, our commanding officer, he's lost his mind! He flew away, blowing up the only exit of our bunker!
+			[br][br]He deliberately trapped us with that beast! And it is killing us!
+			[br][br]Every one of my friends is dead!
+			[br][br]I am writing this because I know I will be the next to die.
+			[br][br]To any of my men who see this: there is a chance.
+			[br][br]You need to find some DYNAMITE and a DETONATOR HANDLE. Boisron already prepared everything at the entrance, you just need to put them in place.
+			[br][br]The only problem is we don't know where they are located!
+			[br][br]That motherfucker of Fournier was literally the worst disorganized officer I have ever dealt with. 
+			[br][br]After he blew up the entrance, my soldiers and I weren't able to even find a fucking bullet.
+			[br][br]We started looking but of course that demon blocked us.
+			[br][br]
+			[br][br]I hope everybody will forgive me for not having stopped that asshole whenever I had the chance.
+			[br][br]Good luck!
+			[br][br]- Joubert
+			[br][br]
+			[br][br]P.S. we didn't find them, but if you can but look for the OFFICER CODE and the OFFICER KEY of that asshole of Fournier. I am sure he escaped without them.
 		</Entry>
 		
-		<Entry Name="OfficerHubDoors_Name">CLOSE THE DOORS ALL TIME!</Entry>
+		<Entry Name="OfficerCodeAndKey_Name">Letter from headquarters for Fournier</Entry>
+		<Entry Name="OfficerCodeAndKey_Content">
+			From headquarters
+			[br][br]As the main officer of this bunker, you have been sent an OFFICER CODE and an OFFICER KEY 
+			[br][br]For security reason, you must use them to seal any important doors.
+			[br][br]The doors and cells that has a special cross keyhole are meant for your OFFICER KEY, do not never lose it!
+			[br][br]The doors and cells that has a combination lock on it are meant for your OFFICER CODE, never forget it! You can keep the note with the code but never lose it!
+			[br][br]
+			[br][br]Best regards
+		</Entry>
+		
+		<Entry Name="OfficerHubDoors_Name">These doors must be closed all the time</Entry>
 		<Entry Name="OfficerHubDoors_Content">
-			TODO
+			ORDER TO ALL MEN:
+			[br][br]The last time the beast entered here, he killed Farber
+			[br][br]I WANT THESE FUCKING DOOR CLOSED ALL TIME!
+			[br][br]The beast won't stop just because it's a "SAFE ROOM". Do you think this is a game?
+			[br][br]We already know he can open doors, so I am going to shot whoever will leave them open!
+			[br][br]- Joubert
 		</Entry>
 		
-		<Entry Name="GeneratorInstructions_Name">Generator</Entry>
+		<Entry Name="GeneratorInstructions_Name">Generator instructions</Entry>
 		<Entry Name="GeneratorInstructions_Content">
-			TODO
+			ALL MEN NEEDS TO READ THIS: 
+			[br][br]The beast hunts in the dark. The light is our only chance and the generator our only hope. 
+			[br][br]It must be kept fueled at all times. Day and night.
+			[br][br]
+			[br][br]THE MOST IMPORTANT THING: when you are out there, keep looking for replacements of the WHEEL because it breaks all the time!
+			[br][br]The WHEEL is needed to regulate the air pressure. If you pull the lever and the WHEEL is not turned on, the generator can't start.
+			[br][br]You just turn on the WHEEL, wait for the green light and then pull the lever.
+			[br][br]
+			[br][br]Remember the WHEEL is really important and if it breaks and there are not replacements, this means no light at all!			
 		</Entry>
 		
-		<Entry Name="WaterPumpInstructions_Name">Too much noisy!</Entry>
+		<Entry Name="WaterPumpInstructions_Name">Water in the access of the tunnels</Entry>
 		<Entry Name="WaterPumpInstructions_Content">
-			TODO
+			[br][br]As everyone of you know, the access of tunnels keep be flooded with water that we don't know where is coming from.
+			[br][br]I installed this water pump in order to solve the problem.
+			[br][br]Just be sure it is powered, pull the lever and just wait.
+			[br][br]
+			[br][br]P.S. Sorry for the LOUD NOISE but can't make it more silent. I just work with the craps we have.
 		</Entry>
 		
-		<Entry Name="TunnelsReport_Name">IT'S HERE!</Entry>
+		<Entry Name="TunnelsReport_Name">It's here too!</Entry>
 		<Entry Name="TunnelsReport_Content">
-			TODO
+			Tunnels report -
+			[br][br]At first the beast avoided this place and we thought we were safe from him staying here.
+			[br][br]But days ago Ozanne was killed by that demon when he was patrolling the area.
+			[br][br]Also since then a misterious fog appeared. Even with a light you can't see a shit!
+			[br][br]And also... maybe it's just hallucination due to the fog but I am sure I have seen strange shadows there!
+			[br][br]
+			[br][br]By the way, THE BEAST HUNTS HERE and all you know THERE ARE NO LIGHTS HERE!
+			[br][br]Hopefully THE FOG SEEMS TO AFFECT THE DEMON SIGHT! This doesn't mean we are safe!			
 		</Entry>
 		
 		
@@ -134,44 +195,202 @@
 			Your new code for the week is {}
 		</Entry>
 		
-		<Entry Name="QI_Wrench_Location_Name">Wrench location</Entry>
+		<Entry Name="QI_Wrench_Location_Name">Do you need a wrench?</Entry>
 		<Entry Name="QI_Wrench_Location_Content">
-			The wrench is in {}
+			If you need to remove grating, a special WRENCH is needed. Call me or just look for a spare. The last spare I remember is {}. 
+			[br][br]- Foreman Stafford
 		</Entry>
 		
-		<Entry Name="QI_OfficerCode_Location_Name">Officer code location</Entry>
+		<Entry Name="QI_OfficerCode_Location_Name">Won the bet!</Entry>
 		<Entry Name="QI_OfficerCode_Location_Content">
-			The officer code is in {}
+			[br][br]The guys challenged me, at first I was "what?!?!?" but then I accepted it!
+			[br][br]The challenge was to steal something from the officer Fournier... his OFFICER CODE noted on a piece of paper, the one that open a special combination lock in some special doors here.
+			[br][br]That's why yesterday I was so gentle, made him laugh, make him drink some wine and then... my hand in his pocket!
+			[br][br]And I WON, so for a month the guys will do my daily chores!
+			[br][br]P.S. I left the OFFICER CODE I have stolen {}. So probably when he will found it, he will think to have lost it from the pocket.
+			[br][br]After all he already have lost the officer key in the same way!
 		</Entry>
 		
-		<Entry Name="QI_Cutter_Location_Name">Chain cutter location</Entry>
-		<Entry Name="QI_Cutter_Location_Content">
-			The chain cutter is in {}
+		<Entry Name="QI_Cutters_Location_Name">The chain cutters works really well...</Entry>
+		<Entry Name="QI_Cutters_Location_Content">
+			[br][br]Finally Fournier asked me to make our prisoner talk. So I could finally used the CHAIN CUTTERS.
+			[br][br]It's amazing as a common tool like that, whose purpose should be to cut metal, can make a person talk so fast!
+			[br][br]And I managed to cut only two fingers before he surrended!
+			[br][br]P.S. for the moment, if anybody need them, I left the CHAIN CUTTERS {}
+			[br][br]- Sgt. Reynard
 		</Entry>
 		
-		<Entry Name="QI_OfficerKey_Location_Name">Officer key location</Entry>
+		<Entry Name="QI_OfficerKey_Location_Name">Is Fournier that stupid?</Entry>
 		<Entry Name="QI_OfficerKey_Location_Content">
-			The officer key is in {}
+			[br][br]I literally saw his key on the ground in the middle of the corridor.
+			[br][br]I know it's his because it's labeled OFFICER KEY.
+			[br][br]For the moment just left it {}.
+			[br][br]How much time will pass before he will look for it?
+			[br][br]What a fucking loser!
+			[br][br]- Sdt. Goff
 		</Entry>
 		
-		<Entry Name="QI_GeneratorWheel_Location_Name">Generator wheel replacement location</Entry>
+		<Entry Name="QI_GeneratorWheel_Location_Name">I found a wheel replacement! But...</Entry>
 		<Entry Name="QI_GeneratorWheel_Location_Content">
-			You can find a generator wheel replacement in {}
+			[br][br]During my search for weapons to shot the beast, I found a GENERATOR WHEEL REPLACEMENT. As Boisron it's really important.
+			[br][br]The only problem is that I could not take it because that fucking monster chased me down.
+			[br][br]So for now I would write here this note for memory: it's {}
+			[br][br] - Sdt. LaRue
 		</Entry>
 		
-		<Entry Name="QI_LockdownWheel_Location_Name">Generator wheel replacement location</Entry>
-		<Entry Name="QI_LockdownWheel_Location_Content">
-			You can find a generator wheel replacement in {}
-		</Entry>
-		
-		<Entry Name="QI_DynamiteBundle_Location_Name">Dynamite location</Entry>
+		<Entry Name="QI_DynamiteBundle_Location_Name">Fournier diary page (1/2)</Entry>
 		<Entry Name="QI_DynamiteBundle_Location_Content">
-			The dynamite is in {}
+			[br][br]That stupid Joubert and his fucking men. Since that beast appeared in our bunker, we lost half of our men.
+			[br][br]Specially because everybody here is a fucking idiot and can't use a fucking gun.
+			[br][br]They said they shot it at least ten times, but I really don't fucking care
+			[br][br]That's why I have a plan! First I took the DYNAMITE! Fortunately I know it was {}
+			[br][br]I left just one bundle there specially because I took enough to blast this entire bunker.
+			[br][br]Then...
+			[br][br](Another page is missing)
 		</Entry>
 		
-		<Entry Name="QI_DetonatorHandle_Location_Name">Detonator location</Entry>
+		<Entry Name="QI_DetonatorHandle_Location_Name">Fournier diary page (2/2)</Entry>
 		<Entry Name="QI_DetonatorHandle_Location_Content">
-			The detonator is in {}
+			[br][br]... I needed a DETONATOR HANDLE but because of the stupid security precautions of Boisron it wasn't easy to find one, since they took off the handles from every detonator box.
+			[br][br]Fortunately I snuck in while most of them was sleeping and took two. Just left one {}, just for joke.
+			[br][br]Tomorrow I will go out, blast the entrance so that beast cannot never and ever go out!
+			[br][br]And specially throw Joubert and all his stupdid men into hell!
+		</Entry>
+		
+		<!-- End QI -->
+		
+		<Entry Name="ToussaintCrazy1_Name">TODO</Entry>
+		<Entry Name="ToussaintCrazy1_Content">
+			TODO			
+		</Entry>
+		
+		<Entry Name="ToussaintCrazy2_Name">TODO</Entry>
+		<Entry Name="ToussaintCrazy2_Content">
+			TODO			
+		</Entry>
+		
+		<Entry Name="ToussaintCrazy3_Name">All work and no play makes Beaufoy a dull boy</Entry>
+		<Entry Name="ToussaintCrazy3_Content">
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy
+			[br][br]All work and no play makes Beaufoy a dull boy			
+		</Entry>
+		
+		<!-- classic notes -->
+		<Entry Name="AboutRats_Name">The Rats</Entry>
+		<Entry Name="AboutRats_Content">
+			Stafford - 
+			[br][br]Have you noticed how the rats have changed down here lately? 
+			[br][br]Ever since they opened up those tunnels, I swear the rats have gotten uglier. Like they're disfigured or something. And they're definitely more aggressive. 
+			[br][br]Tell me I'm not going crazy. 
+		</Entry>
+		
+		<Entry Name="NoteToFarber_Name">Note to Farber</Entry>
+		<Entry Name="NoteToFarber_Content">
+			To: Sdt. Farber
+			[br][br]I was there when they pulled your friend Noyer from the tunnels. 
+			[br][br]He'd been screaming for hours before he was located. Tied to the stretcher, he was still trying to scream but all that came out was a horrible rasp. 
+			[br][br]All of the engineers have seen things down there. Myself included. 
+			[br][br]We should talk, you and I, about what is to be done. Let me know when. 
+			[br][br]- Ozanne
+		</Entry>
+		
+		<Entry Name="ChanardSawItsFace_Name">I Saw Its Face</Entry>
+		<Entry Name="ChanardSawItsFace_Content">
+			When it took Tremblay, I saw its face. As it tore into him, it looked right at me. And I think... I think maybe, maybe it knew who I was...
+			[br][br]What the hell is it?!
+		</Entry>
+		
+		<Entry Name="WarPoem_Name">We Whirl the World</Entry>
+		<Entry Name="WarPoem_Content">
+			We whirl the world 
+			[br]The world we whirl
+			[br]It all gets lost in a terrible twirl
+			[br][br]Can't see the sun for all the smoke
+			[br]Can't see the ground for all the dead folk
+			[br]Can't see the ocean, can't see the trees
+			[br]So I stay here down on my knees
+			[br][br]Singing and singing... 
+			[br][br]We whirl the world 
+			[br]The world we whirl
+			[br]It all gets lost in a binding twirl
+			[br][br]A snarl in the dark
+			[br]A sad day in the park
+			[br]A stone reminder
+			[br]A horse's dirty blinder
+			[br]A child's empty hand
+			[br]A friend's stained armband
+			[br]The news of the day on the stand...
+			[br][br]Singing and singing... 
+			[br][br]We whirl the world 
+			[br]The world we whirl
+			[br]It all gets lost in a bloody twirl
+			[br][br]What comes next around the bend?
+			[br]Maybe it'll be some kind of end
+			[br]More likely another shrill, shrill whistle
+			[br]Magic that turns men into gristle.
+			[br][br]What can we do but sing and sing...
+			[br][br]We whirl the world 
+			[br]The world we whirl
+			[br]It all gets lost and still we twirl
+		</Entry>
+		
+		<Entry Name="WineSupply_Name">Where's our Wine</Entry>
+		<Entry Name="WineSupply_Content">
+			From: Fournier
+			[br]To: Foreman Stafford
+			[br][br]This is our fourth formal request for a resupply of wine. The cellar is running low. 
+			[br][br]I fear the reaction among the men (and my fellow officers) if we're forced to implement harsher rationing. I'm already fielding complaints on a daily basis. 
+			[br][br]This army runs on morale. And morale runs on wine. 
+			[br][br]My initial request was ten crates. So far we have received two. 
+			[br][br]Fix it. 
+		</Entry>
+		
+		<Entry Name="RatsAndBurntCorpses_Name">Rats and Burnt Corpses</Entry>
+		<Entry Name="RatsAndBurntCorpses_Content">
+			Update to all medical and mortuary personnel:
+			[br]The rat problem has not gotten any better. They're swarming every dead body. They're even coming after the wounded. But the vermin have no interest in flesh after it is burnt. 
+			[br][br]So, a new policy MUST be instituted: The bodies of all deceased soldiers must be burned.  
+			[br][br]I have spoken to Father De Rais about this matter. He will provide proper consecration for the deceased. Remains will be preserved for families.  
+			[br][br]This is not ideal and it fills my soul with pain but burning the dead seems to be the only way to stop the rats from coming so burn them we must. 
+		</Entry>
+
+		<Entry Name="ShootingItMultipleTimes_Name">Shooting the Beast</Entry>
+		<Entry Name="ShootingItMultipleTimes_Content">
+			SITUATION REPORT:
+			[br][br]After Tremblay's death the bunker descended into chaos.
+			[br][br]I've retaken control and ordered the men to form up in squads. They're to hunt the beast down and kill it.
+			[br][br]They tell me it's not possible. They tell me the bullets don't kill it, they only buy a little time and the beast comes back angrier.
+			[br][br]Cowards.
+			[br][br]I've sent them back out now to do as they should. Hunt and kill it. If they fail, they'll face a worse fate than claws in the darkness.
+		</Entry>
+		
+		<Entry Name="ToussiantsMadness_Name">Toussaint's Madness</Entry>
+		<Entry Name="ToussiantsMadness_Content">
+			Had to see what the dark held. Had to! Noyer, Farber, all of them - they don't have the right kind of eyes! There's a world down here full of seductions and secrets and... My eyes are right for it. Nevermind that they trapped me down here. 
+			[br][br]I have seen! Ha! A vision! A vision of a gone world. Bloody and terrible... beautiful... and awful... godly and infernal... 
+			[br][br]All around me voices... the past... clawing... spinning... whirling... I don't know what they want... I don't know what they want!!!
+			[br][br]Have to stop it... Can't see it anymore... it tasks me with what I do not know! Please, God above.. If you ever were there... end this... give me some way to end this...
+			[br][br]I see it now, ha. I see it now... see it now, see naught... see it now, see it naught...whirling and whirling... and whirling... it calls for blood... 
 		</Entry>
 
 
@@ -188,5 +407,39 @@
 		<Entry Name="OfficerKey">Officer level Key</Entry>
 		<Entry Name="OfficerKey_Desc">For use in the door with Officer level</Entry>
 
+	</CATEGORY>
+	
+	
+	<CATEGORY Name="CodesUI">
+	    <Entry Name="Friloux">Q FRILOUX</Entry>
+	    <Entry Name="Stafford">F STAFFORD</Entry>
+		<Entry Name="Auclair">F AUCLAIR</Entry>
+		<Entry Name="Bardin">D BARDIN</Entry>
+		<Entry Name="Boucher">H BOUCHER</Entry>
+		<Entry Name="Clement">H CLÉMENT</Entry>
+		<Entry Name="Delisle">J DELISLE</Entry>
+		<Entry Name="Fortin">A FORTIN</Entry>
+		<Entry Name="Giraud">A GIRAUD</Entry>
+		<Entry Name="Lambert">A LAMBERT</Entry>
+		<Entry Name="Laval">N LAVAL</Entry>
+		<Entry Name="Travers">G TRAVERS</Entry>
+		<Entry Name="Vercher">F VERCHER</Entry>
+		<Entry Name="OfficerCode">OFFICER CODE</Entry>
+		
+		<Entry Name="Alphonse">D ALPHONSE</Entry>
+		<Entry Name="Batiste">V BATISTE</Entry>
+		<Entry Name="Breon">R BREON</Entry>
+		<Entry Name="Brilliant">C BRILLIANT</Entry>
+		<Entry Name="Chopin">G CHOPIN</Entry>
+		<Entry Name="Conard">F CONARD</Entry>
+		<Entry Name="Courcy">P COURCY</Entry>
+		<Entry Name="Dehay">F DE HAY</Entry>
+		<Entry Name="Dosier">E DOSIER</Entry>
+		<Entry Name="Garrard">T GARRARD</Entry>
+		<Entry Name="Granat">H GRANAT</Entry>
+		<Entry Name="Lebert">S LEBERT</Entry>
+		<Entry Name="Milliard">S MILLIARD</Entry>
+		<Entry Name="Monet">L MONET</Entry>
+		<Entry Name="Noury">L NOURY</Entry>
 	</CATEGORY>
 </LANGUAGE>

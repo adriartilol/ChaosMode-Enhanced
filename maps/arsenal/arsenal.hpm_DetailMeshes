@@ -12,22 +12,13 @@
             <Section Name="12579031528112273739" />
             <Section Name="13338907128802076914" />
             <Section Name="10300334514331934914" />
-            <Section Name="4074963946714538518">
-                <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="2">
-                    <DetailMeshEntityIDs>452985323 452985329</DetailMeshEntityIDs>
-                    <DetailMeshEntityPositions>-60.125 2.25 77.7712 -61.5975 2.21141 77.7925</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.209217 -0.037384 0.976746 -0.028259 0.797304 -0.014832 -0.602142 -0.038879</DetailMeshEntityRotations>
-                    <DetailMeshEntityRadii>0.419833 0.419833</DetailMeshEntityRadii>
-                    <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
-                    <DetailMeshEntityModStamps>1667206623 1667206892</DetailMeshEntityModStamps>
-                </DetailMesh>
-            </Section>
+            <Section Name="4074963946714538518" />
             <Section Name="6937444921226728725" />
             <Section Name="11867433910407490944">
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>486539677 486539684</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-61.6336 2.25 79.292 -59.9423 2.25 79.2507</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.999135 0.011475 0.000458 -0.039978 0.05848 0.028625 -0.997192 0.036987</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.999144 0.011475 0.000458 -0.039734 0.060731 0.028503 -0.99707 0.036743</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.419833 0.419833</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1666969890 1666969940</DetailMeshEntityModStamps>
@@ -35,7 +26,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>486539681 486539682</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-61.5555 2.25 79.9306 -60.1082 2.25 79.929</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.731335 -0.028687 -0.680542 -0.034485 0.731335 -0.028687 -0.680542 -0.034485</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.731465 -0.028564 -0.68042 -0.034241 0.731465 -0.028564 -0.68042 -0.034241</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.74584 0.74584</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1666969916 1666969923</DetailMeshEntityModStamps>
@@ -45,6 +36,72 @@
             <Section Name="9065270106052613291" />
             <Section Name="9172161606391457054" />
             <Section Name="10625375571293597888" />
+            <Section Name="5913254565332661699" />
+            <Section Name="938601479819809172" />
+            <Section Name="11878278308235005273" />
+            <Section Name="3806214192523871112" />
+            <Section Name="1629314236245760598" />
+            <Section Name="17896594477783397681" />
+            <Section Name="13899725653624079561" />
+            <Section Name="7083316838573943517" />
+            <Section Name="17365115340707769214" />
+            <Section Name="5778564540390565675" />
+            <Section Name="12224921238944182748" />
+            <Section Name="16987760226640583499" />
+            <Section Name="18031180677184110974" />
+            <Section Name="16459544813005349808" />
+            <Section Name="17236029076262404525" />
+            <Section Name="2628536582313270325" />
+            <Section Name="6335398574811737625" />
+            <Section Name="6354346708331633253" />
+            <Section Name="8182122457138335059" />
+            <Section Name="9091537321687738822" />
+            <Section Name="12263068252265600934" />
+            <Section Name="13705220910591844773" />
+            <Section Name="14733719954067711498" />
+            <Section Name="14371376319993263926" />
+            <Section Name="17708975632422570942" />
+            <Section Name="17775428116309831020" />
+            <Section Name="2857880198863370365" />
+            <Section Name="18400966699494951686" />
+            <Section Name="14042797320315484158" />
+            <Section Name="15440204398624650602" />
+            <Section Name="8348924968422557895" />
+            <Section Name="7976748518510038394" />
+            <Section Name="14120050758427098000" />
+            <Section Name="17083172668278975108" />
+            <Section Name="18195951057575834872" />
+            <Section Name="18266932834280544730" />
+            <Section Name="16150389251420749140" />
+            <Section Name="12980652218819710893" />
+            <Section Name="12386034915969104157" />
+            <Section Name="15379620218325487157" />
+            <Section Name="12555007986000039539" />
+            <Section Name="9710955726840204135" />
+            <Section Name="1268063563630396792" />
+            <Section Name="17225707646676146768" />
+            <Section Name="11774898963025775877" />
+            <Section Name="4606790389871051747" />
+            <Section Name="1423287664908280042" />
+            <Section Name="16635787545958988187" />
+            <Section Name="12027981687569953280" />
+            <Section Name="3302744681203069168" />
+            <Section Name="16896531512754711917" />
+            <Section Name="10091603502342084053" />
+            <Section Name="15307306585429889914" />
+            <Section Name="16448068785567689061" />
+            <Section Name="7019001322016872295" />
+            <Section Name="9291619183852121623" />
+            <Section Name="14211520518091114105" />
+            <Section Name="2727994112214106334" />
+            <Section Name="7463359838307214659" />
+            <Section Name="849900405859842564" />
+            <Section Name="7342633215874772849" />
+            <Section Name="2306221706992326022" />
+            <Section Name="12209433145012264341" />
+            <Section Name="17627635563255057907" />
+            <Section Name="13833203488117669323" />
+            <Section Name="14677797404739872827" />
         </Sections>
     </DetailMeshes>
 </HPLMapTrack_DetailMeshes>

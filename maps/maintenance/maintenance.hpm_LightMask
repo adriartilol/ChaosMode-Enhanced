@@ -3,11 +3,7 @@
         <Objects />
     </Section>
     <Section Name="6937444921226728725">
-        <Objects>
-            <LightMaskBox ID="285216091" Name="LightMaskBox_1" CreStamp="1651245637" ModStamp="1651245663" WorldPos="-3.6238 10.4982 9.21681" Rotation="0 0 0" Scale="1 1 1" Size="5 5 5" ExcludeLight="false" UID="17 7825 285216091" />
-            <LightMaskBox ID="285216107" Name="LightMaskBox_2" CreStamp="1651504097" ModStamp="1651504122" WorldPos="-22.7693 7.50632 -11.6477" Rotation="0 0 0" Scale="1 1 1" Size="4 4 4" ExcludeLight="false" UID="17 9226 285216107" />
-            <LightMaskBox ID="285216140" Name="LightMaskBox_3" CreStamp="1651580140" ModStamp="1651580158" WorldPos="-20.5951 3.49703 -13.6597" Rotation="0 0 0" Scale="1 1 1" Size="8 4 8" ExcludeLight="false" UID="17 9264 285216140" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="5913254565332661699">
         <Objects />
@@ -57,9 +53,328 @@
     <Section Name="10625375571293597888">
         <Objects />
     </Section>
-    <Section Name="11867433910407490944">
+    <Section Name="2628536582313270325">
+        <Objects />
+    </Section>
+    <Section Name="6335398574811737625">
+        <Objects />
+    </Section>
+    <Section Name="6354346708331633253">
+        <Objects />
+    </Section>
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
+        <Objects />
+    </Section>
+    <Section Name="17083172668278975108">
+        <Objects />
+    </Section>
+    <Section Name="18195951057575834872">
+        <Objects />
+    </Section>
+    <Section Name="18266932834280544730">
+        <Objects />
+    </Section>
+    <Section Name="16635787545958988187">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="12074276804023552904">
+        <Objects />
+    </Section>
+    <Section Name="9091537321687738822">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="17775428116309831020">
+        <Objects />
+    </Section>
+    <Section Name="18400966699494951686">
+        <Objects />
+    </Section>
+    <Section Name="2857880198863370365">
+        <Objects />
+    </Section>
+    <Section Name="14371376319993263926">
+        <Objects />
+    </Section>
+    <Section Name="14733719954067711498">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="16896531512754711917">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="13833203488117669323">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="5328011719566556208">
+        <Objects />
+    </Section>
+    <Section Name="16150389251420749140">
+        <Objects />
+    </Section>
+    <Section Name="9710955726840204135">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
+        <Objects />
+    </Section>
+    <Section Name="11774898963025775877">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="12555007986000039539">
+        <Objects />
+    </Section>
+    <Section Name="15379620218325487157">
+        <Objects />
+    </Section>
+    <Section Name="14677797404739872827">
+        <Objects />
+    </Section>
+    <Section Name="4606790389871051747">
+        <Objects />
+    </Section>
+    <Section Name="5704074243704033166">
+        <Objects />
+    </Section>
+    <Section Name="8063554863654497786">
+        <Objects />
+    </Section>
+    <Section Name="1836132285479503855">
+        <Objects />
+    </Section>
+    <Section Name="10360015916833613026">
+        <Objects />
+    </Section>
+    <Section Name="3087097117560917566">
+        <Objects />
+    </Section>
+    <Section Name="17627635563255057907">
+        <Objects />
+    </Section>
+    <Section Name="7019001322016872295">
+        <Objects />
+    </Section>
+    <Section Name="12907475013074466001">
+        <Objects />
+    </Section>
+    <Section Name="16448068785567689061">
+        <Objects />
+    </Section>
+    <Section Name="7463359838307214659">
+        <Objects />
+    </Section>
+    <Section Name="849900405859842564">
+        <Objects />
+    </Section>
+    <Section Name="2306221706992326022">
+        <Objects />
+    </Section>
+    <Section Name="7342633215874772849">
+        <Objects />
+    </Section>
+    <Section Name="2727994112214106334">
+        <Objects />
+    </Section>
+    <Section Name="14211520518091114105">
+        <Objects />
+    </Section>
+    <Section Name="10605551493652229194">
+        <Objects />
+    </Section>
+    <Section Name="12209433145012264341">
+        <Objects />
+    </Section>
+    <Section Name="7554460963288251697">
+        <Objects />
+    </Section>
+    <Section Name="12547694969477241171">
+        <Objects />
+    </Section>
+    <Section Name="1786164696888450778">
+        <Objects />
+    </Section>
+    <Section Name="8109272469004301749">
+        <Objects />
+    </Section>
+    <Section Name="2024479316154322063">
+        <Objects />
+    </Section>
+    <Section Name="18043411359941499278">
+        <Objects />
+    </Section>
+    <Section Name="2553992064290450272">
+        <Objects />
+    </Section>
+    <Section Name="7164824184623132962">
+        <Objects />
+    </Section>
+    <Section Name="9212376444930874626">
+        <Objects />
+    </Section>
+    <Section Name="6772919421994155814">
+        <Objects />
+    </Section>
+    <Section Name="8591075623932918075">
+        <Objects />
+    </Section>
+    <Section Name="10484839416284010017">
+        <Objects />
+    </Section>
+    <Section Name="13442671646252012013">
+        <Objects />
+    </Section>
+    <Section Name="6039411608012680233">
+        <Objects />
+    </Section>
+    <Section Name="15156238969079983863">
+        <Objects />
+    </Section>
+    <Section Name="2545873219264039096">
+        <Objects />
+    </Section>
+    <Section Name="18109300603040156768">
+        <Objects />
+    </Section>
+    <Section Name="17148889862062347008">
+        <Objects />
+    </Section>
+    <Section Name="16962281543687026111">
+        <Objects />
+    </Section>
+    <Section Name="17225789967703375918">
         <Objects>
-            <LightMaskBox ID="436208454" Name="LightMaskBox_4" CreStamp="1673965355" ModStamp="1673965380" WorldPos="-60.7007 35.498 33.8851" Rotation="0 0 0" Scale="1 1 1" Size="50 50 50" ExcludeLight="false" UID="26 8992 436208454" />
+            <LightMaskBox ID="1811939877" Name="LightMaskBox_4" CreStamp="1673965355" ModStamp="1673965380" WorldPos="-60.7007 35.498 33.8851" Rotation="0 0 0" Scale="1 1 1" Size="50 50 50" ExcludeLight="false" UID="108 8992 1811939877" />
         </Objects>
+    </Section>
+    <Section Name="18305255571629046635">
+        <Objects />
+    </Section>
+    <Section Name="4183233511814710847">
+        <Objects />
+    </Section>
+    <Section Name="2574685420887233851">
+        <Objects />
+    </Section>
+    <Section Name="7804963992017285815">
+        <Objects />
+    </Section>
+    <Section Name="12132466330543982132">
+        <Objects />
+    </Section>
+    <Section Name="7177140369918179340">
+        <Objects />
+    </Section>
+    <Section Name="13561363828997277169">
+        <Objects />
+    </Section>
+    <Section Name="3656665068320089617">
+        <Objects />
+    </Section>
+    <Section Name="12194447845322582928">
+        <Objects />
+    </Section>
+    <Section Name="15186640056456893155">
+        <Objects />
+    </Section>
+    <Section Name="5525873001609430704">
+        <Objects />
+    </Section>
+    <Section Name="6059686369859529995">
+        <Objects />
+    </Section>
+    <Section Name="12564525660048056548">
+        <Objects />
+    </Section>
+    <Section Name="16731238584900433395">
+        <Objects />
+    </Section>
+    <Section Name="1773613984971493865">
+        <Objects />
+    </Section>
+    <Section Name="12415876611127177994">
+        <Objects />
+    </Section>
+    <Section Name="11430045020620300771">
+        <Objects />
+    </Section>
+    <Section Name="5567005983264112896">
+        <Objects />
+    </Section>
+    <Section Name="11255853892863068920">
+        <Objects />
+    </Section>
+    <Section Name="7647898079783214371">
+        <Objects>
+            <LightMaskBox ID="2147485401" Name="LightMaskBox_1" CreStamp="1651245637" ModStamp="1651245663" WorldPos="-3.6238 10.4982 9.21681" Rotation="0 0 0" Scale="1 1 1" Size="5 5 5" ExcludeLight="false" UID="128 7825 2147485401" />
+            <LightMaskBox ID="2147485402" Name="LightMaskBox_2" CreStamp="1651504097" ModStamp="1651504122" WorldPos="-22.7693 7.50632 -11.6477" Rotation="0 0 0" Scale="1 1 1" Size="4 4 4" ExcludeLight="false" UID="128 9226 2147485402" />
+            <LightMaskBox ID="2147485403" Name="LightMaskBox_3" CreStamp="1651580140" ModStamp="1651580158" WorldPos="-20.5951 3.49703 -13.6597" Rotation="0 0 0" Scale="1 1 1" Size="8 4 8" ExcludeLight="false" UID="128 9264 2147485403" />
+        </Objects>
+    </Section>
+    <Section Name="9929884855472090891">
+        <Objects />
+    </Section>
+    <Section Name="15551506352841462749">
+        <Objects />
+    </Section>
+    <Section Name="9838657818219841634">
+        <Objects />
+    </Section>
+    <Section Name="8426902128076004922">
+        <Objects />
+    </Section>
+    <Section Name="6190308911983090940">
+        <Objects />
+    </Section>
+    <Section Name="5709918667761977789">
+        <Objects />
+    </Section>
+    <Section Name="18360552603431277685">
+        <Objects />
+    </Section>
+    <Section Name="16450241674061950360">
+        <Objects />
+    </Section>
+    <Section Name="15964648976235542272">
+        <Objects />
+    </Section>
+    <Section Name="16972802540415459683">
+        <Objects />
+    </Section>
+    <Section Name="1467851273069754843">
+        <Objects />
     </Section>
 </HPLMapTrack_LightMask>

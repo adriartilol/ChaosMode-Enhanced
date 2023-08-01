@@ -795,9 +795,7 @@
         <Objects />
     </Section>
     <Section Name="1324700434795858324">
-        <Objects>
-            <LensFlare ID="419433332" Name="LensFlare_Exit" CreStamp="1632391901" ModStamp="1667301255" WorldPos="-50.941 8.94348 -21.6956" Rotation="3.14159 -0 0" Scale="1 1 1" ActiveAnamorphic="false" MaterialAnamorphic="" SizeAnamorphic="0.125 0.125" ColorAnamorphic="1 1 1 1" ActiveFlare="true" MaterialFlare="D:/Work/Frictional Games/trunk/redist/lights/lensflare/flare_star_simple.mat" SizeFlare="0.225 0.225" ColorFlare="0.943359 0.636842 0.47905 0.556641" ActiveMultiIris="true" MaterialMultiIris="D:/Work/Frictional Games/trunk/redist/lights/lensflare/multi_iris_simple.mat" SizeMultiIris="0.125 0.125" ColorMultiIris="0.939453 0.760181 0.667892 1" MultiIrisSeed="23853" MultiIrisCount="16" UseParentMeshForOcclusion="true" ShrinkWhenOccluded="true" MulMultiIrisWithGlare="true" SourceSize="0.5 0.5 0.5" InnerFOV="6.28319" OuterFOV="6.28319" GlareBrightness="0.5" GlareFOV="3.14159" GlareStareAt="0" SizeChangeBasedOnDistance="0" MultiIrisTextureAtlasGrid="2 2" RangeMax="15 18" RangeMin="-1 -1" GlareRange="-1 -1" Brightness="1" Static="false" CulledByDistance="false" CulledByFog="true" UID="25 5356 419433332" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="7593068674357215903">
         <Objects />
@@ -902,6 +900,578 @@
         <Objects />
     </Section>
     <Section Name="12182147755768874604">
+        <Objects />
+    </Section>
+    <Section Name="13133016113365051216">
+        <Objects />
+    </Section>
+    <Section Name="7056757886268078536">
+        <Objects />
+    </Section>
+    <Section Name="7708308281828018885">
+        <Objects />
+    </Section>
+    <Section Name="736824926233426245">
+        <Objects />
+    </Section>
+    <Section Name="1707376356110952973">
+        <Objects />
+    </Section>
+    <Section Name="4018040593275124672">
+        <Objects />
+    </Section>
+    <Section Name="15869877144776503998">
+        <Objects />
+    </Section>
+    <Section Name="6908792345064238436">
+        <Objects />
+    </Section>
+    <Section Name="8122688492932060766">
+        <Objects />
+    </Section>
+    <Section Name="11326810860302946880">
+        <Objects />
+    </Section>
+    <Section Name="10373800632897619958">
+        <Objects />
+    </Section>
+    <Section Name="17473338394717872970">
+        <Objects />
+    </Section>
+    <Section Name="6151220106175798821">
+        <Objects />
+    </Section>
+    <Section Name="9512147402566241677">
+        <Objects />
+    </Section>
+    <Section Name="12482704285027854016">
+        <Objects />
+    </Section>
+    <Section Name="9958997007494294400">
+        <Objects />
+    </Section>
+    <Section Name="3677676115307344446">
+        <Objects />
+    </Section>
+    <Section Name="8105205662510546146">
+        <Objects />
+    </Section>
+    <Section Name="3929891184546526044">
+        <Objects />
+    </Section>
+    <Section Name="1140039015493428709">
+        <Objects />
+    </Section>
+    <Section Name="12331960530679645367">
+        <Objects />
+    </Section>
+    <Section Name="12182565751852492141">
+        <Objects />
+    </Section>
+    <Section Name="15570346050356271291">
+        <Objects />
+    </Section>
+    <Section Name="14052846700473512371">
+        <Objects />
+    </Section>
+    <Section Name="6330443905023767385">
+        <Objects />
+    </Section>
+    <Section Name="4251768714100831625">
+        <Objects />
+    </Section>
+    <Section Name="6755050289704626806">
+        <Objects />
+    </Section>
+    <Section Name="7623891618555795072">
+        <Objects />
+    </Section>
+    <Section Name="2978523887190290769">
+        <Objects />
+    </Section>
+    <Section Name="10802350229449812900">
+        <Objects />
+    </Section>
+    <Section Name="5009727397497134905">
+        <Objects />
+    </Section>
+    <Section Name="18033347796203434673">
+        <Objects />
+    </Section>
+    <Section Name="16111683425463862666">
+        <Objects />
+    </Section>
+    <Section Name="10752068287049763945">
+        <Objects />
+    </Section>
+    <Section Name="3544918930035632178">
+        <Objects />
+    </Section>
+    <Section Name="16002853513153701285">
+        <Objects />
+    </Section>
+    <Section Name="11140471426037242048">
+        <Objects />
+    </Section>
+    <Section Name="981700581654093985">
+        <Objects />
+    </Section>
+    <Section Name="2254654813980375287">
+        <Objects />
+    </Section>
+    <Section Name="17033654203558393285">
+        <Objects />
+    </Section>
+    <Section Name="3943779306264931944">
+        <Objects />
+    </Section>
+    <Section Name="16980343511510417839">
+        <Objects />
+    </Section>
+    <Section Name="11331253397289055455">
+        <Objects />
+    </Section>
+    <Section Name="14516205064298369539">
+        <Objects />
+    </Section>
+    <Section Name="14433712096544142838">
+        <Objects />
+    </Section>
+    <Section Name="2309019923688481203">
+        <Objects />
+    </Section>
+    <Section Name="12252272957032570871">
+        <Objects />
+    </Section>
+    <Section Name="13501331306064048759">
+        <Objects />
+    </Section>
+    <Section Name="12710584821357937306">
+        <Objects />
+    </Section>
+    <Section Name="1458716758632918070">
+        <Objects />
+    </Section>
+    <Section Name="10734894443031512904">
+        <Objects />
+    </Section>
+    <Section Name="2247521118245609390">
+        <Objects />
+    </Section>
+    <Section Name="10331888365884878476">
+        <Objects />
+    </Section>
+    <Section Name="13376631752790482854">
+        <Objects />
+    </Section>
+    <Section Name="8851885320867033809">
+        <Objects />
+    </Section>
+    <Section Name="2599853197629457398">
+        <Objects />
+    </Section>
+    <Section Name="8147075429772157801">
+        <Objects />
+    </Section>
+    <Section Name="7748339905698287208">
+        <Objects />
+    </Section>
+    <Section Name="18321994825219067845">
+        <Objects />
+    </Section>
+    <Section Name="1702238123269637982">
+        <Objects />
+    </Section>
+    <Section Name="16799777736779466358">
+        <Objects />
+    </Section>
+    <Section Name="5315113516163523394">
+        <Objects />
+    </Section>
+    <Section Name="18336124720204794665">
+        <Objects />
+    </Section>
+    <Section Name="11787561106047861182">
+        <Objects />
+    </Section>
+    <Section Name="14246521157448620129">
+        <Objects />
+    </Section>
+    <Section Name="5555383566756610050">
+        <Objects />
+    </Section>
+    <Section Name="18239768638150535210">
+        <Objects />
+    </Section>
+    <Section Name="2597355099341276413">
+        <Objects />
+    </Section>
+    <Section Name="8449416071094461353">
+        <Objects />
+    </Section>
+    <Section Name="7053715570868912925">
+        <Objects />
+    </Section>
+    <Section Name="10204821252519153158">
+        <Objects />
+    </Section>
+    <Section Name="5245872406945122621">
+        <Objects />
+    </Section>
+    <Section Name="4417248568210923452">
+        <Objects />
+    </Section>
+    <Section Name="11074684417823987931">
+        <Objects />
+    </Section>
+    <Section Name="11197955055898557930">
+        <Objects />
+    </Section>
+    <Section Name="13524722311751437098">
+        <Objects />
+    </Section>
+    <Section Name="16910186382701143056">
+        <Objects />
+    </Section>
+    <Section Name="2632417923336899851">
+        <Objects />
+    </Section>
+    <Section Name="16750396560042270800">
+        <Objects />
+    </Section>
+    <Section Name="14473161940756810109">
+        <Objects />
+    </Section>
+    <Section Name="10584813328491026196">
+        <Objects />
+    </Section>
+    <Section Name="15742048980875496687">
+        <Objects />
+    </Section>
+    <Section Name="15058202203343762745">
+        <Objects />
+    </Section>
+    <Section Name="1128949845454991373">
+        <Objects />
+    </Section>
+    <Section Name="4238783825085050766">
+        <Objects />
+    </Section>
+    <Section Name="10161732882690111704">
+        <Objects />
+    </Section>
+    <Section Name="17639538961600235096">
+        <Objects />
+    </Section>
+    <Section Name="5401824639604972962">
+        <Objects />
+    </Section>
+    <Section Name="16664713467744515009">
+        <Objects />
+    </Section>
+    <Section Name="4140973598832742474">
+        <Objects />
+    </Section>
+    <Section Name="1707501203879909788">
+        <Objects />
+    </Section>
+    <Section Name="12873048782245224470">
+        <Objects />
+    </Section>
+    <Section Name="3133308046560658762">
+        <Objects />
+    </Section>
+    <Section Name="11481280272158526417">
+        <Objects />
+    </Section>
+    <Section Name="16326549623443423554">
+        <Objects />
+    </Section>
+    <Section Name="11567580916388120721">
+        <Objects />
+    </Section>
+    <Section Name="18374343099931612604">
+        <Objects />
+    </Section>
+    <Section Name="12729041325469093752">
+        <Objects />
+    </Section>
+    <Section Name="9809199476901538614">
+        <Objects />
+    </Section>
+    <Section Name="15814333272025392652">
+        <Objects />
+    </Section>
+    <Section Name="4390559225801774051">
+        <Objects />
+    </Section>
+    <Section Name="10527034080438270296">
+        <Objects />
+    </Section>
+    <Section Name="13187953245712134743">
+        <Objects />
+    </Section>
+    <Section Name="9272327800861367296">
+        <Objects />
+    </Section>
+    <Section Name="6834347751770170997">
+        <Objects />
+    </Section>
+    <Section Name="13761730117656886370">
+        <Objects />
+    </Section>
+    <Section Name="8538754663806190528">
+        <Objects />
+    </Section>
+    <Section Name="10357928525945438415">
+        <Objects />
+    </Section>
+    <Section Name="15136754800083996026">
+        <Objects />
+    </Section>
+    <Section Name="9858091903776390564">
+        <Objects />
+    </Section>
+    <Section Name="14352591309164445233">
+        <Objects />
+    </Section>
+    <Section Name="5755619728528624507">
+        <Objects />
+    </Section>
+    <Section Name="15867272897297855210">
+        <Objects />
+    </Section>
+    <Section Name="12991767688195341556">
+        <Objects />
+    </Section>
+    <Section Name="3493779993350494166">
+        <Objects />
+    </Section>
+    <Section Name="2527087731013236456">
+        <Objects />
+    </Section>
+    <Section Name="2347004918736418314">
+        <Objects />
+    </Section>
+    <Section Name="586835783458798992">
+        <Objects />
+    </Section>
+    <Section Name="7063500885563168302">
+        <Objects />
+    </Section>
+    <Section Name="5904916628377541278">
+        <Objects />
+    </Section>
+    <Section Name="3419409878510535856">
+        <Objects />
+    </Section>
+    <Section Name="10565412254502213441">
+        <Objects />
+    </Section>
+    <Section Name="1176267133428544579">
+        <Objects />
+    </Section>
+    <Section Name="11146910977390807630">
+        <Objects />
+    </Section>
+    <Section Name="16485730883423267429">
+        <Objects />
+    </Section>
+    <Section Name="12801489074280363881">
+        <Objects />
+    </Section>
+    <Section Name="4794842109821120469">
+        <Objects />
+    </Section>
+    <Section Name="7960462547459846330">
+        <Objects />
+    </Section>
+    <Section Name="12618006484491437068">
+        <Objects />
+    </Section>
+    <Section Name="13568345365272813953">
+        <Objects />
+    </Section>
+    <Section Name="645994465114540511">
+        <Objects />
+    </Section>
+    <Section Name="8194494483206929358">
+        <Objects />
+    </Section>
+    <Section Name="17434229172272700778">
+        <Objects />
+    </Section>
+    <Section Name="13577549921665476632">
+        <Objects />
+    </Section>
+    <Section Name="10191944335875951193">
+        <Objects />
+    </Section>
+    <Section Name="776626076025418266">
+        <Objects />
+    </Section>
+    <Section Name="17720401454523553319">
+        <Objects />
+    </Section>
+    <Section Name="6028396696498207671">
+        <Objects />
+    </Section>
+    <Section Name="8000292937402819047">
+        <Objects />
+    </Section>
+    <Section Name="1969895801286256536">
+        <Objects />
+    </Section>
+    <Section Name="3585800947917255820">
+        <Objects />
+    </Section>
+    <Section Name="9674509049059000406">
+        <Objects />
+    </Section>
+    <Section Name="10882445871910371353">
+        <Objects />
+    </Section>
+    <Section Name="17133752801572359819">
+        <Objects />
+    </Section>
+    <Section Name="9346971588917820264">
+        <Objects />
+    </Section>
+    <Section Name="2859812978067854838">
+        <Objects />
+    </Section>
+    <Section Name="491410239846904247">
+        <Objects />
+    </Section>
+    <Section Name="3230773329420559131">
+        <Objects />
+    </Section>
+    <Section Name="9006026031145464616">
+        <Objects />
+    </Section>
+    <Section Name="9941791586547276015">
+        <Objects />
+    </Section>
+    <Section Name="2170399100256499049">
+        <Objects />
+    </Section>
+    <Section Name="8502829846056580859">
+        <Objects />
+    </Section>
+    <Section Name="5095683373521199113">
+        <Objects />
+    </Section>
+    <Section Name="10240058477553700979">
+        <Objects />
+    </Section>
+    <Section Name="8228457432140100004">
+        <Objects>
+            <LensFlare ID="3607104370" Name="LensFlare_Exit" CreStamp="1632391901" ModStamp="1667301255" WorldPos="-50.941 8.94348 -21.6956" Rotation="3.14159 -0 0" Scale="1 1 1" ActiveAnamorphic="false" MaterialAnamorphic="" SizeAnamorphic="0.125 0.125" ColorAnamorphic="1 1 1 1" ActiveFlare="true" MaterialFlare="D:/Work/Frictional Games/trunk/redist/lights/lensflare/flare_star_simple.mat" SizeFlare="0.225 0.225" ColorFlare="0.943359 0.636842 0.47905 0.556641" ActiveMultiIris="true" MaterialMultiIris="D:/Work/Frictional Games/trunk/redist/lights/lensflare/multi_iris_simple.mat" SizeMultiIris="0.125 0.125" ColorMultiIris="0.939453 0.760181 0.667892 1" MultiIrisSeed="23853" MultiIrisCount="16" UseParentMeshForOcclusion="true" ShrinkWhenOccluded="true" MulMultiIrisWithGlare="true" SourceSize="0.5 0.5 0.5" InnerFOV="6.28319" OuterFOV="6.28319" GlareBrightness="0.5" GlareFOV="3.14159" GlareStareAt="0" SizeChangeBasedOnDistance="0" MultiIrisTextureAtlasGrid="2 2" RangeMax="15 18" RangeMin="-1 -1" GlareRange="-1 -1" Brightness="1" Static="false" CulledByDistance="false" CulledByFog="true" UID="215 5356 3607104370" />
+        </Objects>
+    </Section>
+    <Section Name="16409420980002435754">
+        <Objects />
+    </Section>
+    <Section Name="11081419070132806816">
+        <Objects />
+    </Section>
+    <Section Name="15391763574474184800">
+        <Objects />
+    </Section>
+    <Section Name="4010786354318907938">
+        <Objects />
+    </Section>
+    <Section Name="11856662062823093685">
+        <Objects />
+    </Section>
+    <Section Name="7775006697935426542">
+        <Objects />
+    </Section>
+    <Section Name="5623913154342631619">
+        <Objects />
+    </Section>
+    <Section Name="2988446400644223952">
+        <Objects />
+    </Section>
+    <Section Name="16504186452985672522">
+        <Objects />
+    </Section>
+    <Section Name="5611817423745916043">
+        <Objects />
+    </Section>
+    <Section Name="12213924699620245706">
+        <Objects />
+    </Section>
+    <Section Name="5215417874701537332">
+        <Objects />
+    </Section>
+    <Section Name="9188335485949301189">
+        <Objects />
+    </Section>
+    <Section Name="9977876995072517539">
+        <Objects />
+    </Section>
+    <Section Name="8842436234393624861">
+        <Objects />
+    </Section>
+    <Section Name="7687672022686087327">
+        <Objects />
+    </Section>
+    <Section Name="2650872853433035610">
+        <Objects />
+    </Section>
+    <Section Name="11577541314416549340">
+        <Objects />
+    </Section>
+    <Section Name="5800273805155201598">
+        <Objects />
+    </Section>
+    <Section Name="1434991485970613646">
+        <Objects />
+    </Section>
+    <Section Name="8706007010911882502">
+        <Objects />
+    </Section>
+    <Section Name="10670859965109845120">
+        <Objects />
+    </Section>
+    <Section Name="6910315000391287595">
+        <Objects />
+    </Section>
+    <Section Name="10407469046791678932">
+        <Objects />
+    </Section>
+    <Section Name="5853622159101928923">
+        <Objects />
+    </Section>
+    <Section Name="6675475582514903685">
+        <Objects />
+    </Section>
+    <Section Name="4023463404125205481">
+        <Objects />
+    </Section>
+    <Section Name="6077006649086468795">
+        <Objects />
+    </Section>
+    <Section Name="435112486145859178">
+        <Objects />
+    </Section>
+    <Section Name="2429914659364875719">
+        <Objects />
+    </Section>
+    <Section Name="16865571407389182122">
+        <Objects />
+    </Section>
+    <Section Name="135568638213057673">
+        <Objects />
+    </Section>
+    <Section Name="16483246978227221388">
+        <Objects />
+    </Section>
+    <Section Name="2461197706669841447">
+        <Objects />
+    </Section>
+    <Section Name="6261236442909221079">
         <Objects />
     </Section>
 </HPLMapTrack_LensFlare>

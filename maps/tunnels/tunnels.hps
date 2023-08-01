@@ -965,7 +965,15 @@ class cScrMap : iScrMap
 			else
 				mHallucinationStage = eTunnelsHallucinationStage_Medium;
 			
-			StartHallucinationEffects(true, true, true, true);		
+			StartHallucinationEffects(true, true, true, true);
+			
+			Stalker_GoToHole("stalker_1", "GhoulHole_2", true);
+			Stalker_SetSight("stalker_1", 10.0f);
+			Entity_SetActive("GhoulHole_9", false);
+			Entity_SetActive("GhoulHole_10", false);
+			Entity_SetActive("GhoulHole_11", false);
+			
+			
 			return true;
 		}
 		
@@ -978,6 +986,10 @@ class cScrMap : iScrMap
 			
 			mHallucinationStage = eTunnelsHallucinationStage_None;			
 			StopHallucinationEffects(true, true, true, true);
+			Stalker_SetSight("stalker_1", -1.f);
+			Entity_SetActive("GhoulHole_9", true);
+			Entity_SetActive("GhoulHole_10", true);
+			Entity_SetActive("GhoulHole_11", true);
 			return true;
 		}
 		
@@ -1592,6 +1604,15 @@ class cScrMap : iScrMap
 		Blackboard_DoStalkerMapTransfer("stalker_1");
 	}
 	
+	bool CM_Trigger_StalkerChasePlayer(const tString &in asParent, const tString &in asChild, int alState) {
+		
+		if(Stalker_GetIsInsideWalls("stalker_1")) {
+			Stalker_EmergeFromHole("stalker_1", "GhoulHole_10", true);
+		}
+		Entity_SetActive("Trigger_StalkerChasePlayer", false);
+		return true;
+	}
+	
 	// IN EACH MAP!	
 	bool CanUse_OfficerKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity)	{
 		return asPickedEntity == "QI_delisle_OfficerKey_on_proxy" || asPickedEntity == "QI_medical_storage_OfficerKey_on_proxy";
@@ -1607,11 +1628,6 @@ class cScrMap : iScrMap
 	
 	void CM_Callback_OnTimer_OfficerKeyUnlock(const tString &in asTimer) {
 		CM_GlobalCallback_OnTimer_OfficerKeyUnlock(asTimer);
-	}
-		
-	void CM_Callback_OnTimer_OfficerKeyRelease(const tString &in asTimer)
-	{
-		CM_GlobalCallback_OnTimer_OfficerKeyRelease(asTimer);
 	}
 	
 	void CM_Callback_PickupQuestItem(const tString &in asEntity) {

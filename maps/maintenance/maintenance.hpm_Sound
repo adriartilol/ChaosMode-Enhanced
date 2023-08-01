@@ -36,11 +36,7 @@
         <Objects />
     </Section>
     <Section Name="16252604345296683573">
-        <Objects>
-            <Sound ID="469762054" Name="Sound_BulletBounce" CreStamp="1667318895" ModStamp="1667327325" WorldPos="-34.5 14.6778 30.964" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/bullet_bounce" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="28 8045 469762054" />
-            <Sound ID="469762056" Name="Sound_BulletWhizz_2" CreStamp="1667318957" ModStamp="1667318959" WorldPos="-38.75 15.4832 31.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="28 8098 469762056" />
-            <Sound ID="469762057" Name="Sound_BulletWhizz_3" CreStamp="1667318960" ModStamp="1667318962" WorldPos="-38.75 15.4832 33.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="28 8047 469762057" />
-        </Objects>
+        <Objects />
     </Section>
     <Section Name="5280002927329458804">
         <Objects />
@@ -57,43 +53,362 @@
     <Section Name="10625375571293597888">
         <Objects />
     </Section>
-    <Section Name="7387221967616566086">
+    <Section Name="2628536582313270325">
+        <Objects />
+    </Section>
+    <Section Name="6335398574811737625">
+        <Objects />
+    </Section>
+    <Section Name="6354346708331633253">
+        <Objects />
+    </Section>
+    <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="14120050758427098000">
+        <Objects />
+    </Section>
+    <Section Name="17083172668278975108">
+        <Objects />
+    </Section>
+    <Section Name="18195951057575834872">
+        <Objects />
+    </Section>
+    <Section Name="18266932834280544730">
+        <Objects />
+    </Section>
+    <Section Name="16635787545958988187">
+        <Objects />
+    </Section>
+    <Section Name="15440204398624650602">
+        <Objects />
+    </Section>
+    <Section Name="12263068252265600934">
+        <Objects />
+    </Section>
+    <Section Name="12074276804023552904">
+        <Objects />
+    </Section>
+    <Section Name="9091537321687738822">
+        <Objects />
+    </Section>
+    <Section Name="17708975632422570942">
+        <Objects />
+    </Section>
+    <Section Name="17775428116309831020">
+        <Objects />
+    </Section>
+    <Section Name="18400966699494951686">
+        <Objects />
+    </Section>
+    <Section Name="2857880198863370365">
+        <Objects />
+    </Section>
+    <Section Name="14371376319993263926">
+        <Objects />
+    </Section>
+    <Section Name="14733719954067711498">
+        <Objects />
+    </Section>
+    <Section Name="12027981687569953280">
+        <Objects />
+    </Section>
+    <Section Name="14042797320315484158">
+        <Objects />
+    </Section>
+    <Section Name="3302744681203069168">
+        <Objects />
+    </Section>
+    <Section Name="16896531512754711917">
+        <Objects />
+    </Section>
+    <Section Name="10091603502342084053">
+        <Objects />
+    </Section>
+    <Section Name="15307306585429889914">
+        <Objects />
+    </Section>
+    <Section Name="13833203488117669323">
+        <Objects />
+    </Section>
+    <Section Name="1423287664908280042">
+        <Objects />
+    </Section>
+    <Section Name="12980652218819710893">
+        <Objects />
+    </Section>
+    <Section Name="5328011719566556208">
+        <Objects />
+    </Section>
+    <Section Name="16150389251420749140">
+        <Objects />
+    </Section>
+    <Section Name="9710955726840204135">
+        <Objects />
+    </Section>
+    <Section Name="1268063563630396792">
+        <Objects />
+    </Section>
+    <Section Name="11774898963025775877">
+        <Objects />
+    </Section>
+    <Section Name="17225707646676146768">
+        <Objects />
+    </Section>
+    <Section Name="12555007986000039539">
+        <Objects />
+    </Section>
+    <Section Name="15379620218325487157">
+        <Objects />
+    </Section>
+    <Section Name="14677797404739872827">
+        <Objects />
+    </Section>
+    <Section Name="4606790389871051747">
+        <Objects />
+    </Section>
+    <Section Name="5704074243704033166">
+        <Objects />
+    </Section>
+    <Section Name="8063554863654497786">
+        <Objects />
+    </Section>
+    <Section Name="1836132285479503855">
+        <Objects />
+    </Section>
+    <Section Name="10360015916833613026">
+        <Objects />
+    </Section>
+    <Section Name="3087097117560917566">
+        <Objects />
+    </Section>
+    <Section Name="17627635563255057907">
+        <Objects />
+    </Section>
+    <Section Name="7019001322016872295">
+        <Objects />
+    </Section>
+    <Section Name="12907475013074466001">
+        <Objects />
+    </Section>
+    <Section Name="16448068785567689061">
+        <Objects />
+    </Section>
+    <Section Name="7463359838307214659">
+        <Objects />
+    </Section>
+    <Section Name="849900405859842564">
+        <Objects />
+    </Section>
+    <Section Name="2306221706992326022">
+        <Objects />
+    </Section>
+    <Section Name="7342633215874772849">
+        <Objects />
+    </Section>
+    <Section Name="2727994112214106334">
+        <Objects />
+    </Section>
+    <Section Name="14211520518091114105">
+        <Objects />
+    </Section>
+    <Section Name="10605551493652229194">
+        <Objects />
+    </Section>
+    <Section Name="12209433145012264341">
+        <Objects />
+    </Section>
+    <Section Name="7554460963288251697">
+        <Objects />
+    </Section>
+    <Section Name="12547694969477241171">
+        <Objects />
+    </Section>
+    <Section Name="1786164696888450778">
+        <Objects />
+    </Section>
+    <Section Name="8109272469004301749">
+        <Objects />
+    </Section>
+    <Section Name="2024479316154322063">
+        <Objects />
+    </Section>
+    <Section Name="18043411359941499278">
+        <Objects />
+    </Section>
+    <Section Name="2553992064290450272">
+        <Objects />
+    </Section>
+    <Section Name="7164824184623132962">
+        <Objects />
+    </Section>
+    <Section Name="9212376444930874626">
+        <Objects />
+    </Section>
+    <Section Name="6772919421994155814">
+        <Objects />
+    </Section>
+    <Section Name="8591075623932918075">
+        <Objects />
+    </Section>
+    <Section Name="10484839416284010017">
+        <Objects />
+    </Section>
+    <Section Name="13442671646252012013">
+        <Objects />
+    </Section>
+    <Section Name="6039411608012680233">
+        <Objects />
+    </Section>
+    <Section Name="15156238969079983863">
+        <Objects />
+    </Section>
+    <Section Name="2545873219264039096">
+        <Objects />
+    </Section>
+    <Section Name="18109300603040156768">
+        <Objects />
+    </Section>
+    <Section Name="17148889862062347008">
         <Objects>
-            <Sound ID="301989965" Name="Sound_Airplane_2" CreStamp="1646319900" ModStamp="1653309283" WorldPos="0.75 29.625 -1.02664" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_centre" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="18 8055 301989965" />
-            <Sound ID="301989966" Name="Sound_Airplane_3" CreStamp="1646319925" ModStamp="1653309283" WorldPos="19.75 26.375 -7.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_right" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="18 8054 301989966" />
-            <Sound ID="301989967" Name="Sound_Airplane_1" CreStamp="1646319934" ModStamp="1653309283" WorldPos="-19.75 29.625 1.92187" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_left" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="18 8053 301989967" />
-            <Sound ID="301989969" Name="Sound_AirplaneDebris" CreStamp="1646319999" ModStamp="1646320027" WorldPos="1.39372 8.56964 -1.43294" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_debris" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="18 8052 301989969" />
-            <Sound ID="301989970" Name="Sound_PillboxWar_2" CreStamp="1647427253" ModStamp="1662371833" WorldPos="-62.1705 14.9057 32.8396" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/near" MinDistance="10" MaxDistance="20" Volume="0.1" Active="false" UseCustomProperties="true" UID="18 8049 301989970" />
-            <Sound ID="301989973" Name="Sound_BulletSniper" CreStamp="1647427577" ModStamp="1667318491" WorldPos="-47.1653 15.2095 31.576" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/fire" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="18 8048 301989973" />
-            <Sound ID="301989975" Name="Sound_BulletWhizz_1" CreStamp="1647427688" ModStamp="1667318955" WorldPos="-38.75 15.4832 28.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="18 8047 301989975" />
-            <Sound ID="301989976" Name="Sound_WarSniper" CreStamp="1647429594" ModStamp="1650894928" WorldPos="-47.4524 15.3774 31.6479" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/sniper_fire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="18 8044 301989976" />
-            <Sound ID="301989977" Name="Sound_PillboxWind" CreStamp="1647451850" ModStamp="1650894928" WorldPos="-38.1384 14.3048 31.017" Rotation="0 -1.57045 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/pillbox_wind" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="18 8071 301989977" />
-            <Sound ID="301989978" Name="Sound_ChurchRoof" CreStamp="1647452014" ModStamp="1673517818" WorldPos="-63.5199 11.4911 -2.26323" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/church_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="18 8070 301989978" />
-            <Sound ID="301989981" Name="Sound_HallCreak_1" CreStamp="1647536792" ModStamp="1647536843" WorldPos="-22.3713 9.79936 -1.16955" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="18 8082 301989981" />
-            <Sound ID="301989982" Name="Sound_HallCreak_2" CreStamp="1647537378" ModStamp="1647537473" WorldPos="-13 9.79936 -16.6609" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="18 8096 301989982" />
-            <Sound ID="301989984" Name="Sound_HallCreak_4" CreStamp="1647537402" ModStamp="1650541812" WorldPos="0.155347 9.79936 -12.8723" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="18 8095 301989984" />
-            <Sound ID="301989985" Name="Sound_HallCreak_5" CreStamp="1647537414" ModStamp="1647537425" WorldPos="15.5 9.79936 1" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="18 8094 301989985" />
-            <Sound ID="301989986" Name="Sound_HallCreak_6" CreStamp="1647537432" ModStamp="1647537448" WorldPos="-13.75 9.79936 11.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="18 8093 301989986" />
-            <Sound ID="301989987" Name="Sound_FuelCreak" CreStamp="1647537531" ModStamp="1650894928" WorldPos="-35.8876 7.37721 -20.2595" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/fuel_storage" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 8092 301989987" />
-            <Sound ID="301989988" Name="Sound_FlyFar_1" CreStamp="1648045329" ModStamp="1673517818" WorldPos="-65.0707 13.1538 -1.46445" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_far" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 8107 301989988" />
-            <Sound ID="301989989" Name="Sound_FlyNear" CreStamp="1648045399" ModStamp="1677848615" WorldPos="-61.2339 7.66255 1.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_near" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 8108 301989989" />
-            <Sound ID="301989990" Name="Sound_FlyNear_1" CreStamp="1648045434" ModStamp="1673517818" WorldPos="-61.7602 7.63148 -5.35076" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_near" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 8106 301989990" />
-            <Sound ID="301989992" Name="Sound_GeneratorOff" CreStamp="1648469042" ModStamp="1648469089" WorldPos="34.25 7.5 13" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="18 8124 301989992" />
-            <Sound ID="301989993" Name="Sound_WarGuns" CreStamp="1648493908" ModStamp="1648493965" WorldPos="2.25 14.5576 -4" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="18 8123 301989993" />
-            <Sound ID="301989996" Name="Sound_StairSweet" CreStamp="1653319888" ModStamp="1653400220" WorldPos="-27.6049 7.7904 -0.243787" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/ladder_sweet" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="18 8120 301989996" />
-            <Sound ID="301990000" Name="Sound_LadderDescend" CreStamp="1654874840" ModStamp="1654874883" WorldPos="-36.0879 7.28637 30.4797" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/ladder_descend" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="18 8116 301990000" />
-            <Sound ID="301990001" Name="Sound_PillboxWar_1" CreStamp="1662370226" ModStamp="1662371484" WorldPos="-48.8457 14.9057 28.9265" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/pillbox_sweet" MinDistance="6" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="18 8133 301990001" />
-            <Sound ID="301990002" Name="Sound_PillboxWar_3" CreStamp="1662371152" ModStamp="1662371733" WorldPos="-45.1586 14.9057 36.4199" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/gunfire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="18 8148 301990002" />
-            <Sound ID="301990003" Name="Sound_PillboxWar_4" CreStamp="1662371152" ModStamp="1662371825" WorldPos="-54.3897 14.9057 30.7161" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/distant" MinDistance="10" MaxDistance="20" Volume="0.2" Active="false" UseCustomProperties="true" UID="18 8147 301990003" />
-            <Sound ID="301990004" Name="Sound_PillboxWar_5" CreStamp="1662371385" ModStamp="1662371727" WorldPos="-45.8049 14.9057 26.5418" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/gunfire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="18 8146 301990004" />
-            <Sound ID="301990006" Name="Sound_PillboxWar_6" CreStamp="1662371774" ModStamp="1662371777" WorldPos="-48.8457 14.9057 36.1856" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/pillbox_sweet" MinDistance="6" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="18 8145 301990006" />
-            <Sound ID="301990007" Name="Sound_Flies_1" CreStamp="1682070373" ModStamp="1682070384" WorldPos="-26.2789 6.29748 21.6011" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8157 301990007" />
-            <Sound ID="301990008" Name="Sound_Flies_2" CreStamp="1682070405" ModStamp="1682070405" WorldPos="-21.4533 6.42071 24.451" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8158 301990008" />
-            <Sound ID="301990009" Name="Sound_Flies_3" CreStamp="1682070434" ModStamp="1682070434" WorldPos="-32.6251 6.38523 19.7333" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8160 301990009" />
-            <Sound ID="301990011" Name="Sound_Flies_4" CreStamp="1682070452" ModStamp="1682070459" WorldPos="-20.9348 2.78967 -15.1454" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8159 301990011" />
-            <Sound ID="301990012" Name="Sound_Flies_5" CreStamp="1682070473" ModStamp="1682070484" WorldPos="-6.66518 6.33988 -6.52583" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8161 301990012" />
-            <Sound ID="301990013" Name="Sound_Flies_6" CreStamp="1682070509" ModStamp="1682070518" WorldPos="-0.0291066 6.39491 -1.92241" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8163 301990013" />
-            <Sound ID="301990014" Name="Sound_Flies_7" CreStamp="1682070532" ModStamp="1682070539" WorldPos="-39.5473 14.1663 29.7239" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="18 8162 301990014" />
+            <Sound ID="1778384975" Name="Sound_Airplane_2" CreStamp="1646319900" ModStamp="1653309283" WorldPos="0.75 29.625 -1.02664" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_centre" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="106 8055 1778384975" />
+            <Sound ID="1778384976" Name="Sound_Airplane_3" CreStamp="1646319925" ModStamp="1653309283" WorldPos="19.75 26.375 -7.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_right" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="106 8054 1778384976" />
+            <Sound ID="1778384977" Name="Sound_Airplane_1" CreStamp="1646319934" ModStamp="1653309283" WorldPos="-19.75 29.625 1.92187" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_fly_left" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="106 8053 1778384977" />
+            <Sound ID="1778384978" Name="Sound_AirplaneDebris" CreStamp="1646319999" ModStamp="1646320027" WorldPos="1.39372 8.56964 -1.43294" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/airplane_debris" MinDistance="1" MaxDistance="5" Volume="1" Active="false" UseCustomProperties="false" UID="106 8052 1778384978" />
+            <Sound ID="1778384979" Name="Sound_PillboxWar_2" CreStamp="1647427253" ModStamp="1662371833" WorldPos="-62.1705 14.9057 32.8396" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/near" MinDistance="10" MaxDistance="20" Volume="0.1" Active="false" UseCustomProperties="true" UID="106 8049 1778384979" />
+            <Sound ID="1778384980" Name="Sound_BulletSniper" CreStamp="1647427577" ModStamp="1667318491" WorldPos="-47.1653 15.2095 31.576" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/fire" MinDistance="1" MaxDistance="40" Volume="1" Active="false" UseCustomProperties="false" UID="106 8048 1778384980" />
+            <Sound ID="1778384981" Name="Sound_BulletWhizz_1" CreStamp="1647427688" ModStamp="1667318955" WorldPos="-38.75 15.4832 28.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="106 8047 1778384981" />
+            <Sound ID="1778384982" Name="Sound_WarSniper" CreStamp="1647429594" ModStamp="1650894928" WorldPos="-47.4524 15.3774 31.6479" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/sniper_fire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="106 8044 1778384982" />
+            <Sound ID="1778384983" Name="Sound_PillboxWind" CreStamp="1647451850" ModStamp="1650894928" WorldPos="-38.1384 14.3048 31.017" Rotation="0 -1.57045 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/pillbox_wind" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="106 8071 1778384983" />
+            <Sound ID="1778384984" Name="Sound_ChurchRoof" CreStamp="1647452014" ModStamp="1673517818" WorldPos="-63.5199 11.4911 -2.26323" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/church_roof" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="106 8070 1778384984" />
+            <Sound ID="1778384985" Name="Sound_HallCreak_1" CreStamp="1647536792" ModStamp="1647536843" WorldPos="-22.3713 9.79936 -1.16955" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="106 8082 1778384985" />
+            <Sound ID="1778384986" Name="Sound_HallCreak_2" CreStamp="1647537378" ModStamp="1647537473" WorldPos="-13 9.79936 -16.6609" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="106 8096 1778384986" />
+            <Sound ID="1778384987" Name="Sound_HallCreak_4" CreStamp="1647537402" ModStamp="1650541812" WorldPos="0.155347 9.79936 -12.8723" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="106 8095 1778384987" />
+            <Sound ID="1778384988" Name="Sound_HallCreak_5" CreStamp="1647537414" ModStamp="1647537425" WorldPos="15.5 9.79936 1" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="106 8094 1778384988" />
+            <Sound ID="1778384989" Name="Sound_HallCreak_6" CreStamp="1647537432" ModStamp="1647537448" WorldPos="-13.75 9.79936 11.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/hallway_roof" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" UID="106 8093 1778384989" />
+            <Sound ID="1778384990" Name="Sound_FuelCreak" CreStamp="1647537531" ModStamp="1650894928" WorldPos="-35.8876 7.37721 -20.2595" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/fuel_storage" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="106 8092 1778384990" />
+            <Sound ID="1778384991" Name="Sound_FlyFar_1" CreStamp="1648045329" ModStamp="1673517818" WorldPos="-65.0707 13.1538 -1.46445" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_far" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="106 8107 1778384991" />
+            <Sound ID="1778384992" Name="Sound_FlyNear" CreStamp="1648045399" ModStamp="1677848615" WorldPos="-61.2339 7.66255 1.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_near" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="106 8108 1778384992" />
+            <Sound ID="1778384993" Name="Sound_FlyNear_1" CreStamp="1648045434" ModStamp="1673517818" WorldPos="-61.7602 7.63148 -5.35076" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/flies_near" MinDistance="5" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="106 8106 1778384993" />
+            <Sound ID="1778384994" Name="Sound_GeneratorOff" CreStamp="1648469042" ModStamp="1648469089" WorldPos="34.25 7.5 13" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/generator/off_distant" MinDistance="1" MaxDistance="75" Volume="1" Active="false" UseCustomProperties="false" UID="106 8124 1778384994" />
+            <Sound ID="1778384995" Name="Sound_WarGuns" CreStamp="1648493908" ModStamp="1648493965" WorldPos="2.25 14.5576 -4" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="1" Active="true" UseCustomProperties="false" UID="106 8123 1778384995" />
+            <Sound ID="1778384996" Name="Sound_StairSweet" CreStamp="1653319888" ModStamp="1653400220" WorldPos="-27.6049 7.7904 -0.243787" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/ladder_sweet" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="106 8120 1778384996" />
+            <Sound ID="1778384997" Name="Sound_LadderDescend" CreStamp="1654874840" ModStamp="1654874883" WorldPos="-36.0879 7.28637 30.4797" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/ladder_descend" MinDistance="1" MaxDistance="12" Volume="1" Active="false" UseCustomProperties="false" UID="106 8116 1778384997" />
+            <Sound ID="1778384998" Name="Sound_PillboxWar_1" CreStamp="1662370226" ModStamp="1662371484" WorldPos="-48.8457 14.9057 28.9265" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/pillbox_sweet" MinDistance="6" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="106 8133 1778384998" />
+            <Sound ID="1778384999" Name="Sound_PillboxWar_3" CreStamp="1662371152" ModStamp="1662371733" WorldPos="-45.1586 14.9057 36.4199" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/gunfire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="106 8148 1778384999" />
+            <Sound ID="1778385000" Name="Sound_PillboxWar_4" CreStamp="1662371152" ModStamp="1662371825" WorldPos="-54.3897 14.9057 30.7161" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="trenches/amb/war/distant" MinDistance="10" MaxDistance="20" Volume="0.2" Active="false" UseCustomProperties="true" UID="106 8147 1778385000" />
+            <Sound ID="1778385001" Name="Sound_PillboxWar_5" CreStamp="1662371385" ModStamp="1662371727" WorldPos="-45.8049 14.9057 26.5418" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/amb/sweet/gunfire" MinDistance="10" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="106 8146 1778385001" />
+            <Sound ID="1778385002" Name="Sound_PillboxWar_6" CreStamp="1662371774" ModStamp="1662371777" WorldPos="-48.8457 14.9057 36.1856" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/pillbox_sweet" MinDistance="6" MaxDistance="30" Volume="1" Active="false" UseCustomProperties="false" UID="106 8145 1778385002" />
+            <Sound ID="1778385003" Name="Sound_Flies_1" CreStamp="1682070373" ModStamp="1682070384" WorldPos="-26.2789 6.29748 21.6011" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8157 1778385003" />
+            <Sound ID="1778385004" Name="Sound_Flies_2" CreStamp="1682070405" ModStamp="1682070405" WorldPos="-21.4533 6.42071 24.451" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8158 1778385004" />
+            <Sound ID="1778385005" Name="Sound_Flies_3" CreStamp="1682070434" ModStamp="1682070434" WorldPos="-32.6251 6.38523 19.7333" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8160 1778385005" />
+            <Sound ID="1778385006" Name="Sound_Flies_4" CreStamp="1682070452" ModStamp="1682070459" WorldPos="-20.9348 2.78967 -15.1454" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8159 1778385006" />
+            <Sound ID="1778385007" Name="Sound_Flies_5" CreStamp="1682070473" ModStamp="1682070484" WorldPos="-6.66518 6.33988 -6.52583" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8161 1778385007" />
+            <Sound ID="1778385008" Name="Sound_Flies_6" CreStamp="1682070509" ModStamp="1682070518" WorldPos="-0.0291066 6.39491 -1.92241" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8163 1778385008" />
+            <Sound ID="1778385009" Name="Sound_Flies_7" CreStamp="1682070532" ModStamp="1682070539" WorldPos="-39.5473 14.1663 29.7239" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="106 8162 1778385009" />
         </Objects>
+    </Section>
+    <Section Name="16962281543687026111">
+        <Objects />
+    </Section>
+    <Section Name="17225789967703375918">
+        <Objects />
+    </Section>
+    <Section Name="18305255571629046635">
+        <Objects />
+    </Section>
+    <Section Name="4183233511814710847">
+        <Objects />
+    </Section>
+    <Section Name="2574685420887233851">
+        <Objects />
+    </Section>
+    <Section Name="7804963992017285815">
+        <Objects />
+    </Section>
+    <Section Name="12132466330543982132">
+        <Objects />
+    </Section>
+    <Section Name="7177140369918179340">
+        <Objects />
+    </Section>
+    <Section Name="13561363828997277169">
+        <Objects />
+    </Section>
+    <Section Name="3656665068320089617">
+        <Objects />
+    </Section>
+    <Section Name="12194447845322582928">
+        <Objects />
+    </Section>
+    <Section Name="15186640056456893155">
+        <Objects />
+    </Section>
+    <Section Name="5525873001609430704">
+        <Objects />
+    </Section>
+    <Section Name="6059686369859529995">
+        <Objects />
+    </Section>
+    <Section Name="12564525660048056548">
+        <Objects />
+    </Section>
+    <Section Name="16731238584900433395">
+        <Objects />
+    </Section>
+    <Section Name="1773613984971493865">
+        <Objects />
+    </Section>
+    <Section Name="12415876611127177994">
+        <Objects />
+    </Section>
+    <Section Name="11430045020620300771">
+        <Objects />
+    </Section>
+    <Section Name="5567005983264112896">
+        <Objects />
+    </Section>
+    <Section Name="11255853892863068920">
+        <Objects />
+    </Section>
+    <Section Name="7647898079783214371">
+        <Objects />
+    </Section>
+    <Section Name="9929884855472090891">
+        <Objects />
+    </Section>
+    <Section Name="15551506352841462749">
+        <Objects />
+    </Section>
+    <Section Name="9838657818219841634">
+        <Objects />
+    </Section>
+    <Section Name="8426902128076004922">
+        <Objects />
+    </Section>
+    <Section Name="6190308911983090940">
+        <Objects />
+    </Section>
+    <Section Name="5709918667761977789">
+        <Objects>
+            <Sound ID="2248146987" Name="Sound_BulletBounce" CreStamp="1667318895" ModStamp="1667327325" WorldPos="-34.5 14.6778 30.964" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/bullet_bounce" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="134 8045 2248146987" />
+            <Sound ID="2248146988" Name="Sound_BulletWhizz_2" CreStamp="1667318957" ModStamp="1667318959" WorldPos="-38.75 15.4832 31.5" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="134 8098 2248146988" />
+            <Sound ID="2248146989" Name="Sound_BulletWhizz_3" CreStamp="1667318960" ModStamp="1667318962" WorldPos="-38.75 15.4832 33.75" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="nest/sniper/whizz" MinDistance="10" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="134 8047 2248146989" />
+        </Objects>
+    </Section>
+    <Section Name="18360552603431277685">
+        <Objects />
+    </Section>
+    <Section Name="16450241674061950360">
+        <Objects />
+    </Section>
+    <Section Name="15964648976235542272">
+        <Objects />
+    </Section>
+    <Section Name="16972802540415459683">
+        <Objects />
+    </Section>
+    <Section Name="1467851273069754843">
+        <Objects />
     </Section>
 </HPLMapTrack_Sound>
