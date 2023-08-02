@@ -5,10 +5,10 @@
 - Quick start in the safe room
 - Safe room is not so safe
 - The detonator handle and the dynamite are put in random places
-- Other quest items like the chain cutters and the wrench (and others) are randomply places in the maps.
+- Other quest items like the chain cutters and the wrench (and others) are randomly placed in the maps.
 - The generator could break in the middle of a game and of course you would need to repair it to progress
 - There is no place where the Stalker could not be. Even in the tunnels!
-- Removed all the notes of the official story (I mean do you need to know for the Nth time that the protagonist pissed in the flask of Lambert?). Added random notes to tell you where the quest items are located, plus some other notes to explain you the new features and give tips and also a bunch of classic notes.
+- Removed all the notes of the official story (I mean do you need to know for the Nth time that Lambert pissed in Henri's flask?). Added random notes to tell you where the quest items are located, plus some other notes to explain you the new features and give tips and also a bunch of classic notes.
 - No arena, after you blow up the debris, you actually escape the bunker!
 
 ## How to start
@@ -20,6 +20,8 @@ Due probably to a bug in the standard game, you can't start the game using the C
 - Start the game by clicking on "RunChaosMode.bat"
 
 I guess the https://wiki.frictionalgames.com/page/HPL3/Third_Party_Tools/HPL3_Mod_Manager should work too
+
+Any kind of addon that modify the Stalker behaviour, the randomization and anything related to this mod (check the features) is considered not compatible with this mod.
 
 ## Known bugs
 
