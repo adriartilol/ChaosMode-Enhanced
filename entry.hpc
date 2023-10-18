@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Content  
-	Author="snakebyte" 
+	Author="snakebyte (original) adriartilol (fork)" 
 	LauncherPic="LauncherPic.png" 
 	InitCfg="config/main_init.cfg"
-	Title="Chaos Mode" 
-	Description_english="Most everything randomized!" 
+	Title="Chaos Mode - Enhanced Edition" 
+	Description_english="Way too much of everything!!" 
 	Type="StandAlone" 
-	UID="snakebyte.chaos_mode"
+	UID="snakebyte.chaos_mode_enhanced"
 	Version="0.0.1"
 />

@@ -406,6 +406,9 @@
 		
 		<Entry Name="OfficerKey">Officer level Key</Entry>
 		<Entry Name="OfficerKey_Desc">For use in the door with Officer level</Entry>
+        
+        <Entry Name="ReynardKey">Key to Reynard's quarters</Entry>
+        <Entry Name="ReynardKey_Desc">He was always a hoarder. Could be worth checking it out.</Entry>
 
 	</CATEGORY>
 	

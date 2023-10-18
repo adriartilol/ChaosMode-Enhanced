@@ -51,6 +51,41 @@ class cScrMap : iScrMap
 	//{///////////////////////////////////////////////////////////////////////////////////////
  
 	//-------------------------------------------------------
+    
+    
+    // --- CUSTOM TIME!!! ---
+    
+    bool CanUse_ReynardKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity){
+        return asPickedEntity == "ReynardDoor_Proxy";
+    }
+    
+    bool OnUse_ReynardKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep){
+        PlayerBody_SetArmAnimationPitch(false, true, true);
+        PlayerBody_SetArmAnimationYaw(false, true, true);
+        
+        PlayerBody_SetUnequipItemsOnCutscene(true, false);
+        PlayerBody_PlayCutsceneAtEntity("tool_key_use", "ReynardDoor_AnimPos", false, 0.3);
+        
+        Map_AddTimer("Timer_ReynardDoorUnlock", 1.75, "OnTimer_ReynardDoorUnlock");
+        Map_AddTimer("Timer_ReynardDoorKeyRelease", 2.65, "OnTimer_ReynardDoorKeyRelease");
+        
+        Entity_SetActive("ReynardDoor_Proxy", false);
+        Entity_SetActive("ReynardDoor_KeyStatic", true);
+        
+        return false;
+    }
+    
+    void OnTimer_ReynardDoorUnlock(const tString &in asTimer){
+        MovingButton_SetSwitchedOn("door_lock_keyhole_base_1", false, true);
+        SwingDoor_SetBlocked("ReynardDoor", false, true);
+        Entity_SetInteractionDisabled("door_lock_keyhole_base_1", true);
+    }
+    
+    void OnTimer_ReynardDoorKeyRelease(const tString &in asTimer){
+        if(ItemType_GetCountInInventory("ReynardKey") <= 1){
+            ItemType_RemoveFromInventory("ReynardKey", 99);
+        }
+    }
  
 	////////////////////////////
 	// Set up map environment
@@ -58,6 +93,7 @@ class cScrMap : iScrMap
 	{
 		// Put display name entry in english.lang / Levels
 		GetBase().SetDisplayNameEntry("officer-hub");
+        PlayerBody_SetActive(true);
 		
 		// Set up color grading etc.
 	}
