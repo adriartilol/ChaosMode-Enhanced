@@ -7,11 +7,11 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -23,7 +23,7 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -59,6 +59,34 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
+    <Section Name="16987760226640583499">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="2857880198863370365">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
@@ -80,6 +108,30 @@
         <Objects />
     </Section>
     <Section Name="14733719954067711498">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -638,7 +690,7 @@
             <File Id="18" Path="entities/arabic_fort/debris/barbed_wire/barbed_wire_bundle_01.ent" />
             <File Id="19" Path="entities/darkworld/darkworld_crater_puddle/darkworld_crater_puddle.ent" />
             <File Id="20" Path="entities/darkworld/darkworld_crater_puddle/darkworld_crater_puddle_shoreline.ent" />
-            <File Id="21" Path="mods/ChaosMode/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
+            <File Id="21" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
             <File Id="22" Path="entities/paris_ending/trees/paris_tree_01.ent" />
             <File Id="23" Path="entities/desert/organic/tree_acacia/tree_acacia.ent" />
             <File Id="24" Path="entities/desert/organic/tree_acacia_dry/tree_acacia_dry.ent" />
@@ -709,7 +761,7 @@
             <File Id="89" Path="entities/bunker/gameplay/molotov_cocktail/empty_bottle_pickup.ent" />
             <File Id="90" Path="entities/cave/special/bridge_plank/bridge_plank_01.ent" />
             <File Id="91" Path="entities/bunker/scaffolding/scaffolding_plank_breakable.ent" />
-            <File Id="92" Path="mods/ChaosMode/entities/paris_ending/park_rubble/park_rubble.ent" />
+            <File Id="92" Path="mods/ChaosMode_Enhanced/entities/paris_ending/park_rubble/park_rubble.ent" />
             <File Id="93" Path="entities/bunker/storage/crate_simple_02/crate_simple_02_sturdy.ent" />
             <File Id="94" Path="entities/bunker/doors/wooden_door/wooden_door_window_100.ent" />
             <File Id="95" Path="entities/french_colonization/ornaments/documents_arsenal_03/documents_arsenal_03.ent" />
@@ -12196,7 +12248,7 @@
             <File Id="52" Path="entities/french_colonization/lamp/french_lamp_desk_oil_01/french_lamp_desk_oil_01.ent" />
             <File Id="53" Path="entities/french_colonization/lamp/french_desk_lamp_covered/french_desk_lamp_covered.ent" />
             <File Id="54" Path="entities/french_colonization/barricades/french_gate/french_gate_barb_wire_char.ent" />
-            <File Id="55" Path="mods/ChaosMode/entities/french_colonization/barricades/improvised_barricade_4/barricade_4.ent" />
+            <File Id="55" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/improvised_barricade_4/barricade_4.ent" />
             <File Id="56" Path="entities/bunker/organic/cobwebs/cobweb12.ent" />
             <File Id="57" Path="entities/bunker/organic/cobwebs/cobweb2.ent" />
             <File Id="58" Path="entities/bunker/organic/cobwebs/cobweb1.ent" />
@@ -19773,7 +19825,7 @@
         <FileIndex_Entities NumOfFiles="26">
             <File Id="0" Path="entities/bunker/organic/dead_trees/dead_tree_01.ent" />
             <File Id="1" Path="entities/desert/organic/tree_baobab/tree_baobab_branches01.ent" />
-            <File Id="2" Path="mods/ChaosMode/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
+            <File Id="2" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
             <File Id="3" Path="entities/arabic_fort/debris/barbed_wire/barbed_wire_bundle_01.ent" />
             <File Id="4" Path="entities/desert/organic/tree_acacia_dry/tree_acacia_dry.ent" />
             <File Id="5" Path="entities/bunker/organic/dead_trees/dead_tree_02.ent" />
@@ -22350,6 +22402,10 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
+    <Section Name="13081597587513089349">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="5567005983264112896">
         <FileIndex_Entities NumOfFiles="11">
             <File Id="0" Path="entities/darkworld/rocks/dw_rock_med_freeze.ent" />
@@ -24498,30 +24554,6 @@
                 </UserVariables>
             </Entity>
         </Objects>
-    </Section>
-    <Section Name="1144194915073257416">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="16948395815399037378">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10043280279841522737">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="5154609606323973616">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="3814753305996277122">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="9484528426919051767">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
     </Section>
     <Section Name="9860523329577058962">
         <FileIndex_Entities NumOfFiles="2">
@@ -37764,9 +37796,5 @@
                 </UserVariables>
             </Entity>
         </Objects>
-    </Section>
-    <Section Name="608848854758122182">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
     </Section>
 </HPLMapTrack_Entity>

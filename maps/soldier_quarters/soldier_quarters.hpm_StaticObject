@@ -27,7 +27,7 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -35,7 +35,7 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -55,11 +55,11 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -68,6 +68,22 @@
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -84,6 +100,58 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="617129561294536540">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -204,21 +272,17 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3302744681203069168">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="16896531512754711917">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10091603502342084053">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="15307306585429889914">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
+    <Section Name="13081597587513089349">
+        <FileIndex_StaticObjects NumOfFiles="4">
+            <File Id="0" Path="static_objects/bunker/bunker_walls/bunker_tunnel_90.dae" />
+            <File Id="1" Path="static_objects/bunker/bunker_walls/bunker_tunnel_doorway_side.dae" />
+            <File Id="2" Path="static_objects/bunker/bunker_walls/bunker_crawltunnel_straight_01.dae" />
+            <File Id="3" Path="static_objects/bunker/bunker_walls/bunker_tunnel_straight.dae" />
+        </FileIndex_StaticObjects>
+        <Objects>
+            <StaticObject ID="1207959553" Name="bunker_bunker_walls_bunker_tunnel_90_7" CreStamp="1697675546" ModStamp="1697675564" WorldPos="-83.375 -7.99541 -5.5" Rotation="0 4.71239 0" Scale="1 1 1" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="72 15 1207959553" />
+            <StaticObject ID="1207959557" Name="bunker_bunker_walls_bunker_tunnel_straight_17" CreStamp="1697675728" ModStamp="1697675738" WorldPos="-83.375 -7.99541 -5.5" Rotation="0 1.5708 0" Scale="1 1 1" FileIndex="3" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="72 30 1207959557" />
+        </Objects>
     </Section>
     <Section Name="1268063563630396792">
         <FileIndex_StaticObjects NumOfFiles="57">
@@ -364,7 +428,6 @@
             <StaticObject ID="989856851" Name="bunker_bunker_walls_bunker_tunnel_90_6" CreStamp="1620390926" ModStamp="1634308563" WorldPos="-80.6267 -6.49541 -10.931" Rotation="0 1.5708 0" Scale="1 1 1" FileIndex="27" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 6955 989856851" />
             <StaticObject ID="989856852" Name="bunker_bunker_walls_bunker_tunnel_straight_05_12" CreStamp="1620390947" ModStamp="1621582388" WorldPos="-80.6267 -6.49541 -10.931" Rotation="0 -1.5708 0" Scale="1 1 1" FileIndex="10" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7295 989856852" />
             <StaticObject ID="989856853" Name="bunker_bunker_walls_bunker_tunnel_stairwell_straight_3" CreStamp="1620390955" ModStamp="1621582388" WorldPos="-82.0016 -7.99541 -7.056" Rotation="0 -3.57628e-06 0" Scale="1 1 1" FileIndex="8" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7771 989856853" />
-            <StaticObject ID="989856854" Name="bunker_bunker_walls_bunker_tunnel_end_2" CreStamp="1620390980" ModStamp="1621582388" WorldPos="-82.0016 -7.99541 -6.806" Rotation="-0 3.1416 -0" Scale="1 1 1" FileIndex="15" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7723 989856854" />
             <StaticObject ID="989856855" Name="bunker_bunker_walls_bunker_tunnel_doorway_welder_05_6" CreStamp="1620391180" ModStamp="1621582387" WorldPos="-58.8768 -6.49541 -10.9311" Rotation="0 1.5708 0" Scale="1 1 1" FileIndex="6" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7736 989856855" />
             <StaticObject ID="989856856" Name="bunker_bunker_walls_bunker_tunnel_straight_24" CreStamp="1620391279" ModStamp="1651594020" WorldPos="-57.8767 -6.49542 1.25" Rotation="0 -3.57628e-06 0" Scale="1 1 1.03657" FileIndex="4" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7752 989856856" />
             <StaticObject ID="989856857" Name="bunker_bunker_walls_bunker_wall_doorway_tunnel_2" CreStamp="1620391484" ModStamp="1621582388" WorldPos="-78.7516 -6.49541 -0.930999" Rotation="-0 3.1416 -0" Scale="1 1 1" FileIndex="5" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 7751 989856857" />
@@ -788,10 +851,9 @@
             <StaticObject ID="989857275" Name="archaeology_scaffolding_scaffolding_part_plank_broken_2_1" CreStamp="1623771201" ModStamp="1681820058" WorldPos="-57.5056 -5.77436 0.787894" Rotation="1.68734 -0.331135 -1.91646" Scale="1 1 1" FileIndex="38" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8176 989857275" />
             <StaticObject ID="989857276" Name="archaeology_scaffolding_scaffolding_part_beam_medium_broken_1_1" CreStamp="1623771209" ModStamp="1681820058" WorldPos="-57.4915 -6.01268 1.14358" Rotation="-1.57076 -1.39352 0.920178" Scale="1 1 1" FileIndex="37" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8171 989857276" />
             <StaticObject ID="989857277" Name="archaeology_scaffolding_scaffolding_pillar_01_5" CreStamp="1623771400" ModStamp="1681820315" WorldPos="-57.6017 -5.90218 1.15209" Rotation="-0.658374 -0.970471 1.17774" Scale="0.6 0.6 0.6" FileIndex="26" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8170 989857277" />
-            <StaticObject ID="989857278" Name="archaeology_scaffolding_scaffolding_part_plank_broken_2_2" CreStamp="1623772477" ModStamp="1623773521" WorldPos="-81.4284 -5.77436 -9.8237" Rotation="2.2834 -0.0706053 -2.03993" Scale="1 1 1" FileIndex="38" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8169 989857278" />
-            <StaticObject ID="989857279" Name="archaeology_scaffolding_scaffolding_part_plank_broken_1_2" CreStamp="1623772477" ModStamp="1623773521" WorldPos="-81.8689 -5.62186 -9.78599" Rotation="2.90535 0.351499 1.58609" Scale="1 1 1" FileIndex="39" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8175 989857279" />
-            <StaticObject ID="989857280" Name="archaeology_scaffolding_scaffolding_part_beam_short_broken_1_2" CreStamp="1623772477" ModStamp="1623773521" WorldPos="-81.9882 -5.78196 -9.9666" Rotation="0.917076 4.07489 -0" Scale="1 1 1" FileIndex="40" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8168 989857280" />
-            <StaticObject ID="989857281" Name="archaeology_scaffolding_scaffolding_part_beam_medium_broken_1_2" CreStamp="1623772477" ModStamp="1623773521" WorldPos="-81.7363 -6.01268 -9.3841" Rotation="-0.422848 4.16629 -0.273593" Scale="1 1 1" FileIndex="37" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8173 989857281" />
+            <StaticObject ID="989857278" Name="archaeology_scaffolding_scaffolding_part_plank_broken_2_2" CreStamp="1623772477" ModStamp="1697675415" WorldPos="-82.757 -6.47507 -10.1761" Rotation="1.98113 0.0424359 -1.61333" Scale="1 1 1" FileIndex="38" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8169 989857278" />
+            <StaticObject ID="989857279" Name="archaeology_scaffolding_scaffolding_part_plank_broken_1_2" CreStamp="1623772477" ModStamp="1697675381" WorldPos="-81.375 -6.31536 -9.875" Rotation="2.90507 -0.354671 1.7523" Scale="1 1 1" FileIndex="39" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8175 989857279" />
+            <StaticObject ID="989857281" Name="archaeology_scaffolding_scaffolding_part_beam_medium_broken_1_2" CreStamp="1623772477" ModStamp="1697675477" WorldPos="-81.0212 -7.14037 -7.95149" Rotation="-1.21965 2.62955 1.61866" Scale="1 1 1" FileIndex="37" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8173 989857281" />
             <StaticObject ID="989857282" Name="arabic_fort_interior_ceiling_ab_interior_ceiling_girder_system_01_145" CreStamp="1623850699" ModStamp="1623850729" WorldPos="-54.5277 -3.46568 -4.9863" Rotation="0 -1.5708 0" Scale="1.46043 1 1.49211" FileIndex="24" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 8097 989857282" />
             <StaticObject ID="989857283" Name="bunker_bunker_walls_bunker_wall_straight_01_92" CreStamp="1633533981" ModStamp="1633533985" WorldPos="-46.8767 -6.49541 -3.5561" Rotation="-0 3.1416 -0" Scale="1 1 1" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 6983 989857283" />
             <StaticObject ID="989857284" Name="bunker_bunker_walls_bunker_wall_straight_01_93" CreStamp="1633534062" ModStamp="1633534064" WorldPos="-44.8767 -6.49541 -3.5561" Rotation="-0 3.1416 -0" Scale="1 1 1" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="59 6981 989857284" />
@@ -936,18 +998,6 @@
             <StaticObject ID="1006632980" Name="bunker_bunker_walls_bunker_tunnel_straight_38" CreStamp="1651593846" ModStamp="1679842540" WorldPos="-57.8766 -6.49541 28.875" Rotation="0 -3.57628e-06 0" Scale="1 1 1" FileIndex="9" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="60 9008 1006632980" />
             <StaticObject ID="1006632981" Name="bunker_bunker_walls_bunker_tunnel_straight_rathole_01_1" CreStamp="1651665065" ModStamp="1681819373" WorldPos="-81.75 -6.5 12.569" Rotation="0 4.71239 0" Scale="1 1 1" FileIndex="9" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="60 9000 1006632981" />
         </Objects>
-    </Section>
-    <Section Name="13833203488117669323">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="3613133122318339499">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="12980652218819710893">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
     </Section>
     <Section Name="17225707646676146768">
         <FileIndex_StaticObjects NumOfFiles="1">
@@ -1391,13 +1441,5 @@
             <StaticObject ID="1157627937" Name="bunker_bunker_walls_bunker_wall_straight_01_95_Imported" CreStamp="1626115095" ModStamp="1635424492" WorldPos="-86.8765 -7.98836 9.68195" Rotation="-0 3.1416 -0" Scale="1 1 1" FileIndex="7" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="69 7962 1157627937" />
             <StaticObject ID="1157627938" Name="bunker_bunker_walls_bunker_wall_straight_01_96_Imported" CreStamp="1626116079" ModStamp="1635424541" WorldPos="-88.8765 -7.98836 10.432" Rotation="0 -3.57628e-06 0" Scale="1 1 1" FileIndex="7" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="69 5536 1157627938" />
         </Objects>
-    </Section>
-    <Section Name="1423287664908280042">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="4606790389871051747">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
     </Section>
 </HPLMapTrack_StaticObject>

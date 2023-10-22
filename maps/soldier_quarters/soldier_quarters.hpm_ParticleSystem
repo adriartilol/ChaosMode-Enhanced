@@ -20,13 +20,13 @@
     <Section Name="6316717594221808991">
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <Objects />
     </Section>
     <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <Objects />
     </Section>
     <Section Name="2808432602814229433">
@@ -41,16 +41,28 @@
     <Section Name="16252604345296683573">
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <Objects />
     </Section>
     <Section Name="9172161606391457054">
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <Objects />
     </Section>
     <Section Name="2628536582313270325">
@@ -63,6 +75,45 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <Objects />
+    </Section>
+    <Section Name="617129561294536540">
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
         <Objects />
     </Section>
     <Section Name="14120050758427098000">
@@ -116,16 +167,7 @@
     <Section Name="14042797320315484158">
         <Objects />
     </Section>
-    <Section Name="3302744681203069168">
-        <Objects />
-    </Section>
-    <Section Name="16896531512754711917">
-        <Objects />
-    </Section>
-    <Section Name="10091603502342084053">
-        <Objects />
-    </Section>
-    <Section Name="15307306585429889914">
+    <Section Name="13081597587513089349">
         <Objects />
     </Section>
     <Section Name="1268063563630396792">
@@ -136,29 +178,14 @@
             <ParticleSystem ID="989857494" Name="PS_4" CreStamp="1622722140" ModStamp="1622722219" WorldPos="-90.3884 -7.6246 12.125" Rotation="0 -1.5708 0" Scale="0.25 1 1" File="D:/amnesia2/redist/particles/fog/fog_ambient_large.ps" Color="1 1 1 1" Brightness="0.3" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_1_1" UID="59 8063 989857494" />
             <ParticleSystem ID="989857495" Name="PS_5" CreStamp="1622722244" ModStamp="1623673235" WorldPos="-88.9961 -6.33738 12.5907" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="0.6" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_1_1" UID="59 7025 989857495" />
             <ParticleSystem ID="989857496" Name="PS_6" CreStamp="1622722546" ModStamp="1633710484" WorldPos="-62.6673 -4.74541 12.569" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="0.5" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_4_2" UID="59 8064 989857496" />
-            <ParticleSystem ID="989857497" Name="PS_7" CreStamp="1622722571" ModStamp="1680167793" WorldPos="-57.7603 -4.60653 13.9972" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="0.4" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_7_3" UID="59 8106 989857497" />
+            <ParticleSystem ID="989857497" Name="PS_7" CreStamp="1622722571" ModStamp="1680167793" WorldPos="-57.7603 -4.60653 13.9972" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="0.4" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="59 8106 989857497" />
             <ParticleSystem ID="989857498" Name="PS_8" CreStamp="1622723190" ModStamp="1622723209" WorldPos="-78.7378 -4.79397 -11.1146" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="2" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_10_3" UID="59 7012 989857498" />
             <ParticleSystem ID="989857499" Name="PS_9" CreStamp="1622729745" ModStamp="1623760743" WorldPos="-57.7796 -4.79397 -3.5928" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.5" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_12_4" UID="59 7011 989857499" />
             <ParticleSystem ID="989857500" Name="PS_10" CreStamp="1622729918" ModStamp="1623168844" WorldPos="-77.6734 -4.79397 0.838807" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 0.908676 0.824219 1" Brightness="0.3" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_9_1" UID="59 7021 989857500" />
             <ParticleSystem ID="989857501" Name="PS_11" CreStamp="1622732247" ModStamp="1622732262" WorldPos="-52.0229 -4.79397 6.82471" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.5" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_PowerSwitch_3_6" UID="59 7019 989857501" />
-            <ParticleSystem ID="989857502" Name="PS_12" CreStamp="1623760751" ModStamp="1643795366" WorldPos="-50.4703 -6.06935 -16.4168" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.4" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_13_2" UID="59 8095 989857502" />
+            <ParticleSystem ID="989857502" Name="PS_12" CreStamp="1623760751" ModStamp="1643795366" WorldPos="-50.4703 -6.06935 -16.4168" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.4" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="" UID="59 8095 989857502" />
             <ParticleSystem ID="989857503" Name="PS_13" CreStamp="1633608733" ModStamp="1633623727" WorldPos="-44.202 -4.81939 -6.1774" Rotation="0 -1.5708 0" Scale="0.5 0.5 0.5" File="D:/amnesia2/redist/particles/dust/dust_light_medium_morespecks.ps" Color="1 1 1 1" Brightness="0.3" FadeAtDistance="false" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_14_4" UID="59 7023 989857503" />
         </Objects>
-    </Section>
-    <Section Name="15379620218325487157">
-        <Objects />
-    </Section>
-    <Section Name="13833203488117669323">
-        <Objects />
-    </Section>
-    <Section Name="3613133122318339499">
-        <Objects />
-    </Section>
-    <Section Name="12980652218819710893">
-        <Objects />
-    </Section>
-    <Section Name="17225707646676146768">
-        <Objects />
     </Section>
     <Section Name="12555007986000039539">
         <Objects>
@@ -170,24 +197,9 @@
             <ParticleSystem ID="1090519332" Name="PS_19" CreStamp="1667573480" ModStamp="1680168157" WorldPos="-59.3655 -5.25745 12.4195" Rotation="0 0 0" Scale="1 1 1" File="D:/SVN Repositories/Bunker/redist/particles/dust/dust_light_medium.ps" Color="1 1 1 1" Brightness="0.05" FadeAtDistance="true" MinFadeDistanceStart="2" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MaxFadeDistanceEnd="110" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Lamp_GeneratorBackup_2_light_2" UID="65 8798 1090519332" />
         </Objects>
     </Section>
-    <Section Name="9710955726840204135">
-        <Objects />
-    </Section>
-    <Section Name="11774898963025775877">
-        <Objects />
-    </Section>
     <Section Name="14677797404739872827">
         <Objects>
             <ParticleSystem ID="1140851204" Name="PS_20" CreStamp="1680182111" ModStamp="1680518803" WorldPos="-89.8502 -6.54648 8.16948" Rotation="0 -1.5708 0" Scale="0.25 1 1" File="D:/amnesia2/redist/particles/fog/fog_ambient_large.ps" Color="1 1 1 1" Brightness="0.1" FadeAtDistance="true" MinFadeDistanceStart="0" MaxFadeDistanceStart="7" MinFadeDistanceEnd="0" MaxFadeDistanceEnd="12" Static="false" CulledByDistance="true" CulledByFog="true" ConnectLight="Light_GeneratorLamp_1_1" UID="68 8063 1140851204" />
         </Objects>
-    </Section>
-    <Section Name="16150389251420749140">
-        <Objects />
-    </Section>
-    <Section Name="1423287664908280042">
-        <Objects />
-    </Section>
-    <Section Name="4606790389871051747">
-        <Objects />
     </Section>
 </HPLMapTrack_ParticleSystem>

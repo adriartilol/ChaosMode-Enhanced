@@ -1423,8 +1423,8 @@
     </Section>
     <Section Name="8228457432140100004">
         <Objects>
-            <LightMaskBox ID="3607103904" Name="LightMaskBox_2" CreStamp="1632840673" ModStamp="1632840708" WorldPos="-52.0049 5.89478 5.24152" Rotation="0 0 0" Scale="1 1 1" Size="4.12379 4 8.0756" ExcludeLight="false" UID="215 5086 3607103904" />
-            <LightMaskBox ID="3607103905" Name="LightMaskBox_3" CreStamp="1634740699" ModStamp="1634740722" WorldPos="-30.75 8.25 20.5" Rotation="0 0 0" Scale="1 1 1" Size="13 4.25 12.75" ExcludeLight="false" UID="215 8191 3607103905" />
+            <LightMaskBox ID="3607103895" Name="LightMaskBox_2" CreStamp="1632840673" ModStamp="1697818813" WorldPos="-50.9954 5.89478 5.24152" Rotation="0 0 0" Scale="1 1 1" Size="4.12379 4 8.0756" ExcludeLight="true" UID="215 5086 3607103895" />
+            <LightMaskBox ID="3607103896" Name="LightMaskBox_3" CreStamp="1634740699" ModStamp="1634740722" WorldPos="-30.75 8.25 20.5" Rotation="0 0 0" Scale="1 1 1" Size="13 4.25 12.75" ExcludeLight="false" UID="215 8191 3607103896" />
         </Objects>
     </Section>
     <Section Name="16409420980002435754">
@@ -1450,7 +1450,7 @@
     </Section>
     <Section Name="2988446400644223952">
         <Objects>
-            <LightMaskBox ID="3741319564" Name="LightMaskBox_6" CreStamp="1675178956" ModStamp="1675178970" WorldPos="-44.6202 2.28977 27.4624" Rotation="0 0 0" Scale="1 1 1" Size="1.81846 0.0719259 1.6858" ExcludeLight="false" UID="223 9888 3741319564" />
+            <LightMaskBox ID="3741319557" Name="LightMaskBox_6" CreStamp="1675178956" ModStamp="1675178970" WorldPos="-44.6202 2.28977 27.4624" Rotation="0 0 0" Scale="1 1 1" Size="1.81846 0.0719259 1.6858" ExcludeLight="false" UID="223 9888 3741319557" />
         </Objects>
     </Section>
     <Section Name="16504186452985672522">

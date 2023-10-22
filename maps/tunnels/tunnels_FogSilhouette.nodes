@@ -3412,8 +3412,8 @@
     </Node>
     <Node Name="PathNode_414" ID="342" ListID="0" Position="-68.5 -0.2 129.5" IsGenerated="false">
         <Edge ID="343" Distance="0.750000" />
-        <Edge ID="341" Distance="0.790569" />
         <Edge ID="345" Distance="0.790569" />
+        <Edge ID="341" Distance="0.790569" />
         <Edge ID="599" Distance="0.800391" />
         <Edge ID="339" Distance="1.068000" />
         <Edge ID="347" Distance="1.274755" />

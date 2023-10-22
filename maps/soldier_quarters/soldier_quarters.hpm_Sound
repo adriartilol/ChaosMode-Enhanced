@@ -20,13 +20,13 @@
     <Section Name="6316717594221808991">
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <Objects />
     </Section>
     <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <Objects />
     </Section>
     <Section Name="2808432602814229433">
@@ -41,16 +41,28 @@
     <Section Name="16252604345296683573">
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <Objects />
     </Section>
     <Section Name="9172161606391457054">
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <Objects />
     </Section>
     <Section Name="2628536582313270325">
@@ -65,6 +77,45 @@
     <Section Name="8182122457138335059">
         <Objects />
     </Section>
+    <Section Name="12224921238944182748">
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <Objects />
+    </Section>
+    <Section Name="617129561294536540">
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
+        <Objects />
+    </Section>
     <Section Name="14120050758427098000">
         <Objects>
             <Sound ID="637534228" Name="Sound_DistantBattle_1" CreStamp="1634227574" ModStamp="1634227633" WorldPos="-117.5 1 35" Rotation="-0 3.1416 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/lower_bunker_gunfire" MinDistance="1" MaxDistance="90" Volume="0.8" Active="true" UseCustomProperties="true" UID="38 7509 637534228" />
@@ -73,7 +124,6 @@
             <Sound ID="637534231" Name="Sound_TriggerSweet_1" CreStamp="1640790899" ModStamp="1641294916" WorldPos="-70.6266 -5.84083 12.2598" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/hallway_sweet" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="true" UID="38 7992 637534231" />
             <Sound ID="637534232" Name="Sound_TriggerSweet_2" CreStamp="1640791303" ModStamp="1640791659" WorldPos="-74.4965 -5.05617 -11.1373" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/near_5" MinDistance="1" MaxDistance="20" Volume="1" Active="false" UseCustomProperties="false" UID="38 8008 637534232" />
             <Sound ID="637534233" Name="Sound_TriggerSweet_3" CreStamp="1640791636" ModStamp="1640791862" WorldPos="-55.8588 -4.22944 -17.8361" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/trigger/distant_1" MinDistance="1" MaxDistance="25" Volume="1" Active="false" UseCustomProperties="true" UID="38 8006 637534233" />
-            <Sound ID="637534234" Name="Sound_SweetBarricade" CreStamp="1641295100" ModStamp="1641295146" WorldPos="-82.1898 -5.2681 -9.722" Rotation="0 1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/rat_barricade" MinDistance="1" MaxDistance="15" Volume="1" Active="false" UseCustomProperties="false" UID="38 8004 637534234" />
             <Sound ID="637534235" Name="Sound_Drip" CreStamp="1664979354" ModStamp="1665047578" WorldPos="-80.8372 -6.45749 13.5338" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="38 8022 637534235" />
             <Sound ID="637534236" Name="Sound_Flies_1" CreStamp="1682070770" ModStamp="1682070782" WorldPos="-79.773 -6.01715 19.3808" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="38 8040 637534236" />
             <Sound ID="637534237" Name="Sound_Flies_2" CreStamp="1682070796" ModStamp="1682070818" WorldPos="-60.4311 -6.11465 -4.53278" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="level_entity_shared/flies/flies" MinDistance="1" MaxDistance="5" Volume="1" Active="true" UseCustomProperties="false" UID="38 8039 637534237" />
@@ -128,16 +178,7 @@
     <Section Name="14042797320315484158">
         <Objects />
     </Section>
-    <Section Name="3302744681203069168">
-        <Objects />
-    </Section>
-    <Section Name="16896531512754711917">
-        <Objects />
-    </Section>
-    <Section Name="10091603502342084053">
-        <Objects />
-    </Section>
-    <Section Name="15307306585429889914">
+    <Section Name="13081597587513089349">
         <Objects />
     </Section>
     <Section Name="1268063563630396792">
@@ -179,44 +220,14 @@
             <Sound ID="989857490" Name="sound_dust_14" CreStamp="1627655510" ModStamp="1627655548" WorldPos="-52.5037 -5.17479 -13.185" Rotation="0 -1.5708 0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/dust_debris_loop" MinDistance="1" MaxDistance="2" Volume="1" Active="false" UseCustomProperties="false" UID="59 7515 989857490" />
         </Objects>
     </Section>
-    <Section Name="15379620218325487157">
-        <Objects />
-    </Section>
-    <Section Name="13833203488117669323">
-        <Objects />
-    </Section>
-    <Section Name="3613133122318339499">
-        <Objects />
-    </Section>
-    <Section Name="12980652218819710893">
-        <Objects />
-    </Section>
-    <Section Name="17225707646676146768">
-        <Objects />
-    </Section>
     <Section Name="12555007986000039539">
         <Objects>
             <Sound ID="1090519326" Name="Sound_StairSweet" CreStamp="1641292458" ModStamp="1649258845" WorldPos="-82.9439 -1.39408 25.4346" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="officer_hub/amb/ladder_stairs" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="65 8916 1090519326" />
         </Objects>
     </Section>
-    <Section Name="9710955726840204135">
-        <Objects />
-    </Section>
-    <Section Name="11774898963025775877">
-        <Objects />
-    </Section>
     <Section Name="14677797404739872827">
         <Objects>
             <Sound ID="1140851203" Name="Sound_Drip_1" CreStamp="1680191150" ModStamp="1680191167" WorldPos="-64.5684 -6.45749 -11.7601" Rotation="-0 3.14159 -0" Scale="1 1 1" SoundEntityFile="soldier_quarters/amb/water_drip" MinDistance="1" MaxDistance="10" Volume="1" Active="false" UseCustomProperties="false" UID="68 8022 1140851203" />
         </Objects>
-    </Section>
-    <Section Name="16150389251420749140">
-        <Objects />
-    </Section>
-    <Section Name="1423287664908280042">
-        <Objects />
-    </Section>
-    <Section Name="4606790389871051747">
-        <Objects />
     </Section>
 </HPLMapTrack_Sound>

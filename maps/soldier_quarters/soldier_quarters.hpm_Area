@@ -20,13 +20,13 @@
     <Section Name="6316717594221808991">
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <Objects />
     </Section>
     <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <Objects />
     </Section>
     <Section Name="2808432602814229433">
@@ -41,16 +41,28 @@
     <Section Name="16252604345296683573">
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <Objects />
     </Section>
     <Section Name="9172161606391457054">
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <Objects />
     </Section>
     <Section Name="2628536582313270325">
@@ -63,6 +75,45 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <Objects />
+    </Section>
+    <Section Name="617129561294536540">
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
         <Objects />
     </Section>
     <Section Name="14120050758427098000">
@@ -814,16 +865,7 @@
             </Area>
         </Objects>
     </Section>
-    <Section Name="3302744681203069168">
-        <Objects />
-    </Section>
-    <Section Name="16896531512754711917">
-        <Objects />
-    </Section>
-    <Section Name="10091603502342084053">
-        <Objects />
-    </Section>
-    <Section Name="15307306585429889914">
+    <Section Name="13081597587513089349">
         <Objects />
     </Section>
     <Section Name="1268063563630396792">
@@ -2705,7 +2747,7 @@
                     <Var ObjectId="989856135" Name="ParentAttachBody" Value="" />
                 </UserVariables>
             </Area>
-            <Area ID="989856136" Name="Soundscape_On_Table_Room_4" CreStamp="1622131407" ModStamp="1651167964" WorldPos="-62.4387 -5.82134 -19.1796" Rotation="-0 3.14208 -0" Scale="8.83699 3.89623 7.55406" Active="false" Mesh="" UID="59 7988 989856136" AreaType="Soundscape">
+            <Area ID="989856136" Name="Soundscape_On_Table_Room_4" CreStamp="1622131407" ModStamp="1697675608" WorldPos="-62.5 -5.82134 -19.1796" Rotation="-0 3.14208 -0" Scale="8.83699 3.89623 7.55406" Active="false" Mesh="" UID="59 7988 989856136" AreaType="Soundscape">
                 <UserVariables>
                     <Var ObjectId="989856136" Name="Note" Value="" />
                     <Var ObjectId="989856136" Name="UseReverb" Value="true" />
@@ -4034,14 +4076,6 @@
                     <Var ObjectId="1040187397" Name="MaxObjectsPerNode" Value="-1" />
                 </UserVariables>
             </Area>
-            <Area ID="1040187398" Name="VisibilityArea_mainhall_6" CreStamp="1635344792" ModStamp="1635344817" WorldPos="-81.9951 -4.97256 -6.2017" Rotation="0 -3.57628e-06 0" Scale="2.47144 3.10612 6.86072" Active="true" Mesh="" UID="62 8 1040187398" AreaType="VisibilityArea">
-                <UserVariables>
-                    <Var ObjectId="1040187398" Name="Note" Value="" />
-                    <Var ObjectId="1040187398" Name="AddPartialIntersectingObjects" Value="false" />
-                    <Var ObjectId="1040187398" Name="MinObjectsPerNode" Value="-1" />
-                    <Var ObjectId="1040187398" Name="MaxObjectsPerNode" Value="-1" />
-                </UserVariables>
-            </Area>
             <Area ID="1040187399" Name="VisibilityArea_barracks_1" CreStamp="1635344839" ModStamp="1685611836" WorldPos="-72.25 -4.67954 5.2552" Rotation="0 -3.57628e-06 0" Scale="26 4.20008 11.6701" Active="true" Mesh="" UID="62 11 1040187399" AreaType="VisibilityArea">
                 <UserVariables>
                     <Var ObjectId="1040187399" Name="Note" Value="" />
@@ -4208,14 +4242,6 @@
                     <Var ObjectId="1040187419" Name="ConnectedAreas1" Value="VisibilityArea_mainhall_4" />
                     <Var ObjectId="1040187419" Name="ConnectedAreas2" Value="VisibilityArea_mainhall_5" />
                     <Var ObjectId="1040187419" Name="ConnectedAreas3" Value="" />
-                </UserVariables>
-            </Area>
-            <Area ID="1040187420" Name="VisibilityPortal_mainhall4_mainhall6" CreStamp="1635433574" ModStamp="1635433594" WorldPos="-82.0031 -4.97976 -9.6635" Rotation="0 -3.57628e-06 0" Scale="2.38869 3.10193 0.235603" Active="true" Mesh="" UID="62 3 1040187420" AreaType="VisibilityPortal">
-                <UserVariables>
-                    <Var ObjectId="1040187420" Name="Note" Value="" />
-                    <Var ObjectId="1040187420" Name="ConnectedAreas1" Value="VisibilityArea_mainhall_4" />
-                    <Var ObjectId="1040187420" Name="ConnectedAreas2" Value="VisibilityArea_mainhall_6" />
-                    <Var ObjectId="1040187420" Name="ConnectedAreas3" Value="" />
                 </UserVariables>
             </Area>
             <Area ID="1040187421" Name="VisibilityPortal_mainhall5_barracks1" CreStamp="1635433606" ModStamp="1666694017" WorldPos="-78.8242 -5.23311 -0.5" Rotation="-0 3.1416 -0" Scale="1.70644 2.56728 0.5" Active="true" Mesh="" UID="62 20 1040187421" AreaType="VisibilityPortal">
@@ -5750,14 +5776,5 @@
                 </UserVariables>
             </Area>
         </Objects>
-    </Section>
-    <Section Name="16150389251420749140">
-        <Objects />
-    </Section>
-    <Section Name="1423287664908280042">
-        <Objects />
-    </Section>
-    <Section Name="4606790389871051747">
-        <Objects />
     </Section>
 </HPLMapTrack_Area>

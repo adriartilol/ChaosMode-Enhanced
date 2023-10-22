@@ -5,7 +5,7 @@
     <Section Name="6937444921226728725">
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <Objects />
     </Section>
     <Section Name="5716514586046010106">
@@ -14,7 +14,7 @@
     <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <Objects />
     </Section>
     <Section Name="6316717594221808991">
@@ -29,7 +29,7 @@
     <Section Name="10300334514331934914">
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <Objects />
     </Section>
     <Section Name="9195155804934729962">
@@ -41,7 +41,7 @@
     <Section Name="5280002927329458804">
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <Objects />
     </Section>
     <Section Name="4074963946714538518">
@@ -51,6 +51,18 @@
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <Objects />
     </Section>
     <Section Name="2628536582313270325">
@@ -63,6 +75,45 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <Objects />
+    </Section>
+    <Section Name="12733941409804957021">
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
         <Objects />
     </Section>
     <Section Name="14120050758427098000">
@@ -320,64 +371,22 @@
     <Section Name="16731238584900433395">
         <Objects />
     </Section>
-    <Section Name="1773613984971493865">
-        <Objects />
-    </Section>
-    <Section Name="12415876611127177994">
-        <Objects />
-    </Section>
-    <Section Name="11430045020620300771">
-        <Objects />
-    </Section>
-    <Section Name="5567005983264112896">
-        <Objects />
-    </Section>
-    <Section Name="11255853892863068920">
+    <Section Name="13081597587513089349">
         <Objects />
     </Section>
     <Section Name="7647898079783214371">
         <Objects>
-            <Billboard ID="2147485640" Name="Billboard_1" CreStamp="1643983077" ModStamp="1650894928" WorldPos="-21.2056 17.409 -1.113" Rotation="-0 1.65656 -0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone_underwater_interestpoint.mat" IsHalo="false" BillboardSize="3 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 1" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="Lamp_GeneratorBackup_Nest_4_2" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
-            <Billboard ID="2147485641" Name="Billboard_2" CreStamp="1643983337" ModStamp="1647350481" WorldPos="-26.001 16.879 -0.511" Rotation="1.36529 1.79713 2.37884" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
-            <Billboard ID="2147485642" Name="Billboard_3" CreStamp="1643983412" ModStamp="1647350478" WorldPos="-25.62 16.879 -1.694" Rotation="-1.36899 1.8013 -0.365743" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
-            <Billboard ID="2147485643" Name="Billboard_4" CreStamp="1643983459" ModStamp="1647350484" WorldPos="-25.62 17.259 -1.027" Rotation="0.620601 1.62712 1.6298" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
-            <Billboard ID="2147485644" Name="Billboard_6" CreStamp="1645540889" ModStamp="1680271029" WorldPos="-38.195 9.00829 31.1525" Rotation="0 0 0" Scale="1 1 1" BillboardType="Axis" MaterialFile="C:/Frictional/Bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 10" HaloSourceSize="0.5 2 0.5" BillboardOffset="0" BillboardColor="0.892578 0.892578 0.892578 0.759766" Brightness="0.6" CulledByDistance="false" CulledByFog="true" ConnectLight="Light_PowerSwitch_2_6_73" Static="false" RangeMinStart="0" RangeMinEnd="2" RangeMaxStart="-1" RangeMaxEnd="-1" />
-            <Billboard ID="2147485645" Name="Billboard_8" CreStamp="1645541504" ModStamp="1680271035" WorldPos="-38.206 13.5053 30.9338" Rotation="-1.5708 -1.57045 0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone_underwater_interestpoint.mat" IsHalo="false" BillboardSize="3 3" HaloSourceSize="0.5 2 0.5" BillboardOffset="0" BillboardColor="1 1 1 0.759766" Brightness="2" CulledByDistance="false" CulledByFog="true" ConnectLight="Light_PowerSwitch_2_6_73" Static="false" RangeMinStart="1" RangeMinEnd="3" RangeMaxStart="-1" RangeMaxEnd="-1" />
+            <Billboard ID="2147485631" Name="Billboard_1" CreStamp="1643983077" ModStamp="1650894928" WorldPos="-21.2056 17.409 -1.113" Rotation="-0 1.65656 -0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone_underwater_interestpoint.mat" IsHalo="false" BillboardSize="3 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 1" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="Lamp_GeneratorBackup_Nest_4_2" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
+            <Billboard ID="2147485632" Name="Billboard_2" CreStamp="1643983337" ModStamp="1647350481" WorldPos="-26.001 16.879 -0.511" Rotation="1.36529 1.79713 2.37884" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
+            <Billboard ID="2147485633" Name="Billboard_3" CreStamp="1643983412" ModStamp="1647350478" WorldPos="-25.62 16.879 -1.694" Rotation="-1.36899 1.8013 -0.365743" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
+            <Billboard ID="2147485634" Name="Billboard_4" CreStamp="1643983459" ModStamp="1647350484" WorldPos="-25.62 17.259 -1.027" Rotation="0.620601 1.62712 1.6298" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 3" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="0.486328 0.0417938 0.119934 0.21289" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="10" RangeMinEnd="20" RangeMaxStart="50" RangeMaxEnd="100" />
+            <Billboard ID="2147485635" Name="Billboard_6" CreStamp="1645540889" ModStamp="1680271029" WorldPos="-38.195 9.00829 31.1525" Rotation="0 0 0" Scale="1 1 1" BillboardType="Axis" MaterialFile="C:/Frictional/Bunker/redist/billboards/halo/lampglow_cone01.mat" IsHalo="false" BillboardSize="2 10" HaloSourceSize="0.5 2 0.5" BillboardOffset="0" BillboardColor="0.892578 0.892578 0.892578 0.759766" Brightness="0.6" CulledByDistance="false" CulledByFog="true" ConnectLight="Light_PowerSwitch_2_6_73" Static="false" RangeMinStart="0" RangeMinEnd="2" RangeMaxStart="-1" RangeMaxEnd="-1" />
+            <Billboard ID="2147485636" Name="Billboard_8" CreStamp="1645541504" ModStamp="1680271035" WorldPos="-38.206 13.5053 30.9338" Rotation="-1.5708 -1.57045 0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="E:/bunker/redist/billboards/halo/lampglow_cone_underwater_interestpoint.mat" IsHalo="false" BillboardSize="3 3" HaloSourceSize="0.5 2 0.5" BillboardOffset="0" BillboardColor="1 1 1 0.759766" Brightness="2" CulledByDistance="false" CulledByFog="true" ConnectLight="Light_PowerSwitch_2_6_73" Static="false" RangeMinStart="1" RangeMinEnd="3" RangeMaxStart="-1" RangeMaxEnd="-1" />
         </Objects>
-    </Section>
-    <Section Name="9929884855472090891">
-        <Objects />
-    </Section>
-    <Section Name="15551506352841462749">
-        <Objects />
-    </Section>
-    <Section Name="9838657818219841634">
-        <Objects />
-    </Section>
-    <Section Name="8426902128076004922">
-        <Objects />
-    </Section>
-    <Section Name="6190308911983090940">
-        <Objects />
-    </Section>
-    <Section Name="5709918667761977789">
-        <Objects />
-    </Section>
-    <Section Name="18360552603431277685">
-        <Objects />
     </Section>
     <Section Name="16450241674061950360">
         <Objects>
             <Billboard ID="2281701833" Name="Billboard_9" CreStamp="1660058611" ModStamp="1680271052" WorldPos="-37.8884 17.6995 31.2522" Rotation="-1.5708 -0 0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="D:/SVN Repositories/Bunker/redist/billboards/halo/lampglow_curie.mat" IsHalo="false" BillboardSize="15 15" HaloSourceSize="0.5 2 0.5" BillboardOffset="0" BillboardColor="0.951172 0.951172 0.951172 0.759766" Brightness="0.6" CulledByDistance="false" CulledByFog="true" ConnectLight="Light_PowerSwitch_2_6_73" Static="false" RangeMinStart="1" RangeMinEnd="3" RangeMaxStart="-1" RangeMaxEnd="-1" />
         </Objects>
-    </Section>
-    <Section Name="15964648976235542272">
-        <Objects />
-    </Section>
-    <Section Name="16972802540415459683">
-        <Objects />
-    </Section>
-    <Section Name="1467851273069754843">
-        <Objects />
     </Section>
 </HPLMapTrack_Billboard>

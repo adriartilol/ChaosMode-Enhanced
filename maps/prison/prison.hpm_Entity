@@ -7,7 +7,7 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -47,11 +47,11 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -65,7 +65,7 @@
     </Section>
     <Section Name="10625375571293597888">
         <FileIndex_Entities NumOfFiles="1">
-            <File Id="0" Path="mods/ChaosMode/entities/cave/gameplay/note_caves/note_caves_01.ent" />
+            <File Id="0" Path="mods/ChaosMode_Enhanced/entities/cave/gameplay/note_caves/note_caves_01.ent" />
         </FileIndex_Entities>
         <Objects>
             <Entity ID="536870912" Name="note_random_1" CreStamp="1690826156" ModStamp="1690826181" WorldPos="-115.662 1.29694 -13.0917" Rotation="0 0.715252 0" Scale="1 1 1" FileIndex="0" Active="true" Important="false" Static="false" CulledByDistance="true" CulledByFog="true" UID="32 15 536870912">
@@ -472,6 +472,18 @@
             </Entity>
         </Objects>
     </Section>
+    <Section Name="5913254565332661699">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="2628536582313270325">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
@@ -481,6 +493,62 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="13899725653624079561">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12733941409804957021">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <FileIndex_Entities NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -3566,15 +3634,7 @@
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5704074243704033166">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="1836132285479503855">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10360015916833613026">
+    <Section Name="13081597587513089349">
         <FileIndex_Entities NumOfFiles="0" />
         <Objects />
     </Section>
@@ -3609,7 +3669,7 @@
             <File Id="26" Path="entities/arabic_fort/furniture/arabic_ceiling_rail/arabic_ceiling_rail.ent" />
             <File Id="27" Path="entities/bunker/ornaments/electrical_wall_boxes/electrical_wall_boxes.ent" />
             <File Id="28" Path="entities/bunker/lamp/fluorescent_lamp_long/fluorescent_lamp_long.ent" />
-            <File Id="29" Path="mods/ChaosMode/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
+            <File Id="29" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
             <File Id="30" Path="entities/bunker/doors/metal_door/metal_door_window.ent" />
             <File Id="31" Path="entities/bunker/doors/metal_hatch/metal_hatch.ent" />
             <File Id="32" Path="entities/bunker/ornaments/corrugated_sheet_flat.ent" />
@@ -5482,10 +5542,6 @@
                 </UserVariables>
             </Entity>
         </Objects>
-    </Section>
-    <Section Name="12907475013074466001">
-        <FileIndex_Entities NumOfFiles="0" />
-        <Objects />
     </Section>
     <Section Name="7019001322016872295">
         <FileIndex_Entities NumOfFiles="16">
@@ -18524,8 +18580,8 @@
             <File Id="10" Path="entities/french_colonization/lamp/french_lamp_electrical/french_lamp_electrical_02.ent" />
             <File Id="11" Path="entities/archaeology/furniture/deskplate_01/deskplate_01.ent" />
             <File Id="12" Path="entities/bunker/sandbag_barrier/sandbag_barrier_corner_static.ent" />
-            <File Id="13" Path="mods/ChaosMode/entities/french_colonization/barricades/improvised_barricade_4/barricade_4.ent" />
-            <File Id="14" Path="mods/ChaosMode/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
+            <File Id="13" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/improvised_barricade_4/barricade_4.ent" />
+            <File Id="14" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
             <File Id="15" Path="entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall.ent" />
             <File Id="16" Path="entities/bunker/storage/crate_reinforced_01/crate_reinforced_01.ent" />
             <File Id="17" Path="entities/french_colonization/storage/military_wooden_crate/military_wooden_crate.ent" />
@@ -21262,7 +21318,7 @@
             <File Id="18" Path="entities/bunker/gameplay/gas_grenade/gas_grenade_pickup.ent" />
             <File Id="19" Path="entities/bunker/storage/crate_simple_02/crate_simple_02.ent" />
             <File Id="20" Path="entities/bunker/ornaments/corrugated_sheet_flat.ent" />
-            <File Id="21" Path="mods/ChaosMode/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
+            <File Id="21" Path="mods/ChaosMode_Enhanced/entities/french_colonization/barricades/french_gate/french_gate_barb_wire.ent" />
             <File Id="22" Path="entities/french_colonization/prison/prison_bars_door/prison_bars_door.ent" />
             <File Id="23" Path="entities/bunker/gameplay/concrete_block/concrete_block.ent" />
             <File Id="24" Path="entities/cistern/gameplay/bucket_chains/bucket_chain_single_static.ent" />
@@ -24963,7 +25019,7 @@
                     <Var ObjectId="1392509025" Name="CustomInteractIcon" Value="PushButton" />
                     <Var ObjectId="1392509025" Name="OnBreakDeactivateEnts" Value="" />
                 </UserVariables>
-                <Pose Hash="592347025">1 -0 -0 -0 0 0 0 1 -0 -0 -0 0 0 -0.000003 0.980397 -0 -0 -0.19703 12.500488 0 0.00001 0.967719 -0 -0 -0.252033 12.500153 -0.000977 -0.000008 0.954923 -0 -0 -0.296854 12.5 -0.000977 0.000002 0.989883 -0 -0 -0.141887 12.5 0.001953 -0.000002 0.82388 0 0.566765 -0 12.5 -0.000244 -0.000004 1 0 -0 0 12.5 0.000977 -0.000002 1 -0 -0 -0 12.500488 0 0.000004 1 -0 -0 -0 12.5 0.000977 -0.000004 1 -0 -0 -0 12.499023 -0.000977 -0.000004 1 0 -0 0 12.500977 0.000977 0 1 -0 -0 -0 12.500488 -0.000977 -0.000002 1 -0 -0 -0 12.499512 -0.000977 0.000006 1 -0 -0 -0 12.499512 0.000977 -0.000008 1 -0 -0 -0 12.500488 0 0 1 -0 -0 -0 12.499512 0.000977 -0.000002 1 -0 -0 -0 12.500488 0 -0.000004</Pose>
+                <Pose Hash="592347025">1 -0 -0 -0 0 0 0 1 -0 -0 -0 0 0 -0.000003 0.980398 -0 -0 -0.19703 12.500488 0 0.00001 0.967719 -0 -0 -0.252033 12.500153 -0.000977 -0.000008 0.954923 -0 -0 -0.296854 12.5 -0.000977 0.000002 0.989883 -0 -0 -0.141887 12.5 0.001953 -0.000002 0.82388 0 0.566765 -0 12.5 -0.000244 -0.000004 1 0 -0 0 12.5 0.000977 -0.000002 1 -0 -0 -0 12.500488 0 0.000004 1 -0 -0 -0 12.5 0.000977 -0.000004 1 -0 -0 -0 12.499023 -0.000977 -0.000004 1 0 -0 0 12.500977 0.000977 0 1 -0 -0 -0 12.500488 -0.000977 -0.000002 1 -0 -0 -0 12.499512 -0.000977 0.000006 1 -0 -0 -0 12.499512 0.000977 -0.000008 1 -0 -0 -0 12.500488 0 0 1 -0 -0 -0 12.499512 0.000977 -0.000002 1 -0 -0 -0 12.500488 0 -0.000004</Pose>
             </Entity>
         </Objects>
     </Section>

@@ -1,201 +1,201 @@
 <PreloadCache>
     <Materials>
         <Material Path="../../../../../../art bully productions/anubis/pipes/submit/pipes/prop/rusty_pipe_90.mat" DebugPos="-63.470116 : -0.276912 : 111.748917" />
-        <Material Path="../../../../../gameplay props - dynamite_stick/_submit/dynamite_stick/characters/dynamite_stick/dynamite_stick.mat" DebugPos="-41.279099 : 3.340639 : 77.094101" />
-        <Material Path="../../../../../gas_canister/_submit/gas_canister/character/gas_canister/gas_canister.mat" DebugPos="-34.750000 : 3.022506 : 109.749817" />
-        <Material Path="../../../batch_15/cart_storage/submit/cart_storage/characters/cart_storage/cart_storage.mat" DebugPos="-55.120632 : 2.871410 : 86.373894" />
-        <Material Path="../../../crate_laundanum/submission/crate_laundanum.mat" DebugPos="-64.731117 : 0.725430 : 94.480293" />
+        <Material Path="../../../../../gameplay props - dynamite_stick/_submit/dynamite_stick/characters/dynamite_stick/dynamite_stick.mat" DebugPos="-41.336578 : 3.357163 : 76.084114" />
+        <Material Path="../../../../../gas_canister/_submit/gas_canister/character/gas_canister/gas_canister.mat" DebugPos="-41.676998 : 3.022506 : 96.029221" />
+        <Material Path="../../../batch_15/cart_storage/submit/cart_storage/characters/cart_storage/cart_storage.mat" DebugPos="-49.244106 : 2.894680 : 68.498695" />
+        <Material Path="../../../crate_laundanum/submission/crate_laundanum.mat" DebugPos="-64.731010 : 0.514950 : 94.482285" />
         <Material Path="../../../french_broom/03.20.2018 french_broom texture rev1/tools/french_broom.mat" DebugPos="-73.448677 : 3.136935 : 73.243896" />
         <Material Path="../../../pick_axe/_submission/2019_12_06/pick_axe.mat" DebugPos="-51.096874 : 3.599381 : 116.500000" />
-        <Material Path="../../batch_15/ammo_bullets/submit/ammo_bullets/characters/ammo_bullets/ammo_bullets.mat" DebugPos="-38.397087 : 3.767335 : 77.376274" />
-        <Material Path="../../batch_15/pack_food/_submit/pack_food/characters/pack_food/pack_food.mat" DebugPos="-54.959988 : 3.319397 : 86.798653" />
+        <Material Path="../../batch_15/ammo_bullets/submit/ammo_bullets/characters/ammo_bullets/ammo_bullets.mat" DebugPos="-41.000130 : 4.193665 : 67.821999" />
+        <Material Path="../../batch_15/pack_food/_submit/pack_food/characters/pack_food/pack_food.mat" DebugPos="-52.688122 : 3.158054 : 109.073418" />
         <Material Path="../../cheap_cup/cheap_cup/cheap_cup.mat" DebugPos="-50.033962 : 3.259424 : 122.498627" />
         <Material Path="c:/frictional/bunker/redist/textures/liquid/water/waterplane_oasis_dirty_lower.mat" DebugPos="-64.250000 : 0.288425 : 106.500000" />
-        <Material Path="c:/users/aaron/documents/work/bunker/redist/billboards/halo/lampglow_cone01_hard_softbillboard.mat" DebugPos="-46.531700 : 3.445320 : 107.195999" />
+        <Material Path="c:/users/aaron/documents/work/bunker/redist/billboards/halo/lampglow_cone01_hard_softbillboard.mat" DebugPos="-46.752899 : 2.519630 : 107.025002" />
         <Material Path="c:/users/dragos/desktop/arsenal_quartermaster_shelf/maps/arsenal_quartermaster_shelf.mat" DebugPos="-60.190918 : 0.142849 : 92.123001" />
         <Material Path="c:/work/svn_bunker/redist/billboards/halo/lampglow_large_no_depth.mat" DebugPos="-39.681900 : 4.016780 : 69.636162" />
         <Material Path="c:/work/svn_bunker/redist/billboards/halo/star_simple_no_depth.mat" DebugPos="-39.681900 : 4.016862 : 69.634109" />
         <Material Path="candle_flame.mat" DebugPos="-39.682312 : 4.012898 : 69.636200" />
-        <Material Path="d:/projects-abp10/project_anubius/props/crate_fancy/engine/crate_fancy.mat" DebugPos="-39.929691 : 3.159095 : 71.329887" />
-        <Material Path="d:/projects-abp10/project_anubius/props/french_lamp_oil_wall_01/engine/french_lamp_oil_wall_01.mat" DebugPos="-73.429169 : 5.131633 : 74.500435" />
-        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_generic.mat" DebugPos="-59.756561 : 3.294000 : 88.538475" />
-        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_generic_square.mat" DebugPos="-52.308285 : 4.841785 : 45.107685" />
-        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_large_generic.mat" DebugPos="-56.283546 : 3.984980 : 86.509003" />
+        <Material Path="d:/projects-abp10/project_anubius/props/crate_fancy/engine/crate_fancy.mat" DebugPos="-53.179756 : 2.821854 : 71.155197" />
+        <Material Path="d:/projects-abp10/project_anubius/props/french_lamp_oil_wall_01/engine/french_lamp_oil_wall_01.mat" DebugPos="-63.645065 : 1.961713 : 94.984634" />
+        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_generic.mat" DebugPos="-60.407410 : 0.811306 : 102.290070" />
+        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_generic_square.mat" DebugPos="-60.566280 : 4.823561 : 45.939091" />
+        <Material Path="d:/svn repositories/bunker/redist/billboards/halo/lampglow_large_generic.mat" DebugPos="-64.490334 : 3.250001 : 84.958702" />
         <Material Path="d:/svn repositories/bunker/redist/billboards/special/billboard_blob_black.mat" DebugPos="-60.407871 : 0.811306 : 102.326683" />
         <Material Path="d:/work/bunker/redist/textures/liquid/water/waterplane_arsenal_pumproom.mat" DebugPos="-64.250000 : 0.288425 : 106.500000" />
         <Material Path="d:/work/frictional games/trunk/redist/billboards/halo/lampglow_cone02.mat" DebugPos="-63.433399 : 3.502270 : 69.930801" />
         <Material Path="d:/work/frictional games/trunk/redist/billboards/halo/lampglow_curie.mat" DebugPos="-64.029198 : 5.373890 : 70.780800" />
-        <Material Path="d:/work/svn_amnesia2/redist/billboards/halo/lampglow_cone01_hard_color.mat" DebugPos="-26.491982 : 4.152409 : 79.359329" />
-        <Material Path="d:/work/svn_amnesia2/redist/billboards/halo/lampglow_generic_no_depth.mat" DebugPos="-73.258209 : 4.941196 : 74.501564" />
+        <Material Path="d:/work/svn_amnesia2/redist/billboards/halo/lampglow_cone01_hard_color.mat" DebugPos="-73.248672 : 4.101318 : 74.508690" />
+        <Material Path="d:/work/svn_amnesia2/redist/billboards/halo/lampglow_generic_no_depth.mat" DebugPos="-26.484858 : 4.992287 : 79.349792" />
         <Material Path="detail_meshes/bunker_rocks/bunker_rocks.mat" DebugPos="DetailMesh" />
-        <Material Path="e:/projects-abp13_backup/project_anubis/arsenal_wall_locker/dds/arsenal_wall_locker.mat" DebugPos="-41.209576 : 4.348292 : 67.831108" />
+        <Material Path="e:/projects-abp13_backup/project_anubis/arsenal_wall_locker/dds/arsenal_wall_locker.mat" DebugPos="-41.367382 : 4.405377 : 68.022682" />
         <Material Path="e:/projects-abp13_backup/project_anubis/crate_empty/crate_empty/storage/crate_empty/crate_empty.mat" DebugPos="-40.389511 : 2.598772 : 96.465599" />
-        <Material Path="entities/_temp/marc/tattered_cloth_rag/tattered_cloth_rag_roots_white_static.mat" DebugPos="-61.075680 : 2.031448 : 91.824455" />
+        <Material Path="entities/_temp/marc/tattered_cloth_rag/tattered_cloth_rag_roots_white_static.mat" DebugPos="-60.792461 : 1.304004 : 102.572243" />
         <Material Path="entities/arabic_fort/debris/barbed_wire/barbed_wire.mat" DebugPos="-30.180880 : 3.875270 : 88.151611" />
         <Material Path="entities/arabic_fort/rope/ab_interior_tileable_rope_01.mat" DebugPos="-62.497990 : 5.075313 : 76.552460" />
-        <Material Path="entities/archaeology/furniture/deskplate_02/deskplate_02.mat" DebugPos="-36.277199 : 2.046980 : 73.011002" />
+        <Material Path="entities/archaeology/furniture/deskplate_02/deskplate_02.mat" DebugPos="-38.308601 : 2.692440 : 77.222397" />
         <Material Path="entities/archaeology/furniture/table_homemade_01/table_homemade_01.mat" DebugPos="-73.722534 : 3.925499 : 74.517471" />
-        <Material Path="entities/bunker/debris/wooden_wall_pieces/french_gate02.mat" DebugPos="-65.950203 : 0.055483 : 93.591499" />
-        <Material Path="entities/bunker/doors/metal_door/metal_door.mat" DebugPos="-36.937626 : 3.925912 : 72.160950" />
-        <Material Path="entities/bunker/furniture/locker_metal/locker_metal.mat" DebugPos="-53.494610 : 3.343521 : 93.184227" />
-        <Material Path="entities/bunker/furniture/shelf_metal.mat" DebugPos="-48.151791 : 3.875000 : 122.494141" />
-        <Material Path="entities/bunker/furniture/shelf_metal_small/shelf_metal_small.mat" DebugPos="-46.967339 : 3.534835 : 111.563110" />
+        <Material Path="entities/bunker/debris/wooden_wall_pieces/french_gate02.mat" DebugPos="-64.265800 : 0.055483 : 93.002502" />
+        <Material Path="entities/bunker/doors/metal_door/metal_door.mat" DebugPos="-47.057964 : 2.382370 : 81.149345" />
+        <Material Path="entities/bunker/furniture/locker_metal/locker_metal.mat" DebugPos="-53.227676 : 3.343520 : 92.922997" />
+        <Material Path="entities/bunker/furniture/shelf_metal.mat" DebugPos="-50.062592 : 3.125000 : 122.494141" />
+        <Material Path="entities/bunker/furniture/shelf_metal_small/shelf_metal_small.mat" DebugPos="-51.220299 : 3.481190 : 77.389313" />
         <Material Path="entities/bunker/furniture/table_metal/table_metal.mat" DebugPos="-39.744987 : 3.218302 : 70.163864" />
-        <Material Path="entities/bunker/gameplay/ammo_shotgun/ammo_shotgun.mat" DebugPos="-38.404217 : 3.779885 : 77.194412" />
-        <Material Path="entities/bunker/gameplay/combination_lock/combination_lock.mat" DebugPos="-47.523857 : 3.838920 : 79.259567" />
+        <Material Path="entities/bunker/gameplay/ammo_shotgun/ammo_shotgun.mat" DebugPos="-59.667011 : 0.816749 : 85.052223" />
+        <Material Path="entities/bunker/gameplay/combination_lock/combination_lock.mat" DebugPos="-47.601860 : 3.838920 : 79.259567" />
         <Material Path="entities/bunker/gameplay/concrete_block/concrete_block.mat" DebugPos="-23.550365 : 2.761544 : 91.602364" />
         <Material Path="entities/bunker/gameplay/dogtag/dogtag.mat" DebugPos="-49.704441 : 2.281182 : 70.478004" />
         <Material Path="entities/bunker/gameplay/dogtag/dogtag_alphabet.mat" DebugPos="-49.705177 : 2.281450 : 70.477943" />
         <Material Path="entities/bunker/gameplay/dogtag/dogtag_string.mat" DebugPos="-46.985542 : 2.264704 : 106.912697" />
         <Material Path="entities/bunker/gameplay/dogtag/dogtag_string_shadow.mat" DebugPos="-46.983696 : 2.256688 : 106.920380" />
-        <Material Path="entities/bunker/gameplay/door_chain/chain_eyelet.mat" DebugPos="-50.060661 : 4.119996 : 122.500671" />
-        <Material Path="entities/bunker/gameplay/door_chain/door_chain.mat" DebugPos="-47.450920 : 2.289020 : 79.275612" />
-        <Material Path="entities/bunker/gameplay/electrical_parts/lq_radio_charger.mat" DebugPos="-60.410049 : 0.992715 : 102.301857" />
-        <Material Path="entities/bunker/gameplay/electrical_parts/lq_radio_charger_glass.mat" DebugPos="-60.034737 : 1.901075 : 87.208733" />
+        <Material Path="entities/bunker/gameplay/door_chain/chain_eyelet.mat" DebugPos="-64.428596 : 1.991976 : 86.972305" />
+        <Material Path="entities/bunker/gameplay/door_chain/door_chain.mat" DebugPos="-50.058464 : 4.130415 : 122.493073" />
+        <Material Path="entities/bunker/gameplay/electrical_parts/lq_radio_charger.mat" DebugPos="-60.026588 : 1.900293 : 87.206596" />
+        <Material Path="entities/bunker/gameplay/electrical_parts/lq_radio_charger_glass.mat" DebugPos="-60.408165 : 0.812183 : 102.290596" />
         <Material Path="entities/bunker/gameplay/flare/flare.mat" DebugPos="-70.079895 : 3.476980 : 69.409599" />
-        <Material Path="entities/bunker/gameplay/fuel_medium/fuel_medium.mat" DebugPos="-62.062195 : 3.212178 : 73.810699" />
-        <Material Path="entities/bunker/gameplay/gas_grenade/gas_grenade.mat" DebugPos="-40.258331 : 2.803906 : 96.623428" />
-        <Material Path="entities/bunker/gameplay/generator/handle_generator.mat" DebugPos="-59.950058 : 1.856324 : 87.045700" />
-        <Material Path="entities/bunker/gameplay/grenade/grenade.mat" DebugPos="-40.201248 : 2.804696 : 96.350250" />
+        <Material Path="entities/bunker/gameplay/fuel_medium/fuel_medium.mat" DebugPos="-66.039017 : 1.130281 : 94.730698" />
+        <Material Path="entities/bunker/gameplay/gas_grenade/gas_grenade.mat" DebugPos="-71.604370 : 3.197320 : 76.422920" />
+        <Material Path="entities/bunker/gameplay/generator/handle_generator.mat" DebugPos="-59.948357 : 1.968053 : 87.021950" />
+        <Material Path="entities/bunker/gameplay/grenade/grenade.mat" DebugPos="-53.258850 : 3.116126 : 92.629250" />
         <Material Path="entities/bunker/gameplay/lamp_hero/lamp_oil_hero.mat" DebugPos="-39.681900 : 4.079496 : 69.636200" />
         <Material Path="entities/bunker/gameplay/lamp_hero/lamp_oil_hero_glass.mat" DebugPos="-39.675098 : 4.017308 : 69.636200" />
         <Material Path="entities/bunker/gameplay/maps/map_bunker/map_bunker.mat" DebugPos="-73.686554 : 3.923409 : 74.556274" />
         <Material Path="entities/bunker/gameplay/maps/map_bunker/map_bunker_background.mat" DebugPos="-73.687202 : 3.945797 : 74.546219" />
         <Material Path="entities/bunker/gameplay/maps/map_bunker/map_bunker_objective_decal.mat" DebugPos="-73.681519 : 4.123030 : 74.676102" />
-        <Material Path="entities/bunker/gameplay/meat_chunks/meat_chunks.mat" DebugPos="-27.559948 : 2.908826 : 68.707199" />
+        <Material Path="entities/bunker/gameplay/meat_chunks/meat_chunks.mat" DebugPos="-27.654440 : 2.908826 : 68.984833" />
         <Material Path="entities/bunker/gameplay/medkit/medkit.mat" DebugPos="-25.239597 : 3.669499 : 70.959007" />
-        <Material Path="entities/bunker/gameplay/metal_door_lock/metal_door_lock_base.mat" DebugPos="-47.379692 : 3.875777 : 79.305023" />
+        <Material Path="entities/bunker/gameplay/metal_door_lock/metal_door_lock_base.mat" DebugPos="-47.359325 : 3.875850 : 79.305237" />
         <Material Path="entities/bunker/gameplay/metal_door_lock_hinge/metal_door_lock_hinge_small.mat" DebugPos="-47.576000 : 3.526180 : 79.215546" />
-        <Material Path="entities/bunker/gameplay/molotov_cocktail/molotov_wine_empty.mat" DebugPos="-72.057793 : 3.378755 : 76.101654" />
+        <Material Path="entities/bunker/gameplay/molotov_cocktail/molotov_wine_empty.mat" DebugPos="-32.571835 : 4.292749 : 69.297203" />
         <Material Path="entities/bunker/gameplay/notes/notes_base_01.mat" DebugPos="-59.971272 : 1.749671 : 87.414757" />
         <Material Path="entities/bunker/gameplay/notes/wrench_note.mat" DebugPos="-59.963696 : 1.795437 : 87.411087" />
         <Material Path="entities/bunker/gameplay/photos/inventory_photo_image_01.mat" DebugPos="-71.555199 : 3.598980 : 73.454697" />
-        <Material Path="entities/bunker/gameplay/pocket_bag/pocket_bag2.mat" DebugPos="-25.468342 : 2.477050 : 70.942192" />
+        <Material Path="entities/bunker/gameplay/pocket_bag/pocket_bag2.mat" DebugPos="-71.615440 : 3.325720 : 76.233490" />
         <Material Path="entities/bunker/gameplay/power_switch/power_switch_box.mat" DebugPos="-60.365910 : 0.832403 : 102.479721" />
         <Material Path="entities/bunker/gameplay/power_switch/power_switch_lever.mat" DebugPos="-60.542019 : 1.061383 : 102.330017" />
-        <Material Path="entities/bunker/gameplay/rag/molotov_rag.mat" DebugPos="-25.012079 : 2.504035 : 70.948074" />
-        <Material Path="entities/bunker/gameplay/torch_stick/torch_stick.mat" DebugPos="-49.132210 : 3.425011 : 84.742821" />
-        <Material Path="entities/bunker/gameplay/traps/grenade_of1.mat" DebugPos="-29.747896 : 2.741364 : 81.670151" />
-        <Material Path="entities/bunker/gameplay/traps/holder_main.mat" DebugPos="-26.196205 : 2.585758 : 89.256340" />
-        <Material Path="entities/bunker/gameplay/water_pump/water_pump.mat" DebugPos="-60.106087 : 2.154494 : 87.656265" />
+        <Material Path="entities/bunker/gameplay/rag/molotov_rag.mat" DebugPos="-72.511078 : 3.350015 : 76.100769" />
+        <Material Path="entities/bunker/gameplay/torch_stick/torch_stick.mat" DebugPos="-39.740505 : 3.332141 : 76.767273" />
+        <Material Path="entities/bunker/gameplay/traps/grenade_of1.mat" DebugPos="-50.469341 : 2.741364 : 113.489090" />
+        <Material Path="entities/bunker/gameplay/traps/holder_main.mat" DebugPos="-43.380737 : 2.585758 : 74.839897" />
+        <Material Path="entities/bunker/gameplay/water_pump/water_pump.mat" DebugPos="-59.916985 : 1.703915 : 88.190422" />
         <Material Path="entities/bunker/gameplay/water_pump/water_pump_band.mat" DebugPos="-59.983685 : 1.747222 : 88.105011" />
-        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall.mat" DebugPos="-61.283749 : 4.855402 : 52.857048" />
-        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall_filament.mat" DebugPos="-22.929211 : 4.000171 : 101.120453" />
-        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/fluorescent_lamp_long_glass.mat" DebugPos="-63.382687 : 1.811579 : 104.752289" />
+        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall.mat" DebugPos="-61.283749 : 4.855402 : 57.538048" />
+        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall_filament.mat" DebugPos="-73.593819 : 4.737295 : 74.504890" />
+        <Material Path="entities/bunker/lamp/bulkhead_lamp_wall/fluorescent_lamp_long_glass.mat" DebugPos="-56.303593 : 3.989534 : 110.496727" />
         <Material Path="entities/bunker/lamp/electrical_lamp_hanging/fluorescent_lamp_long.mat" DebugPos="-44.593277 : 5.824483 : 111.113174" />
-        <Material Path="entities/bunker/lamp/electrical_lamp_hanging/french_lamp_electrical_02.mat" DebugPos="-45.156178 : 5.711688 : 84.299347" />
-        <Material Path="entities/bunker/organic/cobwebs/cobwebs.mat" DebugPos="-45.194401 : 5.044300 : 78.016006" />
+        <Material Path="entities/bunker/lamp/electrical_lamp_hanging/french_lamp_electrical_02.mat" DebugPos="-27.768520 : 4.954938 : 69.132652" />
+        <Material Path="entities/bunker/organic/cobwebs/cobwebs.mat" DebugPos="-45.306599 : 5.069540 : 78.101601" />
         <Material Path="entities/bunker/organic/corpse_bits/andrew_erskin_corpse_head.mat" DebugPos="-47.372879 : 2.363915 : 107.036423" />
         <Material Path="entities/bunker/organic/corpse_bits/andrew_erskin_corpse_pants.mat" DebugPos="-47.372879 : 2.363915 : 107.036423" />
         <Material Path="entities/bunker/organic/corpse_bits/corpse_eaten.mat" DebugPos="-47.372879 : 2.363915 : 107.036423" />
         <Material Path="entities/bunker/organic/corpse_bits/player_body_soldier_03.mat" DebugPos="-47.372879 : 2.363915 : 107.036423" />
-        <Material Path="entities/bunker/organic/corpse_bits_burnt/corspe_burnt.mat" DebugPos="-47.411453 : 2.378931 : 106.990891" />
-        <Material Path="entities/bunker/ornaments/arsenal_netting/border_rope_tiling.mat" DebugPos="-33.667625 : 6.079864 : 80.810440" />
-        <Material Path="entities/bunker/ornaments/arsenal_netting/netting_rope_tiling.mat" DebugPos="-35.247295 : 6.010222 : 88.366234" />
-        <Material Path="entities/bunker/ornaments/corrugated_sheet_noheight.mat" DebugPos="-45.000000 : 5.966290 : 79.401428" />
-        <Material Path="entities/bunker/ornaments/sign_explosives/sign_explosives.mat" DebugPos="-41.062725 : 4.236380 : 73.624298" />
+        <Material Path="entities/bunker/organic/corpse_bits_burnt/corspe_burnt.mat" DebugPos="-50.562077 : 2.376477 : 70.252831" />
+        <Material Path="entities/bunker/ornaments/arsenal_netting/border_rope_tiling.mat" DebugPos="-38.113232 : 5.255847 : 94.989990" />
+        <Material Path="entities/bunker/ornaments/arsenal_netting/netting_rope_tiling.mat" DebugPos="-28.300003 : 5.304631 : 103.462944" />
+        <Material Path="entities/bunker/ornaments/corrugated_sheet_noheight.mat" DebugPos="-45.000000 : 3.528460 : 79.401428" />
+        <Material Path="entities/bunker/ornaments/sign_explosives/sign_explosives.mat" DebugPos="-41.044525 : 4.216860 : 70.873901" />
         <Material Path="entities/bunker/ornaments/sign_tunnels/sign_tunnels.mat" DebugPos="-62.457600 : 3.750000 : 77.984375" />
-        <Material Path="entities/bunker/ornaments/water_pump_hose/water_pump_hose.mat" DebugPos="-63.811546 : 0.013228 : 89.843040" />
+        <Material Path="entities/bunker/ornaments/water_pump_hose/water_pump_hose.mat" DebugPos="-58.325909 : 0.904213 : 83.989899" />
         <Material Path="entities/bunker/special/control_board_pplant/control_board_pplant.mat" DebugPos="-73.661606 : 4.091322 : 74.687393" />
-        <Material Path="entities/bunker/storage/chain_2d/chain_2d.mat" DebugPos="-51.110245 : 2.545762 : 76.083191" />
-        <Material Path="entities/bunker/storage/crate_reinforced_01/crate_reinforced_01.mat" DebugPos="-51.397091 : 2.611649 : 75.697670" />
+        <Material Path="entities/bunker/storage/chain_2d/chain_2d.mat" DebugPos="-62.077927 : 3.273454 : 71.926811" />
+        <Material Path="entities/bunker/storage/crate_reinforced_01/crate_reinforced_01.mat" DebugPos="-40.346497 : 3.491137 : 85.233452" />
         <Material Path="entities/bunker/storage/crate_reinforced_02/crate_reinforced_02.mat" DebugPos="-52.487991 : 5.043334 : 95.178963" />
-        <Material Path="entities/bunker/storage/crate_simple_02/crate_simple_02.mat" DebugPos="-23.622002 : 2.700064 : 83.526001" />
-        <Material Path="entities/bunker/storage/lockbox/lockbox.mat" DebugPos="-59.743801 : 1.004958 : 85.073540" />
-        <Material Path="entities/bunker/storage/shelf_wood/shelf_wood.mat" DebugPos="-35.800030 : 3.604234 : 108.775528" />
+        <Material Path="entities/bunker/storage/crate_simple_02/crate_simple_02.mat" DebugPos="-66.489098 : -0.195752 : 94.981201" />
+        <Material Path="entities/bunker/storage/lockbox/lockbox.mat" DebugPos="-55.186749 : 2.983882 : 86.029152" />
+        <Material Path="entities/bunker/storage/shelf_wood/shelf_wood.mat" DebugPos="-50.460735 : 3.604234 : 96.725189" />
         <Material Path="entities/bunker/tools/padlock/padlock.mat" DebugPos="-64.182571 : 1.804349 : 86.916786" />
-        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock01.mat" DebugPos="-59.238735 : 5.248702 : 73.099861" />
-        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock02.mat" DebugPos="-61.538162 : 2.334506 : 92.240479" />
-        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock03.mat" DebugPos="-59.167641 : 5.103354 : 73.361282" />
-        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock04.mat" DebugPos="-41.936741 : 5.445383 : 89.699478" />
+        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock01.mat" DebugPos="-45.154911 : 5.268607 : 109.856575" />
+        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock02.mat" DebugPos="-23.923126 : 5.135508 : 102.475624" />
+        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock03.mat" DebugPos="-61.031219 : 4.918234 : 72.885277" />
+        <Material Path="entities/cave/debris/scatter_rocks/scatter_rock04.mat" DebugPos="-65.682610 : 2.388639 : 99.840034" />
         <Material Path="entities/cave/gameplay/note_caves/note_caves_01.mat" DebugPos="-72.242897 : 3.172100 : 76.445198" />
         <Material Path="entities/cave/special/bridge_plank/bridge_plank_01.mat" DebugPos="-38.864071 : 5.170786 : 106.292084" />
-        <Material Path="entities/character/monster_rat/monster_rat.mat" DebugPos="-46.375000 : 2.389894 : 105.169098" />
-        <Material Path="entities/character/stalker/stalker_body/monster_body.mat" DebugPos="-46.905334 : 2.268490 : 107.382530" />
+        <Material Path="entities/character/monster_rat/monster_rat.mat" DebugPos="-45.875000 : 2.389894 : 105.169098" />
+        <Material Path="entities/character/stalker/stalker_body/monster_body.mat" DebugPos="-50.148384 : 2.268490 : 69.912399" />
         <Material Path="entities/character/stalker/stalker_body/monster_head.mat" DebugPos="-45.468536 : 3.478749 : 71.204269" />
-        <Material Path="entities/cistern/ornaments/french_trash_01/french_trash_01.mat" DebugPos="-45.135292 : 2.459468 : 105.244873" />
-        <Material Path="entities/cistern/ornaments/french_trash_02/french_trash_02.mat" DebugPos="-28.423021 : 2.340113 : 79.236214" />
-        <Material Path="entities/courtyard/gameplay/tank_shell/tank_shell.mat" DebugPos="-25.216299 : 2.312830 : 100.806000" />
+        <Material Path="entities/cistern/ornaments/french_trash_01/french_trash_01.mat" DebugPos="-55.676888 : 2.408668 : 85.489571" />
+        <Material Path="entities/cistern/ornaments/french_trash_02/french_trash_02.mat" DebugPos="-43.559448 : 2.336928 : 69.464264" />
+        <Material Path="entities/courtyard/gameplay/tank_shell/tank_shell.mat" DebugPos="-45.191399 : 2.312830 : 92.474197" />
         <Material Path="entities/french_colonization/barricades/french_guard_booth/french_guard_booth.mat" DebugPos="-63.855900 : -0.279251 : 112.461998" />
-        <Material Path="entities/french_colonization/furniture/french_chair_messhall/french_chair_messhall.mat" DebugPos="-72.360054 : 3.431608 : 77.567131" />
+        <Material Path="entities/french_colonization/furniture/french_chair_messhall/french_chair_messhall.mat" DebugPos="-72.000061 : 2.648985 : 77.277069" />
         <Material Path="entities/french_colonization/furniture/french_desk_wooden/french_desk_wooden.mat" DebugPos="-71.601212 : 3.214818 : 76.412605" />
-        <Material Path="entities/french_colonization/furniture/french_table_messhall/french_table_messhall_nocanvas.mat" DebugPos="-45.732040 : 2.689529 : 112.032837" />
+        <Material Path="entities/french_colonization/furniture/french_table_messhall/french_table_messhall_nocanvas.mat" DebugPos="-34.310730 : 2.689529 : 87.026001" />
         <Material Path="entities/french_colonization/furniture/graveyard_woodencross_02/graveyard_woodencross_02.mat" DebugPos="-73.853340 : 4.035670 : 75.794670" />
         <Material Path="entities/french_colonization/ornaments/documents_pile/documents_pile.mat" DebugPos="-47.136677 : 2.260562 : 106.809425" />
         <Material Path="entities/french_colonization/ornaments/flowerpot_dried_leaves/dried_leaves.mat" DebugPos="-71.726913 : 3.854508 : 73.384979" />
         <Material Path="entities/french_colonization/ornaments/flowerpot_dried_leaves/flowerpot_dried_leaves.mat" DebugPos="-71.755051 : 3.758332 : 73.351799" />
-        <Material Path="entities/french_colonization/ornaments/french_blanket_bed/french_blanket_bed.mat" DebugPos="-51.212929 : 3.479324 : 83.445900" />
+        <Material Path="entities/french_colonization/ornaments/french_blanket_bed/french_blanket_bed.mat" DebugPos="-46.698700 : 3.480570 : 109.872780" />
         <Material Path="entities/french_colonization/ornaments/french_military_helm/french_military_helm.mat" DebugPos="-45.808960 : 2.380129 : 69.766716" />
-        <Material Path="entities/french_colonization/ornaments/french_telegraph_equipment/french_telegraph_cables/french_telegraph_cables.mat" DebugPos="-61.094482 : 2.114853 : 92.360634" />
-        <Material Path="entities/french_colonization/prison/prison_bars_door/prison_bars_door.mat" DebugPos="-51.111443 : 3.649680 : 86.681458" />
-        <Material Path="entities/french_colonization/storage/barrel_fuel/barrel_fuel.mat" DebugPos="-62.059601 : 1.236465 : 86.072304" />
+        <Material Path="entities/french_colonization/ornaments/french_telegraph_equipment/french_telegraph_cables/french_telegraph_cables.mat" DebugPos="-60.684158 : 1.854733 : 89.341621" />
+        <Material Path="entities/french_colonization/prison/prison_bars_door/prison_bars_door.mat" DebugPos="-63.542953 : 2.146780 : 87.042564" />
+        <Material Path="entities/french_colonization/storage/barrel_fuel/barrel_fuel.mat" DebugPos="-59.055698 : 1.236465 : 88.527298" />
         <Material Path="entities/french_colonization/storage/box_workshop_gears/box_workshop_gears_red.mat" DebugPos="-50.193401 : 3.203268 : 122.469574" />
         <Material Path="entities/french_colonization/storage/cheap_bowl/cheap_bowl.mat" DebugPos="-71.478310 : 3.640469 : 73.164040" />
-        <Material Path="entities/french_colonization/storage/crate_military_exupery/crate_military_exupery.mat" DebugPos="-59.001400 : 1.947742 : 88.095100" />
+        <Material Path="entities/french_colonization/storage/crate_military_exupery/crate_military_exupery.mat" DebugPos="-60.199501 : 0.211080 : 91.767700" />
         <Material Path="entities/french_colonization/storage/storage_barrel_modern/storage_barrel_modern.mat" DebugPos="-28.495293 : 3.857107 : 87.472000" />
-        <Material Path="entities/french_colonization/storage/storage_barrel_modern_explosive/storage_barrel_modern_explosive.mat" DebugPos="-30.763668 : 2.811997 : 100.806458" />
-        <Material Path="entities/french_colonization/storage/storage_box_reserves_modern/storage_box_reserves_modern.mat" DebugPos="-40.186073 : 3.178252 : 96.304497" />
+        <Material Path="entities/french_colonization/storage/storage_barrel_modern_explosive/storage_barrel_modern_explosive.mat" DebugPos="-28.287167 : 2.845037 : 107.232452" />
+        <Material Path="entities/french_colonization/storage/storage_box_reserves_modern/storage_box_reserves_modern.mat" DebugPos="-41.525219 : 2.701481 : 85.497086" />
         <Material Path="entities/french_colonization/tools/french_screwdriver/french_screwdriver.mat" DebugPos="-73.663925 : 4.304405 : 75.021080" />
         <Material Path="entities/french_colonization/tools/french_wooden_bucket/french_wooden_bucket.mat" DebugPos="-73.407379 : 2.618754 : 73.431244" />
-        <Material Path="entities/french_colonization/tools/workshop_pleirs_03/workshop_pliers_03.mat" DebugPos="-50.502220 : 3.249406 : 122.526634" />
-        <Material Path="entities/nonexclusive/creatures/rat/rat_corpse.mat" DebugPos="-51.166004 : 2.327338 : 69.708549" />
-        <Material Path="entities/nonexclusive/debris/hook_chain/chain.mat" DebugPos="-51.383789 : 4.967840 : 38.381355" />
+        <Material Path="entities/french_colonization/tools/workshop_pleirs_03/workshop_pliers_03.mat" DebugPos="-50.498268 : 3.247834 : 122.530273" />
+        <Material Path="entities/nonexclusive/creatures/rat/rat_corpse.mat" DebugPos="-49.405289 : 2.329207 : 69.996010" />
+        <Material Path="entities/nonexclusive/debris/hook_chain/chain.mat" DebugPos="-51.466873 : 3.968517 : 83.395477" />
         <Material Path="entities/nonexclusive/debris/tattered_cloth_rag/tattered_cloth_rag_roots_white.mat" DebugPos="-61.075676 : 2.031448 : 91.824448" />
-        <Material Path="entities/nonexclusive/organic/gibs/brain_chunk_xx/brain_chunk_xx.mat" DebugPos="-45.067402 : 2.258850 : 68.557701" />
-        <Material Path="entities/nonexclusive/organic/moss_floating/moss_float_sway.mat" DebugPos="-63.215801 : 0.307503 : 96.776497" />
+        <Material Path="entities/nonexclusive/organic/gibs/brain_chunk_xx/brain_chunk_xx.mat" DebugPos="-45.563099 : 2.267490 : 69.936203" />
+        <Material Path="entities/nonexclusive/organic/moss_floating/moss_float_sway.mat" DebugPos="-62.723801 : 0.307503 : 110.127998" />
         <Material Path="entities/nonexclusive/organic/water/stream/special_cistern_stream.mat" DebugPos="-64.911865 : -1.801377 : 97.779755" />
-        <Material Path="entities/nonexclusive/storage/crate_wooden/crate_wooden.mat" DebugPos="-41.236530 : 3.013520 : 76.597939" />
+        <Material Path="entities/nonexclusive/storage/crate_wooden/crate_wooden.mat" DebugPos="-41.225716 : 3.300699 : 76.600990" />
         <Material Path="entities/paris_ending/park_rubble/park_rubble.mat" DebugPos="-45.309395 : 2.330359 : 106.058670" />
         <Material Path="entities/survivors/tech/bandages/bandages.mat" DebugPos="-24.685081 : 3.110735 : 71.090477" />
-        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="-34.471901 : 2.951720 : 76.035698" />
-        <Material Path="entities/tin_hinan/organic/tth_scum/tth_scum_moss.mat" DebugPos="-62.686859 : 1.465911 : 87.161797" />
-        <Material Path="mods/official_the_bunker/assets/entities/bunker/doors/wooden_door/wooden_door_bars.mat" DebugPos="-28.517708 : 4.093720 : 71.105110" />
+        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="-60.182400 : 4.931740 : 73.023300" />
+        <Material Path="entities/tin_hinan/organic/tth_scum/tth_scum_moss.mat" DebugPos="-62.594570 : 1.935210 : 87.179283" />
+        <Material Path="mods/official_the_bunker/assets/entities/bunker/doors/wooden_door/wooden_door_bars.mat" DebugPos="-68.776268 : 4.086000 : 74.507988" />
         <Material Path="mods/official_the_bunker/assets/entities/bunker/doors/wooden_door/wooden_door_rickety.mat" DebugPos="-68.752930 : 3.515075 : 73.780670" />
         <Material Path="mods/official_the_bunker/assets/static_objects/bunker/bunker_floor/muddy_floor_projected.mat" DebugPos="-58.233284 : 2.681546 : 50.497211" />
         <Material Path="mods/official_the_bunker/assets/static_objects/bunker/pipes/rusty_pipes.mat" DebugPos="-46.864059 : 3.327351 : 100.576614" />
-        <Material Path="particles/dust/materials/dust_cloud.mat" DebugPos="-43.750000 : 3.750000 : 89.000000" />
-        <Material Path="particles/dust/materials/dust_light_tiny.mat" DebugPos="-56.007133 : 3.984980 : 86.509003" />
-        <Material Path="particles/smoke/materials/fog_ambient_medium.mat" DebugPos="-48.589500 : 1.968470 : 69.943604" />
-        <Material Path="particles/water/materials/water_ripples.mat" DebugPos="-60.589199 : 0.321896 : 91.688698" />
-        <Material Path="props_batch_06/french_colonization/military_wooden_crate_asset/storage/military_wooden_crate/military_wooden_crate.mat" DebugPos="-48.734024 : 3.159882 : 78.345634" />
+        <Material Path="particles/dust/materials/dust_cloud.mat" DebugPos="-48.234798 : 3.955920 : 69.738800" />
+        <Material Path="particles/dust/materials/dust_light_tiny.mat" DebugPos="-54.943501 : 4.792530 : 47.038898" />
+        <Material Path="particles/smoke/materials/fog_ambient_medium.mat" DebugPos="-50.507702 : 2.135180 : 70.102402" />
+        <Material Path="particles/water/materials/water_ripples.mat" DebugPos="-60.242599 : 0.321895 : 92.652901" />
+        <Material Path="props_batch_06/french_colonization/military_wooden_crate_asset/storage/military_wooden_crate/military_wooden_crate.mat" DebugPos="-36.128105 : 3.098341 : 69.526535" />
         <Material Path="static_objects/arabic_fort/interior/ab_interior_pillar_supportbeam.mat" DebugPos="-26.436211 : 3.770270 : 86.581131" />
         <Material Path="static_objects/arabic_fort/interior/ceiling/ab_interior_ceiling_girder_system_01.mat" DebugPos="-60.684761 : 5.901192 : 71.937500" />
-        <Material Path="static_objects/arabic_fort/nonexclusive/sand_piles/ab_sand_piles_alpha_02.mat" DebugPos="-29.773449 : 2.361579 : 97.570000" />
+        <Material Path="static_objects/arabic_fort/interior/special/makeshift_tunnel_wood.mat" DebugPos="-63.084259 : 1.511350 : 131.164993" />
+        <Material Path="static_objects/arabic_fort/nonexclusive/sand_piles/ab_sand_piles_alpha_02.mat" DebugPos="-34.907101 : 2.361579 : 97.660004" />
         <Material Path="static_objects/archaeology/scaffolding/scaffolding_broken.mat" DebugPos="-63.398987 : 0.513432 : 104.161156" />
         <Material Path="static_objects/bunker/bunker_floor/floor_metal_plate/floor_metal_plate.mat" DebugPos="-60.875000 : 5.190350 : 79.582901" />
         <Material Path="static_objects/bunker/bunker_walls/bunker_wall_damaged_tileable_01.mat" DebugPos="-62.869678 : 3.651618 : 79.465439" />
-        <Material Path="static_objects/bunker/bunker_walls/bunker_wall_decorative/barricade_4_less_soot.mat" DebugPos="-28.513210 : 3.579045 : 70.907280" />
+        <Material Path="static_objects/bunker/bunker_walls/bunker_wall_decorative/barricade_4_less_soot.mat" DebugPos="-68.736794 : 3.571325 : 74.705818" />
         <Material Path="static_objects/bunker/bunker_walls/bunker_wall_decorative/bunker_wall_decorative.mat" DebugPos="-71.750000 : 2.911135 : 73.375000" />
         <Material Path="static_objects/bunker/bunker_walls/bunker_wall_tileable_01.mat" DebugPos="-60.437500 : 5.749770 : 67.998001" />
-        <Material Path="static_objects/bunker/bunker_walls/bunker_walls_carved/carved_rock_jagged/carved_rock_jagged.mat" DebugPos="-62.955444 : 5.809013 : 65.789017" />
+        <Material Path="static_objects/bunker/bunker_walls/bunker_walls_carved/bunker_wall_carved_tileable.mat" DebugPos="-57.624996 : 4.191180 : 50.125000" />
+        <Material Path="static_objects/bunker/bunker_walls/bunker_walls_carved/carved_rock_jagged/carved_rock_jagged.mat" DebugPos="-46.681091 : 8.491661 : 83.636421" />
         <Material Path="static_objects/bunker/bunker_walls/concrete_damage_edge.mat" DebugPos="-60.437943 : 2.503336 : 67.999580" />
-        <Material Path="static_objects/bunker/bunker_walls/concrete_floor_01.mat" DebugPos="-45.250000 : 2.249500 : 68.029251" />
+        <Material Path="static_objects/bunker/bunker_walls/concrete_floor_01.mat" DebugPos="-63.125000 : 2.249270 : 66.810501" />
         <Material Path="static_objects/bunker/bunker_walls/concrete_wall_damage_patch_01.mat" DebugPos="-45.249931 : 2.231454 : 67.868126" />
-        <Material Path="static_objects/bunker/bunker_walls/decal_grunge_04.mat" DebugPos="-27.230326 : 3.796952 : 106.627052" />
-        <Material Path="static_objects/bunker/bunker_walls/sand_ash_edge.mat" DebugPos="-61.783501 : 2.252500 : 71.441498" />
-        <Material Path="static_objects/bunker/bunker_walls/scaffolding.mat" DebugPos="-60.250000 : 3.749770 : 67.638565" />
-        <Material Path="static_objects/bunker/bunker_walls/scratches.mat" DebugPos="-55.114510 : 2.900660 : 122.224533" />
+        <Material Path="static_objects/bunker/bunker_walls/decal_grunge_04.mat" DebugPos="-58.500000 : 1.547067 : 95.359375" />
+        <Material Path="static_objects/bunker/bunker_walls/sand_ash_edge.mat" DebugPos="-56.280998 : 2.258500 : 92.326500" />
+        <Material Path="static_objects/bunker/bunker_walls/scaffolding.mat" DebugPos="-44.503536 : 3.591996 : 70.194901" />
+        <Material Path="static_objects/bunker/bunker_walls/scratches.mat" DebugPos="-45.709999 : 2.801500 : 67.380501" />
         <Material Path="static_objects/bunker/bunker_walls/stairs_concrete.mat" DebugPos="-60.874485 : 1.490753 : 81.485535" />
         <Material Path="static_objects/bunker/bunker_walls/wooden_reinforced/french_gate.mat" DebugPos="-30.486073 : 2.885340 : 87.970711" />
-        <Material Path="static_objects/bunker/concrete_damaged/concrete_wall_damaged_01/concrete_wall_damaged_01.mat" DebugPos="-42.133133 : 3.244922 : 71.720383" />
-        <Material Path="static_objects/bunker/debris/concrete_debris/concrete_debris.mat" DebugPos="-62.906158 : 2.330171 : 65.736198" />
-        <Material Path="static_objects/bunker/debris/concrete_dust_debris/concrete_dust_debris.mat" DebugPos="-55.085190 : 2.370372 : 76.383652" />
-        <Material Path="static_objects/bunker/debris/concrete_dust_debris/concrete_dust_debris_solid.mat" DebugPos="-72.193130 : 2.290418 : 77.867111" />
+        <Material Path="static_objects/bunker/concrete_damaged/concrete_wall_damaged_01/concrete_wall_damaged_01.mat" DebugPos="-57.375511 : 4.307990 : 71.128876" />
+        <Material Path="static_objects/bunker/debris/concrete_debris/concrete_debris.mat" DebugPos="-59.034065 : 4.084799 : 69.665909" />
+        <Material Path="static_objects/bunker/debris/concrete_dust_debris/concrete_dust_debris.mat" DebugPos="-60.520462 : 2.348618 : 71.972023" />
+        <Material Path="static_objects/bunker/debris/concrete_dust_debris/concrete_dust_debris_solid.mat" DebugPos="-60.534035 : 2.338319 : 71.970306" />
         <Material Path="static_objects/bunker/floor_brick_trim/floor_brick_trim.mat" DebugPos="-68.818001 : 2.260000 : 74.503998" />
-        <Material Path="static_objects/bunker/sandbag_barrier/sandbag_barrier/sandbag_single.mat" DebugPos="-50.365448 : 2.770225 : 37.481171" />
+        <Material Path="static_objects/bunker/log_tunnel/wall_woodweave.mat" DebugPos="-57.624992 : 3.998595 : 50.125000" />
+        <Material Path="static_objects/bunker/sandbag_barrier/sandbag_barrier/sandbag_single.mat" DebugPos="-44.406151 : 2.477955 : 101.381676" />
         <Material Path="static_objects/bunker/sandbag_barrier/sandbag_barrier_tileable/sandbag_barrier_straight.mat" DebugPos="-49.208614 : 2.888669 : 119.858482" />
         <Material Path="static_objects/bunker/sandbag_barrier/sandbag_barrier_tileable/sandbag_barrier_tileable.mat" DebugPos="-49.171227 : 2.749770 : 119.895874" />
-        <Material Path="static_objects/bunker/tunnel_reinforced/bunker_wall_carved_tileable.mat" DebugPos="-57.624996 : 4.191180 : 50.125000" />
-        <Material Path="static_objects/bunker/tunnel_reinforced/wall_woodweave.mat" DebugPos="-57.624992 : 3.998595 : 50.125000" />
-        <Material Path="static_objects/bunker/wall_support/hydraulic_wall_brace/metal_girders.mat" DebugPos="-38.875000 : 3.562426 : 103.002998" />
-        <Material Path="static_objects/bunker/wall_support/iron_beams/iron_beams_red.mat" DebugPos="-35.779053 : 3.958121 : 71.305725" />
-        <Material Path="static_objects/cistern/arabic_fort_cistern/arabic_fort_cistern_blocks.mat" DebugPos="-62.516598 : 2.132309 : 85.935455" />
-        <Material Path="static_objects/french_colonization/prison/prison_bars_wall/prison_bars_wall.mat" DebugPos="-42.072964 : 3.852092 : 68.988708" />
-        <Material Path="static_objects/french_colonization/prison/prison_support_beam/prison_support_beam.mat" DebugPos="-29.440643 : 2.071535 : 106.973969" />
-        <Material Path="static_objects/french_colonization/prison/prison_support_simple/prison_support_simple.mat" DebugPos="-38.948502 : 5.384980 : 82.527924" />
+        <Material Path="static_objects/bunker/scaffolding/metal_girders.mat" DebugPos="-57.624992 : 4.055381 : 49.687988" />
+        <Material Path="static_objects/bunker/wall_support/iron_beams/iron_beams_red.mat" DebugPos="-34.499718 : 3.924552 : 76.958633" />
+        <Material Path="static_objects/cistern/arabic_fort_cistern/arabic_fort_cistern_blocks.mat" DebugPos="-58.588001 : 2.250000 : 85.914703" />
+        <Material Path="static_objects/cistern/railing/prison_bars_wall.mat" DebugPos="-42.072964 : 3.852092 : 68.988708" />
+        <Material Path="static_objects/french_colonization/prison/prison_support_beam/prison_support_beam.mat" DebugPos="-29.440643 : 2.071535 : 95.813530" />
+        <Material Path="static_objects/french_colonization/prison/prison_support_simple/prison_support_simple.mat" DebugPos="-38.948502 : 5.384980 : 103.666374" />
         <Material Path="static_objects/paris_ending/floor/shed_floor.mat" DebugPos="-71.375000 : 2.251030 : 75.500000" />
         <Material Path="static_objects/roman/makeshift_tunnel/makeshift_tunnel.mat" DebugPos="-62.639629 : 3.228559 : 79.473373" />
-        <Material Path="static_objects/roman/makeshift_tunnel/makeshift_tunnel_wood.mat" DebugPos="-63.472427 : 0.976440 : 112.023468" />
         <Material Path="static_objects/technical/block_out_tools/block_temp.mat" DebugPos="-65.164497 : 2.249770 : 76.591400" />
         <Material Path="textures/decals/bunker/concrete_damage_patch_01/concrete_damage_patch_01.mat" DebugPos="-56.493500 : 3.837000 : 71.394501" />
         <Material Path="textures/decals/bunker/concrete_damage_patch_02/concrete_damage_patch_02.mat" DebugPos="-62.604500 : 2.154000 : 87.042000" />
@@ -203,13 +203,13 @@
         <Material Path="textures/decals/bunker/debris_rocks/debris_rock_medium_decal01_04.mat" DebugPos="-53.287498 : 2.500500 : 42.991001" />
         <Material Path="textures/decals/bunker/debris_rocks/debris_rock_medium_decal05_08.mat" DebugPos="-62.454498 : 2.259000 : 65.608002" />
         <Material Path="textures/decals/bunker/debris_rocks/debris_rock_small_decal01_04.mat" DebugPos="-61.752502 : 2.259000 : 66.304504" />
-        <Material Path="textures/decals/bunker/fuel_splash/fuel_splash_decal.mat" DebugPos="-52.401798 : 2.277730 : 73.513298" />
+        <Material Path="textures/decals/bunker/fuel_splash/fuel_splash_decal.mat" DebugPos="-26.153500 : 2.249770 : 89.790199" />
         <Material Path="textures/decals/debris/trash_generic/trash_generic_04.mat" DebugPos="-66.387001 : 2.258500 : 76.138000" />
-        <Material Path="textures/decals/desert/small_rocks/small_rocks.mat" DebugPos="-29.957001 : 2.258500 : 97.506500" />
+        <Material Path="textures/decals/desert/small_rocks/small_rocks.mat" DebugPos="-35.795502 : 2.258500 : 97.621002" />
         <Material Path="textures/decals/grunge/decal_dirt_01.mat" DebugPos="-49.946503 : 2.258500 : 70.344498" />
         <Material Path="textures/decals/grunge/decal_grunge_01.mat" DebugPos="-45.250000 : 3.199500 : 67.214500" />
-        <Material Path="textures/decals/grunge/decal_grunge_03.mat" DebugPos="-64.419998 : 0.881000 : 94.771500" />
-        <Material Path="textures/decals/grunge/decal_leaks_01.mat" DebugPos="-68.102501 : -0.095000 : 97.773499" />
+        <Material Path="textures/decals/grunge/decal_grunge_03.mat" DebugPos="-61.624001 : 0.583000 : 88.956497" />
+        <Material Path="textures/decals/grunge/decal_leaks_01.mat" DebugPos="-66.186005 : -0.095000 : 92.499496" />
         <Material Path="textures/decals/nonexclusive/blob_shadow.mat" DebugPos="-49.904999 : 2.258500 : 70.049500" />
         <Material Path="textures/decals/organic/blood/blood_splatter.mat" DebugPos="-45.546501 : 2.284500 : 69.164001" />
         <Material Path="textures/decals/organic/blood/blood_splatter_light.mat" DebugPos="-47.007000 : 2.259500 : 107.492996" />
@@ -429,8 +429,9 @@
     </Materials>
     <EntFiles>
         <EntFile Path="mods/chaosmode_enhanced/entities/cave/gameplay/note_caves/note_caves_01.ent" DebugPos="Script" />
+        <EntFile Path="entities/bunker/gameplay/notes/note_wrench.ent" DebugPos="Script" />
         <EntFile Path="c:/frictional/bunker/redist/entities/bunker/tools/padlock/padlock_broken.ent" DebugPos="Script" />
-        <EntFile Path="padlock_cut.ent" DebugPos="Script" />
+        <EntFile Path="entities/bunker/tools/padlock/padlock_cut.ent" DebugPos="Script" />
         <EntFile Path="d:/svn repositories/bunker/redist/entities/french_colonization/lamp/french_lamp_electrical/french_lamp_electrical_broken.ent" DebugPos="Script" />
         <EntFile Path="c:/work/svn_bunker/redist/entities/bunker/lamp/bulkhead_lamp_wall/bulkhead_lamp_wall_broken.ent" DebugPos="Script" />
         <EntFile Path="d:/bunker/redist/entities/bunker/storage/shelf_wood/shelf_wood_broken.ent" DebugPos="Script" />
@@ -443,7 +444,7 @@
         <EntFile Path="entities/bunker/gameplay/photos/inventory_photo_image_01.ent" DebugPos="Script" />
         <EntFile Path="c:/frictional/bunker/redist/entities/bunker/doors/wooden_door/wooden_door_broken.ent" DebugPos="Script" />
         <EntFile Path="french_desk_wooden_broken.ent" DebugPos="Script" />
-        <EntFile Path="c:/frictional/bunker/redist/entities/french_colonization/furniture/french_table_messhall_destroyed/french_table_messhall_destroyed.ent" DebugPos="Script" />
+        <EntFile Path="entities/french_colonization/furniture/french_table_messhall_destroyed/french_table_messhall_destroyed.ent" DebugPos="Script" />
         <EntFile Path="doll_rabbit_cutscene.ent" DebugPos="Script" />
         <EntFile Path="c:/_job/frictional/the_bunker/game/redist/entities/french_colonization/storage/storage_barrel_modern_explosive/storage_barrel_modern_broken_explosive.ent" DebugPos="Script" />
         <EntFile Path="c:/frictional/bunker/redist/entities/bunker/lamp/electrical_lamp_hanging/electrical_lamp_hanging_short_broken.ent" DebugPos="Script" />
@@ -463,7 +464,6 @@
         <EntFile Path="holder_grenade_wire.ent" DebugPos="Script" />
         <EntFile Path="holder_gas_wire.ent" DebugPos="Script" />
         <EntFile Path="molotov_cocktail_fire_effects.ent" DebugPos="Script" />
-        <EntFile Path="entities/bunker/gameplay/notes/note_wrench.ent" DebugPos="Script" />
         <EntFile Path="player_bunker.ent" DebugPos="Script" />
         <EntFile Path="blood_trail.ent" DebugPos="Script" />
         <EntFile Path="medkit_cutscene.ent" DebugPos="Script" />
@@ -530,7 +530,7 @@
         <EntFile Path="bullet_hole.ent" DebugPos="Script" />
     </EntFiles>
     <ParticleSystems>
-        <ParticleSystem Path="c:/frictional/bunker/redist/particles/fire/sparks_smaller.ps" DebugPos="Script" />
+        <ParticleSystem Path="sparks_smaller.ps" DebugPos="Script" />
         <ParticleSystem Path="ps_impact_rock_high.ps" DebugPos="Script" />
         <ParticleSystem Path="c:/frictional/bunker/redist/particles/dust/dust_impact_med_oneshot.ps" DebugPos="Script" />
         <ParticleSystem Path="c:/frictional/bunker/redist/particles/dust/dust_impact_wood.ps" DebugPos="Script" />

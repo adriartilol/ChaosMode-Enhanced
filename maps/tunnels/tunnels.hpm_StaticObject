@@ -7,11 +7,11 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -23,7 +23,7 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -68,6 +68,34 @@
             <StaticObject ID="503317281" Name="bunker_bunker_walls_bunker_walls_carved_bunker_carved_wall_straight_ghoulhole_01_2" CreStamp="1690837014" ModStamp="1690837049" WorldPos="-82.75 -0.138273 97.375" Rotation="-0 3.14125 -0" Scale="1 1 1" FileIndex="1" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="30 9617 503317281" />
         </Objects>
     </Section>
+    <Section Name="16987760226640583499">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="2857880198863370365">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
@@ -89,6 +117,34 @@
         <Objects />
     </Section>
     <Section Name="14733719954067711498">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
+        <FileIndex_StaticObjects NumOfFiles="1">
+            <File Id="0" Path="static_objects/roman/walls/wall_plaster_brick.dae" />
+        </FileIndex_StaticObjects>
+        <Objects>
+            <StaticObject ID="503317258" Name="roman_walls_wall_plaster_brick_debris_hole_large_mirrored_297" CreStamp="1690827481" ModStamp="1690827484" WorldPos="-94.5625 -2.75025 153.797" Rotation="0 1.5708 0" Scale="1 1 1" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="30 9595 503317258" />
+        </Objects>
+    </Section>
+    <Section Name="17236029076262404525">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -1857,6 +1913,10 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
+    <Section Name="13081597587513089349">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="5567005983264112896">
         <FileIndex_StaticObjects NumOfFiles="9">
             <File Id="0" Path="static_objects/darkworld/rocks/dw_rock_lump_large_4.dae" />
@@ -1893,38 +1953,6 @@
             <StaticObject ID="1929379896" Name="darkworld_rocks_dw_rock_lump_large_4_22" CreStamp="1671528197" ModStamp="1671528619" WorldPos="-77.6536 2.64452 171.539" Rotation="2.67149 -0.596422 0.267137" Scale="0.505032 0.545456 0.505032" FileIndex="3" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="115 9013 1929379896" />
             <StaticObject ID="1929379897" Name="darkworld_rocks_dw_rock_lump_large_4_23" CreStamp="1671530685" ModStamp="1671530785" WorldPos="-77.8688 -2.60851 171.848" Rotation="0.841268 -0.930834 -0.742737" Scale="0.335204 0.381859 0.335204" FileIndex="3" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="115 9080 1929379897" />
         </Objects>
-    </Section>
-    <Section Name="1144194915073257416">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="16948395815399037378">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10043280279841522737">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="5154609606323973616">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="3814753305996277122">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="9484528426919051767">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="9860523329577058962">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10928444819778005239">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
     </Section>
     <Section Name="1497143035550117820">
         <FileIndex_StaticObjects NumOfFiles="35">
@@ -2156,26 +2184,6 @@
             <StaticObject ID="2080375206" Name="darkworld_rocks_dw_rock_lump_large_4_124" CreStamp="1681214550" ModStamp="1681214555" WorldPos="-88.8035 -3.54489 167.576" Rotation="-0.999601 -1.05865 0.880297" Scale="0.179668 0.421509 0.460892" FileIndex="29" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="124 9528 2080375206" />
             <StaticObject ID="2080375207" Name="darkworld_rocks_dw_rock_lump_large_4_125" CreStamp="1681214614" ModStamp="1681214663" WorldPos="-89.015 -0.588204 167.517" Rotation="-0.228557 -1.08569 0.431883" Scale="0.179668 0.421509 0.0640717" FileIndex="29" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="124 9521 2080375207" />
             <StaticObject ID="2080375208" Name="darkworld_rocks_dw_rock_lump_large_4_126" CreStamp="1681214628" ModStamp="1681214665" WorldPos="-89.1157 -0.206446 167.562" Rotation="0.0567152 -0.446247 0.123513" Scale="0.139854 0.421509 0.0640717" FileIndex="29" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="124 9515 2080375208" />
-        </Objects>
-    </Section>
-    <Section Name="8233818254624998378">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="15801649295802075107">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="608848854758122182">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="16459544813005349808">
-        <FileIndex_StaticObjects NumOfFiles="1">
-            <File Id="0" Path="static_objects/roman/walls/wall_plaster_brick.dae" />
-        </FileIndex_StaticObjects>
-        <Objects>
-            <StaticObject ID="503317258" Name="roman_walls_wall_plaster_brick_debris_hole_large_mirrored_297" CreStamp="1690827481" ModStamp="1690827484" WorldPos="-94.5625 -2.75025 153.797" Rotation="0 1.5708 0" Scale="1 1 1" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="30 9595 503317258" />
         </Objects>
     </Section>
 </HPLMapTrack_StaticObject>

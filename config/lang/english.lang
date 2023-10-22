@@ -409,6 +409,9 @@
         
         <Entry Name="ReynardKey">Key to Reynard's quarters</Entry>
         <Entry Name="ReynardKey_Desc">He was always a hoarder. Could be worth checking it out.</Entry>
+        
+        <Entry Name="MaintenanceKey">Maintenance Storage access key</Entry>
+        <Entry Name="MaintenanceKey_Desc">Unlocks the door into the latter section of the Maintenance Sublevel.</Entry>
 
 	</CATEGORY>
 	

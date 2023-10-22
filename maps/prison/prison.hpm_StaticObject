@@ -7,7 +7,7 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -47,11 +47,11 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -67,6 +67,18 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
+    <Section Name="5913254565332661699">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
     <Section Name="2628536582313270325">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
@@ -76,6 +88,62 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="13899725653624079561">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12733941409804957021">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <FileIndex_StaticObjects NumOfFiles="0" />
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -269,15 +337,7 @@
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
-    <Section Name="5704074243704033166">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="1836132285479503855">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="10360015916833613026">
+    <Section Name="13081597587513089349">
         <FileIndex_StaticObjects NumOfFiles="0" />
         <Objects />
     </Section>
@@ -452,14 +512,6 @@
             <StaticObject ID="1224736954" Name="cistern_railing_railing_bars_base_med_50" CreStamp="1640179252" ModStamp="1679921582" WorldPos="-118.772 1.497 -29.1559" Rotation="-1.5708 3.14219 -0" Scale="1 0.948 0.907" FileIndex="12" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="73 9026 1224736954" />
         </Objects>
     </Section>
-    <Section Name="12907475013074466001">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="7019001322016872295">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
     <Section Name="16448068785567689061">
         <FileIndex_StaticObjects NumOfFiles="5">
             <File Id="0" Path="static_objects/bunker/bunker_walls/bunker_walls_carved/bunker_tunnel_carved_special_prisoncell_ghoulhole_01.dae" />
@@ -595,22 +647,6 @@
             <StaticObject ID="1291845975" Name="bunker_wall_support_hydraulic_wall_brace_hydraulic_wall_brace_21" CreStamp="1681814544" ModStamp="1681814559" WorldPos="-99.4091 2.25 -4.9379" Rotation="0 1.5708 0" Scale="1 1.11561 1" FileIndex="12" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="77 8793 1291845975" />
             <StaticObject ID="1291845976" Name="arabic_fort_interior_wall_ab_interior_entrance_board_01_1" CreStamp="1635425324" ModStamp="1682084625" WorldPos="-131.256 2.33791 -9.41744" Rotation="-3.01991e-07 1.63037 -3.01991e-07" Scale="0.628 0.628 0.628" FileIndex="14" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="77 7726 1291845976" />
         </Objects>
-    </Section>
-    <Section Name="7463359838307214659">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="2306221706992326022">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="7342633215874772849">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
-    </Section>
-    <Section Name="12209433145012264341">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
     </Section>
     <Section Name="14211520518091114105">
         <FileIndex_StaticObjects NumOfFiles="18">
@@ -1023,9 +1059,5 @@
             <StaticObject ID="1426063377" Name="archaeology_scaffolding_scaffolding_arch_01_15" CreStamp="1679664853" ModStamp="1679664865" WorldPos="-118.25 3.84856 -16.463" Rotation="-0.000488257 3.14159 -1.5708" Scale="1.46382 0.886854 1.04749" FileIndex="8" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="85 442 1426063377" />
             <StaticObject ID="1426063378" Name="archaeology_scaffolding_scaffolding_arch_01_16" CreStamp="1679664853" ModStamp="1679664865" WorldPos="-120 3.84856 -16.463" Rotation="-0.000488257 3.14159 -1.5708" Scale="1.46382 0.886854 1.04749" FileIndex="8" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="85 364 1426063378" />
         </Objects>
-    </Section>
-    <Section Name="10605551493652229194">
-        <FileIndex_StaticObjects NumOfFiles="0" />
-        <Objects />
     </Section>
 </HPLMapTrack_StaticObject>

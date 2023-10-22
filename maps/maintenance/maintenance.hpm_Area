@@ -5,7 +5,7 @@
     <Section Name="6937444921226728725">
         <Objects />
     </Section>
-    <Section Name="5913254565332661699">
+    <Section Name="7387221967616566086">
         <Objects />
     </Section>
     <Section Name="5716514586046010106">
@@ -14,7 +14,7 @@
     <Section Name="17564562340471339389">
         <Objects />
     </Section>
-    <Section Name="938601479819809172">
+    <Section Name="12266341581627464289">
         <Objects />
     </Section>
     <Section Name="6316717594221808991">
@@ -29,7 +29,7 @@
     <Section Name="10300334514331934914">
         <Objects />
     </Section>
-    <Section Name="11878278308235005273">
+    <Section Name="11867433910407490944">
         <Objects />
     </Section>
     <Section Name="9195155804934729962">
@@ -41,7 +41,7 @@
     <Section Name="5280002927329458804">
         <Objects />
     </Section>
-    <Section Name="3806214192523871112">
+    <Section Name="9065270106052613291">
         <Objects />
     </Section>
     <Section Name="4074963946714538518">
@@ -51,6 +51,18 @@
         <Objects />
     </Section>
     <Section Name="10625375571293597888">
+        <Objects />
+    </Section>
+    <Section Name="5913254565332661699">
+        <Objects />
+    </Section>
+    <Section Name="938601479819809172">
+        <Objects />
+    </Section>
+    <Section Name="11878278308235005273">
+        <Objects />
+    </Section>
+    <Section Name="3806214192523871112">
         <Objects />
     </Section>
     <Section Name="2628536582313270325">
@@ -63,6 +75,45 @@
         <Objects />
     </Section>
     <Section Name="8182122457138335059">
+        <Objects />
+    </Section>
+    <Section Name="8348924968422557895">
+        <Objects />
+    </Section>
+    <Section Name="17236029076262404525">
+        <Objects />
+    </Section>
+    <Section Name="17896594477783397681">
+        <Objects />
+    </Section>
+    <Section Name="12733941409804957021">
+        <Objects />
+    </Section>
+    <Section Name="1629314236245760598">
+        <Objects />
+    </Section>
+    <Section Name="5778564540390565675">
+        <Objects />
+    </Section>
+    <Section Name="12224921238944182748">
+        <Objects />
+    </Section>
+    <Section Name="18031180677184110974">
+        <Objects />
+    </Section>
+    <Section Name="16987760226640583499">
+        <Objects />
+    </Section>
+    <Section Name="17365115340707769214">
+        <Objects />
+    </Section>
+    <Section Name="7083316838573943517">
+        <Objects />
+    </Section>
+    <Section Name="7976748518510038394">
+        <Objects />
+    </Section>
+    <Section Name="16459544813005349808">
         <Objects />
     </Section>
     <Section Name="14120050758427098000">
@@ -1833,17 +1884,73 @@
     <Section Name="16731238584900433395">
         <Objects />
     </Section>
-    <Section Name="1773613984971493865">
-        <Objects />
-    </Section>
-    <Section Name="12415876611127177994">
-        <Objects />
-    </Section>
-    <Section Name="11430045020620300771">
-        <Objects />
-    </Section>
-    <Section Name="5567005983264112896">
-        <Objects />
+    <Section Name="13081597587513089349">
+        <Objects>
+            <Area ID="2348810240" Name="MaintenanceShortcut_Proxy" CreStamp="1697678763" ModStamp="1697679604" WorldPos="-20.4819 7.63115 -1.67129" Rotation="-0 3.14159 -0" Scale="0.1 0.1 0.1" Active="true" Mesh="" UID="140 9306 2348810240" AreaType="Trigger">
+                <UserVariables>
+                    <Var ObjectId="2348810240" Name="Note" Value="" />
+                    <Var ObjectId="2348810240" Name="BlocksLineOfSight" Value="false" />
+                    <Var ObjectId="2348810240" Name="EventInstanceTag" Value="" />
+                    <Var ObjectId="2348810240" Name="UserVar" Value="" />
+                    <Var ObjectId="2348810240" Name="Static" Value="false" />
+                    <Var ObjectId="2348810240" Name="QuickSave" Value="false" />
+                    <Var ObjectId="2348810240" Name="FullGameSave" Value="false" />
+                    <Var ObjectId="2348810240" Name="CC_Entities" Value="" />
+                    <Var ObjectId="2348810240" Name="CC_Funcs" Value="" />
+                    <Var ObjectId="2348810240" Name="ParentAttachEntity" Value="" />
+                    <Var ObjectId="2348810240" Name="ParentAttachUseRotation" Value="true" />
+                    <Var ObjectId="2348810240" Name="ParentAttachBody" Value="" />
+                    <Var ObjectId="2348810240" Name="ParentAttachLocked" Value="false" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtCallback" Value="" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtCheckCenterOfScreen" Value="true" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtCheckRayIntersection" Value="true" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtMaxDistance" Value="-1" />
+                    <Var ObjectId="2348810240" Name="PlayerLookAtCallbackDelay" Value="0" />
+                    <Var ObjectId="2348810240" Name="PlayerInteractCallback" Value="" />
+                    <Var ObjectId="2348810240" Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                    <Var ObjectId="2348810240" Name="CanInteractWithoutCallback" Value="true" />
+                    <Var ObjectId="2348810240" Name="MaxFocusDistance" Value="-1" />
+                    <Var ObjectId="2348810240" Name="CustomInteractIcon" Value="Default" />
+                </UserVariables>
+            </Area>
+            <Area ID="2348810241" Name="MaintenanceShortcut_AnimPos" CreStamp="1697678830" ModStamp="1697743884" WorldPos="-20.4819 6.05129 -1.67488" Rotation="0 4.71239 0" Scale="0.1 0.1 0.1" Active="true" Mesh="" UID="140 9307 2348810241" AreaType="Trigger">
+                <UserVariables>
+                    <Var ObjectId="2348810241" Name="Note" Value="" />
+                    <Var ObjectId="2348810241" Name="BlocksLineOfSight" Value="false" />
+                    <Var ObjectId="2348810241" Name="EventInstanceTag" Value="" />
+                    <Var ObjectId="2348810241" Name="UserVar" Value="" />
+                    <Var ObjectId="2348810241" Name="Static" Value="false" />
+                    <Var ObjectId="2348810241" Name="QuickSave" Value="false" />
+                    <Var ObjectId="2348810241" Name="FullGameSave" Value="false" />
+                    <Var ObjectId="2348810241" Name="CC_Entities" Value="" />
+                    <Var ObjectId="2348810241" Name="CC_Funcs" Value="" />
+                    <Var ObjectId="2348810241" Name="ParentAttachEntity" Value="" />
+                    <Var ObjectId="2348810241" Name="ParentAttachUseRotation" Value="true" />
+                    <Var ObjectId="2348810241" Name="ParentAttachBody" Value="" />
+                    <Var ObjectId="2348810241" Name="ParentAttachLocked" Value="false" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtCallback" Value="" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtCheckCenterOfScreen" Value="true" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtCheckRayIntersection" Value="true" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtMaxDistance" Value="-1" />
+                    <Var ObjectId="2348810241" Name="PlayerLookAtCallbackDelay" Value="0" />
+                    <Var ObjectId="2348810241" Name="PlayerInteractCallback" Value="" />
+                    <Var ObjectId="2348810241" Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                    <Var ObjectId="2348810241" Name="CanInteractWithoutCallback" Value="false" />
+                    <Var ObjectId="2348810241" Name="MaxFocusDistance" Value="-1" />
+                    <Var ObjectId="2348810241" Name="CustomInteractIcon" Value="Default" />
+                </UserVariables>
+            </Area>
+            <Area ID="2348810263" Name="VisibilityArea_corridor_crossing_4" CreStamp="1697749599" ModStamp="1697752065" WorldPos="-13.5 7.25 -13" Rotation="0 0 0" Scale="4.94846 5.375 12.5" Active="true" Mesh="" UID="140 9230 2348810263" AreaType="VisibilityArea">
+                <UserVariables>
+                    <Var ObjectId="2348810263" Name="Note" Value="" />
+                    <Var ObjectId="2348810263" Name="AddPartialIntersectingObjects" Value="true" />
+                    <Var ObjectId="2348810263" Name="MinObjectsPerNode" Value="-1" />
+                    <Var ObjectId="2348810263" Name="MaxObjectsPerNode" Value="-1" />
+                </UserVariables>
+            </Area>
+        </Objects>
     </Section>
     <Section Name="11255853892863068920">
         <Objects>
@@ -1895,23 +2002,7 @@
                     <Var ObjectId="2130706437" Name="MaxObjectsPerNode" Value="-1" />
                 </UserVariables>
             </Area>
-            <Area ID="2130706438" Name="VisibilityArea_corridor_2" CreStamp="1648653081" ModStamp="1663746661" WorldPos="-13.75 7.25 -7.66807" Rotation="0 0 0" Scale="4.5 5.375 10.2311" Active="true" Mesh="" UID="127 9237 2130706438" AreaType="VisibilityArea">
-                <UserVariables>
-                    <Var ObjectId="2130706438" Name="Note" Value="" />
-                    <Var ObjectId="2130706438" Name="AddPartialIntersectingObjects" Value="true" />
-                    <Var ObjectId="2130706438" Name="MinObjectsPerNode" Value="-1" />
-                    <Var ObjectId="2130706438" Name="MaxObjectsPerNode" Value="-1" />
-                </UserVariables>
-            </Area>
-            <Area ID="2130706439" Name="VisibilityArea_corridor_3" CreStamp="1648653091" ModStamp="1663746662" WorldPos="-13.75 7.25 -19.75" Rotation="0 0 0" Scale="4.5 5.375 6.75" Active="true" Mesh="" UID="127 9238 2130706439" AreaType="VisibilityArea">
-                <UserVariables>
-                    <Var ObjectId="2130706439" Name="Note" Value="" />
-                    <Var ObjectId="2130706439" Name="AddPartialIntersectingObjects" Value="true" />
-                    <Var ObjectId="2130706439" Name="MinObjectsPerNode" Value="-1" />
-                    <Var ObjectId="2130706439" Name="MaxObjectsPerNode" Value="-1" />
-                </UserVariables>
-            </Area>
-            <Area ID="2130706440" Name="VisibilityArea_corridor_5" CreStamp="1648653148" ModStamp="1663746665" WorldPos="-5.5 7.25 -12.4765" Rotation="0 0 0" Scale="12.25 5.375 3.75" Active="true" Mesh="" UID="127 9233 2130706440" AreaType="VisibilityArea">
+            <Area ID="2130706440" Name="VisibilityArea_corridor_5" CreStamp="1648653148" ModStamp="1697752139" WorldPos="-5.5 7.25 -12.4765" Rotation="0 0 0" Scale="21.875 5.375 3.75" Active="true" Mesh="" UID="127 9233 2130706440" AreaType="VisibilityArea">
                 <UserVariables>
                     <Var ObjectId="2130706440" Name="Note" Value="" />
                     <Var ObjectId="2130706440" Name="AddPartialIntersectingObjects" Value="true" />
@@ -2055,15 +2146,7 @@
                     <Var ObjectId="2130706457" Name="MaxObjectsPerNode" Value="-1" />
                 </UserVariables>
             </Area>
-            <Area ID="2130706458" Name="VisibilityArea_corridor_crossing_2" CreStamp="1648661496" ModStamp="1663746679" WorldPos="-13.7224 7.25 -18.4033" Rotation="0 0 0" Scale="5.10757 5.375 11.5759" Active="true" Mesh="" UID="127 9212 2130706458" AreaType="VisibilityArea">
-                <UserVariables>
-                    <Var ObjectId="2130706458" Name="Note" Value="" />
-                    <Var ObjectId="2130706458" Name="AddPartialIntersectingObjects" Value="true" />
-                    <Var ObjectId="2130706458" Name="MinObjectsPerNode" Value="-1" />
-                    <Var ObjectId="2130706458" Name="MaxObjectsPerNode" Value="-1" />
-                </UserVariables>
-            </Area>
-            <Area ID="2130706459" Name="VisibilityArea_corridor_crossing_3" CreStamp="1648661507" ModStamp="1663746681" WorldPos="-13.5 7.25 -1.104" Rotation="0 0 0" Scale="4.94846 5.375 4.56419" Active="true" Mesh="" UID="127 9230 2130706459" AreaType="VisibilityArea">
+            <Area ID="2130706459" Name="VisibilityArea_corridor_crossing_3" CreStamp="1648661507" ModStamp="1697752104" WorldPos="-13.5 7.25 -2" Rotation="0 0 0" Scale="4.94846 5.375 18.625" Active="true" Mesh="" UID="127 9230 2130706459" AreaType="VisibilityArea">
                 <UserVariables>
                     <Var ObjectId="2130706459" Name="Note" Value="" />
                     <Var ObjectId="2130706459" Name="AddPartialIntersectingObjects" Value="true" />
@@ -2151,14 +2234,6 @@
                     <Var ObjectId="2130706469" Name="ConnectedAreas3" Value="" />
                 </UserVariables>
             </Area>
-            <Area ID="2130706470" Name="VisibilityPortal_15" CreStamp="1648734164" ModStamp="1650894928" WorldPos="-20.2282 6.87863 -1.01806" Rotation="0 0 0" Scale="1.29448 6.125 2.76616" Active="true" Mesh="" UID="127 9248 2130706470" AreaType="VisibilityPortal">
-                <UserVariables>
-                    <Var ObjectId="2130706470" Name="Note" Value="" />
-                    <Var ObjectId="2130706470" Name="ConnectedAreas1" Value="VisibilityArea_big_room" />
-                    <Var ObjectId="2130706470" Name="ConnectedAreas2" Value="VisibilityArea_corridor_11" />
-                    <Var ObjectId="2130706470" Name="ConnectedAreas3" Value="" />
-                </UserVariables>
-            </Area>
             <Area ID="2130706471" Name="VisibilityPortal_18" CreStamp="1648734826" ModStamp="1648734851" WorldPos="-15.9231 6.87863 -14.6606" Rotation="0 0 0" Scale="0.548407 6.125 3.33644" Active="true" Mesh="" UID="127 9201 2130706471" AreaType="VisibilityPortal">
                 <UserVariables>
                     <Var ObjectId="2130706471" Name="Note" Value="" />
@@ -2173,22 +2248,6 @@
                     <Var ObjectId="2130706472" Name="ConnectedAreas1" Value="VisibilityArea_corridor_5" />
                     <Var ObjectId="2130706472" Name="ConnectedAreas2" Value="VisibilityArea_corridor_crossing_2" />
                     <Var ObjectId="2130706472" Name="ConnectedAreas3" Value="" />
-                </UserVariables>
-            </Area>
-            <Area ID="2130706473" Name="VisibilityPortal_20" CreStamp="1648735037" ModStamp="1648735066" WorldPos="-13.6288 6.87863 -12.634" Rotation="0 0 0" Scale="4.80297 6.125 0.940193" Active="true" Mesh="" UID="127 9186 2130706473" AreaType="VisibilityPortal">
-                <UserVariables>
-                    <Var ObjectId="2130706473" Name="Note" Value="" />
-                    <Var ObjectId="2130706473" Name="ConnectedAreas1" Value="VisibilityArea_corridor_2" />
-                    <Var ObjectId="2130706473" Name="ConnectedAreas2" Value="VisibilityArea_corridor_crossing_2" />
-                    <Var ObjectId="2130706473" Name="ConnectedAreas3" Value="" />
-                </UserVariables>
-            </Area>
-            <Area ID="2130706474" Name="VisibilityPortal_21" CreStamp="1648735073" ModStamp="1648735084" WorldPos="-13.6288 6.87863 -2.86422" Rotation="0 0 0" Scale="4.80297 6.125 0.940193" Active="true" Mesh="" UID="127 9191 2130706474" AreaType="VisibilityPortal">
-                <UserVariables>
-                    <Var ObjectId="2130706474" Name="Note" Value="" />
-                    <Var ObjectId="2130706474" Name="ConnectedAreas1" Value="VisibilityArea_corridor_2" />
-                    <Var ObjectId="2130706474" Name="ConnectedAreas2" Value="VisibilityArea_corridor_crossing_3" />
-                    <Var ObjectId="2130706474" Name="ConnectedAreas3" Value="" />
                 </UserVariables>
             </Area>
             <Area ID="2130706475" Name="VisibilityPortal_22" CreStamp="1648735087" ModStamp="1648735104" WorldPos="-13.6288 6.87863 0.877706" Rotation="0 0 0" Scale="4.80297 6.125 0.940193" Active="true" Mesh="" UID="127 9190 2130706475" AreaType="VisibilityPortal">
@@ -2207,12 +2266,12 @@
                     <Var ObjectId="2130706476" Name="ConnectedAreas3" Value="" />
                 </UserVariables>
             </Area>
-            <Area ID="2130706477" Name="VisibilityPortal_24" CreStamp="1648735133" ModStamp="1648747045" WorldPos="-11.3642 6.87863 -1.11105" Rotation="0 0 0" Scale="0.596221 6.125 3.5055" Active="true" Mesh="" UID="127 9200 2130706477" AreaType="VisibilityPortal">
+            <Area ID="2130706477" Name="VisibilityPortal_24" CreStamp="1648735133" ModStamp="1697749739" WorldPos="-11.3642 6.87863 -1.11105" Rotation="0 0 0" Scale="0.596221 6.125 3.5055" Active="true" Mesh="" UID="127 9200 2130706477" AreaType="VisibilityPortal">
                 <UserVariables>
                     <Var ObjectId="2130706477" Name="Note" Value="" />
                     <Var ObjectId="2130706477" Name="ConnectedAreas1" Value="VisibilityArea_corridor_9" />
                     <Var ObjectId="2130706477" Name="ConnectedAreas2" Value="VisibilityArea_corridor_crossing_3" />
-                    <Var ObjectId="2130706477" Name="ConnectedAreas3" Value="" />
+                    <Var ObjectId="2130706477" Name="ConnectedAreas3" Value="VisibilityArea_corridor_crossing_4" />
                 </UserVariables>
             </Area>
             <Area ID="2130706478" Name="VisibilityPortal_25" CreStamp="1648735194" ModStamp="1651060474" WorldPos="-13.6021 6.87863 12.9316" Rotation="0 0 0" Scale="4.80297 6.125 0.940193" Active="true" Mesh="" UID="127 9198 2130706478" AreaType="VisibilityPortal">
@@ -4890,7 +4949,7 @@
                     <Var ObjectId="2214592554" Name="OffsetVertically" Value="false" />
                 </UserVariables>
             </Area>
-            <Area ID="2214592555" Name="Description_18" CreStamp="1676622864" ModStamp="1676622878" WorldPos="-20.5787 8.36109 -1.05921" Rotation="0 1.5708 0" Scale="0.4322 0.261906 0.0796077" Active="true" Mesh="" UID="132 9527 2214592555" AreaType="Description">
+            <Area ID="2214592555" Name="Description_18" CreStamp="1676622864" ModStamp="1697678278" WorldPos="-19.0011 6 -0.354991" Rotation="-1.74234 -1.00852 -3.10742" Scale="0.4322 0.261906 0.0796077" Active="true" Mesh="" UID="132 9527 2214592555" AreaType="Description">
                 <UserVariables>
                     <Var ObjectId="2214592555" Name="Note" Value="" />
                     <Var ObjectId="2214592555" Name="BlocksLineOfSight" Value="false" />
@@ -5462,10 +5521,10 @@
             <Area ID="2231369828" Name="PathNode_514" CreStamp="1681904877" ModStamp="1681904879" WorldPos="-14.1415 6.25 13.5" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 7430 2231369828" AreaType="PathNode">
                 <UserVariables />
             </Area>
-            <Area ID="2231369829" Name="PathNode_149" CreStamp="1681911148" ModStamp="1681911150" WorldPos="-4.10798 6.32339 -12.4765" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 9893 2231369829" AreaType="PathNode">
+            <Area ID="2231369829" Name="PathNode_149" CreStamp="1681911148" ModStamp="1697748530" WorldPos="-4.108 6.25 -12.476" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 9893 2231369829" AreaType="PathNode">
                 <UserVariables />
             </Area>
-            <Area ID="2231369830" Name="PathNode_150" CreStamp="1681911151" ModStamp="1681911155" WorldPos="-4.84734 6.6451 -12.4765" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 7678 2231369830" AreaType="PathNode">
+            <Area ID="2231369830" Name="PathNode_150" CreStamp="1681911151" ModStamp="1697748534" WorldPos="-4.847 6.25 -12.476" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 7678 2231369830" AreaType="PathNode">
                 <UserVariables />
             </Area>
             <Area ID="2231369831" Name="PathNode_515" CreStamp="1681911605" ModStamp="1681911609" WorldPos="-15.8148 6.25 15.8795" Rotation="0 0 0" Scale="0.5 0.5 0.5" Active="true" Mesh="" UID="133 7398 2231369831" AreaType="PathNode">
@@ -6020,17 +6079,5 @@
                 <UserVariables />
             </Area>
         </Objects>
-    </Section>
-    <Section Name="16450241674061950360">
-        <Objects />
-    </Section>
-    <Section Name="15964648976235542272">
-        <Objects />
-    </Section>
-    <Section Name="16972802540415459683">
-        <Objects />
-    </Section>
-    <Section Name="1467851273069754843">
-        <Objects />
     </Section>
 </HPLMapTrack_Area>

@@ -39,6 +39,46 @@ class cScrMap : iScrMap
  
 	//-------------------------------------------------------
  
+    // CUSTOM
+    
+    bool CanUse_ReynardKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity){
+        return asPickedEntity == "ReynardDoor_Proxy";
+    }
+    
+    bool CanUse_MaintenanceKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity){
+        return asPickedEntity == "MaintenanceShortcut_Proxy";
+    }
+    
+    bool OnUse_MaintenanceKey(const tString &in asItemType, const tString &in asItemID, const tString &in asTargetEntity, const tString &in asItemEntity, float afTimeElapsed, float afTimeStep){
+        PlayerBody_SetArmAnimationPitch(false, true, true);
+        PlayerBody_SetArmAnimationYaw(false, true, true);
+        
+        PlayerBody_SetUnequipItemsOnCutscene(true, false);
+        PlayerBody_PlayCutsceneAtEntity("tool_key_use", "MaintenanceShortcut_AnimPos", false, 0.3);
+        
+        Map_AddTimer("Timer_MaintenanceShortcutUnlock", 1.75, "OnTimer_MaintenanceShortcutUnlock");
+        Map_AddTimer("Timer_MaintenanceShortcutKeyRelease", 2.65, "OnTimer_MaintenanceShortcutKeyRelease");
+        
+        Entity_SetActive("MaintenanceShortcut_Proxy", false);
+        
+        return false;
+    }
+    
+    void OnTimer_MaintenanceShortcutUnlock(const tString &in asTimer){
+        SwingDoor_SetBlocked("MaintenanceShortcut_Door", false, true);
+        Entity_SetInteractionDisabled("metal_door_lock_pillbox_1", true);
+    }
+    
+    void OnTimer_MaintenanceShortcutKeyRelease(const tString &in asTimer){
+        tString sHeld = Item_GetHeldEntity(eItemHandlerHand_Right);
+        Entity_SetActive(sHeld, false);
+        Entity_SetActive("MaintenanceShortcut_KeyStatic", true);
+        if(ItemType_GetCountInInventory("MaintenanceKey") <= 1){
+            ItemType_RemoveFromInventory("MaintenanceKey", 99);
+        }
+    }
+ 
+ 
 	////////////////////////////
 	// Set up map environment
 	void Setup()

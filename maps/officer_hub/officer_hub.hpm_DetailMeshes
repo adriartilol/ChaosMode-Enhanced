@@ -19,7 +19,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="17">
                     <DetailMeshEntityIDs>503317032 503317093 503317094 503317095 503317097 503317098 503317099 503317101 503317102 503317103 503317104 503317106 503317107 503317108 503317234 503317235 503317237</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-30.5895 6.38838 8.78926 -24.4579 6.38838 7.95934 -25.1631 6.38838 7.58246 -24.3854 6.38838 7.63192 -18.5832 6.38838 9.00891 -18.6142 6.38838 8.40998 -18.8218 6.38838 8.87461 -17.7765 6.38838 8.37656 -27.8977 6.38838 -5.20306 -28.6029 6.38838 -5.57994 -27.8252 6.38838 -5.53048 -26.4568 6.38838 -7.03286 -27.1619 6.38838 -7.40975 -26.3842 6.38838 -7.36028 -37.1759 2.26148 17.0985 -36.9534 2.26148 16.8664 -36.2612 2.26148 16.8235</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.555826 0 0.831299 0 0.65272 0 -0.757599 0 0.234158 0 -0.972198 0 0.234158 0 -0.972198 0 0.898594 0 0.438782 0 0.999767 0 -0.021576 0 0.999767 0 -0.021576 0 0.848532 0 0.529144 0 0.65272 0 -0.757599 0 0.234158 0 -0.972198 0 0.234158 0 -0.972198 0 0.65272 0 -0.757599 0 0.234158 0 -0.972198 0 0.234158 0 -0.972198 0 0.323054 0 0.946381 0 0.966203 0 0.257782 0 0.323054 0 0.946381 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.555871 0 0.831268 0 0.652756 0 -0.757568 0 0.234285 0 -0.972168 0 0.234285 0 -0.972168 0 0.898609 0 0.438751 0 0.999768 0 -0.021545 0 0.999768 0 -0.021545 0 0.848551 0 0.529114 0 0.652756 0 -0.757568 0 0.234285 0 -0.972168 0 0.234285 0 -0.972168 0 0.652756 0 -0.757568 0 0.234285 0 -0.972168 0 0.234285 0 -0.972168 0 0.323143 0 0.94635 0 0.966211 0 0.257751 0 0.323143 0 0.94635 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.379472 0.252981 0.379472</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 0.537255 0.466667 0.392157 0.211765 0.164706 0.137255 1 1 1 1 1 1 0.921569 0.839216 0.686275</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1671118964 1673267755 1673267755 1673267755 1677666474 1677666485 1677666477 1677666524 1673267755 1673267755 1673267755 1673267755 1673267755 1673267755 1680620104 1680620104 1680620104</DetailMeshEntityModStamps>
@@ -27,7 +27,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_02.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>503317033 503317233</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-30.3615 6.37666 9.00973 -37.1895 2.24976 17.2313</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.777654 0 0.628693 0 0.966203 0 0.257782 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.777679 0 0.628662 0 0.966211 0 0.257751 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.506337 0.506337</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>0.921569 0.839216 0.686275 0.921569 0.839216 0.686275</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1671118979 1680620104</DetailMeshEntityModStamps>
@@ -35,7 +35,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="1">
                     <DetailMeshEntityIDs>503317236</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-36.7652 2.24629 16.8152</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.966203 0 0.257782 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.966211 0 0.257751 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.209916</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>0.839216 0.721569 0.513726</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1680620104</DetailMeshEntityModStamps>

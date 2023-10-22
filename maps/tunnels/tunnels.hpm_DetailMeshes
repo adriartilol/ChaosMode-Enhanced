@@ -7,7 +7,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_02.dae" NumOfInstances="3">
                     <DetailMeshEntityIDs>301991346 301991629 301991757</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-83.6204 -2.75025 149.708 -86.8618 -2.75 186.394 -100.038 -0.250499 155.294</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>1 0 0 0 1 0 0 0 0.965746 0 0.259491 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>1 0 0 0 1 0 0 0 0.965754 0 0.25946 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.843895 0.843895 0.493841</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1664810589 1665137787 1669273578</DetailMeshEntityModStamps>
@@ -15,7 +15,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="8">
                     <DetailMeshEntityIDs>301991347 301991355 301991631 301991741 301991781 301991792 301991815 301991826</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-84.1703 -2.75025 149.338 -85.325 -2.75025 149.005 -84.5317 -2.75 186.186 -97.7259 -0.250499 156.443 -97.5427 -0.250499 156.534 -97.4699 -0.250499 155.456 -97.1261 -0.263643 154.923 -99.3183 -0.250479 155.554</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>1 0 0 0 0.176426 0 -0.984314 0 1 0 0 0 0.355576 0.00293 -0.934631 -0.004639 0.970394 0.005768 0.241455 0.001526 0.355576 0.00293 -0.934631 -0.004639 0.349731 0.001526 0.936829 0.006165 0.800045 0.004395 0.599915 0.003296</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>1 0 0 0 0.176596 0 -0.984283 0 1 0 0 0 0.355656 0.00293 -0.934601 -0.004639 0.970401 0.005768 0.241425 0.001526 0.355656 0.00293 -0.934601 -0.004639 0.349813 0.001526 0.936798 0.006165 0.800068 0.004395 0.599884 0.003235</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.419833 0.419833 0.419833 0.246978 0.293872 0.197846 0.262205 0.263346</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1 1 1 1 0.376471 0.458824 0.529412 1 1 1 1 1 1 1 1 1 0.376471 0.458824 0.529412</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1664810598 1664810663 1665137792 1680787253 1669277011 1680777051 1680777061 1680787264</DetailMeshEntityModStamps>
@@ -23,7 +23,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="6">
                     <DetailMeshEntityIDs>301991349 301991634 301991760 301991793 301991837 301991838</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-84.4352 -2.75025 148.725 -87.9487 -2.74758 184.144 -98.5813 -0.259572 155.057 -97.1716 -0.259572 154.717 -99.0995 -0.239691 155.732 -97.5085 -0.259572 153.763</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>1 0 0 0 0.999716 -0.022888 -0.002228 -0.006226 0.455157 0 0.890411 0 0.455157 0 0.890411 0 0.386896 -0.017426 -0.921936 0.00647 0.528688 0 0.848816 0</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>1 0 0 0 0.999717 -0.022858 -0.002228 -0.006226 0.455216 0 0.890381 0 0.455216 0 0.890381 0 0.386971 -0.017395 -0.921906 0.006409 0.528738 0 0.848785 0</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.46558 0.686461 0.466787 0.466787 0.77168 0.77168</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1 1 1 1 1 1 1 0.376471 0.458824 0.529412 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1664810612 1665137825 1669273612 1669277678 1680787287 1669301256</DetailMeshEntityModStamps>
@@ -146,6 +146,7 @@
             <Section Name="9929884855472090891" />
             <Section Name="1467851273069754843" />
             <Section Name="7647898079783214371" />
+            <Section Name="13081597587513089349" />
         </Sections>
     </DetailMeshes>
 </HPLMapTrack_DetailMeshes>

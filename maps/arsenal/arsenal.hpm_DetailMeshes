@@ -18,7 +18,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_01.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>486539677 486539684</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-61.6336 2.25 79.292 -59.9423 2.25 79.2507</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.999144 0.011475 0.000458 -0.039734 0.060731 0.028503 -0.99707 0.036743</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.999147 0.011475 0.000458 -0.039673 0.061281 0.028473 -0.99704 0.036682</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.419833 0.419833</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1666969890 1666969940</DetailMeshEntityModStamps>
@@ -26,7 +26,7 @@
                 <DetailMesh File="detail_meshes/bunker_rocks/bunker_rocks_group_04.dae" NumOfInstances="2">
                     <DetailMeshEntityIDs>486539681 486539682</DetailMeshEntityIDs>
                     <DetailMeshEntityPositions>-61.5555 2.25 79.9306 -60.1082 2.25 79.929</DetailMeshEntityPositions>
-                    <DetailMeshEntityRotations>0.731465 -0.028564 -0.68042 -0.034241 0.731465 -0.028564 -0.68042 -0.034241</DetailMeshEntityRotations>
+                    <DetailMeshEntityRotations>0.731497 -0.028534 -0.680389 -0.03418 0.731497 -0.028534 -0.680389 -0.03418</DetailMeshEntityRotations>
                     <DetailMeshEntityRadii>0.74584 0.74584</DetailMeshEntityRadii>
                     <DetailMeshEntityColors>1 1 1 1 1 1</DetailMeshEntityColors>
                     <DetailMeshEntityModStamps>1666969916 1666969923</DetailMeshEntityModStamps>
@@ -102,6 +102,7 @@
             <Section Name="17627635563255057907" />
             <Section Name="13833203488117669323" />
             <Section Name="14677797404739872827" />
+            <Section Name="13081597587513089349" />
         </Sections>
     </DetailMeshes>
 </HPLMapTrack_DetailMeshes>

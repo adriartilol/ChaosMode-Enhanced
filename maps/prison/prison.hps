@@ -39,6 +39,13 @@ class cScrMap : iScrMap
  
 	//-------------------------------------------------------
  
+    // CUSTOM
+    
+    bool CanUse_ReynardKey(const tString &in asItemType, const tString &in asItemID, const tString &in asPickedEntity){
+        return asPickedEntity == "ReynardDoor_Proxy";
+    }
+ 
+ 
 	////////////////////////////
 	// Set up map environment
 	void Setup()
