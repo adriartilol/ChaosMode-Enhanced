@@ -378,9 +378,9 @@
     </Section>
     <Section Name="7647898079783214371">
         <Objects>
-            <LightMaskBox ID="2147485392" Name="LightMaskBox_1" CreStamp="1651245637" ModStamp="1651245663" WorldPos="-3.6238 10.4982 9.21681" Rotation="0 0 0" Scale="1 1 1" Size="5 5 5" ExcludeLight="false" UID="128 7825 2147485392" />
-            <LightMaskBox ID="2147485393" Name="LightMaskBox_2" CreStamp="1651504097" ModStamp="1651504122" WorldPos="-22.7693 7.50632 -11.6477" Rotation="0 0 0" Scale="1 1 1" Size="4 4 4" ExcludeLight="false" UID="128 9226 2147485393" />
-            <LightMaskBox ID="2147485394" Name="LightMaskBox_3" CreStamp="1651580140" ModStamp="1651580158" WorldPos="-20.5951 3.49703 -13.6597" Rotation="0 0 0" Scale="1 1 1" Size="8 4 8" ExcludeLight="false" UID="128 9264 2147485394" />
+            <LightMaskBox ID="2147485338" Name="LightMaskBox_1" CreStamp="1651245637" ModStamp="1698003401" WorldPos="-3.6238 10.4982 9.21681" Rotation="0 0 0" Scale="1 1 1" Size="5 5 5" ExcludeLight="false" UID="128 7825 2147485338" />
+            <LightMaskBox ID="2147485339" Name="LightMaskBox_2" CreStamp="1651504097" ModStamp="1651504122" WorldPos="-22.7693 7.50632 -11.6477" Rotation="0 0 0" Scale="1 1 1" Size="4 4 4" ExcludeLight="false" UID="128 9226 2147485339" />
+            <LightMaskBox ID="2147485340" Name="LightMaskBox_3" CreStamp="1651580140" ModStamp="1651580158" WorldPos="-20.5951 3.49703 -13.6597" Rotation="0 0 0" Scale="1 1 1" Size="8 4 8" ExcludeLight="false" UID="128 9264 2147485340" />
         </Objects>
     </Section>
 </HPLMapTrack_LightMask>
