@@ -44,6 +44,9 @@
     </VirtualDirectory>
   </VirtualDirectory>
   <VirtualDirectory Name="maps">
+    <VirtualDirectory Name="debug">
+      <File Name="maps/debug/debug_map.hps"/>
+    </VirtualDirectory>
     <VirtualDirectory Name="tunnels">
       <File Name="maps/tunnels/tunnels.lang"/>
       <File Name="maps/tunnels/tunnels.hps"/>
